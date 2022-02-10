@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "static/images" # Folder where user uploaded files should go
+public_folder: "images"
+collections:
+  - name: "pages"
+    lable: "Pages"
+    files:
+      - file: "content/english/_index.md"
+        lable: "HomePage Header"
+        name: "home"
+        fields:
+          - { lable: "Title", name: "title", widget: "string" }
+          - { lable: "ButtonText", name: "label", widget: "string" }
+
