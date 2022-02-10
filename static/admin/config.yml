@@ -8,9 +8,13 @@ collections:
     label: "Pages"
     files:
       - file: "content/english/_index.md"
-        label: "HomePage Header"
+        label: "Header"
         name: "home"
         fields:
+          - { label: "Enable", name: "enable", widget: "boolean", default: true }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "ButtonText", name: "label", widget: "string" }
+          - { label: "Image Mobile", name: "bg_image_webp", widget: "image" }
+          - { label: "Image Desktop", name: "bg_image", widget: "image" }
+          - { label: "Content", name: "content", widget: "string" }
 
