@@ -9,6 +9,7 @@ collections:
     files:
       - file: "content/english/_index.md"
         label: "Header"
+        media_folder: "images/backgrounds/
         name: "home"
         fields:
           - { label: "Enable", name: "enable", widget: "boolean", default: true }
