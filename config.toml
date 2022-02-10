@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = 'http://example.org/'
+baseURL = 'https://dpx.netlify.app/'
 title = "Meghna"
 theme = "meghna-hugo"
 # post pagination
