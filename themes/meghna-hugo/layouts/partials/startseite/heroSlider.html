@@ -1,0 +1,33 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ $slides := .Sites.First.GetPage "deutsch/slides" }}
+
+{{ "<!-- hero slider -->" | safeHTML }}
+<section id="heroSlider">
+    <div class="hero-slider no-nav position-relative">
+        {{ "<!-- slider item -->" | safeHTML }}
+        {{ range $slides.Pages }}
+        <div class="hero-slider-item px-3 overlay-light" style=""  data-lazy="{{ .bg_image | absURL }}" title="{{ .title }}">
+            <div class="container" style="height:700px" >
+                <div class="row justify-content-center">
+                    <div class="col-lg-8" style="margin-top:25vh">
+                        <div class="hero-content text-center">
+                            <p class="text-uppercase mb-1 text-white text-center">
+                                {{ .subtitle | markdownify }}</p>
+                            <h1 class="font-weight-bold text-white mb-3">
+                                {{ .title | markdownify }}</h1>
+                            <p class="text-white mb-50">
+                                {{ .content | markdownify }}
+                            </p>
+                            {{ if .button.enable }}
+                            <a data-duration-in="0.5" data-animation-in="fadeIn{{.animation_from | humanize}}" data-delay-in="1"
+                               href="{{ .button.link | relLangURL }}" class="btn btn-outline text-uppercase">{{ .button.label }}</a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>

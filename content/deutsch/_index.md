@@ -1,6 +1,6 @@
 ---
 enable: true
-title: Hallo Welt English
+title: Hallo Welt Deutsch
 label: Was geht
 bg_image_webp: https://dpx.netlify.app/images/backgrounds/hero-area.webp
 bg_image: https://dpx.netlify.app/images/backgrounds/hero-area.jpg

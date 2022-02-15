@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = 'https://dpx.netlify.app/'
-title = "Meghna"
+title = "DataProjex"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
@@ -10,6 +10,8 @@ summaryLength = "15"
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
+
+defaultContentLanguage = 'de'
 
 
 ############################# Plugins ##########################
@@ -31,7 +33,7 @@ link = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
+link = "plugins/slick/slick.js"
 [[params.plugins.js]]
 link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
@@ -40,6 +42,65 @@ link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
+
+################### Deutsch Navigation ########################
+[[Languages.de.menu.main]]
+name = "about"
+url = "#about"
+weight = 1
+
+[[Languages.de.menu.main]]
+name = "services"
+url = "#services"
+weight = 2
+
+[[Languages.de.menu.main]]
+name = "portfolio"
+url = "#portfolio"
+weight = 3
+
+[[Languages.de.menu.main]]
+name = "team"
+url = "#team"
+weight = 4
+
+[[Languages.de.menu.main]]
+name = "pricing"
+url = "#pricing"
+weight = 5
+
+[[Languages.de.menu.main]]
+name = "blog"
+url = "#blog"
+weight = 6
+
+[[Languages.de.menu.main]]
+name = "contact"
+url = "#contact"
+weight = 7
+
+
+[[Languages.de.menu.main]]
+name = "Dropdown"
+weight = 7
+hasChildren = true
+
+[[Languages.de.menu.main]]
+parent = "Dropdown"
+name = "Dropdown 1"
+url = "#"
+weight = 1
+
+[[Languages.de.menu.main]]
+parent = "Dropdown"
+name = "Dropdown 2"
+url = "#"
+weight = 2
+
+[[Languages.de.menu.main]]
+name = "themefisher"
+url = "https://themefisher.com/"
+weight = 8
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
@@ -101,46 +162,6 @@ url = "https://themefisher.com/"
 weight = 8
 
 
-################### French Navigation ########################
-[[Languages.fr.menu.main]]
-name = "sur"
-url = "#about"
-weight = 1
-
-[[Languages.fr.menu.main]]
-name = "un service"
-url = "#services"
-weight = 2
-
-[[Languages.fr.menu.main]]
-name = "portefeuille"
-url = "#portfolio"
-weight = 3
-
-[[Languages.fr.menu.main]]
-name = "équipe"
-url = "#team"
-weight = 4
-
-[[Languages.fr.menu.main]]
-name = "tarification"
-url = "#pricing"
-weight = 5
-
-[[Languages.fr.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-
-[[Languages.fr.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
-
-[[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
 
 ############################# Default Parameters ##########################
 [params]
@@ -196,21 +217,21 @@ link = "#"
 icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
+################################ German Language ########################
+[Languages.de]
+languageName = "De"
+languageCode = "de-de"
+contentDir = "content/deutsch"
+weight = 1
+home = "Home"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
 ################################ English Language ########################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 home = "Home"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
-################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"

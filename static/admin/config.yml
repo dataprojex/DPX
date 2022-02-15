@@ -4,18 +4,25 @@ backend:
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "images"
 collections:
-  - name: "pages"
-    label: "Pages"
+  - name: "Startseite"
+    label: "Startseite"
     files:
-      - file: "content/english/_index.md"
-        label: "Header"
-        media_folder: "images/backgrounds/"
-        name: "home"
+      -- name: "slider"
+        label: "Slider"
+        folder: "content/deutsch/slides"
+        media_folder: "images/slider/"
         fields:
-          - { label: "Enable", name: "enable", widget: "boolean", default: true }
+          - { label: "Draft", name: "enable", widget: "boolean", default: true }
+          - { label: "Image", name: "bg_image", widget: "image" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "ButtonText", name: "label", widget: "string" }
-          - { label: "Image Mobile", name: "bg_image_webp", widget: "image" }
-          - { label: "Image Desktop", name: "bg_image", widget: "image" }
           - { label: "Content", name: "content", widget: "string" }
+          - { label: "Animation from", name: "animation_from", widget: "string", default: "left" }
+          - label: "Button"
+            name: "button"
+            fields:
+              - {label: "Enable", name: "enable", widget: "boolean", default: true}
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+
 

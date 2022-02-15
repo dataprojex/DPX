@@ -1,0 +1,28 @@
+enable : true
+slider_Item:
+  # slider item loop
+  - bg_image : images/slider/arbeitsplatzausstattung.jpg
+    animation_from : left
+    subtitle : Einer unserer Benefits ist die
+    title : Arbeitsplatzausstattung
+    content : Zu einem modernen Unternehmen gehört auch eine moderne Arbeitsplatzausstattung, und zwar für alle! Daher bekommt jede Mitarbeiter\*in zusätzlich zu seinem Laptop noch zwei 25-Zoll-Monitore, sowie eine Maus und Tastatur
+      der freien Wahl. Darüber hinaus wird jeder Mitarbeiter\*in ein höhenverstellbarer Tisch und ein ergonomischer Stuhl zur Verfügung gestellt, da auch die Gesundheit nicht zu kurz kommen darf.
+    pagination_icon : ti-comments # themify icon pack : https://themify.me/themify-icons
+    pagination_name : Consultation
+    button:
+      enable : false
+      label: More details
+      link : "about"
+  # slider item loop
+  - bg_image: images/slider/arbeitsplatzausstattung.jpg
+    animation_from: up
+    subtitle: Einer unserer Benefits ist die
+    title: Arbeitsplatzausstattung Zwei
+    content: Zu einem modernen Unternehmen gehört auch eine moderne Arbeitsplatzausstattung, und zwar für alle! Daher bekommt jede Mitarbeiter\*in zusätzlich zu seinem Laptop noch zwei 25-Zoll-Monitore, sowie eine Maus und Tastatur
+      der freien Wahl. Darüber hinaus wird jeder Mitarbeiter\*in ein höhenverstellbarer Tisch und ein ergonomischer Stuhl zur Verfügung gestellt, da auch die Gesundheit nicht zu kurz kommen darf.
+    pagination_icon: ti-comments # themify icon pack : https://themify.me/themify-icons
+    pagination_name: Consultation
+    button:
+      enable: false
+      label: More details
+      link: "about"

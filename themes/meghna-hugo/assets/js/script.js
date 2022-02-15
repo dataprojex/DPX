@@ -67,6 +67,72 @@ jQuery(function ($) {
 	});
 
 	/* ========================================================================= */
+	/* testimonial slider
+	/* =========================================================================  */
+	$('.testimonial-slider').slick({
+		infinite: true,
+		dots: false,
+		speed: 1000,
+		autoplaySpeed: 4000,
+		arrows: true,
+		autoplay: true,
+		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
+		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>'
+	});
+
+	//Benefit Slider
+	$('.hero-slider.no-nav').slick({
+		autoplay: true,
+		infinite: true,
+		autoplaySpeed: 10000,
+		arrows: true,
+		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
+		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>',
+		responsive: [{
+			breakpoint: 576,
+			settings: {
+				arrows: false
+			}
+		}]
+	});
+	$('.hero-slider.no-nav').slickAnimation();
+
+	// slick slider
+	$('.work-slider').slick({
+		dots: true,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 4,
+		slidesToScroll: 4,
+		arrows: false,
+		autoplay: true,
+		responsive: [{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				infinite: true,
+				dots: true
+			}
+		},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2
+				}
+			},
+			{
+				breakpoint: 401,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+
+	/* ========================================================================= */
 	/*	animation scroll js
 	/* ========================================================================= */
 
