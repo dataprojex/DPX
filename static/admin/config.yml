@@ -7,7 +7,7 @@ collections:
   - name: "Startseite"
     label: "Startseite"
     files:
-      -- name: "slider"
+      - name: "slider"
         label: "Slider"
         folder: "content/deutsch/slides"
         media_folder: "images/slider/"
