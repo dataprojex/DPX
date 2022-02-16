@@ -7,6 +7,6 @@ content: Because its very cool wh user Lorem Ipsum
 animation_from: left
 button:
   enable: true
-  label: Second Button
-  link: about
+  label: Blog - instalation
+  link: blog/installation
 ---
