@@ -18,8 +18,15 @@ collections:
       - label: "Button"
         name: "button"
         fields:
-          - {label: "Enable", name: "enable", widget: "boolean", default: true}
-          - {label: "Label", name: "label", widget: "string"}
-          - {label: "Link", name: "link", widget: "string"}
+          - label: "Enable"
+            name: "enable"
+            widget: "boolean"
+            default: true
+          - label: "Label"
+            name: "label"
+            widget: "string"
+          - label: "Link"
+            name: "link"
+            widget: "string"
 
 
