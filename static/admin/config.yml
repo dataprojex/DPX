@@ -15,18 +15,9 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "content", widget: "string" }
       - { label: "Animation from", name: "animation_from", widget: "string", default: "left" }
-      - label: "Button"
-        name: "button"
-        fields:
-          - label: "Enable"
-            name: "enable"
-            widget: "boolean"
-            default: true
-          - label: "Label"
-            name: "label"
-            widget: "string"
-          - label: "Link"
-            name: "link"
-            widget: "string"
+      - { label: "Button", name: "button", widget: "Object", fields: [
+          { label: "Enable", name: "enable", widget: "boolean", default: true},
+          { label: "Label", name: "label", widget: "string" },
+          { label: "Link", name: "link", widget: "string"}]}
 
 
