@@ -1,9 +1,9 @@
 <section class="sticky-top navigation">
-	<div class="container">
+	<div class="container p-1">
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<a class="navbar-brand p-0" href="{{ .Site.BaseURL | relLangURL }}">
 				{{ if site.Params.logo }}
-				<img class="lozad" data-src="{{ site.Params.logo | absURL }}" alt="{{ .Site.Title }}" height="42">
+				<img class="lozad" data-src="{{ site.Params.logo | absURL }}" alt="{{ .Site.Title }}" height="60">
 				{{ else }}
 				{{ site.Title }}
 				{{ end }}
@@ -44,7 +44,7 @@
           {{ end }}
           {{ end }}
         </ul>
-				<!-- Language List -->
+				<!-- Language List
 				{{- if site.IsMultiLingual }}
 				<select id="select-language" onchange="location = this.value;">
 					{{ $siteLanguages := site.Languages}}
@@ -65,6 +65,7 @@
 					{{ end }}
 				</select>
 				{{ end }}
+				-->
 			</div>
 		</nav>
 	</div>
