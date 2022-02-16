@@ -44,63 +44,56 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 
 ################### Deutsch Navigation ########################
+
 [[Languages.de.menu.main]]
-name = "about"
-url = "#about"
+name = "Spectrum"
 weight = 1
-
-[[Languages.de.menu.main]]
-name = "services"
-url = "#services"
-weight = 2
-
-[[Languages.de.menu.main]]
-name = "portfolio"
-url = "#portfolio"
-weight = 3
-
-[[Languages.de.menu.main]]
-name = "team"
-url = "#team"
-weight = 4
-
-[[Languages.de.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
-
-[[Languages.de.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-
-[[Languages.de.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
-
-
-[[Languages.de.menu.main]]
-name = "Dropdown"
-weight = 7
 hasChildren = true
 
 [[Languages.de.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 1"
+parent = "Spectrum"
+name = "DPX Analytics"
 url = "#"
 weight = 1
 
 [[Languages.de.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 2"
+parent = "Spectrum"
+name = "DPX Perfomance"
 url = "#"
 weight = 2
 
 [[Languages.de.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+parent = "Spectrum"
+name = "DPX Security"
+url = "#"
+weight = 3
+
+
+[[Languages.de.menu.main]]
+name = "Unternehmen"
+url = "#unternehmen"
+weight = 2
+
+[[Languages.de.menu.main]]
+name = "Mediathek"
+url = "#mediathek"
+weight = 3
+
+[[Languages.de.menu.main]]
+name = "Social Media"
+url = "#socialmedia"
+weight = 4
+
+[[Languages.de.menu.main]]
+name = "Kontakt"
+url = "#kontakt"
+weight = 5
+
+[[Languages.de.menu.main]]
+name = "Support"
+url = "#support"
+weight = 6
+
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
