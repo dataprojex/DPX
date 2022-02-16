@@ -219,7 +219,7 @@ a:hover {
 }
 
 .btn-main {
-  background: #57cbcc;
+  background: #e30232;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -229,7 +229,7 @@ a:hover {
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: #810232;
   color: #fff;
 }
 
@@ -417,6 +417,26 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
   color: #57cbcc;
+}
+
+.navbar-nav li {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-nav li:after {
+  content: "";
+  position: absolute;
+  left:0;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background-color: #e30232;
+  transition: width .3s ease-in-out;
+}
+
+.navbar-nav li:hover:after {
+  width: 100%;
 }
 
 .navbar-toggler:focus {
