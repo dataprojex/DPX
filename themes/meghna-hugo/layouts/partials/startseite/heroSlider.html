@@ -8,9 +8,9 @@
         {{ range $slides.Pages }}
         {{ with .Params }}
         <div class="hero-slider-item px-3 overlay-light" style=""  data-lazy="{{ .bg_image | absURL }}" title="{{ .title }}">
-            <div class="container" style="height:700px" >
+            <div class="container" style="height:500px" >
                 <div class="row justify-content-center">
-                    <div class="col-lg-8" style="margin-top:25vh">
+                    <div class="col-lg-8" style="margin-top:10vh">
                         <div class="hero-content text-center p-5" style="background-color: rgba(70,70,70,0.6)">
                             <p class="text-uppercase mb-1 text-white text-center">
                                 {{ .subtitle | markdownify }}</p>

@@ -84,6 +84,7 @@ jQuery(function ($) {
 	$('.hero-slider.no-nav').slick({
 		autoplay: true,
 		infinite: true,
+		dots: true,
 		autoplaySpeed: 10000,
 		arrows: true,
 		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
