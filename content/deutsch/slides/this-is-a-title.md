@@ -7,6 +7,6 @@ content: Lets have some Lorem Ipsum Content
 animation_from: left
 button:
   enable: true
-  label: Test Button
-  link: about
+  label: Contact
+  link: "#contact"
 ---
