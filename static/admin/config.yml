@@ -1,13 +1,12 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "static/images" # Folder where user uploaded files should go
-public_folder: "images"
+media_folder: "static/images/uploads" # Folder where user uploaded files should go
+public_folder: "images/uploads"
 collections:
   - name: "slider"
     label: "Slider"
     folder: "content/deutsch/slides"
-    media_folder: "images/slider/"
     create: true
     fields:
       - { label: "Draft", name: "enable", widget: "boolean", default: true }

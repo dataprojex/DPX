@@ -1,19 +1,19 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
-
-{{ $slides := .Sites.First.GetPage "deutsch/slides" }}
+{{ $slides := .Sites.First.GetPage "slides"  }}
 
 {{ "<!-- hero slider -->" | safeHTML }}
 <section id="heroSlider">
     <div class="hero-slider no-nav position-relative">
         {{ "<!-- slider item -->" | safeHTML }}
         {{ range $slides.Pages }}
+        {{ with .Params }}
         <div class="hero-slider-item px-3 overlay-light" style=""  data-lazy="{{ .bg_image | absURL }}" title="{{ .title }}">
             <div class="container" style="height:700px" >
                 <div class="row justify-content-center">
                     <div class="col-lg-8" style="margin-top:25vh">
                         <div class="hero-content text-center">
                             <p class="text-uppercase mb-1 text-white text-center">
-                                {{ .subtitle | markdownify }}</p>
+                                {{ .subtitle | markdownify }} {{ .bg_image | relURL }}</p>
                             <h1 class="font-weight-bold text-white mb-3">
                                 {{ .title | markdownify }}</h1>
                             <p class="text-white mb-50">
@@ -28,6 +28,7 @@
                 </div>
             </div>
         </div>
+        {{ end }}
         {{ end }}
     </div>
 </section>
