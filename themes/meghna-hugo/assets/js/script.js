@@ -86,9 +86,9 @@ jQuery(function ($) {
 		infinite: true,
 		dots: true,
 		autoplaySpeed: 10000,
-		arrows: false,
-		//prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
-		//nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>',
+		arrows: true,
+		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-angle-double-left\'></i></button>',
+		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-angle-double-right\'></i></button>',
 		responsive: [{
 			breakpoint: 576,
 			settings: {

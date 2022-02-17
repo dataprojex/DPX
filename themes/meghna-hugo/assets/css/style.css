@@ -423,23 +423,27 @@ a:hover {
 }
 
 .navbar-nav li {
-  position: relative;
   display: inline-block;
+  position: relative;
+  color: #e30232;
 }
 
 .navbar-nav li:after {
-  content: "";
+  content: '';
   position: absolute;
-  left:0;
-  top: 100%;
-  width: 0;
+  width: 100%;
+  transform: scaleX(0);
   height: 2px;
+  bottom: 0;
+  left: 0;
   background-color: #e30232;
-  transition: width .3s ease-in-out;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
 .navbar-nav li:hover:after {
-  width: 100%;
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .navbar-toggler:focus {

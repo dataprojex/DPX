@@ -80,18 +80,18 @@ url = "#karriere"
 weight = 3
 
 [[Languages.de.menu.main]]
-name = "Mediathek"
-url = "#mediathek"
-weight = 4
-
-[[Languages.de.menu.main]]
 name = "Kontakt"
 url = "#kontakt"
-weight = 5
+weight = 4
 
 [[Languages.de.menu.main]]
 name = "Support"
 url = "#support"
+weight = 5
+
+[[Languages.de.menu.main]]
+name = "Mediathek"
+url = "#mediathek"
 weight = 6
 
 
