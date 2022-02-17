@@ -27,7 +27,11 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
-  color: #5f656b;
+  color: #c3cddb;
+}
+
+.slick-slide-headline {
+  color: #404347;
 }
 
 p {
