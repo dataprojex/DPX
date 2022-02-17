@@ -1,6 +1,6 @@
 ---
 enable: true
-bg_image: images/uploads/lenovo-data-center-storage-hero-banner.jpg
+bg_image: images/uploads/lenovo-data-center-storage-hero-banner_2.jpg
 subtitle: Speicher
 title: Leichte Verwaltung, einfache Skalierung, ständige Verfügbarkeit!
 content: Bei unternehmenstauglichen Speicherlösungen können Sie sich auf Lenovo
