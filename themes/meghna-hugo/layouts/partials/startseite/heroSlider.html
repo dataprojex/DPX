@@ -11,15 +11,15 @@
         <div class="hero-slider-item overlay-light" style=" height:50vh; position: relative" >
             <div class="hero-slider-item overlay-light" style=" height:50vh; width:70vw; position:absolute; right:0" data-lazy="{{ .bg_image | absURL }}" title="{{ .title }}">
             </div>
-            <div class="container m-0" style="height:50vh ; background-image: url('{{ $slideContainer | absURL }}');background-size: cover ; background-repeat: no-repeat; position: relative; float:left;">
-                <div class="row justify-content-center">
-                    <div class="col-lg-7" style="margin-top:5vh">
-                        <div class="hero-content p-5 float-left">
-                            <p class="text-uppercase slick-uppercase mb-1 ">
+            <div class="container m-0" style="height:50vh; min-width:65vw; background-image: url('{{ $slideContainer | absURL }}');background-size: cover ; background-repeat: no-repeat; position: relative; float:left;">
+                <div class="row justify-content-center p-5">
+                    <div class="col-lg-6" style="margin-top:5vh">
+                        <div class="hero-content p-3 float-left">
+                            <p class="text-uppercase slick-uppercase mb-1" style="font-size: 1vw" >
                                 {{ .subtitle | markdownify }}</p>
-                            <h2 class="font-weight-bold slick-slide-headline mb-3">
+                            <h2 class="font-weight-bold slick-slide-headline mb-3" style="font-size: 1.5vw">
                                 {{ .title | markdownify }}</h2>
-                            <p class="mb-50">
+                            <p class="mb-50" style="font-size: 0.8vw">
                                 {{ .content | markdownify }}
                             </p>
                             {{ if .button.enable }}
