@@ -1,12 +1,12 @@
 ---
 enable: true
-bg_image: images/uploads/nicolas-hippert-j4etn9gqhzi-unsplash.jpg
-subtitle: Seconde Subtitle
-title: Seconde Title
-content: Because its very cool wh user Lorem Ipsum
+bg_image: images/uploads/sophos-central-1.jpg
+subtitle: Security
+title: Sophos stoppt Ransomware.
+content: Sie möchten Ihren privaten Mac oder PC schützen? Testen Sie Sophos Home
 animation_from: left
 button:
   enable: true
-  label: Blog - instalation
+  label: Kostenlos testen
   link: blog/installation
 ---
