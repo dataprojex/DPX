@@ -29,7 +29,6 @@
     z-index: 9;
     height: 70px;
     width: 70px;
-    border-radius: 50%;
     background: rgba(48, 48, 50, 0.5);
     color: #fff;
     border: 0;
@@ -86,7 +85,6 @@
     height: 1rem;
     padding: 0;
     background-color: rgba(0,0,0,0);
-    border-radius: 100%;
     border:1px solid white;
 
     text-indent: -9999px;

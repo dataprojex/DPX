@@ -8,12 +8,12 @@
         {{ "<!-- slider item -->" | safeHTML }}
         {{ range $slides.Pages }}
         {{ with .Params }}
-        <div class="hero-slider-item overlay-light" style=" height:500px; position: relative" >
-            <div class="hero-slider-item overlay-light" style=" height:500px; width:70vw; position:absolute; right:0" data-lazy="{{ .bg_image | absURL }}" title="{{ .title }}">
+        <div class="hero-slider-item overlay-light" style=" height:50vh; position: relative" >
+            <div class="hero-slider-item overlay-light" style=" height:50vh; width:70vw; position:absolute; right:0" data-lazy="{{ .bg_image | absURL }}" title="{{ .title }}">
             </div>
-            <div class="container m-0" style="height:500px; background-image: url('{{ $slideContainer | absURL }}'); background-repeat: no-repeat; position: relative; float:left">
-                <div class="row justify-content-left">
-                    <div class="col-lg-7" style="margin-top:10vh">
+            <div class="container m-0" style="height:50vh ; background-image: url('{{ $slideContainer | absURL }}');background-size: cover ; background-repeat: no-repeat; position: relative; float:left;">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7" style="margin-top:5vh">
                         <div class="hero-content p-5 float-left">
                             <p class="text-uppercase slick-uppercase mb-1 ">
                                 {{ .subtitle | markdownify }}</p>
