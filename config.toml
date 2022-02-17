@@ -75,13 +75,13 @@ url = "#unternehmen"
 weight = 2
 
 [[Languages.de.menu.main]]
-name = "Mediathek"
-url = "#mediathek"
+name = "Karriere"
+url = "#karriere"
 weight = 3
 
 [[Languages.de.menu.main]]
-name = "Social Media"
-url = "#socialmedia"
+name = "Mediathek"
+url = "#mediathek"
 weight = 4
 
 [[Languages.de.menu.main]]
