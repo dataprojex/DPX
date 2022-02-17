@@ -1,6 +1,6 @@
 ---
 enable: true
-bg_image: images/uploads/sophos-central-1.jpg
+bg_image: images/uploads/sophos-central.png
 subtitle: Security
 title: Sophos stoppt Ransomware.
 content: Sie möchten Ihren privaten Mac oder PC schützen? Testen Sie Sophos Home
