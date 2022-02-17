@@ -121,7 +121,7 @@ a:hover {
 }
 
 .border-meghna {
-  border-top: 2px solid rgba(236, 239, 241, 0.07);
+  border-top: 2px solid rgba(255, 255, 255, 0.07);
   height: 1px;
   margin: 15px auto 0;
   position: relative;
@@ -129,7 +129,7 @@ a:hover {
 }
 
 .border-meghna:before {
-  background-color: #fff;
+  background-color: #b10232;
   content: '';
   height: 6px;
   left: 50%;
@@ -137,11 +137,10 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
 }
 
 .color {
-  color: #6CB670;
+  color: #b10232;
 }
 
 .sub-title {
@@ -307,7 +306,7 @@ a:hover {
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #b10232;
 }
 
 .title p {

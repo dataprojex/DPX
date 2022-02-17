@@ -1,5 +1,6 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ $slides := .Sites.First.GetPage "slides"  }}
+{{ $slideContainer := "/images/slider/Slider_container.png" }}
 
 {{ "<!-- hero slider -->" | safeHTML }}
 <section id="heroSlider">
@@ -7,16 +8,18 @@
         {{ "<!-- slider item -->" | safeHTML }}
         {{ range $slides.Pages }}
         {{ with .Params }}
-        <div class="hero-slider-item px-3 overlay-light" style=""  data-lazy="{{ .bg_image | absURL }}" title="{{ .title }}">
-            <div class="container" style="height:500px" >
-                <div class="row justify-content-center">
-                    <div class="col-lg-8" style="margin-top:10vh">
-                        <div class="hero-content text-center p-5" style="background-color: rgba(70,70,70,0.6)">
-                            <p class="text-uppercase mb-1 text-white text-center">
+        <div class="hero-slider-item overlay-light" style=" height:500px; position: relative" >
+            <div class="hero-slider-item overlay-light" style=" height:500px; width:70vw; position:absolute; right:0" data-lazy="{{ .bg_image | absURL }}" title="{{ .title }}">
+            </div>
+            <div class="container m-0" style="height:500px; background-image: url('{{ $slideContainer | absURL }}'); background-repeat: no-repeat; position: relative; float:left">
+                <div class="row justify-content-left">
+                    <div class="col-lg-7" style="margin-top:10vh">
+                        <div class="hero-content p-5 float-left">
+                            <p class="text-uppercase mb-1 ">
                                 {{ .subtitle | markdownify }}</p>
-                            <h1 class="font-weight-bold text-white mb-3">
-                                {{ .title | markdownify }}</h1>
-                            <p class="text-white mb-50">
+                            <h2 class="font-weight-bold mb-3">
+                                {{ .title | markdownify }}</h2>
+                            <p class="mb-50">
                                 {{ .content | markdownify }}
                             </p>
                             {{ if .button.enable }}
