@@ -23,7 +23,7 @@
 .hero-slider .prevArrow,
 .hero-slider .nextArrow {
     position: absolute;
-    top: 50%;
+    top: 35%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 9;
@@ -97,4 +97,15 @@
 
 .hero-content h4 {
     letter-spacing: 2px;
+}
+
+.responsive-img{
+    width:30vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .responsive-img{
+        width:100%;
+        margin-bottom:7%
+    }
 }

@@ -8,24 +8,29 @@
         {{ "<!-- slider item -->" | safeHTML }}
         {{ range $slides.Pages }}
         {{ with .Params }}
-        <div class="hero-slider-item overlay-light" style=" height:50vh; position: relative" >
-            <div class="hero-slider-item overlay-light" style=" height:50vh; width:70vw; position:absolute; right:0" data-lazy="{{ .bg_image | absURL }}" title="{{ .title }}">
+        <div class="hero-slider-item overlay-light" style=" height:55vh; position: relative" >
+            <div class="hero-slider-item overlay-light" style=" height:100%; width:100%; position:absolute;" data-lazy="{{ .bg_image | absURL }}" title="{{ .title }}">
             </div>
-            <div class="container m-0" style="height:50vh; min-width:65vw; background-image: url('{{ $slideContainer | absURL }}');background-size: cover ; background-repeat: no-repeat; position: relative; float:left;">
-                <div class="row justify-content-center p-5">
-                    <div class="col-lg-6" style="margin-top:5vh">
+            <div class="container m-0" style="width:100%; max-width: 3840px">
+                <div class="row justify-content-center pt-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12" style="margin-top:1em; margin-left:10vw">
                         <div class="hero-content p-3 float-left">
-                            <p class="text-uppercase slick-uppercase mb-1" style="font-size: 1vw" >
-                                {{ .subtitle | markdownify }}</p>
-                            <h2 class="font-weight-bold slick-slide-headline mb-3" style="font-size: 1.5vw">
+                            <p class="text-uppercase slick-uppercase mb-2 text-white slider-responsive-type" style="font-size: 1.2em" >
+                                » {{ .subtitle | markdownify }}</p>
+                            <h2 class="font-weight-bold slick-slide-headline mb-3 text-white" style="font-size: 2em">
                                 {{ .title | markdownify }}</h2>
-                            <p class="mb-50" style="font-size: 0.8vw">
+                            <p class="mb-50 text-white" style="font-size: 1em;">
                                 {{ .content | markdownify }}
                             </p>
                             {{ if .button.enable }}
                             <a data-duration-in="0.5" data-animation-in="fadeIn{{.animation_from | humanize}}" data-delay-in="1"
-                               href="{{ .button.link | relLangURL }}" class="btn btn-main text-uppercase">{{ .button.label }}</a>
+                               href="{{ .button.link | relLangURL }}" class="btn btn-transparent text-uppercase">{{ .button.label }}</a>
                             {{ end }}
+                        </div>
+                    </div>
+                    <div class="col-lg-6" style="margin-top:1vh">
+                        <div class="hero-content p-3 float-left">
+                            <img class="responsive-img" src="{{ .hero_image | absURL  }}">
                         </div>
                     </div>
                 </div>
