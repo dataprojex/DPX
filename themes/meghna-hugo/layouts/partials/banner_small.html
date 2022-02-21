@@ -1,0 +1,19 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ with .Params.banner }}
+{{"<!-- Welcome Slider-->" | safeHTML}}
+<section class="hero-area" style='background-image: url("{{ .bg_image | absURL }}"); height:40vh'>
+	<!-- this image is for trigger this section fallback background image -->
+
+	<div class="block">
+		{{ if .icon }}
+		<div class="video-button">
+			<i class="{{ .icon }}"></i>
+		</div>
+		{{ end }}
+		<h1>{{ .title | markdownify }}</h1>
+		<p>{{ .content | markdownify }}</p>
+	</div>
+</section>
+{{"<!-- /Welcome Slider-->" | safeHTML}}
+{{end}}
