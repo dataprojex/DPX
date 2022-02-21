@@ -1,6 +1,6 @@
 ---
 enable: true
-bg_image: images/uploads/slider_colorbackgroundsblack.jpg
+bg_image: images/uploads/slider_colorbackgroundsdarkblack.jpg
 hero_image: images/uploads/sophos-firewall-xstream-banner.png
 subtitle: Security
 title: Die neue Sophos Firewall
