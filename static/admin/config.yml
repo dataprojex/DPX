@@ -10,7 +10,8 @@ collections:
     create: true
     fields:
       - { label: "Draft", name: "enable", widget: "boolean", default: true }
-      - { label: "Image", name: "bg_image", widget: "image" }
+      - { label: "Background", name: "bg_image", widget: "image" }
+      - { label: "Produkt", name: "hero_image", widget: "image" }
       - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "content", widget: "string" }
