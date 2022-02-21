@@ -76,12 +76,12 @@ weight = 2
 
 [[Languages.de.menu.main]]
 name = "Karriere"
-url = "#karriere"
+url = "404"
 weight = 3
 
 [[Languages.de.menu.main]]
 name = "Kontakt"
-url = "#kontakt"
+url = "kontakt"
 weight = 4
 
 [[Languages.de.menu.main]]
@@ -91,7 +91,7 @@ weight = 5
 
 [[Languages.de.menu.main]]
 name = "Mediathek"
-url = "#mediathek"
+url = "404"
 weight = 6
 
 
