@@ -1,0 +1,19 @@
+{{ $data := . }}
+{{ with $data }}
+<div class="floating-menu">
+    <ul class="sidebar-list" >
+        {{ range .kontakt}}
+        <li class="sidebar-slider-container">
+            <a class="sidebar-link" href="{{ .link | absURL }}">
+                <div class="sidebar-icon">
+                    <img class="sidebar-img" src="{{ .img }}">
+                </div>
+                <div class="sidebar-open">
+                    {{ .lable }}
+                </div>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

@@ -1,0 +1,15 @@
+################################# Daten Sideslider ##################################
+kontakt:
+  - name: "telefon"
+    lable: "069 5308 439 20"
+    tel: true
+    link: "069 5308 439 20"
+    img: "images/sidebar/telephone.png"
+  - name: "termin"
+    lable: "Termin Buchen"
+    link: "blog"
+    img: "images/sidebar/date.png"
+  - name: "support"
+    lable: "Support"
+    link: "blog"
+    img: "images/sidebar/support.png"
