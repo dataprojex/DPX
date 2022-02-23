@@ -32,7 +32,6 @@ collections:
               { label: "Titel", name: "title", widget: "string"},
               { label: "Subline", name: "content", widget: "string" }]}
           - { label: "Linker Kasten", name: "linke_box", widget: "object", fields: [
-              { label: "Piktogram", name: "img", widget: "image"},
               { label: "Headline", name: "headline", widget: "string"},
               { label: "Text", name: "copy", widget: "string"},
               { label: "Service Email VK Headline", name: "headlineservice", widget: "string"},
