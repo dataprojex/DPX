@@ -2,17 +2,104 @@
 
 {{ with .Params }}
 
-<section>
+<section class="section section-bg">
     <div class="container">
         <div class="row justify-content-center">
             {{ with .linke_box }}
-            <div class=" col-lg-5 m-4" style="height: 400px; background-color: red">
-                {{ .}}
+            <div class=" col-lg-5 m-4 bg-one pb-3">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="mt-3" style="background-color: #e30232; width: 55px; height:55px">
+                            <img class="m-3" src="{{ .img | relLangURL}}" style="width: 20px; height:20px;">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 p-4">
+                        <div class="mb-5">
+                            <h2 class="text-white">
+                                {{ .headline }}
+                            </h2>
+                            <p class="mb-2">
+                                {{ .copy }}
+                            </p>
+                        </div>
+
+                        <div class="mb-5">
+                            <h5> {{ .headlineservice }}</h5>
+                            <a href="mailto:{{ .servicevertragskundenemail }}">
+                            {{ .servicevertragskundenemail }}
+                            </a>
+                        </div>
+
+                        <div class="mb-3">
+                            <p> <strong>{{ .serviceemailHeadline }}</strong>
+                            <a href="mailto:{{ .serviceemail }}">
+                                {{ .serviceemail }}
+                            </a>
+                            </p>
+                        </div>
+                        <div class="mb-3">
+                            <p> <strong>{{ .servicetelHeadline }}</strong>
+                                <a href="mailto:{{ .servicetel }}">
+                                    {{ .servicetel }}
+                                </a>
+                            </p>
+                        </div>
+
+
+                        {{ range .buttons }}
+                        <a class="btn btn-main mt-3" href="{{ .link | absURL }}">
+                            {{ .name }}
+                        </a>
+                        {{ end }}
+
+                    </div>
+                </div>
+
             </div>
             {{ end }}
             {{ with .rechte_box }}
-            <div class=" col-lg-5 m-4" style="height: 400px; background-color: red">
-                {{ . }}
+            <div class=" col-lg-5 m-4 bg-one">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="mt-3" style="background-color: #e30232; width: 55px; height:55px">
+                            <img class="m-3" src="{{ .img | relLangURL}}" style="width: 20px; height:20px;">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-10 p-4">
+                        <div class="mb-5">
+                            <h2 class="text-white">
+                                {{ .headline }}
+                            </h2>
+                            <p class="mb-2">
+                                {{ .copy }}
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <p> <strong>{{ .softwareservicemail }}</strong>
+                                <a href="mailto:{{ .softwareservicemail }}">
+                                    {{ .softwareservicemail }}
+                                </a>
+                            </p>
+                        </div>
+                        <div class="mb-3">
+                            <p> <strong>{{ .softwareservicetelHeadline }}</strong>
+                                <a href="{{ .softwareservicetel }}">
+                                    {{ .softwareservicetel }}
+                                </a>
+                            </p>
+                        </div>
+
+
+                        {{ range .buttons }}
+                        <a class="btn btn-main mt-3" href="{{ .link | absURL }}">
+                            {{ .name }}
+                        </a>
+                        {{ end }}
+                    </div>
+                </div>
+
             </div>
             {{ end }}
         </div>

@@ -6,7 +6,7 @@
         <li class="sidebar-slider-container">
             <a class="sidebar-link" href="{{ .link | absURL }}">
                 <div class="sidebar-icon">
-                    <img class="sidebar-img" src="{{ .img }}">
+                    <img class="sidebar-img" src="{{ .img | relLangURL}}">
                 </div>
                 <div class="sidebar-open">
                     {{ .lable }}
