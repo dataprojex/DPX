@@ -1,0 +1,8 @@
+{{"<!-- Footer Social Links -->" | safeHTML}}
+<div class="social-icon">
+    <ul class="list-inline">
+        {{ range . }}
+        <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+        {{ end }}
+    </ul>
+</div>
