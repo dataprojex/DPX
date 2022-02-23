@@ -63,6 +63,7 @@ collections:
     files:
       - file: "data/de/sideNavi.yml"
         label: "Kontaktdaten"
+        name: "Kontaktdaten"
         fields:
           - { label: "Kontakt", name: "kontakt", widget: "list", fields: [
               {label: "Name", name: "name", widget: "string"}]}
