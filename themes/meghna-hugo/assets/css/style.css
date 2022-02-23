@@ -734,20 +734,21 @@ a:hover {
 
 .form-meghna input:hover,
 .form-meghna textarea:hover {
-  border-color: #57cbcc;
+  border-color: #e30232;
 }
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #e30232;
   padding: 12px 0;
   width: 100%;
   margin: 0;
 }
 
 #contact-submit:hover {
-  border-color: #2c9091;
-  background-color: #2c9091;
+  color: #ffffff;
+  border-color: #810232;
+  background-color: #810232;
 }
 
 .form-meghna ::placeholder {
