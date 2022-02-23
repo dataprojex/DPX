@@ -20,3 +20,12 @@ collections:
           { label: "Enable", name: "enable", widget: "boolean", default: true },
           { label: "Label", name: "label", widget: "string" },
           { label: "Link", name: "link", widget: "string" }]}
+  - name: "support"
+    label: "Support Page"
+    file: "content/deutsch/support/_index.md"
+    fields:
+      - { label: "Banner", name: "banner", widget: "object", fields: [
+          { label: "Hintergrundbild", name: "bg_image", widget: "image"}
+          { label: "Titel", name: "title", widget: "string"}
+          { label: "Subline", name: "content", widget: "string"}]}
+
