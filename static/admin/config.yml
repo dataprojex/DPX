@@ -31,4 +31,17 @@ collections:
               { label: "Hintergrundbild", name: "bg_image", widget: "image"},
               { label: "Titel", name: "title", widget: "string"},
               { label: "Subline", name: "content", widget: "string" }]}
+          - { label: "Linker Kasten", name: "linke_box", widget: "object", fields: [
+              { label: "Piktogram", name: "img", widget: "image"},
+              { label: "Headline", name: "headline", widget: "string"},
+              { label: "Text", name: "copy", widget: "string"},
+              { label: "Service Email VK Headline", name: "headlineservice", widget: "string"},
+              { label: "Service Email VK", name: "servicevertragskundenemail", widget: "string"},
+              { label: "Service Email Headline", name: "serviceemailHeadline", widget: "string"},
+              { label: "Service Email", name: "serviceemail", widget: "string"},
+              { label: "Service Tel Headline", name: "servicetelHeadline", widget: "string"},
+              { label: "Service Tel", name: "servicetel", widget: "string"},
+              { label: "Buttons", name: "buttons", widget: "list", fields: [
+                { label: "Text Button", name: "name", widget: "string" },
+                { label: "Link", name: "link", widget: "string" }]}]}
 
