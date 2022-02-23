@@ -86,7 +86,7 @@ weight = 4
 
 [[Languages.de.menu.main]]
 name = "Support"
-url = "#support"
+url = "support"
 weight = 5
 
 [[Languages.de.menu.main]]
