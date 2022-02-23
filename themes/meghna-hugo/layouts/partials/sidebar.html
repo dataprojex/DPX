@@ -4,6 +4,16 @@
     <ul class="sidebar-list" >
         {{ range .kontakt}}
         <li class="sidebar-slider-container">
+            {{ if .tel }}
+            <a class="sidebar-link" href="tel:{{ .link | absURL }}">
+                <div class="sidebar-icon">
+                    <img class="sidebar-img" src="{{ .img | relLangURL}}">
+                </div>
+                <div class="sidebar-open">
+                    {{ .lable }}
+                </div>
+            </a>
+            {{ else }}
             <a class="sidebar-link" href="{{ .link | absURL }}">
                 <div class="sidebar-icon">
                     <img class="sidebar-img" src="{{ .img | relLangURL}}">
@@ -12,6 +22,7 @@
                     {{ .lable }}
                 </div>
             </a>
+            {{ end }}
         </li>
         {{ end }}
     </ul>
