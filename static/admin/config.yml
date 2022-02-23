@@ -82,17 +82,17 @@ collections:
               { label: "Icon", name: "icon", widget: "string" },
               { label: "Info", name: "info", widget: "string" }]}
       - file: "data/de/cta.yml"
-          label: "Call To Action"
-          name: "calltoaction"
-          fields:
-            - { label: "CTA", name: "cta", widget: "object", fields: [
+        label: "Call To Action"
+        name: "calltoaction"
+        fields:
+          - { label: "CTA", name: "cta", widget: "object", fields: [
+            { label: "Activ", name: "enable", widget: "boolean", default: true },
+            { label: "Image", name: "bg_image", widget: "image" },
+            { label: "Image Mobile", name: "bg_image_webp", widget: "image" },
+            { label: "Headline", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Button", name: "button", widget: "object", fields: [
               { label: "Activ", name: "enable", widget: "boolean", default: true },
-              { label: "Image", name: "bg_image", widget: "image" },
-              { label: "Image Mobile", name: "bg_image_webp", widget: "image" },
-              { label: "Headline", name: "title", widget: "string" },
-              { label: "Subline", name: "content", widget: "string" },
-              { label: "Button", name: "button", widget: "object", fields: [
-                { label: "Activ", name: "enable", widget: "boolean", default: true },
-                { label: "Label", name: "label", widget: "string" },
-                { label: "Link", name: "link", widget: "string" }]}] }
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" }]}] }
 
