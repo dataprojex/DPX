@@ -66,5 +66,8 @@ collections:
         name: "Kontaktdaten"
         fields:
           - { label: "Kontakt", name: "kontakt", widget: "list", fields: [
-              {label: "Name", name: "name", widget: "string"}]}
+              { label: "Name", name: "name", widget: "string" },
+              { label: "Label", name: "lable", widget: "string" },
+              { label: "Ist eine Telefonnummer", name: "tel", widget: "boolean", default: false },
+              { label: "Link", name: "link", widget: "string" },]}
 
