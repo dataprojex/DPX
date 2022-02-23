@@ -71,16 +71,16 @@ collections:
               { label: "Ist eine Telefonnummer", name: "tel", widget: "boolean", default: false },
               { label: "Link", name: "link", widget: "string" },]}
       - file: "data/de/contactFormSide.yml"
-          label: "Kontakt Formular"
-          name: "kontaktformular"
-          fields:
-            - { label: "Kontakt", name: "contact", widget: "object", fields: [
-                { label: "Titel", name: "title", widget: "string" },
-                { label: "Subtitel", name: "subtitle", widget: "string" },
-                { label: "Content", name: "content", widget: "text" }]}
-            - { label: "KontaKt List", name: "contact_list", widget: "liste", fields: [
-                { label: "Icon", name: "icon", widget: "string" },
-                { label: "Info", name: "info", widget: "string" }]}
+        label: "Kontakt Formular"
+        name: "kontaktformular"
+        fields:
+          - { label: "Kontakt", name: "contact", widget: "object", fields: [
+              { label: "Titel", name: "title", widget: "string" },
+              { label: "Subtitel", name: "subtitle", widget: "string" },
+              { label: "Content", name: "content", widget: "text" }]}
+          - { label: "KontaKt List", name: "contact_list", widget: "liste", fields: [
+              { label: "Icon", name: "icon", widget: "string" },
+              { label: "Info", name: "info", widget: "string" }]}
       - file: "data/de/cta.yml"
           label: "Call To Action"
           name: "calltoaction"
