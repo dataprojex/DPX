@@ -2,7 +2,7 @@
 enable: true
 bg_image: images/uploads/slider_colorbackgroundsdarkblack.jpg
 hero_image: images/uploads/sophos-firewall-xstream-banner.png
-subtitle: Security
+subtitle: DPX potential
 title: Die neue Sophos Firewall
 content: Jetzt mit Xstream-Atchitektur
 animation_from: left
