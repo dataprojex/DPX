@@ -174,3 +174,17 @@
     }
 }
 
+.dropdown-megamenu{
+    width: 100vw;
+    height: 40vh;
+    visibility: hidden;
+    background-color: #1d2024;
+    position: fixed;
+    z-index: -2;
+    left: 0;
+    top: 0px;
+    margin-top:1vh;
+    color: #dddddd;
+}
+
+

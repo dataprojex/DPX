@@ -44,7 +44,6 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 
 ################### Deutsch Navigation ########################
-
 [[Languages.de.menu.main]]
 name = "Spectrum"
 weight = 1
@@ -136,6 +135,7 @@ weight = 7
 name = "Dropdown"
 weight = 7
 hasChildren = true
+megaMenu = true
 
 [[Languages.en.menu.main]]
 parent = "Dropdown"
@@ -166,6 +166,9 @@ author = "Themefisher"
 google_analytics_id = "" # Your ID
 # post share
 post_share = true
+
+[params.megamenu]
+name = "Spectrum"
 
 # preloader
 [params.preloader]

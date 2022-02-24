@@ -14,7 +14,7 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navigation">
-				<ul class="navbar-nav ml-auto" style="position:absolute; right: 0 ">
+				<ul class="navbar-nav ml-auto">
           <!-- menu active -->
           {{ $currentPage := . }}
           {{ $megamenu := site.Params.megamenu}}
@@ -25,14 +25,12 @@
           {{ if .HasChildren }}
 
               {{ if eq .Name $megamenu.name}}
-            <div class="nav-item dropdown megamenu">
-                <li>
-              <a class="nav-link dropdown-toggle" href="#" onclick="showMegaMenu()" data-toggle="dropdown" aria-haspopup="true"
-                 aria-expanded="false">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle">
                   {{ .Name }}
               </a>
-                </li>
-              <div id="megamenu" class="dropdown-megamenu">
+
+              <div class="dropdown-megamenu">
                   {{ range .Children }}
                   {{ $childURL := .URL | absLangURL }}
                   {{ $active := eq $childURL $pageURL }}
@@ -40,11 +38,26 @@
                      href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
                   {{ end }}
               </div>
-            </div>
+
+                {{ else }}
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">
+                    {{ .Name }}
+                </a>
+
+                <div class="dropdown-menu">
+                    {{ range .Children }}
+                    {{ $childURL := .URL | absLangURL }}
+                    {{ $active := eq $childURL $pageURL }}
+                    <a class="dropdown-item" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+                       href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+                    {{ end }}
+                </div>
 
               {{ end }}
 
-
+          </li>
           {{ else }}
           <li class="nav-item">
             <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
@@ -79,14 +92,4 @@
 			</div>
 		</nav>
 	</div>
-    <script>
-        function showMegaMenu() {
-            var x = document.getElementById("megamenu");
-            if (x.style.visibility === "hidden") {
-                x.style.visibility = "visible";
-            } else {
-                x.style.visibility = "hidden";
-            }
-        }
-    </script>
 </section>
