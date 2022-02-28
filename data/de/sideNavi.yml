@@ -8,7 +8,7 @@ kontakt:
   - name: "termin"
     lable: "Termin Buchen"
     tel: false
-    link: "blog"
+    link: "termin"
     img: "images/sidebar/date.png"
   - name: "support"
     lable: "Support"

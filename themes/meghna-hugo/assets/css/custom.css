@@ -177,14 +177,18 @@
 .dropdown-megamenu{
     width: 100vw;
     height: 40vh;
-    visibility: hidden;
-    background-color: #1d2024;
+    display: block;
+    background-color: #282e36;
     position: fixed;
-    z-index: -2;
+    z-index: 100;
     left: 0;
-    top: 0px;
+    top: 65px;
     margin-top:1vh;
     color: #dddddd;
+}
+
+.megamenu:hover .dropdown-megamenu {
+    display: block;
 }
 
 
