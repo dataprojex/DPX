@@ -51,19 +51,19 @@ hasChildren = true
 
 [[Languages.de.menu.main]]
 parent = "Spectrum"
-name = "DPX Analytics"
+name = "potential"
 url = "#"
 weight = 1
 
 [[Languages.de.menu.main]]
 parent = "Spectrum"
-name = "DPX Perfomance"
+name = "performance"
 url = "#"
 weight = 2
 
 [[Languages.de.menu.main]]
 parent = "Spectrum"
-name = "DPX Security"
+name = "protection"
 url = "#"
 weight = 3
 
@@ -159,6 +159,7 @@ weight = 8
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo.png"
+productLogo = "images/megamenu/DPX-01.png"
 # Meta data
 description = "Responsive Multipurpose Parallax Hugo Template"
 author = "Themefisher"
