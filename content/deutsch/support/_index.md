@@ -27,7 +27,7 @@ rechte_box:
   headline: DPX-Portal für Vertragskunden
   copy: Nutzen Sie Lösung für sicheren Datentransfer
   softwareservicemailHeadline: "Software Service E-Mail:"
-  softwareservicemail: info[at]dataprojex(dot)de
+  softwareservicemail: portal[at]dataprojex(dot)de
   softwareservicetelHeadline: "Software Service Hotline:"
   softwareservicetel: +49 69 5308 439 29
   buttons:
