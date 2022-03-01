@@ -13,5 +13,5 @@ kontakt:
   - name: "support"
     lable: "Support"
     tel: false
-    link: "blog"
+    link: "support"
     img: "images/sidebar/support.png"

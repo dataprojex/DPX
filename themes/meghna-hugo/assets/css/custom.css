@@ -200,6 +200,7 @@
     position: fixed;
     top: 100px;
     left: 0;
+    display: none;
 }
 .dpxProductLogo{
     max-width:100%;

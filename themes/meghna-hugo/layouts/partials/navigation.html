@@ -85,18 +85,27 @@
                       </div>
 
                       {{ if ne (add $index 1) $len }}
-                      <div class="my-auto mr-3" style="height: 80%; width: 1px; background-color: #ffffff" ></div>
+                      <div class="my-auto mr-3" style="height: 80%; width: 1px; background-color: #999999" ></div>
                       {{ end }}
 
                   {{ end }}
 
                   </div>
               </div>
-              <div id="overlay-megamenu" class="overlay-megamenu" style="display: none">
+              <div id="overlay-megamenu" class="overlay-megamenu">
               </div>
               <script>
                   const over = document.getElementById("overlay-megamenu")
+                  const button = document.getElementById("megamenubutton")
                   const megamenu = document.getElementById("megamenu")
+
+                  button.onmouseleave = function() {
+                      over.style.display = 'none'
+                  }
+
+                  button.onmouseenter  = function() {
+                      over.style.display = 'block'
+                  }
 
                   megamenu.onmouseleave = function() {
                       over.style.display = 'none'
