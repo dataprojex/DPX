@@ -1,7 +1,7 @@
 ---
 enable: true
 bg_image: images/uploads/Slider_BG_Red.jpg
-hero_image: images/uploads/ibm_flashspeicher.png
+hero_image: images/uploads/flashspeicher.png
 subtitle: Speicher
 title: Leichte Verwaltung, einfache Skalierung, ständige Verfügbarkeit!
 content: Bei unternehmenstauglichen Speicherlösungen können Sie sich auf Lenovo
