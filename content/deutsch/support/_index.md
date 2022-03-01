@@ -13,9 +13,9 @@ linke_box:
     - name: Lorem Ispum 2
       link: contact
   img: images/sidebar/telephone.png
-  servicetel: +49 69 5308 439 20
-  serviceemail: servicedesk@dpx.de
-  servicevertragskundenemail: servicedeskVertragskunden@dpx.de
+  servicetel: +49 69 5308 439 29
+  serviceemail: it-service[at]dataprojex(dot)de
+  servicevertragskundenemail: support[at]dataprojex(dot)de
   headline: IT-Service
   copy: Sie benötigen Support für Ihre Full-Managed Lösung oder möchten
     Unterstützung für Ihre IT-Infrastruktur. Kontaktieren Sie uns bitte über
