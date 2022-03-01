@@ -236,6 +236,21 @@ a:hover {
   color: #fff;
 }
 
+.btn-support {
+  background: #e30232;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+
+.btn-support:hover {
+  background: #810232;
+  color: #fff;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
