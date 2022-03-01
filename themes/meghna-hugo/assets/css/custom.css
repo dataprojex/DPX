@@ -23,7 +23,7 @@
 .hero-slider .prevArrow,
 .hero-slider .nextArrow {
     position: absolute;
-    top: 35%;
+    top: 43%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 9;
