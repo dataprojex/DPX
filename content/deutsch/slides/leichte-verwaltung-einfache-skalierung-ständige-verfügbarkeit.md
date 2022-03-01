@@ -9,6 +9,6 @@ content: Vereinfachen Sie Ihre Hybrid Cloud mit hochleistungsfähigen
 animation_from: left
 button:
   enable: true
-  label: Alle Speicherprodukte anzeigen
+  label: Mehr erfahren
   link: "#contact"
 ---
