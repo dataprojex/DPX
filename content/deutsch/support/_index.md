@@ -8,9 +8,9 @@ banner:
 linke_box:
   headlineservice: "IT-Service E-Mail für Vertragskunden:"
   buttons:
-    - name: Lorem Ispum 1
+    - name: Zugang zum ServiceDesk-Portal für Vertragskunden
       link: contact
-    - name: Lorem Ispum 2
+    - name: Download pcvisit
       link: contact
   img: images/sidebar/telephone.png
   servicetel: +49 69 5308 439 29
@@ -24,13 +24,12 @@ linke_box:
   serviceemailHeadline: "IT-Service E-Mail:"
 rechte_box:
   img: images/sidebar/telephone.png
-  headline: DPX, DMS, KI-Dienste
-  copy: "Nutzen Sie GODYO P4, DMS oder auch unsere KI-Dienste und etwas
-    funktioniert nicht? Kontaktieren Sie uns bitte über folgende Wege:"
+  headline: DPX Portal für Vertragskunden
+  copy: Nutzen Sie Lösung für sicheren Datentransfer
   softwareservicemailHeadline: "Software Service E-Mail:"
-  softwareservicemail: hotline@dpx.de
+  softwareservicemail: info[at]dataprojex(dot)de
   softwareservicetelHeadline: "Software Service Hotline:"
-  softwareservicetel: +49 69 5308 439 20
+  softwareservicetel: +49 69 5308 439 29
   buttons:
     - name: Zugang zum Support-Portal
       link: contact
