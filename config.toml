@@ -54,19 +54,75 @@ parent = "Spectrum"
 name = "potential"
 url = "#"
 weight = 1
+hasChildren = true
+
+[[Languages.de.menu.main]]
+name = "Consulting"
+parent = "potential"
+url = "/#consulting"
+weight = 1
+
+[[Languages.de.menu.main]]
+name = "Design"
+parent = "potential"
+url = "/#design"
+weight = 2
+
+[[Languages.de.menu.main]]
+name = "Digitalisierung"
+parent = "potential"
+url = "/#digitalisierung"
+weight = 3
 
 [[Languages.de.menu.main]]
 parent = "Spectrum"
 name = "performance"
 url = "#"
 weight = 2
+hasChildren = true
+
+[[Languages.de.menu.main]]
+name = "Zentrale IT"
+parent = "performance"
+url = "/#zentrale-it"
+weight = 1
+
+[[Languages.de.menu.main]]
+name = "Modern Workplace"
+parent = "performance"
+url = "/#modern-workplace"
+weight = 2
+
+[[Languages.de.menu.main]]
+name = "Managed & private Cloude Services"
+parent = "performance"
+url = "/#managed-&-private-Cloude-Services"
+weight = 3
 
 [[Languages.de.menu.main]]
 parent = "Spectrum"
 name = "protection"
 url = "#"
 weight = 3
+hasChildren = true
 
+[[Languages.de.menu.main]]
+name = "Netzwerke & Security"
+parent = "protection"
+url = "/#netzwerke-&-security"
+weight = 1
+
+[[Languages.de.menu.main]]
+name = "Monitoring"
+parent = "protection"
+url = "/#monitoring"
+weight = 2
+
+[[Languages.de.menu.main]]
+name = "Support & Service"
+parent = "protection"
+url = "/#support-&-Service"
+weight = 3
 
 [[Languages.de.menu.main]]
 name = "Unternehmen"
@@ -170,6 +226,9 @@ post_share = true
 
 [params.megamenu]
 name = "Spectrum"
+
+[params.megamenusubline]
+name = ["Beratung","Lösung","Service"]
 
 # preloader
 [params.preloader]

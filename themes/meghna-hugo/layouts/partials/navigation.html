@@ -1,3 +1,4 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <section class="sticky-top navigation">
 	<div class="container p-1" style="max-width: 70vw">
 		<nav class="navbar navbar-expand-lg navbar-dark">
@@ -41,36 +42,51 @@
 
                   {{ $childURL := $element.URL | absLangURL }}
                   {{ $active := eq $childURL $pageURL }}
-                      <div class="col-lg-3 mx-2 my-auto" style="height: 80%; background-color: #1a7576;">
-                          <div class="col-lg-12 mb-5" style="height: 17%;">
+                      <div class="col-lg-3 mx-2 my-auto">
+                          <div class="col-lg-12 mb-5 pb-5" style="height: 100px;">
                             <div class="row h-100">
                                 <div class="h-100 p-0">
                                     <img class="dpxProductLogo" src="{{ site.Params.productLogo | absURL }}">
                                 </div>
-                                <div class="col-lg-8 h-100 p-0">
+                                <div class="col-lg-8 h-100 p-0" style="max-width: 200px">
                                     <h2 class="text-white" style="margin-bottom:0px; bottom: -0.2vh; position:absolute">{{ $element.Name }}</h2>
                                 </div>
-                                <div class="col-lg-12 p-0">
-                                    <p>BERATUNG</p>
+                                <div class="col-lg-12 p-1">
+                                    {{ $var := index site.Params.megamenusubline.name $index }}
+                                    <p class="ml-1">{{ $var | upper }}</p>
                                 </div>
                             </div>
                           </div>
-                          <div class="col-lg-12 mb-2" style="height: 17%;background-color: #4B97D1">
 
+
+                          {{ if .HasChildren }}
+                          {{ range $element.Children }}
+                          {{ $varName := .Name }}
+                          <div class="col-lg-12 mb-2" style="height: 17%;">
+                              <div class="row">
+                                  <div style="background-color: #dddddd; border-radius: 7px; height: 5vh; width: 5vh"> </div>
+                                  <div class="col-10 pl-2 pr-0">
+                                      <div class="col-lg-12">
+                                      <h4 class="m-0"><a class="" href="{{ .URL | relLangURL}}">{{ .Name }}</a></h4>
+                                      </div>
+                                      <div class="col-lg-12">
+                                          {{ range $data.megamenu.submenu }}
+                                          {{ if eq .name $varName}}
+                                          <p style="color: #828487">{{ .content }}</p>
+                                          {{ end }}
+                                          {{ end }}
+                                      </div>
+                                  </div>
+                              </div>
                           </div>
-                          <div class="col-lg-12 mb-2" style="height: 17%;background-color: #d30435">
-
-                          </div>
-                          <div class="col-lg-12 mb-2" style="height: 17%;background-color: #4B97D1">
-
-                          </div>
-
-                         <a class="dropdown-item" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-                         href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ $element.Name }}</a>
+                          {{ end }}
+                          {{ end }}
                       </div>
+
                       {{ if ne (add $index 1) $len }}
-                      <div class="my-auto" style="height: 80%; width: 1px; background-color: #ffffff" ></div>
+                      <div class="my-auto mr-3" style="height: 80%; width: 1px; background-color: #ffffff" ></div>
                       {{ end }}
+
                   {{ end }}
 
                   </div>
