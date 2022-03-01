@@ -8,7 +8,7 @@ banner:
 linke_box:
   headlineservice: "IT-Service E-Mail für Vertragskunden:"
   buttons:
-    - name: Zugang zum ServiceDesk-Portal für Vertragskunden
+    - name: Zugang zum ServiceDesk-Portal (Vertragskunden)
       link: contact
     - name: Download pcvisit
       link: contact
@@ -24,13 +24,13 @@ linke_box:
   serviceemailHeadline: "IT-Service E-Mail:"
 rechte_box:
   img: images/sidebar/telephone.png
-  headline: DPX Portal für Vertragskunden
+  headline: DPX-Portal für Vertragskunden
   copy: Nutzen Sie Lösung für sicheren Datentransfer
   softwareservicemailHeadline: "Software Service E-Mail:"
   softwareservicemail: info[at]dataprojex(dot)de
   softwareservicetelHeadline: "Software Service Hotline:"
   softwareservicetel: +49 69 5308 439 29
   buttons:
-    - name: Zugang zum Support-Portal
+    - name: Zugang zum DPX-Portal
       link: contact
 ---
