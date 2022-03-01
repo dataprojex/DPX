@@ -1,7 +1,7 @@
 ---
 enable: true
 bg_image: images/uploads/slider_colorbackgroundsblue.jpg
-hero_image: images/uploads/sophos-central-1.png
+hero_image: images/uploads/sophos-central.png
 subtitle: Security
 title: Sophos stoppt Ransomware.
 content: In unabhängigen Produktstests blockiert Sophos durchweg mehr Malware
