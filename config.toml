@@ -96,7 +96,7 @@ weight = 2
 [[Languages.de.menu.main]]
 name = "Managed & private Cloude Services"
 parent = "performance"
-url = "/#managed-&-private-Cloude-Services"
+url = "/#managed-private-cloude-services"
 weight = 3
 
 [[Languages.de.menu.main]]
@@ -109,7 +109,7 @@ hasChildren = true
 [[Languages.de.menu.main]]
 name = "Netzwerke & Security"
 parent = "protection"
-url = "/#netzwerke-&-security"
+url = "/#netzwerke-security"
 weight = 1
 
 [[Languages.de.menu.main]]
@@ -121,7 +121,7 @@ weight = 2
 [[Languages.de.menu.main]]
 name = "Support & Service"
 parent = "protection"
-url = "/#support-&-Service"
+url = "/#support-Service"
 weight = 3
 
 [[Languages.de.menu.main]]

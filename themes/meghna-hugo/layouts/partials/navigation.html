@@ -26,11 +26,12 @@
           {{ if .HasChildren }}
 
               {{ if eq .Name $megamenu.name}}
-            <li class="nav-item dropdown megamenu py-3">
+            <li id="megamenubutton" class="nav-item dropdown megamenu py-3">
 
               <a class="nav-link dropdown-toggle" href="#">
                   {{ .Name }}
               </a>
+
 
               <div id="megamenu" class="dropdown-megamenu">
                   <div class="d-flex justify-content-center" style="height: 100%">
@@ -91,6 +92,22 @@
 
                   </div>
               </div>
+              <div id="overlay-megamenu" class="overlay-megamenu" style="display: none">
+              </div>
+              <script>
+                  const over = document.getElementById("overlay-megamenu")
+                  const megamenu = document.getElementById("megamenu")
+
+                  megamenu.onmouseleave = function() {
+                      over.style.display = 'none'
+                  }
+
+                  megamenu.onmouseenter  = function() {
+                      over.style.display = 'block'
+                  }
+
+
+              </script>
             </li>
 
               {{ end }}
