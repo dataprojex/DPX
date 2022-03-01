@@ -65,7 +65,7 @@
                               {{ $varName := .Name }}
                               <div class="col-lg-12 mb-4" style="height: 17%;">
                                   <div class="row">
-                                      <div style="background-color: #dddddd; border-radius: 5px; height: 50px; width: 50px">
+                                      <div class="p-2 text-center"style="background-color: #dddddd; border-radius: 5px; height: 50px; width: 50px">
                                           {{ range $data.megamenu.submenu }}
                                           {{ if eq .name $varName}}
                                           <img class="dpxProductLogo" src="{{ .img | absURL }}">
