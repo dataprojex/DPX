@@ -177,22 +177,21 @@
 .dropdown-megamenu{
     width: 100vw;
     height: 56vh;
-    display: block;
-    background-color: #282e36;
+    display: none;
     position: fixed;
     z-index: 100;
     left: 0;
-    top: 65px;
-    margin-top:1vh;
+    top: 60px;
+    padding-top:1.5vh;
     color: #dddddd;
 }
 
-.megamenu:hover .dropdown-megamenu {
+.megamenu:hover > .dropdown-megamenu {
     display: block;
 }
 
 .overlay-megamenu{
-    background-color: rgba(20,20,20,0.9);
+    background-color: rgba(20,20,20,0.8);
     position:absolute;
     z-index: -2;
     width:100%;
@@ -200,11 +199,57 @@
     position: fixed;
     top: 100px;
     left: 0;
-    display: none;
 }
+
 .dpxProductLogo{
     max-width:100%;
     max-height:100%;
 }
+
+#iconBox {
+    background-color: #dddddd;
+    border-radius: 3px;
+    height: 50px;
+    width: 50px;
+    position:relative;
+    display: block;
+    overflow: hidden;
+}
+
+#hoverIcon span {
+    transition: transform 0.2s ease-out;
+}
+
+#hoverIcon span:first-child {
+    display: inline-block;
+    padding: 3px;
+}
+
+#hoverIcon span:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-100%);
+}
+
+#hoverIcon:hover span:first-child {
+    transform: translateX(200%);
+}
+
+#hoverIcon:hover span:last-child,
+.menu[data-animation] a:hover span:last-child {
+    transform: none;
+}
+
+#hoverIcon:hover h6 {
+    color: #b10232;
+}
+
 
 
