@@ -1,7 +1,7 @@
 {{ $data := index site.Data site.Language.Lang }}
 
-{{ if $data.contactFormSide.contact.enable }}
-{{ with $data.contactFormSide.contact }}
+{{ if $data.contactForm.contact.enable }}
+{{ with $data.contactForm.contact }}
 {{"<!-- Start Contact Us -->" | safeHTML}}
 <section id="contact" class="contact-us section-bg">
 	<div class="container pb-5">
@@ -17,32 +17,85 @@
 			{{"<!-- /section title -->" | safeHTML}}
 
 			{{"<!-- Contact Details -->" | safeHTML}}
-			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-				<h3>{{ .subtitle | markdownify }}</h3>
-				<p> {{ .content | markdownify }} </p>
+			<div class="contact-info col-lg-12 wow fadeInUp mb-5" data-wow-duration="500ms">
+				<div class="row">
+					{{ if .contact_form.enable }}
+					<div class="col-lg-3 pl-0">
+						<h3 class="ml-0 p-0">{{ .headline_contact_list | markdownify }}</h3>
 
-				{{ if .contact_form.enable }}
-				<div class="contact-details">
-					{{ range .contact_list }}
-					<div class="con-info clearfix">
-						<i class="{{ .icon }}"></i>
-						<span>{{ .info }}</span>
+						<div class="">
+							{{ with .niederlassung }}
+							<div class="row mb-3">
+								<div class="col-lg-1 pl-3">
+									<i class="{{ .icon }}"></i>
+								</div>
+								<div class="col-lg-10 pl-3">
+									<span>{{ .strasse }}</span>
+									<br>
+									<span>{{ .ort }}</span>
+								</div>
+							</div>
+							{{ end }}
+							{{ range .contact_list }}
+							<div class="row">
+								<div class="col-lg-1 pl-3">
+								<i class="{{ .icon }}"></i>
+								</div>
+								<div class="col-lg-10 pl-3">
+								<span>{{ .info }}</span>
+								</div>
+							</div>
+							{{ end }}
+						</div>
 					</div>
 					{{ end }}
+					<div class="col-lg-3"></div>
+					<div class="col-lg-6">
+						{{ with .conctact_support }}
+						<h3>{{ .headline | markdownify }}</h3>
+						<p> {{ .content | markdownify }} </p>
+						{{ if .button.enable }}
+						<a class="btn-support" href="{{ .button.link | relLangURL }}"> {{ .button.lable }} </a>
+						{{ end }}
+						{{ end }}
+					</div>
 				</div>
-				{{ end }}
 			</div>
 
 			{{"<!-- Contact Form -->" | safeHTML}}
 			{{ if .contact_form.enable }}
 			{{ with .contact_form }}
-			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+			<div class="col-lg-12 wow fadeInUp p-0" data-wow-duration="500ms" data-wow-delay="300ms">
 				<form id="contact-form" class="form-meghna" method="post" action="{{ .form_action }}" role="form">
 					<div class="form-group">
-						<input type="text" placeholder="{{ .name }}" class="form-control" name="name" id="name">
+						<select id="anrede" name="anrede" class="form-control">
+							<option value="herr">Herr</option>
+							<option value="frau">Frau</option>
+						</select>
 					</div>
-					<div class="form-group">
-						<input type="email" placeholder="{{ .email }}" class="form-control" name="email" id="email">
+					<div class="row">
+						<div class="col-lg-6 mb-3">
+							<div class="form-group">
+								<input type="text" placeholder="{{ .vorname }}" class="form-control" name="name" id="vorname">
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-group">
+								<input type="text" placeholder="{{ .nachname }}" class="form-control" name="name" id="nachname">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 mb-3">
+							<div class="form-group">
+								<input type="text" placeholder="{{ .email }}" class="form-control" name="name" id="email">
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-group">
+								<input type="text" placeholder="{{ .firma }}" class="form-control" name="name" id="firma">
+							</div>
+						</div>
 					</div>
 					<div class="form-group">
 						<input type="text" placeholder="{{ .subject }}" class="form-control" name="subject" id="subject">
