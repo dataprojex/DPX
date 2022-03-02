@@ -7,13 +7,13 @@ contact:
   headline_contact_list: Hauptsitz
   contact_list:
     - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-      info : "Phone: +880-31-000-000"
+      info : "+880-31-000-123"
 
     - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
-      info : "Fax: +880-31-000-000"
+      info : "+880-31-000-000"
 
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: hello@meghna.com"
+      info : "hello@meghna.com"
 
   niederlassung:
     icon: ti-location-pin
