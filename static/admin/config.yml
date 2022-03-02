@@ -70,7 +70,7 @@ collections:
               { label: "Label", name: "lable", widget: "string" },
               { label: "Ist eine Telefonnummer", name: "tel", widget: "boolean", default: false },
               { label: "Link", name: "link", widget: "string" },]}
-      - file: "data/de/contactFormSide.yml"
+      - file: "data/de/contactForm.yml"
         label: "Kontakt Formular"
         name: "kontaktformular"
         fields:
