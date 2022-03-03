@@ -76,12 +76,19 @@ collections:
         fields:
           - { label: "Kontakt", name: "contact", widget: "object", fields: [
               { label: "Titel", name: "title", widget: "string" },
-              { label: "Headline Kontakt Adresse", name: "headline_contact_list", widget: "string" },
-              { label: "Niederlassung Location", name: "niederlassung", widget: "object", fields: [
+              { label: "Niederlassung Eins", name: "niederlassung", widget: "object", fields: [
+                { label: "Headline Kontakt Adresse", name: "headline_contact_list", widget: "string" },
                 { label: "Strasse", name: "strasse", widget: "string"},
-                { label: "Ort", name: "ort", widget: "string" }]},
+                { label: "Ort", name: "ort", widget: "string" },
+                { label: "Kontakt List", name: "contact_list", widget: "liste", fields: [
+                  { label: "Info", name: "info", widget: "string" }]}]},
+            { label: "Niederlassung Zwei", name: "niederlassung_2", widget: "object", fields: [
+              { label: "Aktiv", name: "enable", widget: "boolean" },
+              { label: "Headline Kontakt Adresse", name: "headline_contact_list", widget: "string" },
+              { label: "Strasse", name: "strasse", widget: "string" },
+              { label: "Ort", name: "ort", widget: "string" },
               { label: "Kontakt List", name: "contact_list", widget: "liste", fields: [
-                { label: "Info", name: "info", widget: "string" }]},
+                { label: "Info", name: "info", widget: "string" } ] } ] },
               { label: "Support Text", name: "conctact_support", widget: "object", fields: [
                 { label: "Headline", name: "headline", widget: "string" },
                 { label: "Text", name: "content", widget: "text" },

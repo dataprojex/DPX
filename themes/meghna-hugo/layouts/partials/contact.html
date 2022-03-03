@@ -21,10 +21,10 @@
 				<div class="row">
 					{{ if .contact_form.enable }}
 					<div class="col-lg-3 pl-0">
+						{{ with .niederlassung }}
 						<h3 class="ml-0 p-0">{{ .headline_contact_list | markdownify }}</h3>
 
 						<div class="">
-							{{ with .niederlassung }}
 							<div class="row mb-3">
 								<div class="col-lg-1 pl-3">
 									<i class="{{ .icon }}"></i>
@@ -35,7 +35,6 @@
 									<span>{{ .ort }}</span>
 								</div>
 							</div>
-							{{ end }}
 							{{ range .contact_list }}
 							<div class="row">
 								<div class="col-lg-1 pl-3">
@@ -47,9 +46,42 @@
 							</div>
 							{{ end }}
 						</div>
+						{{ end }}
 					</div>
 					{{ end }}
-					<div class="col-lg-3"></div>
+
+
+					<div class="col-lg-3">
+						{{ with .niederlassung_2 }}
+						{{ if .enable }}
+						<h3 class="ml-0 p-0">{{ .headline_contact_list | markdownify }}</h3>
+
+						<div class="">
+							<div class="row mb-3">
+								<div class="col-lg-1 pl-3">
+									<i class="{{ .icon }}"></i>
+								</div>
+								<div class="col-lg-10 pl-3">
+									<span>{{ .strasse }}</span>
+									<br>
+									<span>{{ .ort }}</span>
+								</div>
+							</div>
+							{{ range .contact_list }}
+							<div class="row">
+								<div class="col-lg-1 pl-3">
+									<i class="{{ .icon }}"></i>
+								</div>
+								<div class="col-lg-10 pl-3">
+									<span>{{ .info }}</span>
+								</div>
+							</div>
+							{{ end }}
+						</div>
+						{{ end }}
+						{{ end }}
+					</div>
+
 					<div class="col-lg-6">
 						{{ with .conctact_support }}
 						<h3>{{ .headline | markdownify }}</h3>

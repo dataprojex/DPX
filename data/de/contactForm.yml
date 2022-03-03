@@ -3,22 +3,41 @@ contact:
   enable : true
   title : Schreiben Sie uns
 
-  # Contact details
-  headline_contact_list: Hauptsitz
-  contact_list:
-    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-      info : "+880-31-000-123"
-
-    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
-      info : "+880-31-000-000"
-
-    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "hello@meghna.com"
-
   niederlassung:
+    headline_contact_list: Hauptsitz
     icon: ti-location-pin
     strasse: "Prüssingstraße 35"
     ort: "07745 Jena"
+
+    # Contact details
+    contact_list:
+      - icon: ti-mobile # themify icon pack : https://themify.me/themify-icons
+        info: "+880-31-000-123"
+
+      - icon: ti-printer # themify icon pack : https://themify.me/themify-icons
+        info: "+880-31-000-000"
+
+      - icon: ti-email # themify icon pack : https://themify.me/themify-icons
+        info: "hello@meghna.com"
+
+
+  niederlassung_2:
+    enable: true
+    headline_contact_list: Nebensitz
+    icon: ti-location-pin
+    strasse: "Prüssingstraße 35"
+    ort: "07745 Jena"
+
+    # Contact details
+    contact_list:
+      - icon: ti-mobile # themify icon pack : https://themify.me/themify-icons
+        info: "+880-31-000-123"
+
+      - icon: ti-printer # themify icon pack : https://themify.me/themify-icons
+        info: "+880-31-000-000"
+
+      - icon: ti-email # themify icon pack : https://themify.me/themify-icons
+        info: "hello@meghna.com"
 
   conctact_support:
     headline: "Support und Service"
