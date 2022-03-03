@@ -133,7 +133,25 @@
               </script>
             </li>
 
-              {{ end }}
+              {{ else }}
+            <li class="nav-item dropdown my-auto">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">
+                    {{ .Name }}
+                </a>
+
+                <div class="dropdown-menu-alt">
+                    {{ range .Children }}
+                    {{ $childURL := .URL | absLangURL }}
+                    {{ $active := eq $childURL $pageURL }}
+                    <a class="dropdown-item" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
+                       href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+                    {{ end }}
+                </div>
+
+
+            </li>
+            {{ end }}
 
 
           {{ else }}

@@ -126,13 +126,31 @@ weight = 3
 
 [[Languages.de.menu.main]]
 name = "Unternehmen"
-url = "#unternehmen"
+weight = 2
+hasChildren = true
+
+[[Languages.de.menu.main]]
+name = "Über uns"
+parent = "Unternehmen"
+url = "/unternehmen/#about"
+weight = 1
+
+[[Languages.de.menu.main]]
+name = "Timeline"
+parent = "Unternehmen"
+url = "/unternehmen/#timeline"
 weight = 2
 
 [[Languages.de.menu.main]]
 name = "Karriere"
-url = "404"
 weight = 3
+hasChildren = true
+
+[[Languages.de.menu.main]]
+name = "Jobs"
+parent = "Karriere"
+url = "/karriere/#jobs"
+weight = 2
 
 [[Languages.de.menu.main]]
 name = "Kontakt"
