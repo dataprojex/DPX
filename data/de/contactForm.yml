@@ -1,60 +1,47 @@
-############################## Contact #############################
 contact:
-  enable : true
-  title : Schreiben Sie uns
-
+  enable: true
+  title: Schreiben Sie uns
   niederlassung:
-    headline_contact_list: Hauptsitz
+    headline_contact_list: Sitz
     icon: ti-location-pin
-    strasse: "Prüssingstraße 35"
-    ort: "07745 Jena"
-
-    # Contact details
+    strasse: Rosengartenstraße 3
+    ort: 64546 Mörfelden-Walldorf
     contact_list:
-      - icon: ti-mobile # themify icon pack : https://themify.me/themify-icons
-        info: "+880-31-000-123"
-
-      - icon: ti-printer # themify icon pack : https://themify.me/themify-icons
-        info: "+880-31-000-000"
-
-      - icon: ti-email # themify icon pack : https://themify.me/themify-icons
-        info: "hello@meghna.com"
-
-
+      - icon: ti-mobile
+        info: +49 6105 724 0006
+      - icon: ti-printer
+        info: +49 6105 724 0000
+      - icon: ti-email
+        info: info@dataprojex.de
   niederlassung_2:
     enable: true
-    headline_contact_list: Nebensitz
+    headline_contact_list: Büro
     icon: ti-location-pin
-    strasse: "Prüssingstraße 35"
-    ort: "07745 Jena"
-
-    # Contact details
+    strasse: Opelstraße 20
+    ort: 64546 Mörfelden-Walldorf
     contact_list:
-      - icon: ti-mobile # themify icon pack : https://themify.me/themify-icons
-        info: "+880-31-000-123"
-
-      - icon: ti-printer # themify icon pack : https://themify.me/themify-icons
-        info: "+880-31-000-000"
-
-      - icon: ti-email # themify icon pack : https://themify.me/themify-icons
-        info: "hello@meghna.com"
-
+      - icon: ti-mobile
+        info: +49 6105 724 0006
+      - icon: ti-printer
+        info: +49 6105 724 0000
+      - icon: ti-email
+        info: info@dataprojex.de
   conctact_support:
-    headline: "Support und Service"
-    content: "Sollte bei Ihnen einmal unerwartet ein IT-Problem auftreten, unser ServiceDesk-Team aus ausgebildeten und zertifizierten Consultants wird sich mit Ihnen in Verbindung setzen."
+    headline: Support und Service
+    content: Sollte bei Ihnen einmal unerwartet ein IT-Problem auftreten, unser
+      ServiceDesk-Team aus ausgebildeten und zertifizierten Consultants wird
+      sich mit Ihnen in Verbindung setzen.
     button:
       enable: true
-      lable: "Kundensupport"
-      link: "support"
-
-  # Contact form
+      lable: Kundensupport
+      link: support
   contact_form:
-    enable : true
-    form_action : "#" #contact form works with https://formspree.io
-    vorname : "Vorname"
-    nachname : "Nachname"
-    email : "Email"
-    firma : "Firma"
-    subject : "Betreff"
-    message : "Nachricht"
-    submit : "Senden"
+    enable: true
+    firma: Firma
+    nachname: Nachname
+    vorname: Vorname
+    message: Nachricht
+    subject: Betreff
+    form_action: "#"
+    submit: Senden
+    email: Email
