@@ -13,9 +13,9 @@ linke_box:
     - name: Download pcvisit
       link: contact
   img: images/sidebar/telephone.png
-  servicetel: +49 69 5308 439 29
-  serviceemail: it-service[at]dataprojex(dot)de
-  servicevertragskundenemail: support[at]dataprojex(dot)de
+  servicetel: +49 6105 724 000 29
+  serviceemail: it-service@dataprojex.de
+  servicevertragskundenemail: support@dataprojex.de
   headline: IT-Service
   copy: Sie benötigen Support für Ihre Full-Managed Lösung oder möchten
     Unterstützung für Ihre IT-Infrastruktur. Kontaktieren Sie uns bitte über
@@ -27,9 +27,9 @@ rechte_box:
   headline: DPX-Portal für Vertragskunden
   copy: Nutzen Sie Lösung für sicheren Datentransfer
   softwareservicemailHeadline: "Portal Service E-Mail:"
-  softwareservicemail: portal[at]dataprojex(dot)de
+  softwareservicemail: portal@dataprojex.de
   softwareservicetelHeadline: "Portal Service Hotline:"
-  softwareservicetel: +49 69 5308 439 29
+  softwareservicetel: +49 6105 724 000 29
   buttons:
     - name: Zugang zum DPX-Portal
       link: contact
