@@ -1,0 +1,16 @@
+############################# About ###################################
+saeule:
+  enable : true
+  title : Drei Säulen
+  saeulen_item :
+    - icon : ti-light-bulb # themify icon pack : https://themify.me/themify-icons
+      title : potential
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+    - icon : ti-dashboard # themify icon pack : https://themify.me/themify-icons
+      title : performance
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+    - icon : ti-shield # themify icon pack : https://themify.me/themify-icons
+      title : protection
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.

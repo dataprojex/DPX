@@ -101,11 +101,21 @@ collections:
         name: "calltoaction"
         fields:
           - { label: "CTA", name: "cta", widget: "object", fields: [
-            { label: "Activ", name: "enable", widget: "boolean", default: true },
-            { label: "Headline", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" },
-            { label: "Button", name: "button", widget: "object", fields: [
               { label: "Activ", name: "enable", widget: "boolean", default: true },
-              { label: "Label", name: "label", widget: "string" },
-              { label: "Link", name: "link", widget: "string" }]}] }
+              { label: "Headline", name: "title", widget: "string" },
+              { label: "Subline", name: "content", widget: "string" },
+              { label: "Button", name: "button", widget: "object", fields: [
+                { label: "Activ", name: "enable", widget: "boolean", default: true },
+                { label: "Label", name: "label", widget: "string" },
+                { label: "Link", name: "link", widget: "string" }]}] }
+      - file: "data/de/dreiSaeulen.yml"
+        label: "Drei Säulen"
+        name: "dreisaeulen"
+        fields:
+          - { label: "Säulen", name: "sauelen", widget: "object", fields: [
+              { label: "Activ", name: "enable", widget: "boolean", default: true },
+              { label: "Headline", name: "title", widget: "string" },
+              { label: "Säulen", name: "saeulen_item",  widget: "object", fields: [
+                { label: "Titel", name: "title", widget: "string" },
+                { label: "Content", name: "content", widget: "text" } ] } ] }
 
