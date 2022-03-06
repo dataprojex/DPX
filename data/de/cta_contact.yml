@@ -1,0 +1,11 @@
+############################# call to action contact ##############################
+cta_contact:
+  enable : true
+  bg_image : "images/uploads/clem-onojeghuo-7q5obKSOKDk-unsplash.jpg"
+  bg_image_webp : "images/backgrounds/clem-onojeghuo-7q5obKSOKDk-unsplash.webp"
+  title : "Sie haben Fragen? Wir haben Antworten!"
+  content : "Gerne beantworten wir Ihre Fragen oder senden Ihnen weitere Informationen zu. Rufen Sie uns an, senden Sie uns eine E-Mail oder nutzen Sie das Kontaktformular. Wir freuen uns auf Ihren Kontakt und hoffen dass wir Ihnen ausgiebig helfen können."
+  button:
+    enable : true
+    label : "Kontakt"
+    link : "kontakt"
