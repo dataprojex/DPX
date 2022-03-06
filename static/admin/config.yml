@@ -112,7 +112,7 @@ collections:
         label: "Drei Säulen"
         name: "dreisaeulen"
         fields:
-          - { label: "Säulen", name: "sauelen", widget: "object", fields: [
+          - { label: "Säulen", name: "saeule", widget: "object", fields: [
               { label: "Activ", name: "enable", widget: "boolean", default: true },
               { label: "Headline", name: "title", widget: "string" },
               { label: "Säulen", name: "saeulen_item",  widget: "object", fields: [
