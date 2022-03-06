@@ -596,7 +596,7 @@ a:hover {
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #e30232;
+  border-bottom: 4px solid #e30232;
 }
 
 .about .block:hover .icon-box {
@@ -609,7 +609,7 @@ a:hover {
   width: 160px;
   height: 92.38px;
   background-color: transparent;
-  margin: 46.19px auto 60px;
+  margin: 46.19px auto 80px;
   padding: 20px 0;
   border-left: 2px solid rgba(236, 239, 241, 0.07);
   border-right: 2px solid rgba(236, 239, 241, 0.07);

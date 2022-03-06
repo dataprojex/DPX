@@ -19,17 +19,17 @@
             {{ range .saeulen_item }}
             {{"<!-- About item -->" | safeHTML}}
             <div class="col-lg-4 wow fadeInUp" data-wow-duration="500ms">
-                <div class="block">
+                <div class="block p-5">
                     <div class="icon-box text-center">
                         {{with .icon}}<i class="{{ . }}"></i>{{ end }}
                     </div>
                     {{"<!-- Express About Yourself -->" | safeHTML}}
-                    <div class="content">
-                        <div class="row mb-3">
-                            <div class="col-lg-4 p-0">
+                    <div class="content mt-5">
+                        <div class="row mb-5">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-4 p-0">
                                 <img class="dpxProductLogo" src="{{ site.Params.productLogo | absURL }}">
                             </div>
-                            <div class="col-lg-8 p-0">
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-8 p-0">
                                 <h3 style="margin-bottom:0px; bottom: -0.2vh; position:absolute">{{ .title }}</h3>
                             </div>
                         </div>
