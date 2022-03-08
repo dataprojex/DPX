@@ -11,8 +11,8 @@
 			<i class="{{ .icon }}"></i>
 		</div>
 		{{ end }}
-		<h1>{{ .title | markdownify }}</h1>
-		<p>{{ .content | markdownify }}</p>
+		<h1 style="font-size:4em">{{ .title | markdownify }}</h1>
+		<p style="font-size:1em">{{ .content | markdownify }}</p>
 	</div>
 </section>
 {{"<!-- /Welcome Slider-->" | safeHTML}}
