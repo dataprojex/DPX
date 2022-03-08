@@ -608,8 +608,20 @@ a:hover {
 }
 
 .about .block:hover .icon-box {
+  border-left: 2px solid rgb(177, 2, 50);
+  border-right: 2px solid rgb(177, 2, 50);
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
+}
+
+.about .block:hover .icon-box:before {
+  border-top: 2px solid rgb(177, 2, 50);
+  border-right: 2px solid rgb(177, 2, 50);
+}
+
+.about .block:hover .icon-box:after {
+  border-bottom: 2px solid rgb(177, 2, 50);
+  border-left: 2px solid rgb(177, 2, 50);
 }
 
 .about .block .icon-box {
