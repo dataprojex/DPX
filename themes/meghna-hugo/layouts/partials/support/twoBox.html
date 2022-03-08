@@ -9,8 +9,8 @@
             <div class=" col-lg-5 m-4 bg-one pb-3">
                 <div class="row pt-3">
                     <div class="col-lg-2">
-                        <div class="" style="background-color: #e30232; width: 55px; height:55px">
-                            <img class="m-3" src="{{ $data.support.icons.left | relLangURL}}" style="width: 20px; height:20px;">
+                        <div class="" style="background-color: #e30232; width: 45px; height:45px">
+                            <img class="m-2" src="{{ $data.support.icons.left | relLangURL}}" style="width: 30px; height:30px;">
                         </div>
                     </div>
                     <div class="col-lg-10 pb-4">
@@ -18,7 +18,7 @@
                             <h4 class="text-white">
                                 {{ .headline }}
                             </h4>
-                            <p class="mb-2" style="font-size: 9pt">
+                            <p class="mb-2" style="font-size: 10pt">
                                 {{ .copy }}
                             </p>
                         </div>
@@ -48,8 +48,8 @@
 
 
                         {{ range .buttons }}
-                        <a class="btn btn-support mt-3" href="{{ .link | absURL }}">
-                            {{ .name }}
+                        <a class="btn btn-main mt-3" href="{{ .link | absURL }}">
+                          <p class="btnBold m-0" > {{ .name | markdownify }} </p>
                         </a>
                         {{ end }}
 
@@ -62,8 +62,8 @@
             <div class=" col-lg-5 m-4 bg-one">
                 <div class="row pt-3">
                     <div class="col-lg-2">
-                        <div class="" style="background-color: #e30232; width: 55px; height:55px">
-                            <img class="m-3" src="{{ $data.support.icons.rigth | relLangURL}}" style="width: 20px; height:20px;">
+                        <div class="" style="background-color: #e30232; width: 45px; height:45px">
+                            <img class="m-2" src="{{ $data.support.icons.rigth | relLangURL}}" style="width: 30px; height:30px;">
                         </div>
                     </div>
 
@@ -72,7 +72,7 @@
                             <h4 class="text-white">
                                 {{ .headline }}
                             </h4>
-                            <p class="mb-2" style="font-size: 9pt">
+                            <p class="mb-2" style="font-size: 10pt">
                                 {{ .copy }}
                             </p>
                         </div>
@@ -95,7 +95,7 @@
 
                         {{ range .buttons }}
                         <a class="btn btn-main mt-4" href="{{ .link | absURL }}">
-                            {{ .name }}
+                            <p class="btnBold m-0" > {{ .name }} </p>
                         </a>
                         {{ end }}
                     </div>

@@ -8,7 +8,7 @@ banner:
 linke_box:
   headlineservice: "IT-Service E-Mail für Vertragskunden:"
   buttons:
-    - name: Zugang zum ServiceDesk-Portal (Vertragskunden)
+    - name: Zugang zum ServiceDesk-Portal
       link: contact
     - name: Download pcvisit
       link: contact

@@ -165,6 +165,10 @@ a:hover {
   outline: 0;
 }
 
+.btnBold{
+ font-weight: 800;
+}
+
 .bg-one {
   background-color: #353b43;
 }
