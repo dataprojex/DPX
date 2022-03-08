@@ -142,6 +142,12 @@ url = "/unternehmen/#timeline"
 weight = 2
 
 [[Languages.de.menu.main]]
+name = "Team"
+parent = "Unternehmen"
+url = "/unternehmen/#timeline"
+weight = 3
+
+[[Languages.de.menu.main]]
 name = "Karriere"
 weight = 3
 hasChildren = true
