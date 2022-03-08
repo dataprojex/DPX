@@ -438,7 +438,8 @@ a:hover {
 }
 
 .nav-link{
-  font-size: 0.8em;
+  font-size: 0.75em;
+  font-weight: bold;
 }
 
 .navbar-nav li {
