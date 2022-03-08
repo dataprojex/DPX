@@ -437,6 +437,10 @@ a:hover {
   color: #57cbcc;
 }
 
+.nav-link{
+  font-size: 0.8em;
+}
+
 .navbar-nav li {
   display: inline-block;
   position: relative;

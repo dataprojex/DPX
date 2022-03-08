@@ -27,8 +27,8 @@
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 9;
-    height: 70px;
-    width: 70px;
+    height: 2em;
+    width: 2em;
     background: rgba(48, 48, 50, 0.5);
     color: #fff;
     border: 0;
@@ -36,6 +36,12 @@
     line-height: 70px;
     opacity: 0;
     transition: all linear .2s;
+}
+
+.iconSlider{
+    position: absolute;
+    bottom: 25%;
+    left: 29%;
 }
 
 @media (max-width: 575px) {
