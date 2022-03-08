@@ -1,6 +1,6 @@
 kontakt:
   - name: telefon
-    lable: +49 69 - 5308 439 20
+    lable: 069 / 5308 439 20
     tel: true
     link: 069 5308 439 20
     img: images/sidebar/telephone.png
