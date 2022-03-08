@@ -136,16 +136,22 @@ url = "/unternehmen/#about"
 weight = 1
 
 [[Languages.de.menu.main]]
-name = "Timeline"
+name = "Team"
 parent = "Unternehmen"
 url = "/unternehmen/#timeline"
 weight = 2
 
 [[Languages.de.menu.main]]
-name = "Team"
+name = "Timeline"
 parent = "Unternehmen"
 url = "/unternehmen/#timeline"
 weight = 3
+
+[[Languages.de.menu.main]]
+name = "Kooperation"
+parent = "Unternehmen"
+url = "/unternehmen/#timeline"
+weight = 4
 
 [[Languages.de.menu.main]]
 name = "Karriere"
