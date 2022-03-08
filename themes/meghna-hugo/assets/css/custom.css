@@ -183,7 +183,7 @@
 .dropdown-megamenu{
     width: 100vw;
     height: 56vh;
-    display: none;
+    display: block;
     position: fixed;
     z-index: 100;
     left: 0;
@@ -208,8 +208,11 @@
 }
 
 .dpxProductLogo{
-    max-width:100%;
-    max-height:100%;
+    width:90px;
+}
+
+.dpxPoductIcons{
+    width:80%;
 }
 
 #iconBox {
