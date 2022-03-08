@@ -21,6 +21,7 @@ linke_box:
     Unterstützung für Ihre IT-Infrastruktur. Kontaktieren Sie uns bitte über
     folgende Wege.
   servicetelHeadline: "IT-Service Hotline:"
+  serviceemailenable: false
   serviceemailHeadline: "IT-Service E-Mail:"
 rechte_box:
   img: images/sidebar/telephone.png

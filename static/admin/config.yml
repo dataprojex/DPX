@@ -37,6 +37,7 @@ collections:
               { label: "Text", name: "copy", widget: "string"},
               { label: "Service Email VK Headline", name: "headlineservice", widget: "string"},
               { label: "Service Email VK", name: "servicevertragskundenemail", widget: "string"},
+            { label: "Service Email Aktive", name: "serviceemailenable", widget: "boolean"},
               { label: "Service Email Headline", name: "serviceemailHeadline", widget: "string"},
               { label: "Service Email", name: "serviceemail", widget: "string"},
               { label: "Service Tel Headline", name: "servicetelHeadline", widget: "string"},
