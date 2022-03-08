@@ -4,7 +4,8 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<a class="navbar-brand p-0" href="{{ .Site.BaseURL | relLangURL }}">
 				{{ if site.Params.logo }}
-				<img class="lozad" data-src="{{ site.Params.logo | absURL }}" style="height: 5vh; margin-top:10px; margin-bottom: 10px">
+                <img class="" src="{{ site.Params.logo | absURL }}" style="height: 5vh; margin-top:10px; margin-bottom: 10px">
+
 				{{ else }}
 				{{ site.Title }}
 				{{ end }}
