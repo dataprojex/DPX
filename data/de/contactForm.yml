@@ -2,7 +2,7 @@ contact:
   enable: true
   title: Schreiben Sie uns
   niederlassung:
-    enable: true
+    enable: false
     headline_contact_list: Sitz
     icon: ti-location-pin
     strasse: Rosengartenstraße 3
