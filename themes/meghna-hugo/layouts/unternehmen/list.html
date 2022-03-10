@@ -2,6 +2,9 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
+{{ partial "team.html" . }}
+
 {{ partial "portfolio.html" . }}
+
 
 {{ end }}

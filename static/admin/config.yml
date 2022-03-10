@@ -98,18 +98,6 @@ collections:
                   { label: "Enable", name: "enable", widget: "boolean" },
                   { label: "Label", name: "lable", widget: "string" },
                   { label: "Link", name: "link", widget: "string" }]}]}]}
-      - file: "data/de/cta.yml"
-        label: "Call To Action"
-        name: "calltoaction"
-        fields:
-          - { label: "CTA", name: "cta", widget: "object", fields: [
-              { label: "Activ", name: "enable", widget: "boolean", default: true },
-              { label: "Headline", name: "title", widget: "string" },
-              { label: "Subline", name: "content", widget: "string" },
-              { label: "Button", name: "button", widget: "object", fields: [
-                { label: "Activ", name: "enable", widget: "boolean", default: true },
-                { label: "Label", name: "label", widget: "string" },
-                { label: "Link", name: "link", widget: "string" }]}] }
       - file: "data/de/dreiSaeulen.yml"
         label: "Drei Säulen"
         name: "dreisaeulen"
@@ -120,4 +108,31 @@ collections:
               { label: "Säulen", name: "saeulen_item",  widget: "list", fields: [
                 { label: "Titel", name: "title", widget: "string" },
                 { label: "Content", name: "content", widget: "text" } ] } ] }
-
+  - name: "CTA"
+    label: "Call to actions"
+    files:
+      - file: "data/de/cta.yml"
+          label: "Online Terminbuchen"
+          name: "calltoactionTermin"
+          fields:
+            - { label: "Call to action", name: "cta", widget: "object", fields: [
+              { label: "Activ", name: "enable", widget: "boolean", default: true },
+              { label: "Headline", name: "title", widget: "string" },
+              { label: "Subline", name: "content", widget: "string" },
+              { label: "Button", name: "button", widget: "object", fields: [
+                { label: "Activ", name: "enable", widget: "boolean", default: true },
+                { label: "Label", name: "label", widget: "string" },
+                { label: "Link", name: "link", widget: "string" } ] } ] }
+      - file: "data/de/cta_contact.yml"
+          label: "CTA Kontakt"
+          name: "calltoactionContact"
+          fields:
+            - { label: "Call to action", name: "cta_contact", widget: "object", fields: [
+              { label: "Activ", name: "enable", widget: "boolean", default: true },
+              { label: "Hintergrund", name: "bg_image", widget: "image" },
+              { label: "Headline", name: "title", widget: "string" },
+              { label: "Subline", name: "content", widget: "text" },
+              { label: "Button", name: "button", widget: "object", fields: [
+                { label: "Activ", name: "enable", widget: "boolean", default: true },
+                { label: "Label", name: "label", widget: "string" },
+                { label: "Link", name: "link", widget: "string" } ] } ] }
