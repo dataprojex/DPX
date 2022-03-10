@@ -13,6 +13,12 @@ disableLanguages = []
 
 defaultContentLanguage = 'de'
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
 
 ############################# Plugins ##########################
 # css plugins
