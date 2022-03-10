@@ -1,12 +1,12 @@
 cta_contact:
   enable: true
-  bg_image: images/uploads/clem-onojeghuo-7q5obKSOKDk-unsplash.jpg
+  bg_image: images/uploads/quino-al-8gWEAAXJjtI-unsplash.jpg
   content: >-
     # Sie haben Fragen? Wir haben Antworten!
 
-    Gerne beantworten wir Ihre Fragen oder senden Ihnen weitere Informationen zu. <br/>
+    *Gerne beantworten wir Ihre Fragen* oder **senden Ihnen weitere Informationen zu.** <br/>
 
-    Rufen Sie uns an, senden Sie uns eine E-Mail oder nutzen Sie das Kontaktformular.
+    Rufen Sie uns an, senden Sie uns eine E-Mail oder nutzen Sie das Kontaktformular. <br/>
 
     Wir freuen uns auf Ihren Kontakt und hoffen dass wir Ihnen ausgiebig helfen können."
   button:
