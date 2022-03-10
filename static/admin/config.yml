@@ -131,7 +131,7 @@ collections:
             { label: "Activ", name: "enable", widget: "boolean", default: true },
             { label: "Hintergrund", name: "bg_image", widget: "image" },
             { label: "Headline", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "text" },
+            { label: "Subline", name: "content", widget: "markdown" },
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Activ", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
