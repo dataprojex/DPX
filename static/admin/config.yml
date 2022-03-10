@@ -116,11 +116,11 @@ collections:
         name: "calltoactionTermin"
         fields:
           - { label: "Call to action", name: "cta", widget: "object", fields: [
-            { label: "Activ", name: "enable", widget: "boolean", default: true },
+            { label: "Active", name: "enable", widget: "boolean", default: true },
             { label: "Headline", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "string" },
             { label: "Button", name: "button", widget: "object", fields: [
-              { label: "Activ", name: "enable", widget: "boolean", default: true },
+              { label: "Active", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
               { label: "Link", name: "link", widget: "string" } ] } ] }
       - file: "data/de/cta_contact.yml"
@@ -128,11 +128,11 @@ collections:
         name: "calltoactionContact"
         fields:
           - { label: "Call to action", name: "cta_contact", widget: "object", fields: [
-            { label: "Activ", name: "enable", widget: "boolean", default: true },
+            { label: "Active", name: "enable", widget: "boolean", default: true },
             { label: "Hintergrund", name: "bg_image", widget: "image" },
             { label: "Headline", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "markdown" },
             { label: "Button", name: "button", widget: "object", fields: [
-              { label: "Activ", name: "enable", widget: "boolean", default: true },
+              { label: "Active", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
               { label: "Link", name: "link", widget: "string" } ] } ] }
