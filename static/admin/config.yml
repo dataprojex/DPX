@@ -130,7 +130,6 @@ collections:
           - { label: "Call to action", name: "cta_contact", widget: "object", fields: [
             { label: "Active", name: "enable", widget: "boolean", default: true },
             { label: "Hintergrund", name: "bg_image", widget: "image" },
-            { label: "Headline", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "markdown" },
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Active", name: "enable", widget: "boolean", default: true },
