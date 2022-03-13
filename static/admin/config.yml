@@ -109,17 +109,17 @@ collections:
                 { label: "Titel", name: "title", widget: "string" },
                 { label: "Content", name: "content", widget: "text" } ] } ] }
       - file: "data/de/feature.yml"
-          label: "Vier Punkte"
-          name: "vierpunkte"
-          fields:
-            - { label: "Feature", name: "feature", widget: "object", fields: [
-              { label: "Active", name: "enable", widget: "boolean", default: true },
-              { label: "Bild links", name: "image", widget: "image" },
+        label: "Vier Punkte"
+        name: "vierpunkte"
+        fields:
+          - { label: "Feature", name: "feature", widget: "object", fields: [
+            { label: "Active", name: "enable", widget: "boolean", default: true },
+            { label: "Bild links", name: "image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Punkte", name: "feature_item",  widget: "list", fields: [
               { label: "Titel", name: "title", widget: "string" },
-              { label: "Subline", name: "content", widget: "string" },
-              { label: "Punkte", name: "feature_item",  widget: "list", fields: [
-                { label: "Titel", name: "title", widget: "string" },
-                { label: "Content", name: "content", widget: "text" } ] } ] }
+              { label: "Content", name: "content", widget: "text" } ] } ] }
   - name: "CTA"
     label: "Call to actions"
     files:
