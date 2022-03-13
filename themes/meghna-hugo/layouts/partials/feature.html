@@ -3,7 +3,7 @@
 {{ if $data.feature.feature.enable }}
 {{ with $data.feature.feature }}
 {{"<!-- feature -->" | safeHTML}}
-<section class="section section-bg about-2 padding-0" id="feature">
+<section class="section section-bg about-2 p-5" id="feature">
 	<div class="container-fluid">
 		<div class="row">
 
@@ -12,7 +12,7 @@
 					<div class="row justify-content-center">
 						<h2>{{ .title | markdownify }}</h2>
 					</div>
-					<div class="row justify-content-center">
+					<div class="row justify-content-center text-center mb-5">
 						<p>{{ .content | markdownify }}</p>
 					</div>
 					<div class="row justify-content-center">
