@@ -1,26 +1,20 @@
-############################# feature ###################################
 feature:
-  enable : true
-  image : images/about/about-business-man.jpg
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
-  feature_item : 
-      # feature item loop
-    - title : SEO Optimized
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-      # feature item loop
-    - title : Easy Customization
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-
-      # feature item loop
-    - title : SEO Optimized
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-      # feature item loop
-    - title : Easy Customization
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+  enable: true
+  image: images/about/about-business-man.jpg
+  title: We’re A Digital Design Agency.
+  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+    tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt
+    voluptatibus quasi.
+  feature_item:
+    - title: Beratung
+      icon: ti-world
+      content: Analyse Ihres Geschäftsmodells, Ihrer Anforderungen und Ziele
+    - title: Lösung
+      icon: ti-panel
+      content: Maßgeschneiderte Konzepte aus den Erkenntnissen der Beratung
+    - title: Implementierung
+      icon: ti-stats-up
+      content: Umsetzung in Ihrem Unternehmen, bei Bedarf Mitarbeiterschulung
+    - title: Betreuung
+      icon: ti-announcement
+      content: Kontinuierliche Weiterentwicklung Ihrer IT-Infrastruktur, Helpdesk
