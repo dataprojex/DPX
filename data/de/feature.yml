@@ -9,17 +9,13 @@ feature:
   feature_item:
     - title: Beratung
       icon: images/megamenu/icons/consulting.png
-      content: Analyse Ihres Geschäftsmodells, Ihrer Anforderungen und Ziele. Lorem
-        ipsum dolor sit amet, consetetur sadipscing elitr.
+      content: "Analyse Ihres Geschäftsmodells, Ihrer Anforderungen und Ziele. "
     - title: Lösung
       icon: images/megamenu/icons/design.png
-      content: Maßgeschneiderte Konzepte aus den Erkenntnissen der Beratung. Lorem
-        ipsum dolor sit amet, consetetur sadipscing elitr.
+      content: "Maßgeschneiderte Konzepte aus den Erkenntnissen der Beratung. "
     - title: Implementierung
       icon: images/megamenu/icons/migration.png
-      content: Umsetzung in Ihrem Unternehmen, bei Bedarf Mitarbeiterschulung. Lorem
-        ipsum dolor sit amet, consetetur sadipscing elitr.
+      content: "Umsetzung in Ihrem Unternehmen, bei Bedarf Mitarbeiterschulung. "
     - title: Betreuung
       icon: images/megamenu/icons/support1.png
-      content: Kontinuierliche Weiterentwicklung Ihrer IT-Infrastruktur, Helpdesk.
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+      content: "Kontinuierliche Weiterentwicklung Ihrer IT-Infrastruktur, Helpdesk. "
