@@ -4,11 +4,12 @@ cta_contact:
   content: >-
     # Sie haben Fragen? Wir haben Antworten!
 
+
     *Gerne beantworten wir Ihre Fragen* oder **senden Ihnen weitere Informationen zu.** <br/>
 
     Rufen Sie uns an, senden Sie uns eine E-Mail oder nutzen Sie das Kontaktformular. <br/>
 
-    Wir freuen uns auf Ihren Kontakt und hoffen dass wir Ihnen ausgiebig helfen können."
+    Wir freuen uns auf Ihren Kontakt und hoffen dass wir Ihnen ausgiebig helfen können.
   button:
     enable: true
     label: Kontakt
