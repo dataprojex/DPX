@@ -1,21 +1,21 @@
 feature:
   enable: true
-  image: images/about/about-business-man.jpg
   arrow: images/startseite/arrow.png
-  title: We’re A Digital Design Agency.
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-    tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt
-    voluptatibus quasi.
+  title: IT-Infrastruktur Consulting
+  content: Entscheidend für eine leistungsfähige, stabile, sichere und
+    gleichzeitig kosteneffiziente IT-Infrastruktur ist ein durchdachtes Konzept.
+    Unsere Experten analysieren Ihre aktuelle IT-Landschaft und zeigen Ihnen
+    konkrete Maßnahmen zur Optimierung auf.
   feature_item:
     - title: Beratung
       icon: images/megamenu/icons/consulting.png
-      content: Analyse Ihres Geschäftsmodells, Ihrer Anforderungen und Ziele. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+      content: "Analyse Ihres Geschäftsmodells, Ihrer Anforderungen und Ziele. "
     - title: Lösung
       icon: images/megamenu/icons/design.png
-      content: Maßgeschneiderte Konzepte aus den Erkenntnissen der Beratung. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+      content: "Maßgeschneiderte Konzepte aus den Erkenntnissen der Beratung. "
     - title: Implementierung
       icon: images/megamenu/icons/migration.png
-      content: Umsetzung in Ihrem Unternehmen, bei Bedarf Mitarbeiterschulung. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+      content: "Umsetzung in Ihrem Unternehmen, bei Bedarf Mitarbeiterschulung. "
     - title: Betreuung
       icon: images/megamenu/icons/support1.png
-      content: Kontinuierliche Weiterentwicklung Ihrer IT-Infrastruktur, Helpdesk. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+      content: "Kontinuierliche Weiterentwicklung Ihrer IT-Infrastruktur, Helpdesk. "
