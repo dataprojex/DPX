@@ -114,7 +114,6 @@ collections:
         fields:
           - { label: "Feature", name: "feature", widget: "object", fields: [
             { label: "Active", name: "enable", widget: "boolean", default: true },
-            { label: "Bild links", name: "image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "string" },
             { label: "Punkte", name: "feature_item",  widget: "list", fields: [
