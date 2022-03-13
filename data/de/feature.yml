@@ -7,14 +7,14 @@ feature:
     voluptatibus quasi.
   feature_item:
     - title: Beratung
-      icon: ti-world
-      content: Analyse Ihres Geschäftsmodells, Ihrer Anforderungen und Ziele
+      icon: images/megamenu/icons/consulting.png
+      content: Analyse Ihres Geschäftsmodells, Ihrer Anforderungen und Ziele. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
     - title: Lösung
-      icon: ti-panel
-      content: Maßgeschneiderte Konzepte aus den Erkenntnissen der Beratung
+      icon: images/megamenu/icons/design.png
+      content: Maßgeschneiderte Konzepte aus den Erkenntnissen der Beratung. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
     - title: Implementierung
-      icon: ti-stats-up
-      content: Umsetzung in Ihrem Unternehmen, bei Bedarf Mitarbeiterschulung
+      icon: images/megamenu/icons/migration.png
+      content: Umsetzung in Ihrem Unternehmen, bei Bedarf Mitarbeiterschulung. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
     - title: Betreuung
-      icon: ti-announcement
-      content: Kontinuierliche Weiterentwicklung Ihrer IT-Infrastruktur, Helpdesk
+      icon: images/megamenu/icons/support1.png
+      content: Kontinuierliche Weiterentwicklung Ihrer IT-Infrastruktur, Helpdesk. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.

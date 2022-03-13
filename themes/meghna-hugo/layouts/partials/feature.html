@@ -14,15 +14,17 @@
 				<div class="content-block">
 					<div class="row justify-content-center">
 						<h2>{{ .title | markdownify }}</h2>
+					</div>
+					<div class="row justify-content-center">
 						<p>{{ .content | markdownify }}</p>
 					</div>
 					<div class="row">
 						{{ range .feature_item }}
-						<div class="col-lg-3">
+						<div class="col-lg-3 p-4">
 							<div class="media">
 								{{with .icon}}
-								<div class="align-self-start mr-3">
-									<i class="{{ . }}"></i>
+								<div class="align-self-start mr-4 p-1" style="width: 45px; height: 45px">
+                                   <img class="fourPointstIcons" src="{{ . | absURL }}">
 								</div>
 								{{ end }}
 								<div class="media-body">
