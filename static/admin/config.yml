@@ -89,45 +89,45 @@ collections:
           - { label: "Submenu", name: "submenu", widget: "list", fields: [
             { label: "Name, nicht ändern!", name: "name", widget: "string"},
             { label: "Subline", name: "content", widget: "string"}]}
-  - name: "pages"
-    label: "Pages"
+  - name: "support"
+    label: "Supportseite"
     files:
       - file: "content/deutsch/support/_index.md"
-        name: "support"
-        label: "Support Page"
+        name: "banner"
+        label: "Banner"
         fields:
           - { label: "Banner", name: "banner", widget: "object", fields: [
-              { label: "Hintergrundbild", name: "bg_image", widget: "image"},
-              { label: "Titel", name: "title", widget: "string"},
-              { label: "Subline", name: "content", widget: "string" }
-          ]}
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
+      - file: "content/deutsch/support/_index.md"
+        name: "linkerKasten"
+        label: "Linker Kasten"
+        fields:
           - { label: "Linker Kasten", name: "linke_box", widget: "object", fields: [
-              { label: "Headline", name: "headline", widget: "string"},
-              { label: "Text", name: "copy", widget: "string"},
-              { label: "Service Email VK Headline", name: "headlineservice", widget: "string"},
-              { label: "Service Email VK", name: "servicevertragskundenemail", widget: "string"},
-            { label: "Service Email Aktive", name: "serviceemailenable", widget: "boolean"},
-              { label: "Service Email Headline", name: "serviceemailHeadline", widget: "string"},
-              { label: "Service Email", name: "serviceemail", widget: "string"},
-              { label: "Service Tel Headline", name: "servicetelHeadline", widget: "string"},
-              { label: "Service Tel", name: "servicetel", widget: "string"},
-              { label: "Buttons", name: "buttons", widget: "list", fields: [
-                { label: "Text Button", name: "name", widget: "string" },
-                { label: "Link", name: "link", widget: "string" }]
-              }
-          ]}
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Text", name: "copy", widget: "string" },
+            { label: "Service Email VK Headline", name: "headlineservice", widget: "string" },
+            { label: "Service Email VK", name: "servicevertragskundenemail", widget: "string" },
+            { label: "Service Email Aktive", name: "serviceemailenable", widget: "boolean" },
+            { label: "Service Email Headline", name: "serviceemailHeadline", widget: "string" },
+            { label: "Service Email", name: "serviceemail", widget: "string" },
+            { label: "Service Tel Headline", name: "servicetelHeadline", widget: "string" },
+            { label: "Service Tel", name: "servicetel", widget: "string" },
+            { label: "Buttons", name: "buttons", widget: "list", fields: [
+              { label: "Text Button", name: "name", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
           - { label: "Rechter Kasten", name: "rechte_box", widget: "object", fields: [
-              { label: "Headline", name: "headline", widget: "string" },
-              { label: "Text", name: "copy", widget: "string" },
-              { label: "Service Email Headline", name: "softwareservicemailHeadline", widget: "string" },
-              { label: "Service Email", name: "softwareservicemail", widget: "string" },
-              { label: "Service Tel Headline", name: "softwareservicetelHeadline", widget: "string" },
-              { label: "Service Tel", name: "softwareservicetel", widget: "string" },
-              { label: "Buttons", name: "buttons", widget: "list", fields: [
-                { label: "Text Button", name: "name", widget: "string" },
-                { label: "Link", name: "link", widget: "string" }]
-              }
-          ]}
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Text", name: "copy", widget: "string" },
+            { label: "Service Email Headline", name: "softwareservicemailHeadline", widget: "string" },
+            { label: "Service Email", name: "softwareservicemail", widget: "string" },
+            { label: "Service Tel Headline", name: "softwareservicetelHeadline", widget: "string" },
+            { label: "Service Tel", name: "softwareservicetel", widget: "string" },
+            { label: "Buttons", name: "buttons", widget: "list", fields: [
+              { label: "Text Button", name: "name", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
+
   - name: "modules"
     label: "Modules"
     files:
