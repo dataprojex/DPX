@@ -56,7 +56,6 @@ collections:
             { label: "Punkte", name: "feature_item",  widget: "list", fields: [
               { label: "Titel", name: "title", widget: "string" },
               { label: "Content", name: "content", widget: "text" } ] } ] }
-            ]}
   - name: "pages"
     label: "Pages"
     files:
