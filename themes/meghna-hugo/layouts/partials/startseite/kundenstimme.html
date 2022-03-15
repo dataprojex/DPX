@@ -1,7 +1,7 @@
 {{ $data := index site.Data site.Language.Lang }}
 
-{{ if $data.testimonial.testimonial.enable }}
-{{ with $data.testimonial.testimonial }}
+{{ if $data.kundenstimme.kundenstimme.enable }}
+{{ with $data.kundenstimme.kundenstimme }}
 {{"<!-- Start Testimonial -->" | safeHTML}}
 <section id="testimonial" class="testimonial overly section bg-2"
 	style='background-image: url("{{ .bg_image_webp | absURL }}")'>
@@ -25,7 +25,6 @@
 						<div class="client-info">
 							<div class="client-meta">
 								<h3>{{ .name }}</h3>
-								<span>{{ .date }}</span>
 							</div>
 							<div class="client-comment">
 								<p>{{ .content | markdownify }}</p>

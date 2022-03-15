@@ -68,6 +68,17 @@ collections:
                 { label: "Active", name: "enable", widget: "boolean", default: true },
                 { label: "Label", name: "label", widget: "string" },
                 { label: "Link", name: "link", widget: "string" } ] } ] }
+      - file: "data/de/kundenstimme.yml"
+        label: "Kundenstimme"
+        name: "kundenstimme"
+        fields:
+          - { label: "Kundenstimme", name: "kundenstimme", widget: "object", fields: [
+            { label: "Active", name: "enable", widget: "boolean", default: true },
+            { label: "Hintergrund", name: "bg_image", widget: "image" },
+            { label: "Kunden", name: "testimonial_item", widget: "list", fields: [
+              { label: "Name", name: "name", widget: "string"},
+              { label: "Bild", name: "image", widget: "image" },
+              { label: "Content", name: "content", widget: "text" } ] } ] }
   - name: "pages"
     label: "Pages"
     files:
