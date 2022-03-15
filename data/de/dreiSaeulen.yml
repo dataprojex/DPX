@@ -4,19 +4,20 @@ saeule:
   saeulen_item:
     - icon: ti-light-bulb
       title: potential
-      content: |
-        Wir begleiten Sie von der Idee bis zum konkreten Einsatz. Je nach
-        Wunsch und Bedarf beraten wir Sie zu einzelnen Problemen oder zu einer
+      content: >-
+        Wir begleiten Sie von der Idee bis zum konkreten Einsatz. Je nach Wunsch
+        und Bedarf beraten wir Sie zu einzelnen Problemen oder zu einer
+
         passgenauen gesamtlösung.
     - icon: ti-dashboard
       title: performance
-      content: |
+      content: >-
         Wir bringen Ihre IT nicht nur in Gang – wir bringen sie in Schwung.
         Gemeinsam überwinden wir zukünftige Hürden und Herausforderungen Ihrer
+
         IT-Infrastruktur.
     - icon: ti-shield
       title: protection
-      content: |
-        Um Sie bei Ihren täglichen Aufgaben zu unterstützen und Ihr IT-Team zu
+      content: Um Sie bei Ihren täglichen Aufgaben zu unterstützen und Ihr IT-Team zu
         entlasten, betreiben wir an unserem Standort in Jena ein eigenes
         Rechenzentrum mit ServiceDesk.
