@@ -55,7 +55,7 @@ collections:
             { label: "Subline", name: "content", widget: "string" },
             { label: "Punkte", name: "feature_item",  widget: "list", fields: [
               { label: "Titel", name: "title", widget: "string" },
-              { label: "Content", name: "content", widget: "text" } ] } ] }
+              { label: "Content", name: "content", widget: "markdown" } ] } ] }
   - name: "pages"
     label: "Pages"
     files:
