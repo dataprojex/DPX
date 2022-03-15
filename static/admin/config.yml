@@ -79,6 +79,16 @@ collections:
               { label: "Name", name: "name", widget: "string"},
               { label: "Bild", name: "image", widget: "image" },
               { label: "Content", name: "content", widget: "text" } ] } ] }
+  - name: "spectrum"
+      label: "Spectrum"
+      files:
+        - file: "data/de/megamenu"
+          label: "Subline Megamenu"
+          name: "sublineMegamenu"
+          fields:
+            - { label: "Submenu", name: "submenu", widget: "list", fields: [
+              { label: "Name, nicht ändern!", name: "name", widget: "string"},
+              { label: "Subline", name: "content", widget: "string"}]}
   - name: "pages"
     label: "Pages"
     files:
