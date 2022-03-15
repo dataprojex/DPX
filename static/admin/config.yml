@@ -120,7 +120,7 @@ collections:
               { label: "Ort", name: "ort", widget: "string" },
               { label: "Kontakt List", name: "contact_list", widget: "list", fields: [
                 { label: "Info", name: "info", widget: "string" } ] } ] },
-            { label: "Support Text", name: "conctact_support", widget: "object", fields: [
+            { label: "Text Rechts", name: "conctact_support", widget: "object", fields: [
               { label: "Headline", name: "headline", widget: "string" },
               { label: "Text", name: "content", widget: "text" },
               { label: "Button", name: "button", widget: "object", fields: [
@@ -169,6 +169,17 @@ collections:
           { label: "Buttons", name: "buttons", widget: "list", fields: [
             { label: "Text Button", name: "name", widget: "string" },
             { label: "Link", name: "link", widget: "string" } ] } ] }
+  - name: "terminbuchen"
+    label: "Termin buchen"
+    files:
+      - file: "content/deutsch/termin/_index.md"
+        label: "Banner"
+        name: "banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
   - name: "module"
     label: "Module"
     files:
@@ -181,19 +192,4 @@ collections:
               { label: "Label", name: "lable", widget: "string" },
               { label: "Ist eine Telefonnummer", name: "tel", widget: "boolean", default: false },
               { label: "Link", name: "link", widget: "string" }]}
-  - name: "CTA"
-    label: "Call to actions"
-    files:
-      - file: "data/de/cta.yml"
-        label: "Online Terminbuchen"
-        name: "calltoactionTermin"
-        fields:
-          - { label: "Call to action", name: "cta", widget: "object", fields: [
-            { label: "Active", name: "enable", widget: "boolean", default: true },
-            { label: "Headline", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" },
-            { label: "Button", name: "button", widget: "object", fields: [
-              { label: "Active", name: "enable", widget: "boolean", default: true },
-              { label: "Label", name: "label", widget: "string" },
-              { label: "Link", name: "link", widget: "string" } ] } ] }
 
