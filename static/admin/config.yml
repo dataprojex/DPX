@@ -89,6 +89,12 @@ collections:
           - { label: "Submenu", name: "submenu", widget: "list", fields: [
             { label: "Name, nicht ändern!", name: "name", widget: "string"},
             { label: "Subline", name: "content", widget: "string"}]}
+  - name: "unternehmen"
+    label: "Unternehmens Seite"
+  - name: "karriere"
+    label: "Karriere Seite"
+  - name: "kontakt"
+    label: "Kontakt Seite"
   - name: "support"
     label: "Supportseite"
     files:
@@ -127,7 +133,8 @@ collections:
             { label: "Buttons", name: "buttons", widget: "list", fields: [
               { label: "Text Button", name: "name", widget: "string" },
               { label: "Link", name: "link", widget: "string" } ] } ] }
-
+  - name: "mediathek"
+    label: "Mediathek"
   - name: "modules"
     label: "Modules"
     files:
