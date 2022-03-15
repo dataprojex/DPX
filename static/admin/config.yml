@@ -89,6 +89,44 @@ collections:
           - { label: "Submenu", name: "submenu", widget: "list", fields: [
             { label: "Name, nicht ändern!", name: "name", widget: "string"},
             { label: "Subline", name: "content", widget: "string"}]}
+  - name: "kontaktseite"
+    label: "Kontaktseite"
+    files:
+      - file: "content/deutsch/kontakt/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
+      - file: "data/de/contactForm.yml"
+        label: "Kontakt Formular"
+        name: "kontaktformular"
+        fields:
+          - { label: "Kontakt", name: "contact", widget: "object", fields: [
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Niederlassung Eins", name: "niederlassung", widget: "object", fields: [
+              { label: "Aktiv", name: "enable", widget: "boolean" },
+              { label: "Headline Kontakt Adresse", name: "headline_contact_list", widget: "string" },
+              { label: "Strasse", name: "strasse", widget: "string" },
+              { label: "Ort", name: "ort", widget: "string" },
+              { label: "Kontakt List", name: "contact_list", widget: "list", fields: [
+                { label: "Info", name: "info", widget: "string" } ] } ] },
+            { label: "Niederlassung Zwei", name: "niederlassung_2", widget: "object", fields: [
+              { label: "Aktiv", name: "enable", widget: "boolean" },
+              { label: "Headline Kontakt Adresse", name: "headline_contact_list", widget: "string" },
+              { label: "Strasse", name: "strasse", widget: "string" },
+              { label: "Ort", name: "ort", widget: "string" },
+              { label: "Kontakt List", name: "contact_list", widget: "list", fields: [
+                { label: "Info", name: "info", widget: "string" } ] } ] },
+            { label: "Support Text", name: "conctact_support", widget: "object", fields: [
+              { label: "Headline", name: "headline", widget: "string" },
+              { label: "Text", name: "content", widget: "text" },
+              { label: "Button", name: "button", widget: "object", fields: [
+                { label: "Enable", name: "enable", widget: "boolean" },
+                { label: "Label", name: "lable", widget: "string" },
+                { label: "Link", name: "link", widget: "string" } ] } ] } ] }
   - name: "support"
     label: "Supportseite"
     files:
@@ -107,11 +145,11 @@ collections:
           - { label: "Linker Kasten", name: "linke_box", widget: "object", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Text", name: "copy", widget: "string" },
-            { label: "Service Email VK Headline", name: "headlineservice", widget: "string" },
-            { label: "Service Email VK", name: "servicevertragskundenemail", widget: "string" },
+            { label: "Service Email Vertragskunde Titel", name: "headlineservice", widget: "string" },
+            { label: "Service Email Vertragskunde Adresse", name: "servicevertragskundenemail", widget: "string" },
             { label: "Service Email Aktive", name: "serviceemailenable", widget: "boolean" },
-            { label: "Service Email Headline", name: "serviceemailHeadline", widget: "string" },
-            { label: "Service Email", name: "serviceemail", widget: "string" },
+            { label: "Service Email Titel", name: "serviceemailHeadline", widget: "string" },
+            { label: "Service Email Adresse", name: "serviceemail", widget: "string" },
             { label: "Service Tel Headline", name: "servicetelHeadline", widget: "string" },
             { label: "Service Tel", name: "servicetel", widget: "string" },
             { label: "Buttons", name: "buttons", widget: "list", fields: [
@@ -124,15 +162,15 @@ collections:
         - { label: "Rechter Kasten", name: "rechte_box", widget: "object", fields: [
           { label: "Headline", name: "headline", widget: "string" },
           { label: "Text", name: "copy", widget: "string" },
-          { label: "Service Email Headline", name: "softwareservicemailHeadline", widget: "string" },
-          { label: "Service Email", name: "softwareservicemail", widget: "string" },
-          { label: "Service Tel Headline", name: "softwareservicetelHeadline", widget: "string" },
-          { label: "Service Tel", name: "softwareservicetel", widget: "string" },
+          { label: "Service Email Titel", name: "softwareservicemailHeadline", widget: "string" },
+          { label: "Service Email Adresse", name: "softwareservicemail", widget: "string" },
+          { label: "Service Tel Titel", name: "softwareservicetelHeadline", widget: "string" },
+          { label: "Service Tel Nummer", name: "softwareservicetel", widget: "string" },
           { label: "Buttons", name: "buttons", widget: "list", fields: [
             { label: "Text Button", name: "name", widget: "string" },
             { label: "Link", name: "link", widget: "string" } ] } ] }
-  - name: "modules"
-    label: "Modules"
+  - name: "module"
+    label: "Module"
     files:
       - file: "data/de/sideNavi.yml"
         label: "Sidebar"
@@ -142,34 +180,7 @@ collections:
               { label: "Name", name: "name", widget: "string" },
               { label: "Label", name: "lable", widget: "string" },
               { label: "Ist eine Telefonnummer", name: "tel", widget: "boolean", default: false },
-              { label: "Link", name: "link", widget: "string" },]}
-      - file: "data/de/contactForm.yml"
-        label: "Kontakt Formular"
-        name: "kontaktformular"
-        fields:
-          - { label: "Kontakt", name: "contact", widget: "object", fields: [
-              { label: "Titel", name: "title", widget: "string" },
-              { label: "Niederlassung Eins", name: "niederlassung", widget: "object", fields: [
-                { label: "Aktiv", name: "enable", widget: "boolean" },
-                { label: "Headline Kontakt Adresse", name: "headline_contact_list", widget: "string" },
-                { label: "Strasse", name: "strasse", widget: "string"},
-                { label: "Ort", name: "ort", widget: "string" },
-                { label: "Kontakt List", name: "contact_list", widget: "list", fields: [
-                  { label: "Info", name: "info", widget: "string" }]}]},
-            { label: "Niederlassung Zwei", name: "niederlassung_2", widget: "object", fields: [
-              { label: "Aktiv", name: "enable", widget: "boolean" },
-              { label: "Headline Kontakt Adresse", name: "headline_contact_list", widget: "string" },
-              { label: "Strasse", name: "strasse", widget: "string" },
-              { label: "Ort", name: "ort", widget: "string" },
-              { label: "Kontakt List", name: "contact_list", widget: "list", fields: [
-                { label: "Info", name: "info", widget: "string" } ] } ] },
-              { label: "Support Text", name: "conctact_support", widget: "object", fields: [
-                { label: "Headline", name: "headline", widget: "string" },
-                { label: "Text", name: "content", widget: "text" },
-                { label: "Button", name: "button", widget: "object", fields: [
-                  { label: "Enable", name: "enable", widget: "boolean" },
-                  { label: "Label", name: "lable", widget: "string" },
-                  { label: "Link", name: "link", widget: "string" }]}]}]}
+              { label: "Link", name: "link", widget: "string" }]}
   - name: "CTA"
     label: "Call to actions"
     files:
