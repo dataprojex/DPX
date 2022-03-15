@@ -118,19 +118,19 @@ collections:
               { label: "Text Button", name: "name", widget: "string" },
               { label: "Link", name: "link", widget: "string" } ] } ] }
       - file: "data/de/rechterKasten.yml"
-          name: "rechterkasten"
-          label: "Rechter Kasten"
-          fields:
-          - { label: "Rechter Kasten", name: "rechte_box", widget: "object", fields: [
-            { label: "Headline", name: "headline", widget: "string" },
-            { label: "Text", name: "copy", widget: "string" },
-            { label: "Service Email Headline", name: "softwareservicemailHeadline", widget: "string" },
-            { label: "Service Email", name: "softwareservicemail", widget: "string" },
-            { label: "Service Tel Headline", name: "softwareservicetelHeadline", widget: "string" },
-            { label: "Service Tel", name: "softwareservicetel", widget: "string" },
-            { label: "Buttons", name: "buttons", widget: "list", fields: [
-              { label: "Text Button", name: "name", widget: "string" },
-              { label: "Link", name: "link", widget: "string" } ] } ] }
+        name: "rechterkasten"
+        label: "Rechter Kasten"
+        fields:
+        - { label: "Rechter Kasten", name: "rechte_box", widget: "object", fields: [
+          { label: "Headline", name: "headline", widget: "string" },
+          { label: "Text", name: "copy", widget: "string" },
+          { label: "Service Email Headline", name: "softwareservicemailHeadline", widget: "string" },
+          { label: "Service Email", name: "softwareservicemail", widget: "string" },
+          { label: "Service Tel Headline", name: "softwareservicetelHeadline", widget: "string" },
+          { label: "Service Tel", name: "softwareservicetel", widget: "string" },
+          { label: "Buttons", name: "buttons", widget: "list", fields: [
+            { label: "Text Button", name: "name", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] } ] }
   - name: "modules"
     label: "Modules"
     files:
