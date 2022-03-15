@@ -4,6 +4,25 @@ backend:
 media_folder: "static/images/uploads" # Folder where user uploaded files should go
 public_folder: "images/uploads"
 collections:
+  - name: "startseite"
+    label: "Startseite"
+    files:
+      - name: "heroslider"
+        label: "Hero Slider"
+        folder: "content/deutsch/slides"
+        create: true
+        fields:
+          - { label: "Draft", name: "enable", widget: "boolean", default: true }
+          - { label: "Background", name: "bg_image", widget: "image" }
+          - { label: "Produkt", name: "hero_image", widget: "image" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "string" }
+          - { label: "Animation from", name: "animation_from", widget: "string", default: "left" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Enable", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
   - name: "slider"
     label: "Slider"
     folder: "content/deutsch/slides"
