@@ -92,6 +92,7 @@ collections:
   - name: "unternehmen"
     label: "Unternehmens Seite"
     files:
+      - file: "content/deutsch/unternehmen/_index.md"
   - name: "karriere"
     label: "Karriere Seite"
   - name: "kontakt"
