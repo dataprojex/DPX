@@ -2,6 +2,12 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
+{{ partial "navigation.html" . }}
+
+{{ partial "sidebar.html" $data.sideNavi }}
+
+{{ partial "banner_small.html" . }}
+
 {{ partial "team.html" . }}
 
 {{ partial "portfolio.html" . }}
