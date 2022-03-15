@@ -91,6 +91,7 @@ collections:
             { label: "Subline", name: "content", widget: "string"}]}
   - name: "unternehmen"
     label: "Unternehmens Seite"
+    files:
   - name: "karriere"
     label: "Karriere Seite"
   - name: "kontakt"
