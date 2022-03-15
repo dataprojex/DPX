@@ -56,6 +56,18 @@ collections:
             { label: "Punkte", name: "feature_item",  widget: "list", fields: [
               { label: "Titel", name: "title", widget: "string" },
               { label: "Content", name: "content", widget: "markdown" } ] } ] }
+      - file: "data/de/cta_termin.yml"
+          label: "CTA Kontakt"
+          name: "calltoactionContact"
+          fields:
+            - { label: "Call to action", name: "cta_termin", widget: "object", fields: [
+              { label: "Active", name: "enable", widget: "boolean", default: true },
+              { label: "Hintergrund", name: "bg_image", widget: "image" },
+              { label: "Content", name: "content", widget: "markdown" },
+              { label: "Button", name: "button", widget: "object", fields: [
+                { label: "Active", name: "enable", widget: "boolean", default: true },
+                { label: "Label", name: "label", widget: "string" },
+                { label: "Link", name: "link", widget: "string" } ] } ] }
   - name: "pages"
     label: "Pages"
     files:
