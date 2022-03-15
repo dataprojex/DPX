@@ -89,14 +89,6 @@ collections:
           - { label: "Submenu", name: "submenu", widget: "list", fields: [
             { label: "Name, nicht ändern!", name: "name", widget: "string"},
             { label: "Subline", name: "content", widget: "string"}]}
-  - name: "unternehmen"
-    label: "Unternehmens Seite"
-    files:
-      - file: "content/deutsch/unternehmen/_index.md"
-  - name: "karriere"
-    label: "Karriere Seite"
-  - name: "kontakt"
-    label: "Kontakt Seite"
   - name: "support"
     label: "Supportseite"
     files:
@@ -108,8 +100,8 @@ collections:
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "string" } ] }
-      - file: "content/deutsch/support/_index.md"
-        name: "linkerKasten"
+      - file: "data/de/linkerKasten.yml"
+        name: "linkerkasten"
         label: "Linker Kasten"
         fields:
           - { label: "Linker Kasten", name: "linke_box", widget: "object", fields: [
@@ -125,6 +117,10 @@ collections:
             { label: "Buttons", name: "buttons", widget: "list", fields: [
               { label: "Text Button", name: "name", widget: "string" },
               { label: "Link", name: "link", widget: "string" } ] } ] }
+      - file: "data/de/rechterKasten.yml"
+          name: "rechterkasten"
+          label: "Rechter Kasten"
+          fields:
           - { label: "Rechter Kasten", name: "rechte_box", widget: "object", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Text", name: "copy", widget: "string" },
@@ -135,8 +131,6 @@ collections:
             { label: "Buttons", name: "buttons", widget: "list", fields: [
               { label: "Text Button", name: "name", widget: "string" },
               { label: "Link", name: "link", widget: "string" } ] } ] }
-  - name: "mediathek"
-    label: "Mediathek"
   - name: "modules"
     label: "Modules"
     files:

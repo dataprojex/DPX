@@ -1,11 +1,9 @@
 {{ $data := index site.Data site.Language.Lang }}
 
-{{ with .Params }}
-
 <section class="section-bg p-3">
     <div class="container">
         <div class="row justify-content-center">
-            {{ with .linke_box }}
+            {{ with $data.linkerKasten.linke_box }}
             <div class=" col-lg-5 m-4 bg-one pb-3">
                 <div class="row pt-3">
                     <div class="col-lg-2">
@@ -61,7 +59,9 @@
 
             </div>
             {{ end }}
-            {{ with .rechte_box }}
+
+            {{ with $data.rechterKasten.rechte_box }}
+
             <div class=" col-lg-5 m-4 bg-one">
                 <div class="row pt-3">
                     <div class="col-lg-2">
@@ -105,7 +105,6 @@
                 </div>
 
             </div>
-            {{ end }}
         </div>
     </div>
 </section>

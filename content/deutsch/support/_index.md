@@ -5,33 +5,4 @@ banner:
   content: Unser ServiceDesk-Team aus ausgebildeten und zertifizierten Consultants
     wird sich mit Ihnen in Verbindung setzen.
   bg_image: images/uploads/charlesdeluvio-Lks7vei-eAg-unsplash.jpg
-linke_box:
-  headlineservice: "IT-Service E-Mail für Vertragskunden:"
-  buttons:
-    - name: Zugang zum ServiceDesk-Portal
-      link: contact
-    - name: Download pcvisit
-      link: contact
-  img: images/sidebar/telephone.png
-  servicetel: +49 6105 724 000 29
-  serviceemail: service@dataprojex.de
-  servicevertragskundenemail: support@dataprojex.de
-  headline: IT-Service
-  copy: Sie benötigen Support für Ihre Full-Managed Lösung oder möchten
-    Unterstützung für Ihre IT-Infrastruktur. Kontaktieren Sie uns bitte über
-    folgende Wege.
-  servicetelHeadline: "IT-Service Hotline:"
-  serviceemailenable: false
-  serviceemailHeadline: "IT-Service E-Mail:"
-rechte_box:
-  img: images/sidebar/telephone.png
-  headline: DPX-Portal für Vertragskunden
-  copy: Nutzen Sie Lösung für sicheren Datentransfer
-  softwareservicemailHeadline: "Portal Service E-Mail:"
-  softwareservicemail: portal@dataprojex.de
-  softwareservicetelHeadline: "Portal Service Hotline:"
-  softwareservicetel: +49 6105 724 000 29
-  buttons:
-    - name: Zugang zum DPX-Portal
-      link: contact
 ---

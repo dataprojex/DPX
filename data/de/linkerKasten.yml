@@ -1,0 +1,18 @@
+linke_box:
+  img: images/sidebar/telephone.png
+  servicetel: +49 6105 724 000 29
+  serviceemail: service@dataprojex.de
+  servicevertragskundenemail: support@dataprojex.de
+  headline: IT-Service
+  copy: Sie benötigen Support für Ihre Full-Managed Lösung oder möchten
+    Unterstützung für Ihre IT-Infrastruktur. Kontaktieren Sie uns bitte über
+    folgende Wege.
+  servicetelHeadline: "IT-Service Hotline:"
+  serviceemailenable: false
+  serviceemailHeadline: "IT-Service E-Mail:"
+  headlineservice: "IT-Service E-Mail für Vertragskunden:"
+  buttons:
+    - name: Zugang zum ServiceDesk-Portal
+      link: contact
+    - name: Download pcvisit
+      link: contact
