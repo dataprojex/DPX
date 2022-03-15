@@ -45,6 +45,18 @@ collections:
               { label: "Active", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
               { label: "Link", name: "link", widget: "string" } ] } ] }
+      - file: "data/de/infrastruktur.yml"
+        label: "Infrastruktur"
+        name: "infrastruktur"
+        fields:
+          - { label: "Infrastruktur", name: "infrastruktur", widget: "object", fields: [
+            { label: "Active", name: "enable", widget: "boolean", default: true },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Punkte", name: "feature_item",  widget: "list", fields: [
+              { label: "Titel", name: "title", widget: "string" },
+              { label: "Content", name: "content", widget: "text" } ] } ] }
+            ]}
   - name: "pages"
     label: "Pages"
     files:
@@ -123,17 +135,6 @@ collections:
                   { label: "Enable", name: "enable", widget: "boolean" },
                   { label: "Label", name: "lable", widget: "string" },
                   { label: "Link", name: "link", widget: "string" }]}]}]}
-      - file: "data/de/feature.yml"
-        label: "Vier Punkte"
-        name: "vierpunkte"
-        fields:
-          - { label: "Feature", name: "feature", widget: "object", fields: [
-            { label: "Active", name: "enable", widget: "boolean", default: true },
-            { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" },
-            { label: "Punkte", name: "feature_item",  widget: "list", fields: [
-              { label: "Titel", name: "title", widget: "string" },
-              { label: "Content", name: "content", widget: "text" } ] } ] }
   - name: "CTA"
     label: "Call to actions"
     files:

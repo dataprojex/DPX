@@ -1,0 +1,21 @@
+infrastruktur:
+  enable: true
+  arrow: images/startseite/arrow.png
+  title: IT-Infrastruktur Consulting
+  content: Entscheidend für eine leistungsfähige, stabile, sichere und
+    gleichzeitig kosteneffiziente IT-Infrastruktur ist ein durchdachtes Konzept. </br>
+    Unsere Experten analysieren Ihre aktuelle IT-Landschaft und zeigen Ihnen
+    konkrete Maßnahmen zur Optimierung auf.
+  feature_item:
+    - title: Beratung
+      icon: images/megamenu/icons/consulting.png
+      content: "Analyse Ihres Geschäftsmodells, Ihrer Anforderungen und Ziele. "
+    - title: Lösung
+      icon: images/megamenu/icons/design.png
+      content: "Maßgeschneiderte Konzepte aus den Erkenntnissen der Beratung. "
+    - title: Implementierung
+      icon: images/megamenu/icons/migration.png
+      content: "Umsetzung in Ihrem Unternehmen, bei Bedarf Mitarbeiterschulung. "
+    - title: Betreuung
+      icon: images/megamenu/icons/support1.png
+      content: "Kontinuierliche Weiterentwicklung Ihrer IT-Infrastruktur, Helpdesk. "
