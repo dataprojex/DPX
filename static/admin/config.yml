@@ -191,8 +191,8 @@ collections:
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "string" } ] }
-  - name: "module"
-    label: "Module"
+  - name: "extras"
+    label: "Extras"
     files:
       - file: "data/de/sideNavi.yml"
         label: "Sidebar"
