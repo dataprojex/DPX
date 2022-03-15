@@ -57,8 +57,8 @@ collections:
               { label: "Titel", name: "title", widget: "string" },
               { label: "Content", name: "content", widget: "markdown" } ] } ] }
       - file: "data/de/cta_termin.yml"
-        label: "CTA Kontakt"
-        name: "calltoactionContact"
+        label: "CTA Termin"
+        name: "calltoactionTermin"
         fields:
           - { label: "Call to action", name: "cta_termin", widget: "object", fields: [
             { label: "Active", name: "enable", widget: "boolean", default: true },
