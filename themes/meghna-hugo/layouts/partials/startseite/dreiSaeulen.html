@@ -18,7 +18,7 @@
 
             {{ range .saeulen_item }}
             {{"<!-- About item -->" | safeHTML}}
-            <div class="col-lg-4 wow fadeInUp" data-wow-duration="500ms" style="height: 100%">
+            <div class="col-lg-4 wow fadeInUp" data-wow-duration="500ms">
                 <div class="block p-5" style="height: 100%">
                     <div class="icon-box text-center">
                         {{with .icon}}<i class="{{ . }}"></i>{{ end }}
@@ -33,7 +33,7 @@
                                 <h3 style="margin-bottom:0;">{{ .title }}</h3>
                             </div>
                         </div>
-                        <div class="row" style="height: 100px !important;">
+                        <div class="row">
                             <p>{{ .content | markdownify }}</p>
                         </div>
                     </div>
