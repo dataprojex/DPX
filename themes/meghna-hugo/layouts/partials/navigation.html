@@ -67,10 +67,10 @@
                               <a id="hoverIcon" class="" href="{{ .URL | relLangURL}}">
                               <div class="col-lg-12 mb-4" style="height: 17%; margin-left:5px">
                                   <div class="row">
-                                      <div id="iconBox" class="p-2 text-center" style="position: relative">
+                                      <div id="iconBox" class="d-flex text-center align-items-center" style="position: relative">
                                           {{ range $data.megamenu.submenu }}
                                           {{ if eq .name $varName}}
-                                          <span style="position: absolute; left:0px; top: 5px"  >
+                                          <span style="position: absolute; left:0px;"  >
                                                 <img class="dpxPoductIcons" src="{{ .img | absURL }}">
                                           </span>
                                           <span>
