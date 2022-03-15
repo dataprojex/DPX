@@ -4,27 +4,8 @@ backend:
 media_folder: "static/images/uploads" # Folder where user uploaded files should go
 public_folder: "images/uploads"
 collections:
-  - name: "startseite"
-    label: "Startseite"
-    files:
-      - name: "heroslider"
-        label: "Hero Slider"
-        folder: "content/deutsch/slides"
-        create: true
-        fields:
-          - { label: "Draft", name: "enable", widget: "boolean", default: true }
-          - { label: "Background", name: "bg_image", widget: "image" }
-          - { label: "Produkt", name: "hero_image", widget: "image" }
-          - { label: "Subtitle", name: "subtitle", widget: "string" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Content", name: "content", widget: "string" }
-          - { label: "Animation from", name: "animation_from", widget: "string", default: "left" }
-          - { label: "Button", name: "button", widget: "object", fields: [
-            { label: "Enable", name: "enable", widget: "boolean", default: true },
-            { label: "Label", name: "label", widget: "string" },
-            { label: "Link", name: "link", widget: "string" } ] }
-  - name: "slider"
-    label: "Slider"
+  - name: "heroslider"
+    label: "Hero Slider"
     folder: "content/deutsch/slides"
     create: true
     fields:
@@ -39,6 +20,19 @@ collections:
           { label: "Enable", name: "enable", widget: "boolean", default: true },
           { label: "Label", name: "label", widget: "string" },
           { label: "Link", name: "link", widget: "string" }]}
+  - name: "startseite"
+    label: "Startseite"
+    files:
+      - file: "data/de/dreiSaeulen.yml"
+        label: "Drei Säulen"
+        name: "dreisaeulen"
+        fields:
+          - { label: "Säulen", name: "saeule", widget: "object", fields: [
+            { label: "Activ", name: "enable", widget: "boolean", default: true },
+            { label: "Headline", name: "title", widget: "string" },
+            { label: "Säulen", name: "saeulen_item",  widget: "list", fields: [
+              { label: "Titel", name: "title", widget: "string" },
+              { label: "Content", name: "content", widget: "text" } ] } ] }
   - name: "pages"
     label: "Pages"
     files:
@@ -117,16 +111,6 @@ collections:
                   { label: "Enable", name: "enable", widget: "boolean" },
                   { label: "Label", name: "lable", widget: "string" },
                   { label: "Link", name: "link", widget: "string" }]}]}]}
-      - file: "data/de/dreiSaeulen.yml"
-        label: "Drei Säulen"
-        name: "dreisaeulen"
-        fields:
-          - { label: "Säulen", name: "saeule", widget: "object", fields: [
-              { label: "Activ", name: "enable", widget: "boolean", default: true },
-              { label: "Headline", name: "title", widget: "string" },
-              { label: "Säulen", name: "saeulen_item",  widget: "list", fields: [
-                { label: "Titel", name: "title", widget: "string" },
-                { label: "Content", name: "content", widget: "text" } ] } ] }
       - file: "data/de/feature.yml"
         label: "Vier Punkte"
         name: "vierpunkte"
