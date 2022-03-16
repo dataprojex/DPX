@@ -1,16 +1,11 @@
 cta_termin:
-  enable : true
-  bg_image : "images/backgrounds/bg-white-wall.jpg"
-  content: >-
+  enable: true
+  bg_image: images/backgrounds/bg-white-wall.jpg
+  content: |-
     # Sie haben Fragen aber nicht viel Zeit?
 
-
     *Buchen Sie einen Termin* online **und wir kontaktieren Sie.** <br/>
-
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor <br/>
-
-    At vero eos et accusam et justo duo dolores et ea rebum.
   button:
-    enable : true
-    label : "Termine"
-    link : "termin"
+    enable: true
+    label: Termine
+    link: termin
