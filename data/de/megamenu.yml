@@ -1,37 +1,37 @@
 submenu:
-  - name: "Consulting"
-    content: "Lorem ipsum dolor sit amet"
-    img: "images/megamenu/icons/consulting.png"
-    imgSelector: "images/megamenu/icons/selector.png"
-  - name: "Design"
-    content: "Consetetur sadipscing elitr,"
-    img: "images/megamenu/icons/design.png"
-    imgSelector: "images/megamenu/icons/selector.png"
-  - name: "Digitalisierung"
-    content: "Sed diam nonumy eirmod tempor invidun ipsum dolor"
-    img: "images/megamenu/icons/digitalisierung.png"
-    imgSelector: "images/megamenu/icons/selector.png"
-  - name: "Zentrale IT"
-    content: "Lorem ipsum dolor sit amet"
-    img: "images/megamenu/icons/zentral-it.png"
-    imgSelector: "images/megamenu/icons/selector.png"
-  - name: "Modern Workplace"
-    content: "Consetetur sadipscing elitr,"
-    img: "images/megamenu/icons/workplace.png"
-    imgSelector: "images/megamenu/icons/selector.png"
-  - name: "Managed & private Cloude Services"
-    content: "Sed diam nonumy eirmod tempor invidun ipsum dolor"
-    img: "images/megamenu/icons/managedCloud.png"
-    imgSelector: "images/megamenu/icons/selector.png"
-  - name: "Netzwerke & Security"
-    content: "Lorem ipsum dolor sit amet"
-    img: "images/megamenu/icons/network.png"
-    imgSelector: "images/megamenu/icons/selector.png"
-  - name: "Monitoring"
-    content: "Consetetur sadipscing elitr,"
-    img: "images/megamenu/icons/performance.png"
-    imgSelector: "images/megamenu/icons/selector.png"
-  - name: "Support & Service"
-    content: "Sed diam nonumy eirmod tempor invidun ipsum dolor"
-    img: "images/megamenu/icons/support1.png"
-    imgSelector: "images/megamenu/icons/selector.png"
+  - name: Consulting
+    content: Strategieberatung für Ihre IT-Landschaften
+    img: images/megamenu/icons/consulting.png
+    imgSelector: images/megamenu/icons/selector.png
+  - name: Design
+    content: Entwicklung von Infrastruktur-Konzepten
+    img: images/megamenu/icons/design.png
+    imgSelector: images/megamenu/icons/selector.png
+  - name: Digitalisierung
+    content: Sed diam nonumy eirmod tempor invidun ipsum dolor
+    img: images/megamenu/icons/digitalisierung.png
+    imgSelector: images/megamenu/icons/selector.png
+  - name: Zentrale IT
+    content: Lorem ipsum dolor sit amet
+    img: images/megamenu/icons/zentral-it.png
+    imgSelector: images/megamenu/icons/selector.png
+  - name: Modern Workplace
+    content: Consetetur sadipscing elitr,
+    img: images/megamenu/icons/workplace.png
+    imgSelector: images/megamenu/icons/selector.png
+  - name: Managed & private Cloude Services
+    content: Sed diam nonumy eirmod tempor invidun ipsum dolor
+    img: images/megamenu/icons/managedCloud.png
+    imgSelector: images/megamenu/icons/selector.png
+  - name: Netzwerke & Security
+    content: Lorem ipsum dolor sit amet
+    img: images/megamenu/icons/network.png
+    imgSelector: images/megamenu/icons/selector.png
+  - name: Monitoring
+    content: Consetetur sadipscing elitr,
+    img: images/megamenu/icons/performance.png
+    imgSelector: images/megamenu/icons/selector.png
+  - name: Support & Service
+    content: Sed diam nonumy eirmod tempor invidun ipsum dolor
+    img: images/megamenu/icons/support1.png
+    imgSelector: images/megamenu/icons/selector.png
