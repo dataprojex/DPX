@@ -8,7 +8,7 @@ submenu:
     img: images/megamenu/icons/design.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Digitalisierung
-    content: Sed diam nonumy eirmod tempor invidun ipsum dolor
+    content: Erarbeitung neuer Arbeitsabläufe
     img: images/megamenu/icons/digitalisierung.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Zentrale IT
