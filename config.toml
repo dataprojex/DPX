@@ -52,6 +52,9 @@ link = "plugins/google-map/map.js"
 [[params.plugins.script]]
 link = "//www.youtube.com/player_api"
 
+[[params.plugins.script]]
+link = "//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"
+
 ################### Deutsch Navigation ########################
 [[Languages.de.menu.main]]
 name = "Spectrum"

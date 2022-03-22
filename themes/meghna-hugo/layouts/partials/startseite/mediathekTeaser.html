@@ -1,5 +1,9 @@
 {{ if gt (where site.RegularPages "Section" "==" "mediathek") 0}}
 {{"<!-- Start Blog Section -->" | safeHTML}}
+
+<script src="//www.youtube.com/player_api"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 <section id="blog" class="section">
     <div class="container">
         <div class="row justify-content-center">
@@ -25,5 +29,6 @@
         </div>
     </div>
 </section>
+
 {{"<!-- /blog -->" | safeHTML}}
 {{ end }}
