@@ -11,7 +11,7 @@
                 <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
                     {{ $titleFirst := (split .title " ") }}
                     {{ $lenTotal := (len $titleFirst) }}
-                    {{ $len := div $lenTotal 2 }}
+                    {{ $len := sub $lenTotal 2 }}
                     <h2>
                     {{ range $index, $element := $titleFirst }}
                     {{ if le $index $len }}
