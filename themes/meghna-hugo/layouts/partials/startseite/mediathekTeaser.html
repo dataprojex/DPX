@@ -13,8 +13,10 @@
             </div>
             {{"<!-- /section title -->" | safeHTML}}
 
-            {{ range first 3 (where site.RegularPages "Section" "==" "blog")}}
-            {{ .Render "article"}}
+            {{ range (where site.RegularPages "Section" "==" "mediathek")}}
+            {{ if .Params.teaser }}
+            {{ .Render "video"}}
+            {{ end }}
             {{ end }}
 
             <div class="all-post text-center col-lg-12">

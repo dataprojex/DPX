@@ -49,6 +49,9 @@ link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
 
+[[params.plugins.script]]
+link = "//www.youtube.com/player_api"
+
 ################### Deutsch Navigation ########################
 [[Languages.de.menu.main]]
 name = "Spectrum"
