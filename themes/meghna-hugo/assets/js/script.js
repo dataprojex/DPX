@@ -216,10 +216,37 @@ $(document).ready(function(){
 	var nowPlaying = "none";
 
 	$('div.post-block').hover(function(){
-		nowPlaying = $(this).find('iframe').attr('src');
-		$(this).find('iframe').attr('src',nowPlaying+'&autoplay=1');
+		if($(this).find('iframe').width() <= 500 ){
+			nowPlaying = $(this).find('iframe').attr('src');
+			$(this).find('iframe').attr('src',nowPlaying+'&autoplay=1');
+		}
+
 	}, function(){
-		$(this).find('iframe').attr('src',nowPlaying);
+		if($(this).find('iframe').width() <= 500 ){
+			$(this).find('iframe').attr('src',nowPlaying);
+		}
 	});
+
+	var mute = "none"
+
+	$('button.unmute').click(function() {
+		mute = $(this).parent().find('iframe').attr('src').split('&');
+		if(mute.includes("mute=1")) {
+			var i = mute.indexOf("mute=1")
+			mute[i] = "mute=0"
+		} else {
+			var j = mute.indexOf("mute=0")
+			mute[j] = "mute=1"
+		}
+		mute = mute.join('&')
+		$(this).parent().find('iframe').attr('src', mute);
+		console.log(mute)
+
+	})
 });
+
+function larger(url){
+	console.log("larger " + url)
+}
+
 

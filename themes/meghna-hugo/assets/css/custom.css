@@ -407,3 +407,40 @@
     height: 100%;
 }
 
+.video-modal_content{
+    -webkit-box-align: center;
+    -webkit-align-self: center;
+    -webkit-align-items: center;
+    align-self: center;
+    -ms-flex-align: center;
+    -moz-align-items: center;
+    align-items: center;
+    margin-top:200px;
+}
+
+.video-modal_box{
+    width:100%;
+    height:100%;
+    background-color: #ffffff;
+}
+
+.video-modal__box-close{
+    position: absolute;
+    right: -35px;
+    top: -45px;
+    border: none;
+    color: #ffffff !important;
+    font-size: 1.8125rem;
+    background: transparent;
+}
+
+.darkener{
+    display:none;
+    position: fixed;
+    top:0; left:0;
+    z-index: 9999;
+    width:100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.43);
+}
+
