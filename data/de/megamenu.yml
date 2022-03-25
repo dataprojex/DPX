@@ -24,7 +24,7 @@ submenu:
     img: images/megamenu/icons/managedCloud.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Netzwerke & Security
-    content: Lorem ipsum dolor sit amet
+    content: Infrastruktur- und Perimeter Security
     img: images/megamenu/icons/network.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Monitoring
