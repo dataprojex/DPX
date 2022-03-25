@@ -6,7 +6,9 @@ image: images/blog/blog-post-2.jpg
 author: John Doe
 description : "This is meta description"
 teaser: true
-link: https://www.youtube-nocookie.com/embed/hHiQxsNtVtw?&theme=dark&keyboard=1&autohide=1&showinfo=0&mute=1&controls=0&disablekb=1&modestbranding=1
+link: https://www.youtube-nocookie.com/embed/hHiQxsNtVtw
+controllsSmall: ?&theme=dark&keyboard=1&autohide=1&showinfo=0&mute=1&controls=0&disablekb=1&modestbranding=1
+controllsLarge: ?&theme=dark&keyboard=1&autohide=1&showinfo=0&controls=1&disablekb=1&modestbranding=1
 ---
 
 Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
