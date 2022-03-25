@@ -12,26 +12,26 @@ submenu:
     img: images/megamenu/icons/digitalisierung.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Zentrale IT
-    content: Lorem ipsum dolor sit amet
+    content: Agile IT-Infrastruktur für alle Anforderungen
     img: images/megamenu/icons/zentral-it.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Modern Workplace
-    content: Consetetur sadipscing elitr,
+    content: Komplettlösung für den modernen Arbeitsplatz.
     img: images/megamenu/icons/workplace.png
     imgSelector: images/megamenu/icons/selector.png
-  - name: Managed & private Cloude Services
-    content: Sed diam nonumy eirmod tempor invidun ipsum dolor
+  - name: Puplic & Private Cloud Hosting
+    content: Erfolgreich digitalisieren im Cloud-Zeitalter
     img: images/megamenu/icons/managedCloud.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Netzwerke & Security
-    content: Lorem ipsum dolor sit amet
+    content: Infrastruktur- und Perimeter Security
     img: images/megamenu/icons/network.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Monitoring
-    content: Consetetur sadipscing elitr,
+    content: Monitoring – Ein Grundpfeiler im IT-Betrieb
     img: images/megamenu/icons/performance.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Support & Service
-    content: Sed diam nonumy eirmod tempor invidun ipsum dolor
+    content: Managed IT Services
     img: images/megamenu/icons/support1.png
     imgSelector: images/megamenu/icons/selector.png
