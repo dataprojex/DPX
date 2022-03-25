@@ -12,11 +12,11 @@ submenu:
     img: images/megamenu/icons/digitalisierung.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Zentrale IT
-    content: Lorem ipsum dolor sit amet
+    content: Agile IT-Infrastruktur für alle Anforderungen
     img: images/megamenu/icons/zentral-it.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Modern Workplace
-    content: Consetetur sadipscing elitr,
+    content: Komplettlösung für den modernen Arbeitsplatz.
     img: images/megamenu/icons/workplace.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Managed & private Cloude Services
