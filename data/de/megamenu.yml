@@ -28,7 +28,7 @@ submenu:
     img: images/megamenu/icons/network.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Monitoring
-    content: Consetetur sadipscing elitr,
+    content: Monitoring – Ein Grundpfeiler im IT-Betrieb
     img: images/megamenu/icons/performance.png
     imgSelector: images/megamenu/icons/selector.png
   - name: Support & Service
