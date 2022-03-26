@@ -1,0 +1,26 @@
+<article class="col-lg-3 col-md-4 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms" style="padding-left: 5px;padding-right: 5px;">
+    <div class="post-block video" style="height: 100%;">
+        <div class="video-wrapper" id="ytPlayer">
+            <iframe width='500' height='294' src="{{ .Params.link }}{{ .Params.controllsSmall}}" allowfullscreen allow="fullscreen;"></iframe>
+            <!--<img class="img-fluid lozad" data-src="{{ .Params.Image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image | absURL }}'"> -->
+            <button class="btn btn-transparent unmute" style="position:absolute; bottom: -55px; right: 10px">O</button>
+            <button class="btn btn-transparent larger" style="position:absolute; bottom: -55px; right: 80px">I</button>
+        </div>
+
+
+        <div class="content">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary }}</p>
+            <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
+        </div>
+    </div>
+
+    <div class="darkener" id="ytlarge" style="display: none">
+        <div class="video-modal_content mx-auto" style="width: 925px; height: 520px;">
+            <div class="video-modal_box" style="position:relative; width: 100%; height: 100%;">
+                <button class="video-modal__box-close"> <span>X</span></button>
+                <iframe class="largeVideo" width='925' height='520' src="{{ .Params.link }}{{ .Params.controllsLarge }}" allowfullscreen allow="fullscreen;"></iframe>
+            </div>
+        </div>
+    </div>
+</article>

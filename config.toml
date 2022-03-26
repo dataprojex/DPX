@@ -106,7 +106,7 @@ url = "/#modern-workplace"
 weight = 2
 
 [[Languages.de.menu.main]]
-name = "Managed & private Cloude Services"
+name = "Puplic & Private Cloud Hosting"
 parent = "performance"
 url = "/#managed-private-cloude-services"
 weight = 3
@@ -188,7 +188,7 @@ weight = 5
 
 [[Languages.de.menu.main]]
 name = "Mediathek"
-url = "404"
+url = "mediathek"
 weight = 6
 
 
