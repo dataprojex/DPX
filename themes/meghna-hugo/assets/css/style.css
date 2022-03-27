@@ -1282,6 +1282,7 @@ a:hover {
 }
 
 .post-block {
+  height:100%;
   background-color: #292F36;
   margin-bottom: 10px;
 }

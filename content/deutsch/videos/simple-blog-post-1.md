@@ -1,10 +1,11 @@
 ---
 title: "Simple Blog Post1"
 teaser: true
-link: https://www.youtube-nocookie.com/embed/KQieRoFs1x4
+link: https://www.youtube-nocookie.com/embed/
+code: KQieRoFs1x4
 controllsSmall: ?&theme=dark&mute=1&controls=0
 controllsLarge: ?&theme=dark&keyboard=1&autohide=1&showinfo=0&controls=1&disablekb=1&modestbranding=1&mute=1
-summary: abc Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+summary: abc Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
 ---
 
 abc Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.

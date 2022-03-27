@@ -1,12 +1,8 @@
 ---
 title: "Simple Blog Post"
-date: 2018-09-12T12:52:36+06:00
-image_webp: images/blog/blog-post-2.webp
-image: images/blog/blog-post-2.jpg
-author: John Doe
-description : "This is meta description"
 teaser: false
-link: https://www.youtube-nocookie.com/embed/J7rKQlsgf_8
+link: https://www.youtube-nocookie.com/embed/
+code: J7rKQlsgf_8
 controllsSmall: ?&theme=dark&keyboard=1&autohide=1&showinfo=0&mute=1&controls=0&disablekb=1&modestbranding=1
 controllsLarge: ?&theme=dark&keyboard=1&autohide=1&showinfo=0&controls=1&disablekb=1&modestbranding=1
 ---
