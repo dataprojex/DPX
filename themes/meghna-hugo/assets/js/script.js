@@ -214,6 +214,7 @@ jQuery(function ($) {
 
 $(document).ready(function(){
 	var nowPlaying = "none";
+	var nowPlayingLarge = "none";
 	var largePlayerUrl = "none"
 
 	$('div.post-block').hover(function(){
@@ -228,9 +229,21 @@ $(document).ready(function(){
 		}
 	});
 
+	$('div.post-video').hover(function(){
+		if($(this).find('iframe').width() <= 500 ){
+			nowPlayingLarge = $(this).find('iframe').attr('src');
+			$(this).find('iframe').attr('src',nowPlayingLarge+'&autoplay=1');
+		}
+
+	}, function(){
+		if($(this).find('iframe').width() <= 500 ){
+			$(this).find('iframe').attr('src',nowPlayingLarge);
+		}
+	});
+
 	var mute = "none"
 
-	$('button.unmute').click(function() {
+	$('div.unmute').click(function() {
 		mute = $(this).parent().find('iframe').attr('src').split('&');
 		if(mute.includes("mute=1")) {
 			var i = mute.indexOf("mute=1")
@@ -243,7 +256,7 @@ $(document).ready(function(){
 		$(this).parent().find('iframe').attr('src', mute);
 	})
 
-	$('button.larger').click(function() {
+	$('div.larger').click(function() {
 		$(this).parent().parent().parent().find('div.darkener').attr('style', "display:block")
 		largePlayerUrl = $(this).parent().parent().parent().find('iframe.largeVideo').attr('src')
 		$(this).parent().parent().parent().find('iframe.largeVideo').attr('src', largePlayerUrl+'&autoplay=1')
