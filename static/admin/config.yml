@@ -220,7 +220,7 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "summary", widget: "string" }
+      - { label: "Content", name: "summary", widget: "text" }
       - { label: "Link", name: "link", widget: "hidden", default: "https://www.youtube-nocookie.com/embed/"}
       - { label: "Code", name: "code", widget: "string"}
       - { label: "Teaser", name: "teaser", widget: "boolean", default: false}
