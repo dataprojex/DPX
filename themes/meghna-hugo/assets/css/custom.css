@@ -378,7 +378,7 @@
 }
 
 .video:hover{
-    position:absolute;
+    position:relative;
     animation-name: enlarger;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
@@ -471,6 +471,7 @@
     background-color: #292F36;
     padding:20px;
     display:none;
+    margin-top: -5px;
 }
 
 .btn_content{
@@ -485,8 +486,17 @@
 }
 
 .video_large:hover .content_large{
+    border-left: 2px solid #b10232;
+    border-right: 2px solid #b10232;
+    border-bottom: 2px solid #b10232;
     display:block;
     z-index: 51;
+}
+
+.video_large:hover iframe{
+    border-left: 2px solid #b10232;
+    border-right: 2px solid #b10232;
+    border-top: 2px solid #b10232
 }
 
 .video_large:hover{
@@ -498,9 +508,9 @@
 }
 
 @keyframes enlarger2 {
-    0%   {    border: 0px solid #b10232;
+    0%   {
         transform: scale(1);}
-    100% {    border: 2px solid #b10232;
+    100% {
         transform: scale(1.1);}
 }
 
