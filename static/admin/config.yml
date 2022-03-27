@@ -79,6 +79,17 @@ collections:
               { label: "Name", name: "name", widget: "string"},
               { label: "Bild", name: "image", widget: "image" },
               { label: "Content", name: "content", widget: "text" } ] } ] }
+      - file: "data/de/mediathek.yml"
+        label: "Mediathek Teaser"
+        name: "mediathekTeaser"
+        fields:
+          - { label: "Mediathek Teaser", name: "mediathekTeaser", widget: "object", fields: [
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Content", name: "content", widget: "text" },
+            { label: "Button", name: "button", widget: "object", fields: [
+              { label: "Aktive", name: "enable", widget: "boolean", default: true },
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
   - name: "spectrum"
     label: "Spectrum"
     files:
