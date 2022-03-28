@@ -28,8 +28,9 @@ videos:
     controllsLarge: ?theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
   - title: Hacker und Viren? Sophos hilft.
     categories:
-      - Lenovo
-    summary: "Ransomware ist schnell. Sophos ist schneller. "
+      - Sophos
+    summary: "Ein Ransomware-Angriff kann Sie teuer zu stehen kommen. Ransomware ist
+      schnell. Sophos ist schneller. "
     link: https://www.youtube.com/embed/
     code: TRmfgLRlDRI
     teaser: false
@@ -79,3 +80,22 @@ videos:
       verursachte Datenschutzverletzungen, Datenlecks, Geschäftsunterbrechungen
       sowie Compliance- und Rechtsstreitigkeiten kosten Geld und Ansehen."
     title: Barracuda Email Security Solutions
+  - teaser: false
+    categories:
+      - Barracuda
+    link: https://www.youtube.com/embed/
+    controllsSmall: ?&theme=dark&mute=1&controls=0
+    controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    title: Barracuda Email Threat Scanner
+    summary: In Ihren Office 365-Postfächern lauern möglicherweise schwerwiegende
+      Bedrohungen. Finden Sie heraus, was sich in Ihrem Postfach versteckt.
+    code: E4frTxCnk-0
+  - teaser: false
+    categories:
+      - Barracuda
+    link: https://www.youtube.com/embed/
+    controllsSmall: ?&theme=dark&mute=1&controls=0
+    controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    title: Barracuda Cloud to Cloud Backup
+    summary: Unkompliziertes SaaS-Backup für Ihre Daten auf Microsoft Office 365
+    code: hXPRx8E3iuw
