@@ -60,7 +60,7 @@
             <article class="col-lg-3 col-md-4 col-12 clearfix wow fadeInUp mb-4 shuffle-item" data-wow-duration="500ms" style="padding-left: 5px;padding-right: 5px;" data-groups="[{{range $index, $element:= .categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
                 <div class="post-video video_large">
                     <div class="video-wrapper" id="ytPlayer2">
-                        <iframe width='500' height='294' src="{{ .link }}{{ .code }}{{ .controllsSmall}}" allow="autoplay;"></iframe>
+                        <iframe width='500' height='294' src="{{ .link }}{{ .code }}{{ .controllsSmall}}" allowfullscreen allow="fullscreen; autoplay;"></iframe>
                         <div class="unmute btn_content" style="position:absolute; bottom: -45px; right: 25px"><i class="ti-volume"></i></div>
                         <div class="larger btn_content" value="{{ .code }}" style="position:absolute; bottom: -45px; right: 60px"><i class="ti-fullscreen"></i></div>
                     </div>
