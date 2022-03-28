@@ -61,3 +61,15 @@ videos:
     teaser: false
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+  - teaser: false
+    categories:
+      - Barracuda
+    link: https://www.youtube.com/embed/
+    controllsSmall: ?&theme=dark&mute=1&controls=0
+    controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    code: HuMxGXS6IxE
+    summary: " E-Mail ist nach wie vor ein primärer Kommunikationskanal und damit
+      auch einer der am häufigsten genutzten Bedrohungsvektoren. Durch E-Mails
+      verursachte Datenschutzverletzungen, Datenlecks, Geschäftsunterbrechungen
+      sowie Compliance- und Rechtsstreitigkeiten kosten Geld und Ansehen."
+    title: Barracuda Email Security Solutions
