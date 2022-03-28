@@ -38,26 +38,31 @@
                     <div class="video-wrapper" id="ytPlayer">
                         <iframe width='500' height='294' src="{{ .link }}{{ .code }}{{ .controllsSmall}}" allowfullscreen allow="fullscreen; autoplay;"></iframe>
                         <div class="unmute" style="position:absolute; bottom: -45px; right: 25px"><i class="ti-volume"></i></div>
-                        <div class="larger" style="position:absolute; bottom: -45px; right: 60px"><i class="ti-fullscreen"></i></div>
+                        <div class="larger" value="{{ .code }}" style="position:absolute; bottom: -45px; right: 60px"><i class="ti-fullscreen"></i></div>
                     </div>
 
 
                     <div class="content">
-                        <h3><a href="{{ .Permalink }}">{{ .title }}</a></h3>
-                        <p>{{ .summary }}</p>
+                        <div class="col-10">
+                            <h4 style="font-size: 1.2rem"><a href="{{ .Permalink }}">{{ .title }}</a></h4>
+                        </div>
+                        <div class="col-12">
+                            <p>{{ .summary }}</p>
+                        </div>
                         <!-- <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a> -->
                     </div>
                 </div>
+            </article>
 
-                <div class="darkener" id="ytlarge" style="display: none">
-                    <div class="video-modal_content mx-auto" style="width: 925px; height: 520px;">
-                        <div class="video-modal_box" style="position:relative; width: 100%; height: 100%;">
-                            <button class="video-modal__box-close"> <i class="ti-close"></i></button>
-                            <iframe class="largeVideo" width='925' height='520' src="{{ .link }}{{ .code }}{{ .controllsLarge }}" allowfullscreen allow="fullscreen;"></iframe>
-                        </div>
+            <div class="darkener" id="{{ .code }}" style="display: none">
+                <div class="video-modal_content mx-auto" style="width: 925px; height: 520px;">
+                    <div class="video-modal_box" style="position:relative; width: 100%; height: 100%;">
+                        <button class="video-modal__box-close"> <i class="ti-close"></i></button>
+                        <iframe class="largeVideo" id="{{ .code }}play" width='925' height='520' src="{{ .link }}{{ .code }}{{ .controllsLarge }}" allowfullscreen allow="fullscreen;"></iframe>
                     </div>
                 </div>
-            </article>
+            </div>
+
             {{ end }}
             {{ end }}
             {{ end }}
