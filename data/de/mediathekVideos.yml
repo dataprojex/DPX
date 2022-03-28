@@ -13,12 +13,14 @@ videos:
     teaser: false
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
-  - title: Lenovo ThinkPad X1 Extreme Gen 5 – Move forward with the power you need
+  - title: Lenovo ThinkPad X1 Extreme Gen 5 - Vorwärtskommen mit der Leistung, die
+      Sie brauchen
     categories:
       - Lenovo
-    summary: The latest X1 Extreme is here and has further refinement with Intel
-      12th generation H-Series processors and NVIDIA GeForce RTX 3080 Ti GPU.
-      The X1 Extreme is all you need, nothing you don’t.
+    summary: Das neueste X1 Extreme ist da und wurde mit den Intel H-Series
+      Prozessoren der 12. Generation und der NVIDIA GeForce RTX 3080 Ti GPU
+      weiter verfeinert. Das X1 Extreme ist alles, was Sie brauchen, und nichts,
+      was Sie nicht brauchen.
     link: https://www.youtube.com/embed/
     code: hHiQxsNtVtw
     teaser: true
