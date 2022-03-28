@@ -434,6 +434,10 @@
     background: transparent;
 }
 
+.video-modal__box-close:hover{
+    color: #b10232 !important;
+}
+
 .darkener{
     position: fixed;
     top:0; left:0;
@@ -500,7 +504,6 @@
 }
 
 .video_large:hover{
-    position:absolute;
     animation-name: enlarger2;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;

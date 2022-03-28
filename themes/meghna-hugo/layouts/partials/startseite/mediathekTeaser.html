@@ -1,4 +1,3 @@
-{{ if gt (where site.RegularPages "Section" "==" "videos") 0}}
 {{"<!-- Start Blog Section -->" | safeHTML}}
 
 {{ $data := index site.Data site.Language.Lang }}
@@ -24,15 +23,42 @@
                     </h2><div class="border-meghna"></div>
                 </div>
                 <div class="row justify-content-center text-center mb-5">
-                    <p>{{ .content | markdownify }}</p>
+                    <div class="col-8">
+                        <p>{{ .content | markdownify }}</p>
+                    </div>
                 </div>
                 {{ end }}
             </div>
             {{"<!-- /section title -->" | safeHTML}}
+            {{ with $data.mediathek.mediathekFull }}
+            {{ range .videos }}
+            {{ if .teaser }}
+            <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms" style="padding-left: 5px;padding-right: 5px;">
+                <div class="post-block video">
+                    <div class="video-wrapper" id="ytPlayer">
+                        <iframe width='500' height='294' src="{{ .link }}{{ .code }}{{ .controllsSmall}}" allowfullscreen allow="fullscreen; autoplay;"></iframe>
+                        <div class="unmute" style="position:absolute; bottom: -45px; right: 25px"><i class="ti-volume"></i></div>
+                        <div class="larger" style="position:absolute; bottom: -45px; right: 60px"><i class="ti-fullscreen"></i></div>
+                    </div>
 
-            {{ range (where site.RegularPages "Section" "==" "videos")}}
-            {{ if .Params.teaser }}
-            {{ .Render "video"}}
+
+                    <div class="content">
+                        <h3><a href="{{ .Permalink }}">{{ .title }}</a></h3>
+                        <p>{{ .summary }}</p>
+                        <!-- <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a> -->
+                    </div>
+                </div>
+
+                <div class="darkener" id="ytlarge" style="display: none">
+                    <div class="video-modal_content mx-auto" style="width: 925px; height: 520px;">
+                        <div class="video-modal_box" style="position:relative; width: 100%; height: 100%;">
+                            <button class="video-modal__box-close"> <i class="ti-close"></i></button>
+                            <iframe class="largeVideo" width='925' height='520' src="{{ .link }}{{ .code }}{{ .controllsLarge }}" allowfullscreen allow="fullscreen;"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            {{ end }}
             {{ end }}
             {{ end }}
 
@@ -44,4 +70,4 @@
 </section>
 
 {{"<!-- /blog -->" | safeHTML}}
-{{ end }}
+

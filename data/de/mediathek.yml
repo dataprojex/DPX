@@ -1,3 +1,4 @@
+#################################### mediatheke ###############################
 mediathekTeaser:
   title: Mediathek IT-Solutions.
   content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -6,8 +7,48 @@ mediathekTeaser:
     label: View all Videos
     link: mediathek
 
-mediathek:
+mediathekFull:
   title: Mediathek IT-Solutions.
   content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
+  videos :
+    - title : Lenovo ThinkBook Plus Gen 3
+      categories : ["ThinkBook"]
+      summary : One Tool. Endless Possibilities. An ultimate tool for productivity. ThinkBook Plus Gen 3, the latest addition to the dual -screen ThinkBook Plus series. Coming soon..
+      link : https://www.youtube.com/embed/
+      code: J7rKQlsgf_8
+      teaser: true
+      controllsSmall: ?&theme=dark&mute=1&controls=0
+      controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    - title : Lenovo ThinkBook Plus Gen 3
+      categories : ["ThinkBook2"]
+      summary : One Tool. Endless Possibilities. An ultimate tool for productivity. ThinkBook Plus Gen 3, the latest addition to the dual -screen ThinkBook Plus series. Coming soon..
+      link : https://www.youtube.com/embed/
+      code: J7rKQlsgf_8
+      teaser: true
+      controllsSmall: ?&theme=dark&mute=1&controls=0
+      controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    - title : Lenovo ThinkBook Plus Gen 3
+      categories : ["ThinkBook", "something"]
+      summary : One Tool. Endless Possibilities. An ultimate tool for productivity. ThinkBook Plus Gen 3, the latest addition to the dual -screen ThinkBook Plus series. Coming soon..
+      link : https://www.youtube.com/embed/
+      code: J7rKQlsgf_8
+      teaser: true
+      controllsSmall: ?&theme=dark&mute=1&controls=0
+      controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    - title : Lenovo ThinkBook Plus Gen 3
+      categories : ["ThinkBook"]
+      summary : One Tool. Endless Possibilities. An ultimate tool for productivity. ThinkBook Plus Gen 3, the latest addition to the dual -screen ThinkBook Plus series. Coming soon..
+      link : https://www.youtube.com/embed/
+      code: J7rKQlsgf_8
+      teaser: false
+      controllsSmall: ?&theme=dark&mute=1&controls=0
+      controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    - title : Lenovo ThinkBook Plus Gen 3
+      categories : ["ThinkBook"]
+      summary : One Tool. Endless Possibilities. An ultimate tool for productivity. ThinkBook Plus Gen 3, the latest addition to the dual -screen ThinkBook Plus series. Coming soon..
+      link : https://www.youtube.com/embed/
+      code: J7rKQlsgf_8
+      teaser: false
+      controllsSmall: ?&theme=dark&mute=1&controls=0
+      controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
 
