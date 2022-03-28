@@ -29,8 +29,7 @@ videos:
   - title: Hacker und Viren? Sophos hilft.
     categories:
       - Lenovo
-    summary: Ransomware ist schnell. Sophos ist schneller. Mehr erfahren unter
-      www.sophos.de
+    summary: "Ransomware ist schnell. Sophos ist schneller. "
     link: https://www.youtube.com/embed/
     code: TRmfgLRlDRI
     teaser: false
@@ -39,8 +38,8 @@ videos:
   - title: Cyberbedrohungen entwickeln sich weiter. Und Sie?
     categories:
       - Sophos
-    summary: 11 Sekunden. So viel Zeit haben Sie, um Ransomware zu stoppen. Mit
-      Cybersecurity von Sophos kein Problem. Mehr erfahren unter www.sophos.de
+    summary: "11 Sekunden. So viel Zeit haben Sie, um Ransomware zu stoppen. Mit
+      Cybersecurity von Sophos kein Problem. "
     link: https://www.youtube.com/embed/
     code: Cxf9gH43w2o
     teaser: true
