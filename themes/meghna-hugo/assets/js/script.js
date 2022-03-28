@@ -230,13 +230,13 @@ $(document).ready(function(){
 	});
 
 	$('div.post-video').hover(function(){
-		if($(this).find('iframe').width() <= 500 ){
+		if($(this).find('iframe').height() <= 500 ){
 			nowPlayingLarge = $(this).find('iframe').attr('src');
 			$(this).find('iframe').attr('src',nowPlayingLarge+'&autoplay=1');
 		}
 
 	}, function(){
-		if($(this).find('iframe').width() <= 500 ){
+		if($(this).find('iframe').height() <= 500 ){
 			$(this).find('iframe').attr('src',nowPlayingLarge);
 		}
 	});
