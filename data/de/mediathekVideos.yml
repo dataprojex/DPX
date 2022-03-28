@@ -45,22 +45,23 @@ videos:
     teaser: true
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
-  - title: Inside the heart of an IBM Cloud Data Center
+  - title: Das Herzstück eines IBM Cloud Data Center
     categories:
       - IBM
-    summary: "We're inside the heart of an #IBMCloud data center. Watch this first
-      ever footage of our AI-ready and secure-to-the-core IBM Cloud technology."
+    summary: "Wir befinden uns im Herzen eines #IBMCloud-Rechenzentrums. Sehen Sie
+      sich dieses erste Filmmaterial über unsere KI-fähige und sichere IBM
+      Cloud-Technologie an."
     link: https://www.youtube.com/embed/
     code: HkIJTyjE4zo
     teaser: true
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
-  - title: Lenovo ThinkBook Plus Gen 3 Teaser video
+  - title: Lenovo ThinkBook Plus Gen 3 Teaser-Video
     categories:
       - Lenovo
-    summary: One Tool. Endless Possibilities. An ultimate tool for productivity.
-      ThinkBook Plus Gen 3, the latest addition to the dual -screen ThinkBook
-      Plus series. Coming soon..
+    summary: Ein Werkzeug. Unendliche Möglichkeiten. Ein ultimatives Werkzeug für
+      Produktivität. ThinkBook Plus Gen 3, die neueste Ergänzung der ThinkBook
+      Plus Serie mit zwei Bildschirmen. Demnächst erhältlich.
     link: https://www.youtube.com/embed/
     code: J7rKQlsgf_8
     teaser: false
