@@ -504,6 +504,7 @@
 }
 
 .video_large:hover{
+    position:absolute;
     animation-name: enlarger2;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
