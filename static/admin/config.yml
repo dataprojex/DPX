@@ -214,16 +214,22 @@ collections:
               { label: "Label", name: "lable", widget: "string" },
               { label: "Ist eine Telefonnummer", name: "tel", widget: "boolean", default: false },
               { label: "Link", name: "link", widget: "string" }]}
-  - name: "videos"
+  - name: "mediathek"
     label: "Videos Mediathek"
-    folder: "content/deutsch/videos"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "summary", widget: "text" }
-      - { label: "Link", name: "link", widget: "hidden", default: "https://www.youtube.com/embed/"}
-      - { label: "Code", name: "code", widget: "string"}
-      - { label: "Teaser", name: "teaser", widget: "boolean", default: false}
-      - { label: "controllsSmall", name: "controllsSmall", widget: "hidden", default: "?&theme=dark&mute=1&controls=0"}
-      - { label: "controllsLarge", name: "controllsLarge", widget: "hidden", default: "?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0"}
+    files:
+      - file: "data/de/mediathek.yml"
+        label: "Mediathek Info"
+        fields:
+          - { label: "Mediathek", name: "mediathekFull", widget: "object", fields: [
+              {label: "Title", name: "title", widget: "string" },
+              {label: "Content", name: "content", widget: "string" },
+              {label: "Videos", name: "videos", widget: "list", fields: [
+                { label: "Teaser", name: "teaser", widget: "boolean", default: false},
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Content", name: "summary", widget: "string" },
+                { label: "Code", name: "code", widget: "string"},
+                { label: "Link", name: "link", widget: "hidden", default: "https://www.youtube.com/embed/"},
+                { label: "controllsSmall", name: "controllsSmall", widget: "hidden", default: "?&theme=dark&mute=1&controls=0"},
+                { label: "controllsLarge", name: "controllsLarge", widget: "hidden", default: "?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0"},] }]}
+
 

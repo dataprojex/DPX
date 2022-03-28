@@ -485,6 +485,10 @@
 .video_large{
 }
 
+.shuffle-item:hover {
+    z-index: 9999;
+}
+
 .video_large:hover .btn_content{
     display:block
 }
