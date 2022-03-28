@@ -230,6 +230,6 @@ collections:
                 { label: "Code", name: "code", widget: "string"},
                 { label: "Link", name: "link", widget: "hidden", default: "https://www.youtube.com/embed/"},
                 { label: "controllsSmall", name: "controllsSmall", widget: "hidden", default: "?&theme=dark&mute=1&controls=0"},
-                { label: "controllsLarge", name: "controllsLarge", widget: "hidden", default: "?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0"},] }]}
+                { label: "controllsLarge", name: "controllsLarge", widget: "hidden", default: "?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0"}]}]}
 
 
