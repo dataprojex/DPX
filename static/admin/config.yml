@@ -240,7 +240,8 @@ collections:
               { label: "Teaser", name: "teaser", widget: "boolean", default: false},
               { label: "Title", name: "title", widget: "string" },
               { label: "Content", name: "summary", widget: "string" },
-              { label: "Code", name: "code", widget: "string"},
+              { label: "Code", name: "code", widget: "string" },
+              { label: "Kategorie", name: "categories", widget: "list", default: ["K-1", "K-2"] },
               { label: "Link", name: "link", widget: "hidden", default: "https://www.youtube.com/embed/"},
               { label: "controllsSmall", name: "controllsSmall", widget: "hidden", default: "?&theme=dark&mute=1&controls=0"},
               { label: "controllsLarge", name: "controllsLarge", widget: "hidden", default: "?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0"}]}
