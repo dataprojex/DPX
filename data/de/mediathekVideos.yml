@@ -1,20 +1,26 @@
 videos:
-  - title: "Lenovo Workstations: Rewrite What’s Possible with the ThinkStation P620"
+  - title: "Lenovo Workstations: Mit der ThinkStation P620 neu definieren, was
+      möglich ist"
     categories:
       - Lenovo
-    summary: See how Lenovo Workstations have consistently been revolutionizing
-      workflows and empowering creators across the world.
+    summary: Erleben Sie, wie Lenovo Workstations Arbeitsabläufe revolutionieren und
+      Kreative auf der ganzen Welt unterstützen. Die ThinkStation P620, die
+      einzige Workstation mit AMD Ryzen Threadripper PRO, bietet mit der größten
+      Kernanzahl einer professionellen Workstation eine bahnbrechende Leistung
+      und Geschwindigkeit
     link: https://www.youtube.com/embed/
     code: KQieRoFs1x4
     teaser: false
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
-  - title: Lenovo ThinkPad X1 Extreme Gen 5 – Move forward with the power you need
+  - title: Lenovo ThinkPad X1 Extreme Gen 5 - Vorwärtskommen mit der Leistung, die
+      Sie brauchen
     categories:
       - Lenovo
-    summary: The latest X1 Extreme is here and has further refinement with Intel
-      12th generation H-Series processors and NVIDIA GeForce RTX 3080 Ti GPU.
-      The X1 Extreme is all you need, nothing you don’t.
+    summary: Das neueste X1 Extreme ist da und wurde mit den Intel H-Series
+      Prozessoren der 12. Generation und der NVIDIA GeForce RTX 3080 Ti GPU
+      weiter verfeinert. Das X1 Extreme ist alles, was Sie brauchen, und nichts,
+      was Sie nicht brauchen.
     link: https://www.youtube.com/embed/
     code: hHiQxsNtVtw
     teaser: true
@@ -23,8 +29,7 @@ videos:
   - title: Hacker und Viren? Sophos hilft.
     categories:
       - Lenovo
-    summary: Ransomware ist schnell. Sophos ist schneller. Mehr erfahren unter
-      www.sophos.de
+    summary: "Ransomware ist schnell. Sophos ist schneller. "
     link: https://www.youtube.com/embed/
     code: TRmfgLRlDRI
     teaser: false
@@ -33,31 +38,44 @@ videos:
   - title: Cyberbedrohungen entwickeln sich weiter. Und Sie?
     categories:
       - Sophos
-    summary: 11 Sekunden. So viel Zeit haben Sie, um Ransomware zu stoppen. Mit
-      Cybersecurity von Sophos kein Problem. Mehr erfahren unter www.sophos.de
+    summary: "11 Sekunden. So viel Zeit haben Sie, um Ransomware zu stoppen. Mit
+      Cybersecurity von Sophos kein Problem. "
     link: https://www.youtube.com/embed/
     code: Cxf9gH43w2o
     teaser: true
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
-  - title: Inside the heart of an IBM Cloud Data Center
+  - title: Das Herzstück eines IBM Cloud Data Center
     categories:
       - IBM
-    summary: "We're inside the heart of an #IBMCloud data center. Watch this first
-      ever footage of our AI-ready and secure-to-the-core IBM Cloud technology."
+    summary: "Wir befinden uns im Herzen eines #IBMCloud-Rechenzentrums. Sehen Sie
+      sich dieses erste Filmmaterial über unsere KI-fähige und sichere IBM
+      Cloud-Technologie an."
     link: https://www.youtube.com/embed/
     code: HkIJTyjE4zo
     teaser: true
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
-  - title: Lenovo ThinkBook Plus Gen 3 Teaser video
+  - title: Lenovo ThinkBook Plus Gen 3 Teaser-Video
     categories:
       - Lenovo
-    summary: One Tool. Endless Possibilities. An ultimate tool for productivity.
-      ThinkBook Plus Gen 3, the latest addition to the dual -screen ThinkBook
-      Plus series. Coming soon..
+    summary: Ein Werkzeug. Unendliche Möglichkeiten. Ein ultimatives Werkzeug für
+      Produktivität. ThinkBook Plus Gen 3, die neueste Ergänzung der ThinkBook
+      Plus Serie mit zwei Bildschirmen. Demnächst erhältlich.
     link: https://www.youtube.com/embed/
     code: J7rKQlsgf_8
     teaser: false
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+  - teaser: false
+    categories:
+      - Barracuda
+    link: https://www.youtube.com/embed/
+    controllsSmall: ?&theme=dark&mute=1&controls=0
+    controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    code: HuMxGXS6IxE
+    summary: " E-Mail ist nach wie vor ein primärer Kommunikationskanal und damit
+      auch einer der am häufigsten genutzten Bedrohungsvektoren. Durch E-Mails
+      verursachte Datenschutzverletzungen, Datenlecks, Geschäftsunterbrechungen
+      sowie Compliance- und Rechtsstreitigkeiten kosten Geld und Ansehen."
+    title: Barracuda Email Security Solutions
