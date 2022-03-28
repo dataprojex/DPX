@@ -28,6 +28,8 @@
                 </div>
                 {{"<!-- /section title -->" | safeHTML}}
             </div>
+            {{ end }}
+            {{ with $data.mediathekVideos}}
             <div class="col-12">
                 {{"<!-- Filter -->" | safeHTML}}
                 <div class="btn-group portfolio-filter btn-group-toggle justify-content-center d-flex flex-wrap"
@@ -50,6 +52,7 @@
                 {{"<!-- /Filter -->" | safeHTML}}
             </div>
         </div>
+
 
         <div class="row shuffle-wrapper justify-content-center">
             {{"<!-- Videos -->" | safeHTML}}
@@ -83,7 +86,7 @@
                 {{ end }}
                 {{"<!-- /Videos -->" | safeHTML}}
         </div>
+        {{ end }}
     </div>
 </section>
 {{"<!-- /Video -->" | safeHTML}}
-{{ end }}

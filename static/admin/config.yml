@@ -215,7 +215,7 @@ collections:
               { label: "Ist eine Telefonnummer", name: "tel", widget: "boolean", default: false },
               { label: "Link", name: "link", widget: "string" }]}
   - name: "mediathek"
-    label: "Videos Mediathek"
+    label: "Mediathek"
     files:
       - file: "data/de/mediathek.yml"
         label: "Mediathek Info"
