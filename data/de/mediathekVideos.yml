@@ -1,49 +1,66 @@
-videos :
-  - title : "Lenovo Workstations: Rewrite What’s Possible with the ThinkStation P620"
-    categories : ["Lenovo"]
-    summary : "See how Lenovo Workstations have consistently been revolutionizing workflows and empowering creators across the world."
-    link : https://www.youtube.com/embed/
+videos:
+  - title: "Lenovo Workstations: Rewrite What’s Possible with the ThinkStation P620"
+    categories:
+      - Lenovo
+    summary: See how Lenovo Workstations have consistently been revolutionizing
+      workflows and empowering creators across the world.
+    link: https://www.youtube.com/embed/
     code: KQieRoFs1x4
     teaser: true
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
-  - title : "Lenovo ThinkPad X1 Extreme Gen 5 – Move forward with the power you need"
-    categories : ["ThinkPad", "Lenovo"]
-    summary : "The latest X1 Extreme is here and has further refinement with Intel 12th generation H-Series processors and NVIDIA GeForce RTX 3080 Ti GPU. The X1 Extreme is all you need, nothing you don’t."
-    link : https://www.youtube.com/embed/
+  - title: Lenovo ThinkPad X1 Extreme Gen 5 – Move forward with the power you need
+    categories:
+      - ThinkPad
+      - Lenovo
+    summary: The latest X1 Extreme is here and has further refinement with Intel
+      12th generation H-Series processors and NVIDIA GeForce RTX 3080 Ti GPU.
+      The X1 Extreme is all you need, nothing you don’t.
+    link: https://www.youtube.com/embed/
     code: hHiQxsNtVtw
     teaser: true
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
-  - title : "Cyberbedrohungen entwickeln sich weiter. Und Sie?"
-    categories : ["Cyberbedrohungen", "Security"]
-    summary : "11 Sekunden. So viel Zeit haben Sie, um Ransomware zu stoppen. Mit Cybersecurity von Sophos kein Problem. Mehr erfahren unter www.sophos.de"
-    link : https://www.youtube.com/embed/
+  - title: Hacker und Viren? Sophos hilft.
+    categories:
+      - ThinkBook
+    summary: Ransomware ist schnell. Sophos ist schneller. Mehr erfahren unter
+      www.sophos.de
+    link: https://www.youtube.com/embed/
+    code: TRmfgLRlDRI
+    teaser: false
+    controllsSmall: ?&theme=dark&mute=1&controls=0
+    controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+  - title: Cyberbedrohungen entwickeln sich weiter. Und Sie?
+    categories:
+      - Cyberbedrohungen
+      - Security
+    summary: 11 Sekunden. So viel Zeit haben Sie, um Ransomware zu stoppen. Mit
+      Cybersecurity von Sophos kein Problem. Mehr erfahren unter www.sophos.de
+    link: https://www.youtube.com/embed/
     code: Cxf9gH43w2o
     teaser: true
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
-  - title : "Inside the heart of an IBM Cloud Data Center"
-    categories : ["IBM"]
-    summary : "We're inside the heart of an #IBMCloud data center. Watch this first ever footage of our AI-ready and secure-to-the-core IBM Cloud technology."
-    link : https://www.youtube.com/embed/
+  - title: Inside the heart of an IBM Cloud Data Center
+    categories:
+      - IBM
+    summary: "We're inside the heart of an #IBMCloud data center. Watch this first
+      ever footage of our AI-ready and secure-to-the-core IBM Cloud technology."
+    link: https://www.youtube.com/embed/
     code: HkIJTyjE4zo
     teaser: false
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
-  - title : "Lenovo ThinkBook Plus Gen 3 Teaser video"
-    categories : ["ThinkBook", "Lenovo"]
-    summary : "One Tool. Endless Possibilities. An ultimate tool for productivity. ThinkBook Plus Gen 3, the latest addition to the dual -screen ThinkBook Plus series. Coming soon.."
-    link : https://www.youtube.com/embed/
+  - title: Lenovo ThinkBook Plus Gen 3 Teaser video
+    categories:
+      - ThinkBook
+      - Lenovo
+    summary: One Tool. Endless Possibilities. An ultimate tool for productivity.
+      ThinkBook Plus Gen 3, the latest addition to the dual -screen ThinkBook
+      Plus series. Coming soon..
+    link: https://www.youtube.com/embed/
     code: J7rKQlsgf_8
-    teaser: false
-    controllsSmall: ?&theme=dark&mute=1&controls=0
-    controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
-  - title : "Hacker und Viren? Sophos hilft."
-    categories : ["ThinkBook"]
-    summary : "Ransomware ist schnell. Sophos ist schneller. Mehr erfahren unter www.sophos.de"
-    link : https://www.youtube.com/embed/
-    code: TRmfgLRlDRI
     teaser: false
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
