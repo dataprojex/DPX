@@ -256,15 +256,18 @@ $(document).ready(function(){
 		$(this).parent().find('iframe').attr('src', mute);
 	})
 
+	var finder
+
 	$('div.larger').click(function() {
-		$(this).parent().parent().parent().find('div.darkener').attr('style', "display:block")
-		largePlayerUrl = $(this).parent().parent().parent().find('iframe.largeVideo').attr('src')
-		$(this).parent().parent().parent().find('iframe.largeVideo').attr('src', largePlayerUrl+'&autoplay=1')
+		finder = $(this).attr('value')
+		$(this).parent().parent().parent().parent().find('#' + finder).attr('style', "display:block")
+		largePlayerUrl = $(this).parent().parent().parent().parent().find('#' + finder + 'play').attr('src')
+		$(this).parent().parent().parent().parent().find('#' + finder + 'play').attr('src', largePlayerUrl+'&autoplay=1')
 	})
 
 	$('button.video-modal__box-close').click(function() {
-		$(this).parent().parent().parent().parent().find('div.darkener').attr('style', "display:none")
-		$(this).parent().parent().parent().find('iframe.largeVideo').attr('src', largePlayerUrl)
+		$(this).parent().parent().parent().parent().find('#' + finder).attr('style', "display:none")
+		$(this).parent().parent().parent().find('#' + finder + 'play').attr('src', largePlayerUrl)
 	})
 
 });

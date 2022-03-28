@@ -59,7 +59,7 @@
                     <div class="video-wrapper" id="ytPlayer2">
                         <iframe width='500' height='294' src="{{ .link }}{{ .code }}{{ .controllsSmall}}" allow="autoplay;"></iframe>
                         <div class="unmute btn_content" style="position:absolute; bottom: -45px; right: 25px"><i class="ti-volume"></i></div>
-                        <div class="larger btn_content" style="position:absolute; bottom: -45px; right: 60px"><i class="ti-fullscreen"></i></div>
+                        <div class="larger btn_content" value="{{ .code }}" style="position:absolute; bottom: -45px; right: 60px"><i class="ti-fullscreen"></i></div>
                     </div>
 
 
@@ -69,16 +69,16 @@
                         <!-- <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a> -->
                     </div>
                 </div>
+            </article>
 
-                <div class="darkener" id="ytlarge" style="display: none">
-                    <div class="video-modal_content mx-auto" style="width: 925px; height: 520px;">
-                        <div class="video-modal_box" style="position:relative; width: 100%; height: 100%;">
-                            <button class="video-modal__box-close"> <i class="ti-close"></i></button>
-                            <iframe class="largeVideo" width='925' height='520' src="{{ .link }}{{ .code }}{{ .controllsLarge }}" allowfullscreen allow="fullscreen;"></iframe>
-                        </div>
+            <div class="darkener" id="{{ .code }}" style="display: none">
+                <div class="video-modal_content mx-auto" style="width: 925px; height: 520px;">
+                    <div class="video-modal_box" style="position:relative; width: 100%; height: 100%;">
+                        <button class="video-modal__box-close"> <i class="ti-close"></i></button>
+                        <iframe class="largeVideo" id="{{ .code }}play" width='925' height='520' src="{{ .link }}{{ .code }}{{ .controllsLarge }}" allowfullscreen allow="fullscreen;"></iframe>
                     </div>
                 </div>
-            </article>
+            </div>
 
                 {{ end }}
                 {{"<!-- /Videos -->" | safeHTML}}
