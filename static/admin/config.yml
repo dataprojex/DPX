@@ -217,6 +217,14 @@ collections:
   - name: "mediathek"
     label: "Mediathek"
     files:
+      - file: "content/deutsch/mediathek/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
       - file: "data/de/mediathek.yml"
         label: "Mediathek Info"
         name: "mediathekInfo"
