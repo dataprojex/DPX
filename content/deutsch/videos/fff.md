@@ -1,6 +1,8 @@
 ---
-title: fff
-summary: " ffdf"
+title: 4/6 - MO pi - 29.03. - SYSTEMABBRUCH & NEUSTART
+summary: Die SONNE H6 ("Frostschutz", Arbeitsplätze, niedere Verwaltung)
+  "verbrennt" MERKUR als H3 (Wirtschaft), H4 (Bevölkerung, Landwirtschaft) und
+  H7 (internationale Verträge & Partner) offenbar recht "erfolgreich"
 link: https://www.youtube-nocookie.com/embed/
 code: Ykn2TsEDiFM
 teaser: false
