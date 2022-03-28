@@ -88,5 +88,14 @@ videos:
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
     title: Barracuda Email Threat Scanner
     summary: In Ihren Office 365-Postfächern lauern möglicherweise schwerwiegende
-      Bedrohungen
+      Bedrohungen. Finden Sie heraus, was sich in Ihrem Postfach versteckt.
     code: E4frTxCnk-0
+  - teaser: false
+    categories:
+      - Barracuda
+    link: https://www.youtube.com/embed/
+    controllsSmall: ?&theme=dark&mute=1&controls=0
+    controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    title: Barracuda Cloud to Cloud Backup
+    summary: Unkompliziertes SaaS-Backup für Ihre Daten auf Microsoft Office 365
+    code: hXPRx8E3iuw
