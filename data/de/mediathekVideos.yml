@@ -6,7 +6,7 @@ videos:
       workflows and empowering creators across the world.
     link: https://www.youtube.com/embed/
     code: KQieRoFs1x4
-    teaser: true
+    teaser: false
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
   - title: Lenovo ThinkPad X1 Extreme Gen 5 – Move forward with the power you need
@@ -49,7 +49,7 @@ videos:
       ever footage of our AI-ready and secure-to-the-core IBM Cloud technology."
     link: https://www.youtube.com/embed/
     code: HkIJTyjE4zo
-    teaser: false
+    teaser: true
     controllsSmall: ?&theme=dark&mute=1&controls=0
     controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
   - title: Lenovo ThinkBook Plus Gen 3 Teaser video
