@@ -80,3 +80,13 @@ videos:
       verursachte Datenschutzverletzungen, Datenlecks, Geschäftsunterbrechungen
       sowie Compliance- und Rechtsstreitigkeiten kosten Geld und Ansehen."
     title: Barracuda Email Security Solutions
+  - teaser: false
+    categories:
+      - Barracuda
+    link: https://www.youtube.com/embed/
+    controllsSmall: ?&theme=dark&mute=1&controls=0
+    controllsLarge: ?&theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    title: Barracuda Email Threat Scanner
+    summary: In Ihren Office 365-Postfächern lauern möglicherweise schwerwiegende
+      Bedrohungen
+    code: E4frTxCnk-0
