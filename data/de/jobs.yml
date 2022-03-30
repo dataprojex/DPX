@@ -1,15 +1,224 @@
 jobs:
   items:
-    - title: "DevOps Engineer (m/f/x)"
-      description:
-    - title: "Softwareentwickler*in Web (m/f/x)"
-      description:
-    - title: "System Architect (m/f/x)"
-      description:
-    - title: "Service Manager*in (m/f/x)"
-      description:
-    - title: "Business Development Manager U.S (m/f/x)"
-      description:
-    - title: "Studentische Mitarbeiter*in in UX/UI Design (m/f/x)"
-      description:
+    - title: DevOps Engineer (m/f/x)
+      description: >-
+        
 
+        *Aufgaben*
+
+
+        * Technische Mitarbeit in unserem DevOps-Team
+
+        * Weiterentwicklung unserer Continuous Integration / Deployment Stacks
+
+        * Deployment und Plattformmanagement unserer oculavis SHARE Softwarelösung
+
+        * Entwicklung eines Automatisierungsframeworks via Ansible + Ansible Tower
+
+
+        \
+
+        *Anforderungsprofil*
+
+
+        * Du hast ein abgeschlossenes Informatikstudium o.Ä
+
+        * Du hast Softwarekenntnisse und Erfahrung mit Tools im Bereich DevOps (z.B. Docker, Ansible, Jenkins, NGINX, Traefik)
+
+        * Du hast Erfahrungen mit Cloud-basierten DevOps Technologien (z.B. Azure)
+
+        * Du bist sehr zuverlässig und hast ein hohes Maß an Verantwortungsbewusstsein
+
+        * Du sprichst Englisch und/oder Deutsch
+
+
+
+
+        Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
+    - title: Softwareentwickler*in Web (m/f/x)
+      description: >-
+        
+
+        *Aufgaben*
+
+
+        * Softwareentwicklung und Konzeption der Softwarearchitektur von Web Applikationen mit Angular
+
+        * Arbeit mit modernen, agilen Methoden in Scrum Teams und Kanban Boards
+
+        * Enge Zusammenarbeit mit Mitarbeitern*innen aus den anderen Entwicklungsteams, Produkt Management, IT Security, uvm.
+
+
+        \
+
+        *Anforderungsprofil*
+
+
+        * Du kennst dich aus in der Web Entwicklung mit Angular, HTML5, JavaScript, CSS und ähnlichen Technologien
+
+        * Du hast ein abgeschlossenes Informatikstudium o.Ä.
+
+        * Du hast Erfahrung in der Nutzung von Tools wie Git zur Versionsverwaltung und Lust auf systematisches Arbeiten mit Jira
+
+        * Du sprichst Englisch und/oder Deutsch
+
+        * Du bist motiviert und möchtest gerne ein modernes Thema mitgestalten
+
+
+
+
+        Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
+    - title: System Architect (m/f/x)
+      description: >-
+        
+
+        *Aufgaben*
+
+
+        * Entwicklung des Architektur komplexer Softwaresysteme
+
+        * Spezifikation und Dokumentation von Systemanforderungen, Systemintegration und Schnittstellen
+
+        * Technische Unterstützung beim Kundenkontakt
+
+        * Arbeit mit modernen, agilen Methoden in Scrum Teams und Kanban Boards
+
+        * Enge Zusammenarbeit mit Mitarbeitern*innen aus den anderen Entwicklungsteams, Produkt Management, IT Security, uvm.
+
+
+        \
+
+        *Anforderungsprofil*
+
+
+        * Du kennst dich aus in der Architektur von Softwaresystemen
+
+        * Du hast Erfahrung mit Programmiersprachen wie Java, C#, JavaScript, Python, Kotlin oder Swift sowie mit REST-APIs und Integration von Softwaresystemen
+
+        * Du hast ein abgeschlossenes Informatikstudium o.Ä.
+
+        * Du sprichst Englisch und/oder Deutsch
+
+        * Du bist motiviert und möchtest gerne ein modernes Thema mitgestalten
+
+
+
+
+        Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
+    - title: Service Manager*in (m/f/x)
+      description: >-
+        
+
+        *Aufgaben*
+
+
+        * Mitentwicklung und Implementierung eines globalen Kundensupportprozesses in Abstimmung mit unseren deutschen Niederlassungen
+
+        * Beantwortung von Kundenanfragen innerhalb der erwarteten SLAs und Steuerung der Kundenerwartungen
+
+        * Beantwortung eingehender Supportanfragen über verschiedene Kanäle (Telefon, E-Mail, etc.)
+
+        * Management der oculavis-Community in den USA, Kommunikation von Kunden-Innovationsthemen an unser Entwicklungsteam
+
+        * Aktive Mitwirkung in der Produktentwicklung
+
+
+        \
+
+        *Anforderungsprofil*
+
+
+        * 1+ Jahre Berufserfahrung im Software-Support oder ähnlichem Einsatzgebiet
+
+        * Exzellente Kenntnisse im Bereich Troubleshooting (Web- und mobile Anwendungen, Cloud-basierte Plattformen, Netzwerkkommunikation, etc.)
+
+        * Sicherer Umgang mit der MS Office 365 Suite und Fähigkeit, mit Problemverfolgungssoftware zu arbeiten (Erfahrung mit Jira & Odoo o.Ä. bevorzugt)
+
+        * Hervorragende zwischenmenschliche Fähigkeiten und ausgezeichnete schriftliche Kommunikation
+
+        * Fähigkeit, in einem schnelllebigen Umfeld zu arbeiten, unter Druck zu stehen und Prioritäten für mehrere Aufgaben zu setzen
+
+        * Einsatzbereitschaft und kundenzentrierte Denkweise, Fähigkeit als Teil eines kollaborativen Teams zu arbeiten
+
+
+
+
+        Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
+    - title: Business Development Manager U.S (m/f/x)
+      description: >-
+        *Aufgaben*
+
+
+        * Auf- und Ausbau eines eigenen Kundenstamms sowie die Betreuung und kontinuierlichen Weiterentwicklung unserer Kunden
+
+        * Lösungsorientierte Beratung der nordamerikanischen oculavis Kunden unter der Berücksichtigung ihrer Herausforderungen und Ziele in Remote Service Anwendungsfällen
+
+        * Management des vollständigen Sales-Zyklus von Leadgenerierung inklusive Messeteilnahmen und Kundenterminen bis hin zum Vertragsabschluss
+
+        * Unterstützung bei der Entwicklung und Durchführung von Marketing- und Vertriebsstrategien für den nordamerikanischen Markt
+
+        * Unterstützung bei der Entwicklung unserer Kundenansprache im Nordamerikanischen Markt
+
+        * Unterstützung der Produktentwicklung durch Klassifizierung und Weitergabe von Anwenderfeedback
+
+
+        \
+
+        *Anforderungsprofil*
+
+
+        * 2+ Jahre Erfahrung im Vertrieb von Technologie- oder Softwarelösungen
+
+        * Technisches Know-how im Bereich Software / moderne Technologien (Smart Glasses, Augmented Reality) oder eine hohe Affinität für neue und innovative Technologien
+
+        * Sicheres Auftreten, Durchsetzungsfähigkeit sowie hohe soziale Kompetenz
+
+        * Hohes Maß an Eigenverantwortung, ausgeprägte Teamfähigkeit, Einfallsreichtum und die Bereitschaft, sich neue Fähigkeiten und Kenntnisse anzueignen
+
+        * Exzellente Englischkenntnisse
+
+        * Sicherer Umgang mit MS Office Anwendungen
+
+        * Marketingerfahrung im Kontext von Softwarelösungen wünschenswert
+
+
+        Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
+    - title: Studentische Mitarbeiter*in in UX/UI Design (m/f/x)
+      description: >-
+        
+
+        *Aufgaben*
+
+
+        * Unterstützung unseres 3-köpfigen UI/UX Design Teams
+
+        * UI/UX Design für verschiedene Endgeräte, wie Web, Smartphones, Tablets, Smart Glasses, Augmented Reality Glasses
+
+        * User Research, Wireframing, Interaction Design und Visual Design
+
+        * Unterstützung in spannenden Forschungs- und Entwicklungsprojekten
+
+        * Zusammenarbeit mit unserem interdisziplinärem und internationalen Entwicklungsteam
+
+
+        \
+
+        *Anforderungsprofil*
+
+
+        * Du hast bereits Erfahrungen mit der Entwicklung von UI Designs mit Figma, Sketch oder einem ähnlichem UI Design Tool gesammelt
+
+        * Du kennst UX Methoden wie Wireframing, Prototyping, Usability Testing
+
+        * Du studierst im Bereich UX/UI Design, Mensch-Computer-Interaktion, Kommunikationsdesign, Produktdesign o.Ä.
+
+        * Du suchst eine Stelle, in der eigene Ideen und Eigeninitiative willkommen sind
+
+        * Du hast Lust ein modernes nachhaltiges Produkt mitzugestalten
+
+        * Du sprichst Englisch und/oder Deutsch
+
+
+
+
+        Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
