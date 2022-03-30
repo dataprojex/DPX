@@ -111,7 +111,29 @@ collections:
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "string" } ] }
-  - name: "kontaktseite"
+  - name: "karriere"
+      label: "Karriereseite"
+      files:
+        - file: "data/de/karriere_left.yml"
+          name: "textLinks"
+          label: "Unternehmen"
+          fields:
+            - { label: "unternehmen", name: "unternehmen", widget: "object", fields: [
+                { label: "Headline", name: "headline", widget: "string" },
+                { label: "Content", name: "content", widget: "markdown" } ] }
+            - { label: "Benefits", name: "benefits", widget: "object", fields: [
+                { label: "Headline", name: "headline", widget: "string" },
+                { label: "Items", name: "items", widget: "list", fields: [
+                  { label: "Benefit", name: "title", widget: "string" }] } ] }
+        - file: "data/de/jobs.yml"
+          name: "jobs"
+          label: "Jobs"
+          fields:
+            - { label: "Jobs", name: "jobs", widget: "object", fields: [
+              { label: "Items", name: "items", widget: "list", fields: [
+                { label: "Job Titel", name: "title", widget: "string" },
+                { label: "Beschreibung", name: "description", widget: "markdown" }] } ] }
+    - name: "kontaktseite"
     label: "Kontaktseite"
     files:
       - file: "content/deutsch/kontakt/_index.md"

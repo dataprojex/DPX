@@ -1,0 +1,46 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<section id="jobs">
+    <div class="container">
+        <div class="row">
+            {{ with $data.karriere_left}}
+            <div class="col-lg-6">
+                <h2> {{ .unternehmen.headline }}</h2>
+                <p> {{ .unternehmen.content | markdownify }}</p>
+
+                <h2> {{ .benefits.headline }}</h2>
+                <ul>
+                {{ range .benefits.items }}
+                    <li>{{ .title }}</li>
+                {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+            {{ with $data.jobs.jobs}}
+            <div class="col-lg-6 pt-5">
+                {{ "<!-- accordion -->" | safeHTML }}
+                <div id="accordion" class="mb-md-50">
+                    {{ range $index, $element := .items }}
+                    <div class="card border-0">
+                        <div class="card-header bg-gray border">
+                            <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse"
+                               href="#collapse{{ add $index 1 }}">
+                                {{ .title }} <i class="ti-plus text-primary mr-2 float-right"></i>
+                            </a>
+                        </div>
+                        <!--data-parent="#accordion" schließt alle außer das aktuelle item-->
+                        <div id="collapse{{ add $index 1 }}" class="collapse"
+                             data-parent="">
+                            <div class="card-body text-color pl-0 pb-0">
+                                <p>{{ .description | markdownify }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+                {{ "<!-- /accordion -->" | safeHTML }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
