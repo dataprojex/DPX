@@ -136,6 +136,14 @@ collections:
   - name: "kontaktseite"
     label: "Kontaktseite"
     files:
+      - file: "content/deutsch/karriere/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
       - file: "content/deutsch/kontakt/_index.md"
         name: "banner"
         label: "Banner"
