@@ -126,7 +126,7 @@ collections:
         name: "textLinks"
         label: "Unternehmen"
         fields:
-          - { label: "unternehmen", name: "unternehmen", widget: "object", fields: [
+          - { label: "Unternehmen", name: "unternehmen", widget: "object", fields: [
               { label: "Headline", name: "headline", widget: "string" },
               { label: "Content", name: "content", widget: "markdown" } ] }
           - { label: "Benefits", name: "benefits", widget: "object", fields: [
