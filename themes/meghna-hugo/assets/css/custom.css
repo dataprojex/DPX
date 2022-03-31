@@ -522,5 +522,9 @@
         transform: scale(1.1);}
 }
 
+.card-body>ul li{
+    list-style-type: square;
+}
+
 
 
