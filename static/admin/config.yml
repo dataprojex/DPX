@@ -133,6 +133,8 @@ collections:
               { label: "Headline", name: "headline", widget: "string" },
               { label: "Items", name: "items", widget: "list", fields: [
                 { label: "Benefit", name: "title", widget: "string" }] } ] }
+          - { label: "Text unter Jobs", name: "subcontent", widget: "object", fields: [
+            { label: "Content", name: "content", widget: "markdown" } ] }
       - file: "data/de/jobs.yml"
         name: "jobs"
         label: "Jobs"
