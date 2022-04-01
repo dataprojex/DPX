@@ -13,13 +13,7 @@
                 <div class="row justify-content-center pt-5">
                     <div class="col-lg-4 col-md-6 col-sm-12 align-self-center" style="margin-top:1em; margin-left:12vw">
                         <div class="hero-content p-3 float-left">
-                            <p class="text-uppercase slick-uppercase mb-2 text-white slider-responsive-type" style="font-size: 2.4vh" >
-                                » {{ .subtitle | markdownify }}</p>
-                            <h2 class="font-weight-bold slick-slide-headline mb-3 text-white" style="font-size: 4vh">
-                                {{ .title | markdownify }}</h2>
-                            <p class="mb-50 text-white" style="font-size: 2vh;">
-                                {{ .content | markdownify }}
-                            </p>
+                            {{ .copy | markdownify }}
                             {{ if .button.enable }}
                             <a data-duration-in="0.5" data-animation-in="fadeIn{{.animation_from | humanize}}" data-delay-in="1"
                                href="{{ .button.link | relLangURL }}" class="btn btn-transparent text-uppercase">{{ .button.label }}</a>
@@ -39,3 +33,4 @@
         {{ end }}
     </div>
 </section>
+
