@@ -2,6 +2,7 @@ enable : true
 slider_Item:
   # slider item loop
   - enable: true
+    offset: 0
     bg_image: images/uploads/slider_colorbackgroundsdarkblack.jpg
     hero_image: images/uploads/sophos-firewall-xstream-banner.png
     subtitle: Sophos Firewall
@@ -16,6 +17,7 @@ slider_Item:
       link: blog/installation
   # slider item loop
   - enable: true
+    offset: 0
     bg_image: images/uploads/Slider_BG_Red.jpg
     hero_image: images/uploads/flashspeicher.png
     subtitle: Flashspeicher-Lösungen
@@ -28,6 +30,7 @@ slider_Item:
       label: Mehr erfahren
       link: "#contact"
   - enable: true
+    offset: 0
     bg_image: images/uploads/slider_colorbackgroundsblue.jpg
     hero_image: images/uploads/sophos-central.png
     subtitle: Sophos Central
@@ -41,8 +44,9 @@ slider_Item:
       label: Mehr erfahren
       link: kontakt
   - enable: true
+    offset: 0
     bg_image: images/uploads/istock-1131198144.jpg
-    hero_image: images/uploads/istock-1131198144.jpg
+    hero_image:
     subtitle: Data Center
     title: Warum IT Infrastruktur wichtig ist
     content: Die Technologie ist in fast allen Bereichen der heutigen Unternehmen im
@@ -56,6 +60,7 @@ slider_Item:
       label: Mehr erfahren
       link: kontakt
   - enable: true
+    offset: 0
     bg_image: images/uploads/slider_colorbackgroundsblack.jpg
     hero_image: images/uploads/lenovo_data_center-kopie.png
     subtitle: Server

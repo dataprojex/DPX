@@ -28,13 +28,14 @@ collections:
         name: "dreisaeulen"
         fields:
           - { label: "Slides", name: "slider_Item", widget: "list", fields: [
-            { label: "Draft", name: "enable", widget: "boolean", default: true }
-            { label: "Background", name: "bg_image", widget: "image" }
-            { label: "Produkt", name: "hero_image", widget: "image" }
-            { label: "Subtitle", name: "subtitle", widget: "string" }
-            { label: "Title", name: "title", widget: "string" }
-            { label: "Content", name: "content", widget: "string" }
-            { label: "Animation from", name: "animation_from", widget: "hidden", default: "left" }
+            { label: "Draft", name: "enable", widget: "boolean", default: true },
+            { label: "Offset", name: "offset", widget: "number", default: 0, value_type: "int" },
+            { label: "Background", name: "bg_image", widget: "image" },
+            { label: "Produkt", name: "hero_image", widget: "image" },
+            { label: "Subtitle", name: "subtitle", widget: "string" },
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Content", name: "content", widget: "string" },
+            { label: "Animation from", name: "animation_from", widget: "hidden", default: "left" },
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Enable", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
