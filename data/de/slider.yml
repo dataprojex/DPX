@@ -87,7 +87,7 @@ slider_Item:
       enable: true
       label: Mehr erfahren
       link: kontakt
-    offset: 0
+    offset: 100
     copy: >-
       ##### Data Center
 
