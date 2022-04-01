@@ -1,6 +1,6 @@
 ---
 enable: true
-bg_image: images/uploads/istock-1131198144.jpg
+bg_image: images/uploads/Slider_BG_Red.jpg
 hero_image: images/uploads/istock-1131198144.jpg
 subtitle: Data Center
 title: Warum IT Infrastruktur wichtig ist
