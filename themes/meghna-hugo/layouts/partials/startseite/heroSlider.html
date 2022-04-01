@@ -7,13 +7,15 @@
         {{ "<!-- slider item -->" | safeHTML }}
         {{ range $slides.slider_Item }}
         <div class="hero-slider-item overlay-light" style=" height:55vh; position: relative" >
-            <div class="hero-slider-item overlay-light" style=" height:100%; width:100%; position:absolute; background-image: url('{{ .bg_image | absURL }}')" title="{{ .title }}">
+            <div class="hero-slider-item overlay-light {{ if .overlay }} darkner {{ end }}" style="background-position: 0px -{{ .offset }}px; height:100%; width:100%; position:absolute; background-image: url('{{ .bg_image | absURL }}')" title="{{ .title }}">
             </div>
             <div class="container m-0" style="width:100%; max-width: 3840px">
                 <div class="row justify-content-center pt-5">
                     <div class="col-lg-4 col-md-6 col-sm-12 align-self-center" style="margin-top:1em; margin-left:12vw">
                         <div class="hero-content p-3 float-left">
+                            <div class="text-white-slider slider-responsive-type mb-5">
                             {{ .copy | markdownify }}
+                            </div>
                             {{ if .button.enable }}
                             <a data-duration-in="0.5" data-animation-in="fadeIn{{.animation_from | humanize}}" data-delay-in="1"
                                href="{{ .button.link | relLangURL }}" class="btn btn-transparent text-uppercase">{{ .button.label }}</a>
@@ -33,4 +35,3 @@
         {{ end }}
     </div>
 </section>
-

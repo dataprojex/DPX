@@ -526,5 +526,44 @@
     list-style-type: square;
 }
 
+.text-white-slider p{
+    color: #ffffff !important;
+}
 
+.text-white-slider h1{
+    color: #ffffff !important;
+}
+
+.text-white-slider h2{
+    color: #ffffff !important;
+}
+
+.text-white-slider h3{
+    color: #ffffff !important;
+}
+
+.text-white-slider h3{
+    color: #ffffff !important;
+}
+
+.text-white-slider h5{
+    color: #ffffff !important;
+}
+
+.text-white-slider h6{
+    color: #ffffff !important;
+}
+
+.darkner {
+}
+
+.darkner:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
 

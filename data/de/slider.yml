@@ -17,12 +17,8 @@ slider_Item:
       Die Xstream-Architektur der Sophos Firewall schützt Ihr Netzwerk vor
       neuesten Bedrohungen und beschleunigt gleichzeitig den Datenverkehr
       wichtiger SaaS-, SD-WAN- und Cloud-Anwendungen.
+    overlay: false
     hero_image: images/uploads/sophos-firewall-xstream-banner.png
-    subtitle: Sophos Firewall
-    title: Extra starke Performance bei vollem Schutz
-    content: Die Xstream-Architektur der Sophos Firewall schützt Ihr Netzwerk vor
-      neuesten Bedrohungen und beschleunigt gleichzeitig den Datenverkehr
-      wichtiger SaaS-, SD-WAN- und Cloud-Anwendungen.
   - bg_image: images/uploads/Slider_BG_Red.jpg
     enable: true
     animation_from: left
@@ -40,12 +36,8 @@ slider_Item:
 
 
       Vereinfachen Sie Ihre Hybrid Cloud mit hochleistungsfähigen All-Flash-Speicherlösungen, die kosteneffizient und einfach zu verwalten sind
+    overlay: false
     hero_image: images/uploads/flashspeicher.png
-    subtitle: Flashspeicher-Lösungen
-    title: Zum 14. Mal in Folge Leader im Gartner® Magic Quadrant
-    content: Vereinfachen Sie Ihre Hybrid Cloud mit hochleistungsfähigen
-      All-Flash-Speicherlösungen, die kosteneffizient und einfach zu verwalten
-      sind
   - bg_image: images/uploads/slider_colorbackgroundsblue.jpg
     enable: true
     animation_from: left
@@ -65,12 +57,8 @@ slider_Item:
       In unabhängigen Produktstests blockiert Sophos durchweg mehr Malware und Exploits als Lösungen der Konkurrenz. Machen Sie sich jetzt Ihr eigenes
 
       Bild!
+    overlay: false
     hero_image: images/uploads/sophos-central.png
-    subtitle: Sophos Central
-    title: Sophos stoppt Ransomware.
-    content: In unabhängigen Produktstests blockiert Sophos durchweg mehr Malware
-      und Exploits als Lösungen der Konkurrenz. Machen Sie sich jetzt Ihr
-      eigenes Bild!
   - bg_image: images/uploads/slider_colorbackgroundsblack.jpg
     enable: true
     animation_from: left
@@ -89,13 +77,8 @@ slider_Item:
       OS Reliability Survey 2021 von ITIC das achte Jahr in Folge als die Server
       mit der höchsten Zuverlässigkeit und Verfügbarkeit unter allen Intel
       x86-basierten Plattformen eingestuft.
+    overlay: false
     hero_image: images/uploads/lenovo_data_center-kopie.png
-    subtitle: Server
-    title: Zuverlässige IT-Infrastruktur
-    content: "Lenovo ThinkSystem Server wurden in der Global Server Hardware Server
-      OS Reliability Survey 2021 von ITIC das achte Jahr in Folge als die Server
-      mit der höchsten Zuverlässigkeit und Verfügbarkeit unter allen Intel
-      x86-basierten Plattformen eingestuft. "
   - bg_image: images/uploads/istock-1131198144.jpg
     enable: true
     animation_from: left
@@ -113,11 +96,5 @@ slider_Item:
 
 
       Die Technologie ist in fast allen Bereichen der heutigen Unternehmen im Einsatz, von der Arbeit des einzelnen Mitarbeiters über den Betrieb bis hin zu Waren und Services. Wenn sie richtig vernetzt ist, kann die Technologie optimiert werden, um die Kommunikation zu verbessern, die Effizienz zu steigern und die Produktivität zu erhöhen.
+    overlay: true
     hero_image: images/uploads/istock-1131198144.jpg
-    subtitle: Data Center
-    title: Warum IT Infrastruktur wichtig ist
-    content: Die Technologie ist in fast allen Bereichen der heutigen Unternehmen im
-      Einsatz, von der Arbeit des einzelnen Mitarbeiters über den Betrieb bis
-      hin zu Waren und Services. Wenn sie richtig vernetzt ist, kann die
-      Technologie optimiert werden, um die Kommunikation zu verbessern, die
-      Effizienz zu steigern und die Produktivität zu erhöhen.
