@@ -11,7 +11,7 @@ collections:
     fields:
       - { label: "Draft", name: "enable", widget: "boolean", default: true }
       - { label: "Background", name: "bg_image", widget: "image" }
-      - { label: "Produkt", name: "hero_image", widget: "image" }
+      - { label: "Produkt", name: "hero_image", widget: "image", default: }
       - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "content", widget: "string" }
