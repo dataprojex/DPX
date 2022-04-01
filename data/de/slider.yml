@@ -1,28 +1,71 @@
 enable : true
 slider_Item:
   # slider item loop
-  - bg_image : images/slider/arbeitsplatzausstattung.jpg
-    animation_from : left
-    subtitle : Einer unserer Benefits ist die
-    title : Arbeitsplatzausstattung
-    content : Zu einem modernen Unternehmen gehört auch eine moderne Arbeitsplatzausstattung, und zwar für alle! Daher bekommt jede Mitarbeiter\*in zusätzlich zu seinem Laptop noch zwei 25-Zoll-Monitore, sowie eine Maus und Tastatur
-      der freien Wahl. Darüber hinaus wird jeder Mitarbeiter\*in ein höhenverstellbarer Tisch und ein ergonomischer Stuhl zur Verfügung gestellt, da auch die Gesundheit nicht zu kurz kommen darf.
-    pagination_icon : ti-comments # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Consultation
+  - enable: true
+    bg_image: images/uploads/slider_colorbackgroundsdarkblack.jpg
+    hero_image: images/uploads/sophos-firewall-xstream-banner.png
+    subtitle: Sophos Firewall
+    title: Extra starke Performance bei vollem Schutz
+    content: Die Xstream-Architektur der Sophos Firewall schützt Ihr Netzwerk vor
+      neuesten Bedrohungen und beschleunigt gleichzeitig den Datenverkehr wichtiger
+      SaaS-, SD-WAN- und Cloud-Anwendungen.
+    animation_from: left
     button:
-      enable : false
-      label: More details
-      link : "about"
+      enable: true
+      label: Mehr erfahren
+      link: blog/installation
   # slider item loop
-  - bg_image: images/slider/arbeitsplatzausstattung.jpg
-    animation_from: up
-    subtitle: Einer unserer Benefits ist die
-    title: Arbeitsplatzausstattung Zwei
-    content: Zu einem modernen Unternehmen gehört auch eine moderne Arbeitsplatzausstattung, und zwar für alle! Daher bekommt jede Mitarbeiter\*in zusätzlich zu seinem Laptop noch zwei 25-Zoll-Monitore, sowie eine Maus und Tastatur
-      der freien Wahl. Darüber hinaus wird jeder Mitarbeiter\*in ein höhenverstellbarer Tisch und ein ergonomischer Stuhl zur Verfügung gestellt, da auch die Gesundheit nicht zu kurz kommen darf.
-    pagination_icon: ti-comments # themify icon pack : https://themify.me/themify-icons
-    pagination_name: Consultation
+  - enable: true
+    bg_image: images/uploads/Slider_BG_Red.jpg
+    hero_image: images/uploads/flashspeicher.png
+    subtitle: Flashspeicher-Lösungen
+    title: Zum 14. Mal in Folge Leader im Gartner® Magic Quadrant
+    content: Vereinfachen Sie Ihre Hybrid Cloud mit hochleistungsfähigen
+      All-Flash-Speicherlösungen, die kosteneffizient und einfach zu verwalten sind
+    animation_from: left
     button:
-      enable: false
-      label: More details
-      link: "about"
+      enable: true
+      label: Mehr erfahren
+      link: "#contact"
+  - enable: true
+    bg_image: images/uploads/slider_colorbackgroundsblue.jpg
+    hero_image: images/uploads/sophos-central.png
+    subtitle: Sophos Central
+    title: Sophos stoppt Ransomware.
+    content: In unabhängigen Produktstests blockiert Sophos durchweg mehr Malware
+      und Exploits als Lösungen der Konkurrenz. Machen Sie sich jetzt Ihr eigenes
+      Bild!
+    animation_from: left
+    button:
+      enable: true
+      label: Mehr erfahren
+      link: kontakt
+  - enable: true
+    bg_image: images/uploads/istock-1131198144.jpg
+    hero_image: images/uploads/istock-1131198144.jpg
+    subtitle: Data Center
+    title: Warum IT Infrastruktur wichtig ist
+    content: Die Technologie ist in fast allen Bereichen der heutigen Unternehmen im
+      Einsatz, von der Arbeit des einzelnen Mitarbeiters über den Betrieb bis hin zu
+      Waren und Services. Wenn sie richtig vernetzt ist, kann die Technologie
+      optimiert werden, um die Kommunikation zu verbessern, die Effizienz zu
+      steigern und die Produktivität zu erhöhen.
+    animation_from: left
+    button:
+      enable: true
+      label: Mehr erfahren
+      link: kontakt
+  - enable: true
+    bg_image: images/uploads/slider_colorbackgroundsblack.jpg
+    hero_image: images/uploads/lenovo_data_center-kopie.png
+    subtitle: Server
+    title: Zuverlässige IT-Infrastruktur
+    content: "Lenovo ThinkSystem Server wurden in der Global Server Hardware Server
+      OS Reliability Survey 2021 von ITIC das achte Jahr in Folge als die Server mit
+      der höchsten Zuverlässigkeit und Verfügbarkeit unter allen Intel x86-basierten
+      Plattformen eingestuft. "
+    animation_from: left
+    button:
+      enable: true
+      label: Mehr erfahren
+      link: kontakt

@@ -1,12 +1,11 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
-{{ $slides := .Sites.First.GetPage "slides"  }}
+{{ $slides := $data.slider  }}
 
 {{ "<!-- hero slider -->" | safeHTML }}
 <section id="heroSlider">
     <div class="hero-slider no-nav position-relative">
         {{ "<!-- slider item -->" | safeHTML }}
-        {{ range $slides.Pages }}
-        {{ with .Params }}
+        {{ range $slides.slider_Item }}
         <div class="hero-slider-item overlay-light" style=" height:55vh; position: relative" >
             <div class="hero-slider-item overlay-light" style=" height:100%; width:100%; position:absolute; background-image: url('{{ .bg_image | absURL }}')" title="{{ .title }}">
             </div>
@@ -35,7 +34,6 @@
                 </div>
             </div>
         </div>
-        {{ end }}
         {{ end }}
     </div>
 </section>
