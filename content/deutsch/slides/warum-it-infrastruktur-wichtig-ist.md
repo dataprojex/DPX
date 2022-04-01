@@ -12,6 +12,6 @@ content: Die Technologie ist in fast allen Bereichen der heutigen Unternehmen im
 animation_from: left
 button:
   enable: true
-  label: D
-  link: D
+  label: Mehr erfahren
+  link: kontakt
 ---
