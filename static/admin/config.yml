@@ -24,8 +24,8 @@ collections:
     label: "Startseite"
     files:
       - file: "data/de/slider.yml"
-        label: "Drei Säulen"
-        name: "dreisaeulen"
+        label: "Slider"
+        name: "slider"
         fields:
           - { label: "Slides", name: "slider_Item", widget: "list", fields: [
             { label: "Draft", name: "enable", widget: "boolean", default: true },
