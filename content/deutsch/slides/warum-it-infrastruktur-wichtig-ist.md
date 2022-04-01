@@ -2,7 +2,7 @@
 enable: true
 bg_image: images/uploads/istock-1131198144.jpg
 hero_image: images/uploads/istock-1131198144.jpg
-subtitle: Was ist IT-Infrastruktur?
+subtitle: Data Center
 title: Warum IT Infrastruktur wichtig ist
 content: Die Technologie ist in fast allen Bereichen der heutigen Unternehmen im
   Einsatz, von der Arbeit des einzelnen Mitarbeiters über den Betrieb bis hin zu
