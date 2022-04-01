@@ -15,6 +15,7 @@ collections:
             { label: "Enable", name: "enable", widget: "boolean", default: true },
             { label: "Offset", name: "offset", widget: "number", default: 0, value_type: "int" },
             { label: "Background", name: "bg_image", widget: "image" },
+            { label: "Produkt Image aktive", name: "hero_image_active", widget: "boolean", default: true },
             { label: "Produkt", name: "hero_image", widget: "image", default: "null"},
             { label: "Subtitle", name: "subtitle", widget: "string" },
             { label: "Title", name: "title", widget: "string" },
@@ -22,8 +23,8 @@ collections:
             { label: "Animation from", name: "animation_from", widget: "hidden", default: "left" },
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Enable", name: "enable", widget: "boolean", default: true },
-              { label: "Label", name: "label", widget: "string" },
-              { label: "Link", name: "link", widget: "string" } ] } ] }
+              { label: "Label", name: "label", widget: "string", default: "null" },
+              { label: "Link", name: "link", widget: "string", default: "null" } ] } ] }
       - file: "data/de/dreiSaeulen.yml"
         label: "Drei Säulen"
         name: "dreisaeulen"

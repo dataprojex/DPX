@@ -8,6 +8,7 @@ slider_Item:
       label: Mehr erfahren
       link: blog/installation
     offset: 0
+    hero_image_active: true
     hero_image: images/uploads/sophos-firewall-xstream-banner.png
     subtitle: Sophos Firewall
     title: Extra starke Performance bei vollem Schutz
@@ -22,6 +23,7 @@ slider_Item:
       label: Mehr erfahren
       link: "#contact"
     offset: 0
+    hero_image_active: true
     hero_image: images/uploads/flashspeicher.png
     subtitle: Flashspeicher-Lösungen
     title: Zum 14. Mal in Folge Leader im Gartner® Magic Quadrant
@@ -36,6 +38,7 @@ slider_Item:
       label: Mehr erfahren
       link: kontakt
     offset: 0
+    hero_image_active: true
     hero_image: images/uploads/sophos-central.png
     subtitle: Sophos Central
     title: Sophos stoppt Ransomware.
@@ -50,6 +53,7 @@ slider_Item:
       label: Mehr erfahren
       link: kontakt
     offset: 0
+    hero_image_active: true
     hero_image: images/uploads/istock-1131198144.jpg
     subtitle: Data Center
     title: Warum IT Infrastruktur wichtig ist
@@ -66,6 +70,7 @@ slider_Item:
       label: Mehr erfahren
       link: kontakt
     offset: 0
+    hero_image_active: true
     hero_image: images/uploads/lenovo_data_center-kopie.png
     subtitle: Server
     title: Zuverlässige IT-Infrastruktur
@@ -81,6 +86,7 @@ slider_Item:
       label: aSD
       link: asd
     offset: 0
+    hero_image_active: false
     hero_image: "null"
     subtitle: abc
     title: abcd

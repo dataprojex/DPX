@@ -28,7 +28,9 @@
                     </div>
                     <div class="col-lg-6" style="margin-top:1vh">
                         <div class="hero-content p-3 float-left">
+                            {{ if .hero_image_active }}
                             <img class="responsive-img" src="{{ .hero_image | absURL  }}">
+                            {{ end }}
                         </div>
                     </div>
                 </div>
