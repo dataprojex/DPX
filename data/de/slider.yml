@@ -4,6 +4,7 @@ slider_Item:
     enable: true
     animation_from: left
     hero_image_active: true
+    overlay: false
     button:
       enable: true
       label: Mehr erfahren
@@ -17,12 +18,12 @@ slider_Item:
       Die Xstream-Architektur der Sophos Firewall schützt Ihr Netzwerk vor
       neuesten Bedrohungen und beschleunigt gleichzeitig den Datenverkehr
       wichtiger SaaS-, SD-WAN- und Cloud-Anwendungen.
-    overlay: false
     hero_image: images/uploads/sophos-firewall-xstream-banner.png
   - bg_image: images/uploads/Slider_BG_Red.jpg
     enable: true
     animation_from: left
     hero_image_active: true
+    overlay: false
     button:
       enable: true
       label: Mehr erfahren
@@ -34,12 +35,12 @@ slider_Item:
       ## Zum 14. Mal in Folge Leader im Gartner® Magic Quadrant
 
       Vereinfachen Sie Ihre Hybrid Cloud mit hochleistungsfähigen All-Flash-Speicherlösungen, die kosteneffizient und einfach zu verwalten sind
-    overlay: false
     hero_image: images/uploads/flashspeicher.png
   - bg_image: images/uploads/slider_colorbackgroundsblue.jpg
     enable: true
     animation_from: left
     hero_image_active: true
+    overlay: false
     button:
       enable: true
       label: Mehr erfahren
@@ -53,12 +54,12 @@ slider_Item:
       In unabhängigen Produktstests blockiert Sophos durchweg mehr Malware und Exploits als Lösungen der Konkurrenz. Machen Sie sich jetzt Ihr eigenes
 
       Bild!
-    overlay: false
     hero_image: images/uploads/sophos-central.png
   - bg_image: images/uploads/slider_colorbackgroundsblack.jpg
     enable: true
     animation_from: left
     hero_image_active: true
+    overlay: false
     button:
       enable: true
       label: Mehr erfahren
@@ -73,12 +74,12 @@ slider_Item:
       OS Reliability Survey 2021 von ITIC das achte Jahr in Folge als die Server
       mit der höchsten Zuverlässigkeit und Verfügbarkeit unter allen Intel
       x86-basierten Plattformen eingestuft.
-    overlay: false
     hero_image: images/uploads/lenovo_data_center-kopie.png
   - bg_image: images/uploads/istock-1131198144.jpg
     enable: true
     animation_from: left
     hero_image_active: false
+    overlay: true
     button:
       enable: true
       label: Mehr erfahren
@@ -90,5 +91,4 @@ slider_Item:
       ## Warum IT Infrastruktur wichtig ist
 
       Die Technologie ist in fast allen Bereichen der heutigen Unternehmen im Einsatz, von der Arbeit des einzelnen Mitarbeiters über den Betrieb bis hin zu Waren und Services. Wenn sie richtig vernetzt ist, kann die Technologie optimiert werden, um die Kommunikation zu verbessern, die Effizienz zu steigern und die Produktivität zu erhöhen.
-    overlay: true
     hero_image: images/uploads/istock-1131198144.jpg
