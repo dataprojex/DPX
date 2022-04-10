@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "navigation.html" . }}
+
+{{ partial "sidebar.html" $data.sideNavi }}
+
+{{ partial "banner_small.html" . }}
+
+{{ partial "submenu.html" $data.submenu.zentraleit }}
+
+{{ partial "contentModulV1.html" $data.server }}
+
+{{ partial "cta_generic.html" $data.ctaZentraleIt.HpePrimera }}
+
+{{ partial "contentModulV2.html" $data.storage }}
+
+{{ partial "cta_generic.html" $data.ctaZentraleIt.HpeGreenlake }}
+
+{{ partial "contentModulV1.html" $data.backupRecovery }}
+
+{{ partial "contentModulV2.html" $data.virtualisierung }}
+
+{{ partial "contentModulV1.html" $data.archivierung }}
+
+{{ partial "contentModulV2.html" $data.datenbank_groupware }}
+
+{{ partial "contentModulV1.html" $data.betriebssysteme }}
+
+{{ end }}

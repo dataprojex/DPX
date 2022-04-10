@@ -1,0 +1,17 @@
+id: mobileDeviceManagment
+headline: Optimales Mobile Device Management
+content: "Nutzen Sie die Möglichkeit, alle mobilen Geräte in Ihrem Unternehmen bestmöglich zu verwalten. Wir bieten Ihnen eine optimale und einfache Lösung für alle Betriebssysteme. Mit unserer Lösung können Sie von der kleinen Umgebung bis ins Enterprise-Umfeld skalieren. Unsere zertifizierten Consultants unterstützen Sie bei der Beratung und Planung der Mobile-Device-Strategie und implementieren alle mobilen Endgeräte."
+img: images/uploads/godyo_mdm_portfolio.png
+button:
+  enable: true
+  label: jetzt anfragen
+  link: kontakt
+logos:
+  - logo: images/uploads/sophos-1-e1553157765571.png
+boxes:
+  - headline: Security
+    content: Remote-Ortung, Reset, Sperrung
+  - headline: Management
+    content: Konfiguration, Inventarverwaltung, BYOD, App-Verwaltung
+  - headline: Monitoring
+    content: kontrollierter Zugriff, Traffic-Überwachung, Datenaustausch

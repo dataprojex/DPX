@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "navigation.html" . }}
+
+{{ partial "sidebar.html" $data.sideNavi }}
+
+{{ partial "banner_small.html" . }}
+
+{{ partial "submenu.html" $data.submenu.modernWorkplace }}
+
+{{ partial "contentModelV3.html" $data.m365 }}
+
+{{ partial "contentModulV1.html" $data.mobileDeviceManagment }}
+
+{{ partial "contentModulV2.html" $data.collaboration }}
+
+{{ partial "contentModulV1.html" $data.kommunikation }}
+
+{{ partial "contentModulV2.html" $data.clients }}
+
+{{ partial "contentModulV1.html" $data.lizenzmanagment }}
+
+{{ end }}

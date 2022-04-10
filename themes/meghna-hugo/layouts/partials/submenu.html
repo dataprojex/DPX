@@ -1,0 +1,21 @@
+
+{{ $data := . }}
+<section class="sticky-top" style="background-color: #292f36; width: 100%; top:78px; z-index:999">
+    <nav class="navbar navbar-expand-lg navbar-dark p-3">
+
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="row collapse navbar-collapse justify-content-center" id="navigation">
+            <ul class="navbar-nav" style="">
+            {{ range $data }}
+                <li class="nav-item my-auto mr-3">
+                    <a class="nav-link"
+                       href="#{{ .url | safeURL }}">{{.id}}</a>
+
+                </li>
+            {{ end }}
+            </ul>
+    </nav>
+</section>

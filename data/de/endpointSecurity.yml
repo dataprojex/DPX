@@ -1,0 +1,18 @@
+id: endpointSecurity
+headline: Bedarfsgerechte Endpoint-Security
+content: "Analog mit den Leistungsanforderungen an Ihre IT-Infrastruktur steigt auch das Sicherheitsrisiko, das sowohl von extern als auch von intern besteht. Ihre IT sollte deshalb immer gemäß aktueller Sicherheitsanforderungen up to date sein. Unsere Consultants unterstützen und betreuen Sie bezüglich Ihrer Anforderungen hinsichtlich verschiedenster Sicherheitsanforderungen. Insbesondere Web-Sicherheit und Verschlüsselungstechnologien, die den aktuellen Gesetzesanforderungen entsprechen, zählen zu unseren Spezialgebieten."
+img: images/uploads/godyo_endpoint_security_portfolio.png
+button:
+  enable: true
+  label: jetzt anfragen
+  link: kontakt
+logos:
+  - logo: images/uploads/sophos-1-e1553157765571.png
+  - logo: images/uploads/cisco-1-e1553157903536.png
+  - logo: images/uploads/fortinet-1-e1553157846999.png
+boxes:
+  - headline: Ihre Vorteile
+    content: Zentralisierte Transparenz und Kontrolle über Endgeräte, Automatisierter Endgeräte-Schutz, Vollständiger Exploit-Schutz
+  - headline: Wir bieten Ihnen
+    content: Ermittlung und Beseitigung von Risiken durch Schutz vor Schwachstellen, Erweiterung des Schutzes auf kritische Plattformen, Verringerung der Ausfallzeiten.
+

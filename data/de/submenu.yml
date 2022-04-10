@@ -1,0 +1,41 @@
+zentraleit:
+  - id: Server
+    url: server
+  - id: Storage
+    url: storage
+  - id: Backup / Recovery
+    url: backup_recovery
+  - id: Virtualisierung
+    url: virtualisierung
+  - id: Archivierung
+    url: archivierung
+  - id: Datenbank- und Groupware
+    url: datenbanke_groupware
+  - id: Betriebssysteme
+    url: betriebssysteme
+
+modernWorkplace:
+  - id: M365
+    url: m365
+  - id: Mobile Device Management
+    url: mobileDeviceManagment
+  - id: Collaboration
+    url: collaboration
+  - id: Kommunikation
+    url: kommunikation
+  - id: Clients
+    url: clients
+  - id: Lizenzmanagement
+    url: lizenzmanagement
+
+netzwerkSecurity:
+  - id: Site Survey
+    url: wlanVermessung
+  - id: WLAN
+    url: wlan
+  - id: LAN
+    url: lan
+  - id: Firewall / Mail Gateway
+    url: firewall
+  - id: Endpoint Security
+    url: endpointSecurity

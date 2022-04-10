@@ -1,0 +1,17 @@
+id: wlanVermessung
+headline: Individuelle WLAN-Vermessung (Site Survey), Visualisierung und Planung
+subline:
+content: "
+Durch flächendeckendes Wireless LAN können Sie von jedem gewünschten Punkt in Ihrem Unternehmen auf im Netzwerk verfügbare Daten zugreifen. Hilfreich ist dies bei Meetings oder wenn Ihre Mitarbeiter mit mobilen Endgeräten arbeiten. Kabellose Netze ermöglichen flexibles Arbeiten und steigern Ihre Produktivität.
+
+Verbinden Sie interne Anwendungen oder Informationssysteme in Ihrem Unternehmen drahtlos miteinander. Lassen Sie komplexe Systeme über Ihre neuen drahtlosen Netzwerk-Strukturen kommunizieren, anstatt mühsam Netzwerkkabel in Ihrem Unternehmen zu installieren."
+img: images/uploads/wlan-vermessung.png
+buttons:
+  enable: true
+  button:
+    - label: Jetzt anfragen
+      link: kontakt
+    - label: Mehr zur WLAN-Vermessung
+      link: kontakt
+    - label: Flyer WLAN-Vermessung
+      link: kontakt

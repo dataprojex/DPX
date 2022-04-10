@@ -1,0 +1,18 @@
+<section class="pb-5" id="{{ .id }}">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-lg-4" style='background-image: url("{{.img | absURL}}"); background-size: cover')>
+            </div>
+            <div class="col-lg-8 p-5">
+                <h2 class="mb-4"> {{ .headline }}</h2>
+                <h4> {{ .subline }}</h4>
+                <p class="pb-3"> {{ .content }}</p>
+                {{ if .buttons.enable }}
+                {{ range .buttons.button }}
+                <a class="btn-support mr-3" href="{{ .link | relLangURL }}"> {{ .label }} </a>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

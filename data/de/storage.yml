@@ -1,0 +1,19 @@
+id: storage
+headline: Zuverlässige intelligente Storages
+content: "Speicherlösungen für Ihr IT-Umfeld bieten eine Vielzahl an Optionen und Anpassungsmöglichkeiten, um Ihren Anforderungen gerecht zu werden. Beginnend bei softwarebasierten Lösungen, die den integrierten Speicher des Servers nutzen, über Einstiegssysteme bis hin zu hoch performanten Systemen bieten wir Ihnen ein breites Portfolio an Storages."
+img: images/uploads/server_portfolio.png
+button:
+  enable: true
+  label: jetzt anfragen
+  link: kontakt
+logos:
+  - logo: images/uploads/dell-technologies-e1563281351293.png
+  - logo: images/uploads/datacore-1-e1553157883598.png
+boxes:
+  - headline: Konzept
+    content: Unsere zertifizierten Consultants entwickeln für Sie eine individuell zugeschnittene und optimale Storage-Lösung.
+  - headline: Integration
+    content: Sie entscheiden und wir integrieren Ihre neue Storage-Lösung in Ihre bestehende IT-Infrastruktur.
+  - headline: Betreuung
+    content: Gern unterstützt Sie unser hauseigener IT-Service beim unterbrechungsfreiem Betrieb und bietet Ihnen umfassenden Service.
+
