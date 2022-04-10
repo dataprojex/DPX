@@ -1,0 +1,11 @@
+Sophos:
+  enable: true
+  bg_image: images/backgrounds/bg-white-wall.jpg
+  content: |-
+    ### GODYO und Sophos bieten wirksamen Schutz für Ihr Unternehmen.
+
+    Viele Unternehmen setzen auf Insellösungen, die nicht miteinander kommunizieren und keine Informationen bzw. Daten austauschen. Sophos hat deshalb das Sophos Adaptive Cybersecurity Ecosystem erschaffen. Es vereint die Vorteile von Sophos Threat Intelligence, Next-Gen Technologien, Data Lake, APIs und der Sophos Central Management-Plattform. Das Sophos Adaptive Cybersecurity Ecosystem verbessert sich nicht nur völlig automatisch von selbst, sondern es lernt täglich dazu. Sophos reagiert damit auf die zunehmenden manuell durchgeführten Hacking-Angriffe und täglichen Bedrohungen im Unternehmensalltag. <br/>
+  button:
+    enable: true
+    label: Sophos IT-Security Lösungen
+    link: kontakt
