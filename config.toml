@@ -93,19 +93,19 @@ hasChildren = true
 [[Languages.de.menu.main]]
 name = "Zentrale IT"
 parent = "performance"
-url = "/#zentrale-it"
+url = "/zentrale-it"
 weight = 1
 
 [[Languages.de.menu.main]]
 name = "Modern Workplace"
 parent = "performance"
-url = "/#modern-workplace"
+url = "/modern-workplace"
 weight = 2
 
 [[Languages.de.menu.main]]
 name = "Puplic & Private Cloud Hosting"
 parent = "performance"
-url = "/#managed-private-cloude-services"
+url = "/managed-private-cloude-services"
 weight = 3
 
 [[Languages.de.menu.main]]
