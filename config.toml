@@ -118,7 +118,7 @@ hasChildren = true
 [[Languages.de.menu.main]]
 name = "Netzwerke & Security"
 parent = "protection"
-url = "/#netzwerke-security"
+url = "/netzwerk-security"
 weight = 1
 
 [[Languages.de.menu.main]]

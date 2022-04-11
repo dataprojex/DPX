@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "navigation.html" . }}
+
+{{ partial "sidebar.html" $data.sideNavi }}
+
+{{ partial "banner_small.html" . }}
+
+{{ partial "submenu.html" $data.submenu.netzwerkSecurity }}
+
+{{ partial "contentModelV3.html" $data.wlanVermessung }}
+
+{{ partial "contentModulV1.html" $data.wlan }}
+
+{{ partial "contentModulV2.html" $data.lan }}
+
+{{ partial "contentModulV1.html" $data.firewall }}
+
+{{ partial "cta_generic.html" $data.ctaNetzwerkSecurity.Sophos }}
+
+{{ partial "contentModulV2.html" $data.endpointSecurity }}
+
+{{ end }}
