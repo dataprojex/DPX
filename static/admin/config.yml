@@ -120,6 +120,18 @@ collections:
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
               { label: "Headline", name: "headline", widget: "string" },
               { label: "Content", name: "content", widget: "text" }]}
+      - file: "data/de/ctaZentraleIt.yml"
+        label: "CTA HPE"
+        name: "calltoactionHPE"
+        fields:
+          - { label: "Call to action", name: "HpePrimera", widget: "object", fields: [
+            { label: "Active", name: "enable", widget: "boolean", default: true },
+            { label: "Hintergrund", name: "bg_image", widget: "image" },
+            { label: "Content", name: "content", widget: "markdown" },
+            { label: "Button", name: "button", widget: "object", fields: [
+              { label: "Active", name: "enable", widget: "boolean", default: true },
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
       - file: "data/de/storage.yml"
         label: "Storage"
         name: "storage"
@@ -203,6 +215,102 @@ collections:
       - file: "data/de/betriebssysteme.yml"
         label: "Betriebssysteme"
         name: "betriebssysteme"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+  - name: "modernWorkplace"
+    label: "Modern Workplace"
+    files:
+      - file: "data/de/m365.yml"
+        label: "M365"
+        name: "m365"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Subline", name: "subline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Buttons", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Button", name: "button", widget: "list", fields: [
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" }]}]}
+      - file: "data/de/mobileDeviceManagment.yml"
+        label: "Mobile Device Management"
+        name: "mobileDeviceManagment"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/collaboration.yml"
+        label: "Collaboration"
+        name: "collaboration"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/kommunikation.yml"
+        label: "Kommunikation"
+        name: "kommunikation"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/clients.yml"
+        label: "Clientmanagement"
+        name: "clientmanagement"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/lizenzmanagement.yml"
+        label: "Lizenzmanagement"
+        name: "lizenzmanagement"
         fields:
           - { label: "Headline", name: "headline", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
