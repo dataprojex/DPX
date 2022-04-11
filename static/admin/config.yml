@@ -324,6 +324,86 @@ collections:
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
+  - name: "netzwerkSecurity"
+    label: "Netzwerk & Security"
+    files:
+      - file: "data/de/wlanVermessung.yml"
+        label: "WLAN-Vermessung"
+        name: "wlan-vermessung"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Subline", name: "subline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Buttons", name: "buttonS", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Button", name: "button", widget: "list", fields: [
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
+      - file: "data/de/wlan.yml"
+        label: "Wlan"
+        name: "wlan"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/lan.yml"
+        label: "Lan"
+        name: "lan"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/firewall.yml"
+        label: "Firewall"
+        name: "firewall"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/endpointSecurity.yml"
+        label: "Endpoint Security"
+        name: "endpointSecurity"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
   - name: "unternehmensseite"
     label: "Unternehmensseite"
     files:
