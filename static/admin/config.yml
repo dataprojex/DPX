@@ -118,8 +118,8 @@ collections:
           - { label: "Logos", name: "logos", widget: "list", fields: [
               {label: "Logo", name: "logo", widget: "image"}]}
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
-              { label: "Headline", name: "headline", widget: "image" },
-              { label: "Content", name: "content", widget: "image" }]}
+              { label: "Headline", name: "headline", widget: "string" },
+              { label: "Content", name: "content", widget: "text" }]}
   - name: "unternehmensseite"
     label: "Unternehmensseite"
     files:
