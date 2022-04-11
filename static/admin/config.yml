@@ -121,8 +121,8 @@ collections:
               { label: "Headline", name: "headline", widget: "string" },
               { label: "Content", name: "content", widget: "text" }]}
       - file: "data/de/storage.yml"
-        label: "Server"
-        name: "server"
+        label: "Storage"
+        name: "storage"
         fields:
           - { label: "Headline", name: "headline", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
@@ -137,8 +137,8 @@ collections:
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
       - file: "data/de/backupRecovery.yml"
-        label: "Server"
-        name: "server"
+        label: "Backup / Recovery"
+        name: "backupRecovery"
         fields:
           - { label: "Headline", name: "headline", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
@@ -153,8 +153,8 @@ collections:
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
       - file: "data/de/virtualisierung.yml"
-        label: "Server"
-        name: "server"
+        label: "Virtualisierung"
+        name: "virtualisierung"
         fields:
           - { label: "Headline", name: "headline", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
@@ -169,8 +169,8 @@ collections:
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
       - file: "data/de/archivierung.yml"
-        label: "Server"
-        name: "server"
+        label: "Archivierung"
+        name: "archivierung"
         fields:
           - { label: "Headline", name: "headline", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
@@ -185,8 +185,8 @@ collections:
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
       - file: "data/de/datenbank_groupware.yml"
-        label: "Server"
-        name: "server"
+        label: "Datenbank- und Groupware"
+        name: "datenbank_groupware"
         fields:
           - { label: "Headline", name: "headline", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
@@ -201,8 +201,8 @@ collections:
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
       - file: "data/de/betriebssysteme.yml"
-        label: "Server"
-        name: "server"
+        label: "Betriebssysteme"
+        name: "betriebssysteme"
         fields:
           - { label: "Headline", name: "headline", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
