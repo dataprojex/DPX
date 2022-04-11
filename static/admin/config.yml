@@ -231,7 +231,7 @@ collections:
   - name: "modernWorkplace"
     label: "Modern Workplace"
     files:
-      - file: "data/de/m365.yml"
+      - file: "data/de/microsoftOffice.yml"
         label: "M365"
         name: "m365"
         fields:
