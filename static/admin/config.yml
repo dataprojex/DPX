@@ -239,7 +239,7 @@ collections:
           - { label: "Subline", name: "subline", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
           - { label: "Image", name: "img", widget: "image" }
-          - { label: "Buttons", name: "button", widget: "object", fields: [
+          - { label: "Buttons", name: "buttonS", widget: "object", fields: [
             { label: "Aktive", name: "enable", widget: "boolean", default: true },
             { label: "Button", name: "button", widget: "list", fields: [
               { label: "Label", name: "label", widget: "string" },
