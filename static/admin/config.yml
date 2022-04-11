@@ -104,7 +104,7 @@ collections:
   - name: "zentraleIt"
     label: "Zentrale It"
     files:
-      - file: "data/de/serve.yml"
+      - file: "data/de/server.yml"
         label: "Server"
         name: "server"
         fields:
