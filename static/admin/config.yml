@@ -308,7 +308,7 @@ collections:
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
-      - file: "data/de/lizenzmanagement.yml"
+      - file: "data/de/lizenzmanagment.yml"
         label: "Lizenzmanagement"
         name: "lizenzmanagement"
         fields:
