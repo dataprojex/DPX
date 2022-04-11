@@ -1,6 +1,10 @@
-headline: hallo welt
-subline: ASDCASD
-content: asFDasdaDS
-img: images/uploads/annie-spratt-goholCAVTRs-unsplash.jpg
-button:
+id: m365
+headline: M365
+subline: Die Komplettlösung für den modernen Arbeitsplatz.
+content: "Microsoft 365 bietet Ihren Mitarbeitern eine intelligente Komplettlösung für einen zukunftsfähigen Arbeitsplatz. Profitieren Sie von einer umfassenden Produktsammlung, welche Ihren Mitarbeitern innovative Lösungen zur Zusammenarbeit und Produktivität bereitstellt. Ob kleiner Mittelstand- oder Konzern-Strukturen, das M365-Paket umfasst 3 wesentliche Teile: Eine nutzerbasierte Lizenz für das Betriebssystem Windows 10, Office 365 und die Management- und Security-Funktionalitäten. M365 bedeutet Innovation. So auch beim finanziellen Aspekt. Mieten statt kaufen heißt es nun auch bei Microsoft. Dadurch sparen Sie die üblichen hohen Investitionskosten und zahlen lediglich monatliche Gebühren pro User. Dabei können alle Anwender sofort auf eine fortwährend wachsende und stets aktuelle Softwarelandschaft zurückgreifen. Kurz gesagt, alle zukünftigen Upgrades und Updates sind ohne Aufpreis enthalten."
+img: images/uploads/microsoft-365-meeting-godyo.jpg
+buttons:
   enable: true
+  button:
+    - label: Mehr zu Microsoft 365
+      link: kontakt
