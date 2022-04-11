@@ -4,7 +4,7 @@
             <div class="col-lg-6 p-5">
                 <h2 class="mb-4"> {{ .headline }}</h2>
                 <p> {{ .content | markdownify }}</p>
-                <div class="mt-5" style="width:100%; height: 1px; background-color: #737f8a"></div>
+                <div class="mt-5" style="width:100%; height: 1px; background-color: #b10232"></div>
                 <div class="row mb-5 pt-4 pl-3">
                     {{ range .logos }}
                         <img class="mr-4" style="height:25px" src="{{ .logo | absURL }}">
@@ -32,8 +32,8 @@
             col-lg-12
             {{ end }} p-1">
                 <div class="p-4" style="background-color: #292f36; height: 100%">
-                    <h4 class="mb-4">{{ .headline }}</h4>
-                    <p>{{ .content }}</p>
+                    <h4 class="mb-4" style="font-size: 16px; font-weight: 600">{{ .headline }}</h4>
+                    <p style="font-size: 12px; margin: 0">{{ .content }}</p>
                 </div>
             </div>
             {{ end }}
