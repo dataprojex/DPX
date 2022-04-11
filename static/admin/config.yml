@@ -91,8 +91,8 @@ collections:
               { label: "Aktive", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
               { label: "Link", name: "link", widget: "string" } ] } ] }
-  - name: "spectrum"
-    label: "Spectrum"
+  - name: "megamenu"
+    label: "Mega Menu"
     files:
       - file: "data/de/megamenu.yml"
         label: "Subline Megamenu"
@@ -101,6 +101,25 @@ collections:
           - { label: "Submenu", name: "submenu", widget: "list", fields: [
             { label: "Name, nicht ändern!", name: "name", widget: "string"},
             { label: "Subline", name: "content", widget: "string"}]}
+  - name: "zentraleIt"
+    label: "Zentrale It"
+    files:
+      - file: "data/de/serve.yml"
+        label: "Server"
+        name: "server"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string"}
+          - { label: "Content", name: "content", widget: "markdown"}
+          - { label: "Image", name: "img", widget: "image"}
+          - { label: "Button", name: "button", widget: "object", fields: [
+              {label: "Aktive", name: "enable", widget: "boolean", default: true},
+              {label: "Label", name: "label", widget: "string"},
+              {label: "Link", name: "link", widget: "string"}]}
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+              {label: "Logo", name: "logo", widget: "image"}]}
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+              { label: "Headline", name: "headline", widget: "image" },
+              { label: "Content", name: "content", widget: "image" }]}
   - name: "unternehmensseite"
     label: "Unternehmensseite"
     files:
