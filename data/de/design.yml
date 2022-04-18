@@ -1,0 +1,23 @@
+id: DesignThinking
+headline: Design Thinking
+content: >-
+  Das Ergebnis sind innovative Produkte, Services und Erlebnisse, die nicht nur attraktiv, sondern auch realisierbar und marktfähig sind. Design Thinking eignet sich für alle, die genau die Bedürfnisse ihrer Kunden verstehen und dafür Lösungen und Produkte entwickeln wollen.
+  Design Thinking ist eine kreative Methode zur Innovationsentwicklung. Der Nutzer und seine Bedürfnisse stehen im Mittelpunkt. Unter Beachtung der Machbarkeit, Tragfähigkeit und Erwünschtheit wird versucht, die menschliche Perspektive als Zielstellung zu nutzen.
+  </br></br>
+  **Design Thinking ist für alle Lebensbereiche und Branchen geeignet.**
+  </br>
+
+  * Entwicklung neuer Produkte und Dienstleistungen
+
+  * Erarbeitung neuer Arbeitsabläufe
+
+  * Entwicklung neuer Geschäftsmodelle
+
+  * Verbesserung von Prozessen im Unternehmen und für Ihre Kunden
+
+img: images/uploads/godyo_design_thinking_portfolio.png
+buttons:
+  enable: true
+  button:
+    - label: jetzt Anfragen
+      link: kontakt
