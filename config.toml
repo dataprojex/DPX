@@ -124,13 +124,13 @@ weight = 1
 [[Languages.de.menu.main]]
 name = "Monitoring"
 parent = "protection"
-url = "/#monitoring"
+url = "/monitoring"
 weight = 2
 
 [[Languages.de.menu.main]]
 name = "Support & Service"
 parent = "protection"
-url = "/#support-Service"
+url = "/support-service"
 weight = 3
 
 [[Languages.de.menu.main]]

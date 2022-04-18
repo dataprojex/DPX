@@ -567,3 +567,12 @@
     left: 0;
 }
 
+.iconBoxes {
+    position: absolute;
+    width:60px;
+    height: 60px;
+    background-color: #8c0615;
+    top:-30px;
+    left: 43%
+}
+
