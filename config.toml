@@ -68,19 +68,19 @@ hasChildren = true
 [[Languages.de.menu.main]]
 name = "Consulting"
 parent = "potential"
-url = "/#consulting"
+url = "/consulting"
 weight = 1
 
 [[Languages.de.menu.main]]
 name = "Design"
 parent = "potential"
-url = "/#design"
+url = "/design"
 weight = 2
 
 [[Languages.de.menu.main]]
 name = "Digitalisierung"
 parent = "potential"
-url = "/#digitalisierung"
+url = "/digitalisierung"
 weight = 3
 
 [[Languages.de.menu.main]]
