@@ -1,0 +1,20 @@
+id: ihreAnforderung
+headline: Unsere Leistungen – Ihre Anforderungen
+subline: "Als Full Managed IT-Service-Anbieter profitieren Sie von unserem breiten Portfolio an unterstützenden IT-Dienstleistungen:"
+content: >-
+  * Deutschsprachiger ServiceDesk (kein Callcenter) mit zertifizierten Experten
+
+  * 2nd level Support und JIRA-Ticketsystem
+
+  * Online-Backup und Desaster Recovery
+
+  * System- und Datenbankadministration sowie Lizenzmanagement
+
+  * 24/7-Servermonitoring sowie Serverhousing und IT-Outsourcing
+
+img: images/uploads/godyo_backup_portfolio.png
+buttons:
+  enable: true
+  button:
+    - label: jetzt Anfragen
+      link: kontakt

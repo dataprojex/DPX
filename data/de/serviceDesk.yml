@@ -1,0 +1,28 @@
+id: serviceDesk
+headline: Unser ServiceDesk ist integraler Bestandteil aller IT-Service-Lösungen
+content: >-
+  * Individuelle Lösungen mit verschiedenen Reaktions- und Servicezeiten sowie Stundenkontingenten möglich
+
+  * Standard-Verfügbarkeit: Mo. – Fr. von 08:00 bis 17:00 Uhr
+
+  * Mögliche Rufbereitschaft, optional bis zu 7 x 24
+
+  * Zentrale Hotline-Nummer sowie Call Tracking und Auswertungen
+
+  * Kontingentverwaltung
+
+  * Service Level / Behandlung aller Services nach folgendem Schema
+
+      * Level I: Call Handling
+      * Level II: + ServiceDesk > reaktiver Support
+      * Level III: + Monitoring > proaktiver Support
+      * Level IV: + Patch Management > halten der Systeme Support-Level
+      * Level V: + Operation Management > Basisbetrieb der Systeme
+      * Level VI: + Application Management > vollständige Administration
+
+img: images/uploads/godyo_business_software_consulting_portfolio.png
+buttons:
+  enable: true
+  button:
+    - label: jetzt Anfragen
+      link: kontakt

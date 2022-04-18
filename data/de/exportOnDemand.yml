@@ -1,0 +1,26 @@
+id: ExpertonDemand
+headline: Expert on Demand
+subline: Die richtigen Experten zur richtigen Zeit
+content: >-
+  * individuelle, unterstützende und administrierende Tätigkeiten sowohl remote als auch vor Ort
+
+  * Unterstützung im operativen IT\-Tagesgeschäft
+
+  * Support bei administrativen IT\-Aufgaben
+
+  * Beitrag zur Aufrechterhaltung des IT\-Betriebes
+
+  * Abarbeitung von IT\-Störungsmeldungen bzw. Support von End\-Usern
+
+  * temporäre IT\-Unterstützung bei personellen Engpässen (Vertretungen etc.)
+
+  * Unterstützung und Zuarbeiten bei von Ihnen gesteuerten Projekten
+
+img: images/uploads/godyo_dms_portfolio.png
+buttons:
+  enable: true
+  button:
+    - label: jetzt Anfragen
+      link: kontakt
+    - label: Mehr über Export on Demand
+      link: kontakt
