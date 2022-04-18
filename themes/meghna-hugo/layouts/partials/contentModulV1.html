@@ -19,6 +19,7 @@
             </div>
         </div>
         <div class="row justify-content-center mt-3">
+            {{ if .boxes }}
             {{ $boxlen := len .boxes}}
             {{ range .boxes }}
             <div class="
@@ -36,6 +37,7 @@
                     <p style="font-size: 12px; margin: 0">{{ .content }}</p>
                 </div>
             </div>
+            {{ end }}
             {{ end }}
 
         </div>

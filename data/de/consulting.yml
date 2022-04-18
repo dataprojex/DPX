@@ -20,8 +20,9 @@ content: >-
   - Übernahme des Betriebes und Support durch unseren IT\-Service
 
 img: images/uploads/godyo_clients_portfolio-e1552553110541.png
-buttons:
+button:
   enable: true
-  button:
-    - label: jetzt Anfragen
-      link: kontakt
+  label: jetzt anfragen
+  link: kontakt
+logos:
+boxes:
