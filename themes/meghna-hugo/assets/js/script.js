@@ -80,15 +80,27 @@ jQuery(function ($) {
 		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>'
 	});
 
-	//Benefit Slider
-	$('.hero-slider.no-nav').slick({
+	/* ========================================================================= */
+	/* produkt slider
+	/* =========================================================================  */
+	$('.testimonial-slider').slick({
+		infinite: true,
+		dots: false,
+		speed: 1000,
+		autoplaySpeed: 4000,
+		arrows: true,
 		autoplay: true,
+		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
+		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>'
+	});
+
+	//Benefit Slider
+	$('.produktSlider-slider.no-nav').slick({
+		autoplay: false,
 		infinite: true,
 		dots: true,
 		autoplaySpeed: 10000,
-		arrows: true,
-		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-angle-double-left iconSlider\'></i></button>',
-		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-angle-double-right iconSlider\'></i></button>',
+		arrows: false,
 		responsive: [{
 			breakpoint: 576,
 			settings: {
@@ -96,7 +108,7 @@ jQuery(function ($) {
 			}
 		}]
 	});
-	$('.hero-slider.no-nav').slickAnimation();
+	$('.produktSlider-slider.no-nav').slickAnimation();
 
 	// slick slider
 	$('.work-slider').slick({
@@ -278,3 +290,4 @@ $('.collapse').on('shown.bs.collapse', function () {
 }).on('hidden.bs.collapse', function () {
 	$(this).parent().find('.ti-minus').removeClass('ti-minus').addClass('ti-plus');
 });
+

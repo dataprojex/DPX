@@ -1,0 +1,45 @@
+slider_Item:
+  - dot: Basis
+    icon: ti-medall-alt
+    headline: Basis Monitoring
+    copy: >-
+      * grundlegende Überprüfung von IT-Komponenten
+
+      * Überwachung elementarer, zwingend notwendiger Metriken
+
+      * Kontrolle festgelegter Schwellwerte und Parameter
+
+      * keine Überwachung von Applikationen, Datenbanken und Services
+
+      * Zeitfenster: 24×7
+
+      * Alarmierung: E-Mail
+    hero_image: images/uploads/Checkmk_Basismonitoring.png
+  - dot: Advanced
+    icon: ti-medall-alt
+    headline: Advanced Monitoring
+    copy: >-
+      * Entspricht allen Features des Basis-Monitorings
+
+      * Erweiterung um weiterführende Checks und Metriken (z.B. Firmwarestatus)
+
+      * Zusätzliche Überwachung von IT-Services z.B. Applikation, Terminalservern, Datenbanken
+
+      * Zeitfenster: 24×7
+
+      * Alarmierung: E-Mail / Ticket
+    hero_image: images/uploads/Checkmk_Advancedmonitoring.png
+  - dot: Premium
+    icon: ti-medall-alt
+    headline: Premium Monitoring
+    copy: >-
+      * vollumfängliches Monitoring aller Infrastrukturen und IT-Services
+
+      * individualisierbares Reporting und Monitoring
+
+      * Kundenindividuelle Überwachung von speziellen Hard- und Softwarekomponenten
+
+      * Zeitfenster: 24×7
+
+      * Alarmierung: E-Mail / Ticket / Call SMS / Messenger
+    hero_image: images/uploads/Checkmk_Premiummonitoring.png

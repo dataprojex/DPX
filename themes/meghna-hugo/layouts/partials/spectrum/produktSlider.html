@@ -1,0 +1,72 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $slides := $data.produktSlider  }}
+
+{{ "<!-- hero slider -->" | safeHTML }}
+<section id="">
+    <div class="row justify-content-center" style="background-color: #1b1e21">
+            {{ range $index, $element := $slides.slider_Item }}
+            <div class="text-center dot pb-3" onclick="currentSlide({{ add $index  1}})">
+                <div class="m-3 pt-4" style="width:100px; height: 100px; background-color: #d30435">
+                    <i class="{{ $element.icon }}" style="font-size: 50px; color: #ffffff"></i>
+                </div>
+                <span>{{ $element.dot }}</span>
+            </div>
+            {{ end }}
+    </div>
+
+    <div class="position-relative">
+        {{ "<!-- slider item -->" | safeHTML }}
+        {{ range $slides.slider_Item }}
+        <div class="overlay-light mySlides fade bg-white" style=" height:60vh;" >
+            <div class="container m-0 h-100" style="width:100%; max-width: 3840px">
+                <div class="row justify-content-center pt-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 align-self-center my-auto" style="margin-left:6vw">
+                        <div class="hero-content p-3 float-left">
+                            <div class="slider-responsive-type mb-5">
+                                <h2 class="mb-5 text-dark"> {{ .headline }}</h2>
+                                {{ .copy | markdownify }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center" style="margin-top:1vh">
+                        <div class="p-3">
+                            <img class="image-fullsize" src="{{ .hero_image | absURL  }}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+</section>
