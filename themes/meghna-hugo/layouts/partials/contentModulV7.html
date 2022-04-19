@@ -1,0 +1,29 @@
+<section class="pb-5" id="{{ .id }}">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-lg-6 p-5">
+                <img style="width: 100%;" src="{{ .img | absURL }}">
+            </div>
+            <div class="col-lg-6 p-5">
+                <h2 class="mb-4"> {{ .headline }}</h2>
+                <h5> {{ .subline }}</h5>
+
+                <div class="row mt-5">
+                {{ range .items }}
+                    <div class="col-12 d-flex mt-3">
+                        <div class="col-lg-3 pl-0 text-center">
+                            <div class="pt-4" style="background-color: #afbac4; width: 90px; height: 90px">
+                                <i class="{{ .icon }}" style="font-size: 40px; color: #b10232"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <h6> {{ .headline }}</h6>
+                            <p class="m-0" style="font-size: 10pt"> {{ .copy }}</p>
+                        </div>
+                    </div>
+                {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
