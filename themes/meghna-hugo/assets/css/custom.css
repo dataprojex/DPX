@@ -590,11 +590,15 @@
     color: #ffffff
 }
 
-.active .icon{
+.active{
+  color: #b10232 !important;
+}
+
+.active2 .icon{
     color: #b10232
 }
 
-.active:after{
+.active2:after{
     display: block;
     position: absolute;
     width: 50px;
@@ -661,7 +665,7 @@
     top: 0;
 }
 
-.active, .dot:hover {
+.active2, .dot:hover {
     background-color: #3d3d3d;
 }
 
