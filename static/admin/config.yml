@@ -757,7 +757,7 @@ collections:
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "string" },
-            { label: "Icon", name: "icon", widget: "string" } ] } ] }
+            { label: "Icon", name: "icon", widget: "string" } ] }
       - file: "data/de/ihreAnforderung.yml"
         label: "Ihre Anforderung"
         name: "ihreAnforderung"
