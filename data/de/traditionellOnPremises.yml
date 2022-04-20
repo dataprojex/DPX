@@ -1,0 +1,19 @@
+id: traditionell-on-premises
+headline: Traditionell On-Premises
+content: "Unser Portfolio umfasst eine Bandbreite an Servern, die sich optimal an Ihre individuellen Anforderungen und Einsatzgebiete anpassen. Diese sind vielfältig: ob als dedizierter Server für hohe Leistungsanforderungen oder im Datenbank-Umfeld für die Bewältigung großer Datenmengen (Big Data). Flexible Systeme passen sich an die Anforderungen und an das Wachstum Ihres Unternehmens an. Unsere Consultants konfigurieren Ihnen passgenaue und bedarfsgerechte Systeme."
+img: images/uploads/godyo_server_portfolio-1.png
+button:
+  enable: true
+  label: jetzt anfragen
+  link: kontakt
+logos:
+  - logo: images/uploads/hpe-1-e1553157827503.png
+  - logo: images/uploads/dell-technologies-e1563281351293.png
+boxes:
+  - headline: Neu-Installation
+    content: Von der Planung über die Beschaffung bis hin zur Installation. Wir sind Ihr Partner für eine ganzheitliche IT.
+  - headline: Erweiterung
+    content: Wenn die bisherige Leistung nicht ausreicht und Sie Ihre Server ausbauen oder erweitern möchten, GODYO erfüllt Ihre Wünsche.
+  - headline: Virtualisierung
+    content: Nutzen Sie Speicherkapazitäten nachhaltig durch Virtualisierung. Unsere Spezialisten beraten Sie gern.
+

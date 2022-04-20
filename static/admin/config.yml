@@ -181,6 +181,14 @@ collections:
   - name: "zentraleIt"
     label: "Zentrale It"
     files:
+      - file: "content/deutsch/zentrale-it/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
       - file: "data/de/server.yml"
         label: "Server"
         name: "server"
@@ -308,6 +316,14 @@ collections:
   - name: "modernWorkplace"
     label: "Modern Workplace"
     files:
+      - file: "content/deutsch/modern-workplace/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
       - file: "data/de/microsoftOffice.yml"
         label: "M365"
         name: "m365"
@@ -401,9 +417,152 @@ collections:
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
+  - name: "cloudServices"
+    label: "Cloud Services"
+    files:
+      - file: "content/deutsch/managed-private-cloude-services/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
+      - file: "data/de/traditionellOnPremises.yml"
+        label: "Traditionell On-Premises"
+        name: "traditionellOnpremises"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/ctaCloud1.yml"
+        label: "CTA 1"
+        name: "calltoactionOne"
+        fields:
+          - { label: "Call to action", name: "HpePrimera", widget: "object", fields: [
+            { label: "Active", name: "enable", widget: "boolean", default: true },
+            { label: "Hintergrund", name: "bg_image", widget: "image" },
+            { label: "Content", name: "content", widget: "markdown" },
+            { label: "Button", name: "button", widget: "object", fields: [
+              { label: "Active", name: "enable", widget: "boolean", default: true },
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
+      - file: "data/de/colocation.yml"
+        label: "Colocation"
+        name: "colocation"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/hosting.yml"
+        label: "Hosting"
+        name: "hosting"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/iaas.yml"
+        label: "Iaas"
+        name: "iaas"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/paas.yml"
+        label: "PaaS"
+        name: "paas"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/saas.yml"
+        label: "SaaS"
+        name: "saas"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/hybrid.yml"
+        label: "Hybrid"
+        name: "hybrid"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] }
+          - { label: "Logos", name: "logos", widget: "list", fields: [
+            { label: "Logo", name: "logo", widget: "image" } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "text" } ] }
   - name: "netzwerkSecurity"
     label: "Netzwerk & Security"
     files:
+      - file: "content/deutsch/netzwerk-security/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
       - file: "data/de/wlanVermessung.yml"
         label: "WLAN-Vermessung"
         name: "wlan-vermessung"

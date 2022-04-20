@@ -1,0 +1,20 @@
+id: iaas
+headline: IaaS
+content: "Virtualisierungen eröffnet Ihrer IT-Infrastruktur eine Vielzahl an Möglichkeiten und Vorteilen. Virtualisierungen können auf Server-, Storage- und Clientseite bis hin zum Netzwerk erfolgen. Unsere Consultants unterstützen und beraten Sie gern bei der Planung und Durchführung einer Serverkonsolidierung. Gern beraten wir Sie zu den Möglichkeiten der Server-, Storage- und Client-Virtualisierungen und deren individueller Vorteile für Sie."
+img: images/uploads/backup_portfolio.png
+button:
+  enable: true
+  label: jetzt anfragen
+  link: kontakt
+logos:
+  - logo: images/uploads/vmware_1.png
+  - logo: images/uploads/hyper-v.png
+  - logo: images/uploads/datacore-1-e1553157883598.png
+boxes:
+  - headline: Kostensparpotenzial
+    content: Mithilfe von Virtualisierung nutzen Sie bereits vorhandene Ressourcen und Leistung optimal aus.
+  - headline: Flexibilität
+    content: Durch Virtualisierung können Ressourcen wie Rechenleistung oder Speicherplatz je nach Bedarf zugewiesen werden.
+  - headline: Virtualisierungslösung
+    content: Wir bieten ein breites Lösungsportfolio und zeigen Ihnen gern, welche Vorteile eine Virtualisierung für Sie bringen würde.
+
