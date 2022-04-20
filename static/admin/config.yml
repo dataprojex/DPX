@@ -167,8 +167,8 @@ collections:
             { label: "Titel", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "string" } ] }
       - file: "data/de/digitalisierung.yml"
-        label: "Design"
-        name: "design"
+        label: "Digitalisierung"
+        name: "digitalisierung"
         fields:
           - { label: "Headline", name: "headline", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
