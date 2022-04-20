@@ -734,7 +734,7 @@ collections:
               { label: "Link", name: "link", widget: "string" } ] } ] }
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
             { label: "Content", name: "content", widget: "string" },
-            { label: "Icon", name: "icon", widget: "string" } ] } ] }
+            { label: "Icon", name: "icon", widget: "string" } ] }
       - file: "data/de/exportOnDemand.yml"
         label: "Expert On Demand"
         name: "expertOnDemand"
