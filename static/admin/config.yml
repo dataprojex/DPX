@@ -653,6 +653,61 @@ collections:
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
+  - name: "monitoring"
+    label: "Monitoring"
+    files:
+      - file: "content/deutsch/monitoring/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
+      - file: "data/de/grundpfeilerMonitoring.yml"
+        label: "Grundpfeiler Monitoring"
+        name: "grundpfeilerMonitoring"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Buttons", name: "buttonS", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Button", name: "button", widget: "list", fields: [
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
+      - file: "data/de/optimalMonitoring.yml"
+        label: "Optimal Monitoring"
+        name: "optimalMonitoring"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Buttons", name: "buttonS", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Button", name: "button", widget: "list", fields: [
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
+      - file: "data/de/sorgenfreiMonitoring.yml"
+        label: "Sorgenfrei Monitoring"
+        name: "sorgenfreiMonitoring"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Subline", name: "subline", widget: "string" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Items", name: "items", widget: "list", fields: [
+              { label: "Icon", name: "icon", widget: "string" },
+              { label: "Headline", name: "headline", widget: "string" },
+              { label: "Copy", name: "copy", widget: "string" }] }
+      - file: "data/de/produktSlider.yml"
+        label: "Slider"
+        name: "slider"
+        fields:
+          - { label: "Slides", name: "slider_Item", widget: "list", fields: [
+            { label: "Navigationspunkt", name: "dot", widget: "string" },
+            { label: "Icon", name: "icon", widget: "string" },
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Copy", name: "copy", widget: "markdown" } ] }
   - name: "unternehmensseite"
     label: "Unternehmensseite"
     files:
