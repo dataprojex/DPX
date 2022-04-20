@@ -131,7 +131,30 @@ collections:
             {label: "Icon", name: "icon", widget: "string"},
             {label: "Headline", name: "headline", widget: "string"},
             {label: "Bulletpoints", name: "liste", widget: "list", fields: [
-              {label: "Item", name: "item", widget: "string"}]},] }
+              {label: "Item", name: "item", widget: "string"}]}] }
+  - name: "design"
+    label: "Design"
+    files:
+      - file: "content/deutsch/design/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
+      - file: "data/de/design.yml"
+        label: "Design"
+        name: "design"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Buttons", name: "buttons", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean" },
+            { label: "Buttons", name: "button", widget: "list", fields: [
+            { label: "Label", name: "label", widget: "string" },
+            { label: "Link", name: "link", widget: "string" } ] } ] }
   - name: "zentraleIt"
     label: "Zentrale It"
     files:
