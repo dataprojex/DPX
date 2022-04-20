@@ -5,32 +5,32 @@
 <section id="">
     <div class="row justify-content-center" style="background-color: #1b1e21">
             {{ range $index, $element := $slides.slider_Item }}
-            <div class="text-center dot pb-3" onclick="currentSlide({{ add $index  1}})">
-                <div class="m-3 pt-4" style="width:100px; height: 100px; background-color: #d30435">
-                    <i class="{{ $element.icon }}" style="font-size: 50px; color: #ffffff"></i>
+            <div class="text-center dot pb-5 hoverEffect" onclick="currentSlide({{ add $index 1}})">
+                <div class="m-3 pt-4 icon" style="width:100px; height: 80px;">
+                    <i class="{{ $element.icon }} icon" style="font-size: 40px"></i>
                 </div>
-                <span>{{ $element.dot }}</span>
+                <span class="icon">{{ $element.dot }}</span>
             </div>
             {{ end }}
     </div>
 
     <div class="position-relative">
         {{ "<!-- slider item -->" | safeHTML }}
-        {{ range $slides.slider_Item }}
-        <div class="overlay-light mySlides fade bg-white" style=" height:60vh;" >
+        {{ range $index, $element := $slides.slider_Item }}
+        <div class="overlay-light mySlides bg-white" style=" height:60vh;" >
             <div class="container m-0 h-100" style="width:100%; max-width: 3840px">
                 <div class="row justify-content-center pt-5">
                     <div class="col-lg-4 col-md-6 col-sm-12 align-self-center my-auto" style="margin-left:6vw">
                         <div class="hero-content p-3 float-left">
                             <div class="slider-responsive-type mb-5">
-                                <h2 class="mb-5 text-dark"> {{ .headline }}</h2>
-                                {{ .copy | markdownify }}
+                                <h2 class="mb-5 fade text-dark"> {{ $element.headline }}</h2>
+                                {{ $element.copy | markdownify }}
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 text-center" style="margin-top:1vh">
+                    <div class="col-lg-6 text-center fade" style="margin-top:1vh">
                         <div class="p-3">
-                            <img class="image-fullsize" src="{{ .hero_image | absURL  }}">
+                            <img class="image-fullsize imgshadow" src="{{ $element.hero_image | absURL  }}">
                         </div>
                     </div>
                 </div>

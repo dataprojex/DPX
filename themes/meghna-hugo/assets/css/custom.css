@@ -583,6 +583,29 @@
 
 .mySlides {display: none}
 
+.dot{
+    position: relative;
+}
+.icon{
+    color: #ffffff
+}
+
+.active .icon{
+    color: #b10232
+}
+
+.active:after{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    bottom:-30px;
+    left:30%;
+    content: '';
+    transform: rotate(45deg);
+    z-index: 0;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -639,7 +662,7 @@
 }
 
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: #3d3d3d;
 }
 
 /* Fading animation */
@@ -657,4 +680,8 @@
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
+}
+
+.imgshadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

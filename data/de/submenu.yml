@@ -39,3 +39,19 @@ netzwerkSecurity:
     url: firewall
   - id: Endpoint Security
     url: endpointSecurity
+
+cloudServices:
+  - id: Traditionell On-Premises
+    url: traditionell-on-premises
+  - id: Colocation
+    url: colocation
+  - id: Hosting
+    url: hosting
+  - id: IaaS
+    url: iaaS
+  - id: PaaS
+    url: paaS
+  - id: SaaS
+    url: saaS
+  - id: Hybrid
+    url: hybrid

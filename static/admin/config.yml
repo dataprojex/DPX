@@ -101,6 +101,28 @@ collections:
           - { label: "Submenu", name: "submenu", widget: "list", fields: [
             { label: "Name, nicht ändern!", name: "name", widget: "string"},
             { label: "Subline", name: "content", widget: "string"}]}
+  - name: "consulting"
+    label: "Consulting"
+    files:
+      - file: "content/deutsch/consulting/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
+      - file: "data/de/consulting.yml"
+        label: "Consulting"
+        name: "consulting"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string"}
+          - { label: "Content", name: "content", widget: "markdown"}
+          - { label: "Image", name: "img", widget: "image"}
+          - { label: "Button", name: "button", widget: "object", fields: [
+              {label: "Aktive", name: "enable", widget: "boolean"},
+              {label: "Label", name: "label", widget: "string"},
+              {label: "Link", name: "link", widget: "string"}]}
   - name: "zentraleIt"
     label: "Zentrale It"
     files:

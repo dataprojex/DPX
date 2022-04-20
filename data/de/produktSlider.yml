@@ -1,6 +1,6 @@
 slider_Item:
   - dot: Basis
-    icon: ti-medall-alt
+    icon: ti-star
     headline: Basis Monitoring
     copy: >-
       * grundlegende Überprüfung von IT-Komponenten
@@ -30,7 +30,7 @@ slider_Item:
       * Alarmierung: E-Mail / Ticket
     hero_image: images/uploads/Checkmk_Advancedmonitoring.png
   - dot: Premium
-    icon: ti-medall-alt
+    icon: ti-crown
     headline: Premium Monitoring
     copy: >-
       * vollumfängliches Monitoring aller Infrastrukturen und IT-Services
