@@ -2,24 +2,24 @@ boxes:
   - icon: "ti-ruler-pencil"
     headline: "Wir initiieren Projekte"
     liste:
-      - Konzeptentwicklung
-      - Anforderungsmanagement
-      - Strategieberatung
-      - Projektplanentwicklung
-      - Machbarkeitsstudie
+      - item: Konzeptentwicklung
+      - item: Anforderungsmanagement
+      - item: Strategieberatung
+      - item: Projektplanentwicklung
+      - item: Machbarkeitsstudie
   - icon: "ti-settings"
     headline: "Wir planen Projekte"
     liste:
-      - Organisationsaufbau
-      - Schnittstellenkoordination
-      - Risikomanagement
-      - Kommunikationsmanagement
-      - Konfigurationsmanagement
+      - item: Organisationsaufbau
+      - item: Schnittstellenkoordination
+      - item: Risikomanagement
+      - item: Kommunikationsmanagement
+      - item: Konfigurationsmanagement
   - icon: "ti-bar-chart"
     headline: "Wir realisieren Projekte"
     liste:
-      - Organisation und Durchführung
-      - Terminplanung
-      - Kostenkontrolle
-      - Qualitätssicherung
-      - Reporting
+      - item: Organisation und Durchführung
+      - item: Terminplanung
+      - item: Kostenkontrolle
+      - item: Qualitätssicherung
+      - item: Reporting

@@ -123,6 +123,15 @@ collections:
               {label: "Aktive", name: "enable", widget: "boolean"},
               {label: "Label", name: "label", widget: "string"},
               {label: "Link", name: "link", widget: "string"}]}
+      - file: "data/de/consultingLeistung.yml"
+        label: "Consulting Leistung"
+        name: "consultingLeistung"
+        fields:
+          - { label: "Boxen", name: "boxes", widget: "list", fields: [
+            {label: "Icon", name: "icon", widget: "string"},
+            {label: "Headline", name: "headline", widget: "string"},
+            {label: "Bulletpoints", name: "liste", widget: "list", fields: [
+              {label: "Item", name: "item", widget: "string"}]},] }
   - name: "zentraleIt"
     label: "Zentrale It"
     files:
