@@ -708,6 +708,81 @@ collections:
             { label: "Icon", name: "icon", widget: "string" },
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Copy", name: "copy", widget: "markdown" } ] }
+  - name: "supportundservice"
+    label: "Support und Service"
+    files:
+      - file: "content/deutsch/support-service/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
+      - file: "data/de/supportService.yml"
+        label: "Support und Service"
+        name: "supportService"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Subline", name: "subline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Buttons", name: "buttonS", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Button", name: "button", widget: "list", fields: [
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Content", name: "content", widget: "string" },
+            { label: "Icon", name: "icon", widget: "string" } ] } ] }
+      - file: "data/de/exportOnDemand.yml"
+        label: "Expert On Demand"
+        name: "expertOnDemand"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Subline", name: "subline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Buttons", name: "buttonS", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Button", name: "button", widget: "list", fields: [
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
+      - file: "data/de/itService.yml"
+        label: "IT Service"
+        name: "itService"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Boxes", name: "boxes", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "string" },
+            { label: "Icon", name: "icon", widget: "string" } ] } ] }
+      - file: "data/de/ihreAnforderung.yml"
+        label: "Ihre Anforderung"
+        name: "ihreAnforderung"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Subline", name: "subline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Buttons", name: "buttonS", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Button", name: "button", widget: "list", fields: [
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
+      - file: "data/de/serviceDesk.yml"
+        label: "Service Desk"
+        name: "serviceDesk"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "img", widget: "image" }
+          - { label: "Buttons", name: "buttonS", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Button", name: "button", widget: "list", fields: [
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
   - name: "unternehmensseite"
     label: "Unternehmensseite"
     files:
