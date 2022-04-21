@@ -3,15 +3,18 @@ headline: Sorgenfreies Monitoring von GODYO
 subline: Folgende Leistungen sind bei allen unseren Monitoring-Paketen inklusive.
 img: images/uploads/legal.png
 items:
-  - icon: ti-location-arrow
+  - icon: ti-split-v
     headline: Monitoring-Umgebung und -Standards
-    copy: Konzipierung, Aufbau und Betrieb einer Monitoring-Umgebung und Implementierung von Standards
+    copy: Konzipierung, Aufbau und Betrieb einer Monitoring-Umgebung und
+      Implementierung von Standards
   - icon: ti-location-arrow
     headline: Updates
-    copy: regelmäßige Wartung der Monitoring-Komponenten in Form von Sicherheits- und Funktionsupdates
+    copy: regelmäßige Wartung der Monitoring-Komponenten in Form von Sicherheits-
+      und Funktionsupdates
   - icon: ti-location-arrow
     headline: Anpassungen
-    copy: Anpassungen von Monitoring-Parametern/-Komponenten und überwachten Hosts im Rahmen des gebuchten Leistungspakets
+    copy: Anpassungen von Monitoring-Parametern/-Komponenten und überwachten Hosts
+      im Rahmen des gebuchten Leistungspakets
   - icon: ti-location-arrow
     headline: Weiterentwicklung
     copy: kontinuierliche Weiterentwicklung des Monitoring-Service
