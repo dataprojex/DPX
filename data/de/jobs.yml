@@ -1,18 +1,19 @@
 jobs:
   items:
-    - title: System Engineer Infrastruktur/IT-Consultant (m/w/d)
-      ort: Frankfurt
+    - title: "Ausbildung: Fachinformatiker für Systemintegration"
       description: >-
         *Aufgaben*
 
 
-        * Technische Mitarbeit in unserem DevOps-Team
+        * Unterstützung unseres 3-köpfigen UI/UX Design Teams
 
-        * Weiterentwicklung unserer Continuous Integration / Deployment Stacks
+        * UI/UX Design für verschiedene Endgeräte, wie Web, Smartphones, Tablets, Smart Glasses, Augmented Reality Glasses
 
-        * Deployment und Plattformmanagement unserer oculavis SHARE Softwarelösung
+        * User Research, Wireframing, Interaction Design und Visual Design
 
-        * Entwicklung eines Automatisierungsframeworks via Ansible + Ansible Tower
+        * Unterstützung in spannenden Forschungs- und Entwicklungsprojekten
+
+        * Zusammenarbeit mit unserem interdisziplinärem und internationalen Entwicklungsteam
 
 
         \
@@ -20,31 +21,35 @@ jobs:
         *Anforderungsprofil*
 
 
-        * Du hast ein abgeschlossenes Informatikstudium o.Ä
+        * Du hast bereits Erfahrungen mit der Entwicklung von UI Designs mit Figma, Sketch oder einem ähnlichem UI Design Tool gesammelt
 
-        * Du hast Softwarekenntnisse und Erfahrung mit Tools im Bereich DevOps (z.B. Docker, Ansible, Jenkins, NGINX, Traefik)
+        * Du kennst UX Methoden wie Wireframing, Prototyping, Usability Testing
 
-        * Du hast Erfahrungen mit Cloud-basierten DevOps Technologien (z.B. Azure)
+        * Du studierst im Bereich UX/UI Design, Mensch-Computer-Interaktion, Kommunikationsdesign, Produktdesign o.Ä.
 
-        * Du bist sehr zuverlässig und hast ein hohes Maß an Verantwortungsbewusstsein
+        * Du suchst eine Stelle, in der eigene Ideen und Eigeninitiative willkommen sind
+
+        * Du hast Lust ein modernes nachhaltiges Produkt mitzugestalten
 
         * Du sprichst Englisch und/oder Deutsch
-
-
 
 
         Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
-    - title: IT-Support Techniker (m/w/d)
+    - title: "Ausbildung: IT-Systemkaufmann/-frau"
       ort: Frankfurt
       description: >-
         *Aufgaben*
 
 
-        * Softwareentwicklung und Konzeption der Softwarearchitektur von Web Applikationen mit Angular
+        * Unterstützung unseres 3-köpfigen UI/UX Design Teams
 
-        * Arbeit mit modernen, agilen Methoden in Scrum Teams und Kanban Boards
+        * UI/UX Design für verschiedene Endgeräte, wie Web, Smartphones, Tablets, Smart Glasses, Augmented Reality Glasses
 
-        * Enge Zusammenarbeit mit Mitarbeitern*innen aus den anderen Entwicklungsteams, Produkt Management, IT Security, uvm.
+        * User Research, Wireframing, Interaction Design und Visual Design
+
+        * Unterstützung in spannenden Forschungs- und Entwicklungsprojekten
+
+        * Zusammenarbeit mit unserem interdisziplinärem und internationalen Entwicklungsteam
 
 
         \
@@ -52,15 +57,17 @@ jobs:
         *Anforderungsprofil*
 
 
-        * Du kennst dich aus in der Web Entwicklung mit Angular, HTML5, JavaScript, CSS und ähnlichen Technologien
+        * Du hast bereits Erfahrungen mit der Entwicklung von UI Designs mit Figma, Sketch oder einem ähnlichem UI Design Tool gesammelt
 
-        * Du hast ein abgeschlossenes Informatikstudium o.Ä.
+        * Du kennst UX Methoden wie Wireframing, Prototyping, Usability Testing
 
-        * Du hast Erfahrung in der Nutzung von Tools wie Git zur Versionsverwaltung und Lust auf systematisches Arbeiten mit Jira
+        * Du studierst im Bereich UX/UI Design, Mensch-Computer-Interaktion, Kommunikationsdesign, Produktdesign o.Ä.
+
+        * Du suchst eine Stelle, in der eigene Ideen und Eigeninitiative willkommen sind
+
+        * Du hast Lust ein modernes nachhaltiges Produkt mitzugestalten
 
         * Du sprichst Englisch und/oder Deutsch
-
-        * Du bist motiviert und möchtest gerne ein modernes Thema mitgestalten
 
 
 
@@ -93,6 +100,38 @@ jobs:
         * Du hast Erfahrung mit Programmiersprachen wie Java, C#, JavaScript, Python, Kotlin oder Swift sowie mit REST-APIs und Integration von Softwaresystemen
 
         * Du hast ein abgeschlossenes Informatikstudium o.Ä.
+
+        * Du sprichst Englisch und/oder Deutsch
+
+        * Du bist motiviert und möchtest gerne ein modernes Thema mitgestalten
+
+
+
+
+        Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
+    - title: IT-Support Techniker (m/w/d)
+      ort: Frankfurt
+      description: >-
+        *Aufgaben*
+
+
+        * Softwareentwicklung und Konzeption der Softwarearchitektur von Web Applikationen mit Angular
+
+        * Arbeit mit modernen, agilen Methoden in Scrum Teams und Kanban Boards
+
+        * Enge Zusammenarbeit mit Mitarbeitern*innen aus den anderen Entwicklungsteams, Produkt Management, IT Security, uvm.
+
+
+        \
+
+        *Anforderungsprofil*
+
+
+        * Du kennst dich aus in der Web Entwicklung mit Angular, HTML5, JavaScript, CSS und ähnlichen Technologien
+
+        * Du hast ein abgeschlossenes Informatikstudium o.Ä.
+
+        * Du hast Erfahrung in der Nutzung von Tools wie Git zur Versionsverwaltung und Lust auf systematisches Arbeiten mit Jira
 
         * Du sprichst Englisch und/oder Deutsch
 
@@ -136,21 +175,19 @@ jobs:
 
 
         Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
-    - title: "Ausbildung: IT-Systemkaufmann/-frau"
+    - title: System Engineer Infrastruktur/IT-Consultant (m/w/d)
       ort: Frankfurt
       description: >-
         *Aufgaben*
 
 
-        * Unterstützung unseres 3-köpfigen UI/UX Design Teams
+        * Technische Mitarbeit in unserem DevOps-Team
 
-        * UI/UX Design für verschiedene Endgeräte, wie Web, Smartphones, Tablets, Smart Glasses, Augmented Reality Glasses
+        * Weiterentwicklung unserer Continuous Integration / Deployment Stacks
 
-        * User Research, Wireframing, Interaction Design und Visual Design
+        * Deployment und Plattformmanagement unserer oculavis SHARE Softwarelösung
 
-        * Unterstützung in spannenden Forschungs- und Entwicklungsprojekten
-
-        * Zusammenarbeit mit unserem interdisziplinärem und internationalen Entwicklungsteam
+        * Entwicklung eines Automatisierungsframeworks via Ansible + Ansible Tower
 
 
         \
@@ -158,54 +195,17 @@ jobs:
         *Anforderungsprofil*
 
 
-        * Du hast bereits Erfahrungen mit der Entwicklung von UI Designs mit Figma, Sketch oder einem ähnlichem UI Design Tool gesammelt
+        * Du hast ein abgeschlossenes Informatikstudium o.Ä
 
-        * Du kennst UX Methoden wie Wireframing, Prototyping, Usability Testing
+        * Du hast Softwarekenntnisse und Erfahrung mit Tools im Bereich DevOps (z.B. Docker, Ansible, Jenkins, NGINX, Traefik)
 
-        * Du studierst im Bereich UX/UI Design, Mensch-Computer-Interaktion, Kommunikationsdesign, Produktdesign o.Ä.
+        * Du hast Erfahrungen mit Cloud-basierten DevOps Technologien (z.B. Azure)
 
-        * Du suchst eine Stelle, in der eigene Ideen und Eigeninitiative willkommen sind
-
-        * Du hast Lust ein modernes nachhaltiges Produkt mitzugestalten
+        * Du bist sehr zuverlässig und hast ein hohes Maß an Verantwortungsbewusstsein
 
         * Du sprichst Englisch und/oder Deutsch
 
 
-
-
-        Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
-    - title: "Ausbildung: Fachinformatiker für Systemintegration"
-      description: >-
-        *Aufgaben*
-
-
-        * Unterstützung unseres 3-köpfigen UI/UX Design Teams
-
-        * UI/UX Design für verschiedene Endgeräte, wie Web, Smartphones, Tablets, Smart Glasses, Augmented Reality Glasses
-
-        * User Research, Wireframing, Interaction Design und Visual Design
-
-        * Unterstützung in spannenden Forschungs- und Entwicklungsprojekten
-
-        * Zusammenarbeit mit unserem interdisziplinärem und internationalen Entwicklungsteam
-
-
-        \
-
-        *Anforderungsprofil*
-
-
-        * Du hast bereits Erfahrungen mit der Entwicklung von UI Designs mit Figma, Sketch oder einem ähnlichem UI Design Tool gesammelt
-
-        * Du kennst UX Methoden wie Wireframing, Prototyping, Usability Testing
-
-        * Du studierst im Bereich UX/UI Design, Mensch-Computer-Interaktion, Kommunikationsdesign, Produktdesign o.Ä.
-
-        * Du suchst eine Stelle, in der eigene Ideen und Eigeninitiative willkommen sind
-
-        * Du hast Lust ein modernes nachhaltiges Produkt mitzugestalten
-
-        * Du sprichst Englisch und/oder Deutsch
 
 
         Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
