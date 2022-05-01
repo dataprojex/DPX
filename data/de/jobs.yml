@@ -2,7 +2,7 @@ jobs:
   items:
     - title: "Ausbildung: Fachinformatiker für Systemintegration"
       description: >-
-        *Aufgaben*
+        ###### *Aufgaben*
 
 
         * Unterstützung unseres 3-köpfigen UI/UX Design Teams
@@ -16,7 +16,7 @@ jobs:
         * Zusammenarbeit mit unserem interdisziplinärem und internationalen Entwicklungsteam
 
 
-        \
+        ##### \
 
         *Anforderungsprofil*
 
@@ -34,7 +34,12 @@ jobs:
         * Du sprichst Englisch und/oder Deutsch
 
 
-        Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
+
+
+        ###### *Finden Sie sich in der Stelle wieder?*
+
+
+        Dann freuen wir uns über Ihre aussagekräftigen Bewerbungsunterlagen mit Anschreiben, Lebenslauf und Zeugnissen! Bitte sende deine vollständige Bewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
     - title: "Ausbildung: IT-Systemkaufmann/-frau"
       ort: Frankfurt
       description: >-
