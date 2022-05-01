@@ -1,24 +1,25 @@
 unternehmen:
-  headline: "Über die oculavis GmbH in Aachen"
+  headline: Über die Dataprojex UG in Mörfelden-Walldorf
   content: >-
-    Die oculavis GmbH ist der Ort, von dem aus die Revolution des industriellen Service im Maschinen- und Anlagenbau vorausgedacht, entwickelt und realisiert wird.
+    Die oculavis GmbH ist der Ort, von dem aus die Revolution des industriellen
+    Service im Maschinen- und Anlagenbau vorausgedacht, entwickelt und
+    realisiert wird.
 
     Werde Teil unseres wachsenden Teams an unserem Headquarter in Aachen (oder arbeite remote im Home Office) und gestalte die Zukunft des Service im Maschinen- und Anlagenbau mit. Ob als Software Ingenieur, Solution Architect, Business Developer oder Professional - in allen Bereichen hast du bei uns die Möglichkeit, deine eigenen Ideen einzubringen und so unsere Unternehmensentwicklung aktiv mitzugestalten.
 
     Werde Teil unserer Erfolgsgeschichte. Wir sind in 5 Jahren von 3 Gründern auf über 60 Mitarbeiter angewachsen. Und das Ganze ohne einen einzigen Euro Fremdkapital, sondern ausschließlich mit der Kreativität und der Innovationskraft unserer Mitarbeiter.
-
 benefits:
-  headline: "Was wir zu bieten haben"
+  headline: Was wir zu bieten haben
   items:
-    - title: "Ein tolles Team mit Mitarbeitern aus mehr als 10 Nationen"
-    - title: "Zeit und Platz für deine eigenen Ideen"
-    - title: "Team Events im Sommer, im Winter und auch zwischendurch"
-    - title: "Moderne und klimatisierte Büros"
-    - title: "Ein immer gut gefüllter Obstkorb und kostenlose Getränke für alle"
-    - title: "Eine PlayStation, ziemlich gute Gegner und eine Chillout Area"
-
+    - title: Ein tolles Team mit Mitarbeitern aus mehr als 10 Nationen
+    - title: Zeit und Platz für deine eigenen Ideen
+    - title: Team Events im Sommer, im Winter und auch zwischendurch
+    - title: Moderne und klimatisierte Büros
+    - title: Ein immer gut gefüllter Obstkorb und kostenlose Getränke für alle
+    - title: Eine PlayStation, ziemlich gute Gegner und eine Chillout Area
 subcontent:
   content: >-
-    Nicht fündig geworden? Sende uns gerne auch deine Initiativbewerbung an [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
+    Nicht fündig geworden? Sende uns gerne auch deine Initiativbewerbung an
+    [dpx@dataprojex.de](mailto:dpx@dataprojex.de)
 
     und lass uns gemeinsam über deine Ideen für die oculavis GmbH sprechen.
