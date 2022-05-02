@@ -145,13 +145,13 @@ url = "/unternehmen/#about"
 weight = 1
 
 [[Languages.de.menu.main]]
-name = "Team"
+name = "Jobs"
 parent = "Unternehmen"
-url = "/unternehmen/#timeline"
+url = "/karriere/#jobs"
 weight = 2
 
 [[Languages.de.menu.main]]
-name = "Timeline"
+name = "Team"
 parent = "Unternehmen"
 url = "/unternehmen/#timeline"
 weight = 3
@@ -162,31 +162,21 @@ parent = "Unternehmen"
 url = "/unternehmen/#timeline"
 weight = 4
 
-[[Languages.de.menu.main]]
-name = "Karriere"
-weight = 3
-hasChildren = true
-
-[[Languages.de.menu.main]]
-name = "Jobs"
-parent = "Karriere"
-url = "/karriere/#jobs"
-weight = 2
 
 [[Languages.de.menu.main]]
 name = "Kontakt"
 url = "kontakt"
-weight = 4
+weight = 3
 
 [[Languages.de.menu.main]]
 name = "Support"
 url = "support"
-weight = 5
+weight = 4
 
 [[Languages.de.menu.main]]
 name = "Mediathek"
 url = "mediathek"
-weight = 6
+weight = 5
 
 
 ################### English Navigation ########################
