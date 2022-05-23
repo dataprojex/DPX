@@ -1,15 +1,22 @@
 <section class="mb-5">
     <div class="container">
         <div class="row">
-            {{ range .boxes }}
+            {{ range $index, $element := .boxes }}
             <div class="col-lg-4 p-1">
-                <div class="p-5 h-100" style="position: relative; background-color: #1b1e21">
-                <div class="text-center pt-3 iconBoxes">
-                    <i class="{{ .icon }}" style="color:#ffffff; font-size: 20pt"></i>
+                <div class="p-5 h-100
+                {{ $color := mod $index 2 }}
+                {{ if eq $color 1 }} spct-box-red {{ end }}
+                {{ if eq $color 0 }} spct-box-blue {{ end }}
+                " style="position: relative;">
+                <div class="text-center pt-3
+                {{ if eq $color 1 }} iconBoxes-red {{ end }}
+                {{ if eq $color 0 }} iconBoxes-blue {{ end }}
+                ">
+                    <i class="{{ $element.icon }}" style="color:#e7e7e7; font-size: 20pt"></i>
                 </div>
-                <h4 class="mb-4"> {{ .headline }} </h4>
+                <h4 class="mb-4" style="color:#e7e7e7;"> {{ $element.headline }} </h4>
                     <ul style="padding-left: 20px">
-                    {{ range .liste }}
+                    {{ range $element.liste }}
                         <li>{{ .item }}</li>
                     {{ end }}
                     </ul>

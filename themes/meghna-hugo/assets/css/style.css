@@ -123,13 +123,17 @@ p>a {
 
 .btn-transparent {
   border: 1px solid #bcbdbd;
+  box-shadow: inset 0 0 0 0 #ffffff;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
 }
 
 .btn-transparent:hover,
 .btn-transparent:focus {
-  background-color: #ffffff;
   border: 1px solid transparent;
-  color: #000000;
+  box-shadow: inset 400px 0 0 0 #e7e7e7;
+  color: #363b44;
 }
 
 .border-meghna {
@@ -269,14 +273,38 @@ a:hover {
   display: inline-block;
   font-size: 12px;
   letter-spacing: 1px;
-  padding: 10px 10px;
+  padding: 15px 25px;
   text-transform: uppercase;
+  box-shadow: inset 0 0 0 0 #e7e7e7;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
 }
 
 .btn-dpx:hover{
-  background-image: linear-gradient(to right, #f3073c 0%, #a20225  100%);
-  color: #fff;
+  box-shadow: inset 400px 0 0 0 #e7e7e7;
+  color: #363b44;
 }
+
+.btn-dpx-dark{
+  background-image: linear-gradient(to right, #a20225 0%, #f3073c  100%);
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 0 0 #363b44;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.btn-dpx-dark:hover{
+  box-shadow: inset 400px 0 0 0 #363b44;
+  color: #e7e7e7;
+}
+
 
 .spct-box-red{
   background-image: linear-gradient(150deg, #a60226 0%, #ef073b  100%);
@@ -810,16 +838,16 @@ a:hover {
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #e30232;
+  background-image: linear-gradient(to right, #a20225 0%, #f3073c  100%);
   padding: 12px 0;
   width: 100%;
   margin: 0;
 }
 
 #contact-submit:hover {
+  background-image: linear-gradient(to right, #810232 0%, #810232  100%);
   color: #ffffff;
   border-color: #810232;
-  background-color: #810232;
 }
 
 .form-meghna ::placeholder {
