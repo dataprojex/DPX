@@ -88,7 +88,6 @@ jQuery(function ($) {
 		autoplay: true,
 		infinite: true,
 		dots: true,
-		lazyLoad: 'ondemand',
 		autoplaySpeed: 10000,
 		arrows: true,
 		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-angle-double-left iconSlider\'></i></button>',

@@ -6,7 +6,7 @@
     <div class="hero-slider no-nav position-relative">
         {{ "<!-- slider item -->" | safeHTML }}
         {{ range $slides.slider_Item }}
-        <div class="hero-slider-item overlay-light slider-container">
+        <div class="hero-slider-item overlay-light slider-container slick-slide">
             <div class="hero-slider-item overlay-light {{ if .overlay }} darkner {{ end }} slider-background" style="background-position: 0px -{{ .offset }}px; background-image: url('{{ .bg_image | absURL }}')" title="{{ .title }}">
             </div>
             <div class="container m-0 h-100" style="width:100%; max-width: 3840px">
@@ -25,7 +25,7 @@
                     <div class="col-lg-6" style="margin-top:1vh">
                         <div class="hero-content p-3 float-left">
                             {{ if .hero_image_active }}
-                            <img class="responsive-img" data-lazy="{{ .hero_image | absURL  }}">
+                            <img class="responsive-img" src="{{ .hero_image | absURL  }}">
                             {{ end }}
                         </div>
                     </div>
