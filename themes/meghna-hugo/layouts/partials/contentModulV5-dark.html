@@ -1,0 +1,53 @@
+<section class="pb-5" id="{{ .id }}">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-lg-7 pl-5 pt-5 pr-5 dark">
+                <h2 class="mb-4"> {{ .headline }}</h2>
+                <h4> {{ .subline }}</h4>
+                <p class="pb-3"> {{ .content }}</p>
+                {{ if .buttons.enable }}
+                {{ range .buttons.button }}
+                <a class="btn-dpx mr-2" href="{{ .link | relLangURL }}"> {{ .label }} </a>
+                {{ end }}
+                {{ end }}
+            </div>
+            <div class="col-lg-5 pt-5">
+                <img class="d-block" style="width: 100%;" src="{{ .img | absURL }}">
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+            {{ if .boxes }}
+            {{ $boxlen := len .boxes}}
+            {{ range $index, $element := .boxes }}
+            <div class="
+            {{ if eq $boxlen 3 }}
+            col-lg-4
+            {{ end }}
+            {{ if eq $boxlen 2 }}
+            col-lg-6
+            {{ end }}
+            {{ if eq $boxlen 1 }}
+            col-lg-12
+            {{ end }} p-5">
+                <div class="p-4
+                {{ $color := mod $index 2 }}
+                {{ if eq $color 1 }} spct-box-red {{ end }}
+                {{ if eq $color 0 }} spct-box-blue {{ end }}
+                " style=" height: 100%">
+                    <div class="row">
+                        <div class="col-lg-4 text-center pt-3">
+                            <i class="{{  $element.icon }}" style="font-size: 30px; color:#e7e7e7"></i>
+                        </div>
+                        <div class="col-lg-8">
+                            <p style="font-size: 12px; margin: 0; color:#e7e7e7">{{  $element.content }}</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+
+        </div>
+    </div>
+</section>

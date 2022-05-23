@@ -2,7 +2,7 @@ id: SupportundService
 headline: Support und Service
 subline: Als Full Managed IT-Service-Anbieter profitieren Sie von unserem breiten Portfolio an unterstützenden IT-Dienstleistungen.
 content: "Um Sie bei Ihren täglichen Aufgaben zu unterstützen und Ihr IT-Team zu entlasten, betreiben wir seit über 10 Jahren an unserem Standort in Jena ein eigenes Rechenzentrum mit ServiceDesk. Unsere zertifizierten Experten helfen Ihnen sowohl bei der Administration Ihrer Inhouse-Systeme, im Support-Fall bei der schnellen Fehlersuche und Wiederherstellung von Systemen, als auch bei Service-Anfragen gegenüber Herstellern. Dabei bestimmen Sie, ob wir lediglich planbare Updates und Migrationen durchführen oder mit definierten Reaktionszeiten für Sie da sind. Die Fachexpertise unserer Mitarbeiter sowie die höchstverfügbare technische Ausstattung unseres Rechenzentrums bieten beste Voraussetzungen für einen kompetenten und zuverlässigen Betrieb der IT-Systeme. Dabei übernehmen wir die Verantwortung für die sichere und schnelle Verfügbarkeit Ihrer Daten."
-img: images/uploads/godyo_server_portfolio.png
+img: images/uploads/optimal-server.png
 buttons:
   enable: true
   button:

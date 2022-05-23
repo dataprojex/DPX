@@ -10,16 +10,16 @@
 
 {{ partial "submenu.html" $data.submenu.netzwerkSecurity }}
 
-{{ partial "contentModulV3.html" $data.wlanVermessung }}
+{{ partial "contentModulV3-dark.html" $data.wlanVermessung }}
 
-{{ partial "contentModulV1.html" $data.wlan }}
+{{ partial "contentModulV1-light.html" $data.wlan }}
 
-{{ partial "contentModulV2.html" $data.lan }}
+{{ partial "contentModulV2-dark.html" $data.lan }}
 
-{{ partial "contentModulV1.html" $data.firewall }}
+{{ partial "contentModulV1-light.html" $data.firewall }}
 
 {{ partial "cta_generic.html" $data.ctaNetzwerkSecurity.Sophos }}
 
-{{ partial "contentModulV2.html" $data.endpointSecurity }}
+{{ partial "contentModulV2-dark.html" $data.endpointSecurity }}
 
 {{ end }}

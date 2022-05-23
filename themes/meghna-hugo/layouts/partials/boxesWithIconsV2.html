@@ -5,14 +5,19 @@
                 <h2> {{ .headline }}</h2>
                 <p> {{ .content | markdownify }} </p>
             </div>
-            {{ range .boxes }}
+            {{ range $index, $element := .boxes }}
             <div class="col-lg-3 p-2">
-                <div class="p-5 h-100" style="position: relative; background-color: #1b1e21">
-                    <div class="text-center pt-3 iconBoxes">
-                        <i class="{{ .icon }}" style="color:#ffffff; font-size: 20pt"></i>
+                <div class="p-5 h-100
+                {{ $color := mod $index 2 }}
+                {{ if eq $color 1 }} spct-box-red {{ end }}
+                {{ if eq $color 0 }} spct-box-blue {{ end }}" style="position: relative; background-color: #1b1e21">
+                    <div class="text-center pt-3
+                        {{ if eq $color 1 }} iconBoxes-red {{ end }}
+                        {{ if eq $color 0 }} iconBoxes-blue {{ end }}">
+                        <i class="{{ $element.icon }}" style="color:#ffffff; font-size: 20pt"></i>
                     </div>
-                    <h4 class="mb-4"> {{ .headline }} </h4>
-                    <p> {{ .content | markdownify }} </p>
+                    <h4 class="mb-4"> {{ $element.headline }} </h4>
+                    <p> {{ $element.content | markdownify }} </p>
                 </div>
             </div>
             {{ end }}

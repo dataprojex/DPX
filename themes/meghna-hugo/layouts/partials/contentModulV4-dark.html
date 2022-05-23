@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row pt-5">
             <div class="col-lg-7 pl-5 pt-5 pr-5 dark">
-                <h2 class="mb-4" style="color:#e7e7e7"> {{ .headline }}</h2>
-                <p class="pb-4" style="color:#e7e7e7"> {{ .content | markdownify }}</p>
+                <h2 class="mb-4"> {{ .headline }}</h2>
+                <p class="pb-4"> {{ .content | markdownify }}</p>
                 {{ if .buttons.enable }}
                 {{ range .buttons.button }}
                 <a class="btn-dpx mr-3 mt-5" href="{{ .link | relLangURL }}"> {{ .label }} </a>

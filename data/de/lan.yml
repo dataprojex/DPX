@@ -1,15 +1,15 @@
 id: lan
 headline: Zuverlässige LAN-Infrastruktur
 content: "Die Leistungsfähigkeit und Ausfallsicherheit der Netzwerkinfrastruktur in einem Unternehmen ist eine unternehmenskritische Anforderung. Gern beraten wir Sie bezüglich Ihrer bestehenden und künftigen Netzwerkstruktur. Unsere Consultants konzeptionieren für Ihr Haus ein Netzwerk nach Ihren Wünschen und Anforderungen unter Einsatz leistungsfähiger Hardware."
-img: images/uploads/godyo_lan_portfolio.png
+img: images/uploads/optimal-server.png
 button:
   enable: true
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/aruba-1-e1553157934952.png
-  - logo: images/uploads/hpe-1-e1553157827503.png
-  - logo: images/uploads/cisco-1-e1553157903536.png
+  - logo: images/uploads/aruba-1-e1553157934952-light.png
+  - logo: images/uploads/hpe-1-e1553157827503-light.png
+  - logo: images/uploads/cisco-1-e1553157903536-light.png
 boxes:
   - headline: Ihre Vorteile
     content: Wir sind zertifizierte Netzwerkspezialisten und legen Wert auf eine enge Partnerschaft mit Herstellern. Bei GODYO stehen Sie und Ihre Anforderungen im Vordergrund.
