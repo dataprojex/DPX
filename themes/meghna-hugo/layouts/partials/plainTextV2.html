@@ -1,0 +1,13 @@
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <p> {{ .Params.data | markdownify }}</p>
+            </div>
+
+            <div class="col-lg-6">
+                <p> {{ .Params.text | markdownify }}</p>
+            </div>
+        </div>
+    </div>
+</section>

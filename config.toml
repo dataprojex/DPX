@@ -178,6 +178,27 @@ name = "Mediathek"
 url = "mediathek"
 weight = 5
 
+################### Deutsch Navigation Footer ########################
+[[Languages.de.menu.footer]]
+name = "Impressum"
+url = "impressum"
+weight = 1
+
+[[Languages.de.menu.footer]]
+name = "Datenschutz"
+url = "datenschutz"
+weight = 2
+
+[[Languages.de.menu.footer]]
+name = "AGB"
+url = "agb"
+weight = 3
+
+[[Languages.de.menu.footer]]
+name = "Kontakt"
+url = "kontakt"
+weight = 4
+
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
@@ -244,7 +265,15 @@ weight = 8
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo.png"
+logoSquare = "images/logoSquare.png"
+
 productLogo = "images/megamenu/DPX-01.png"
+company = "DataProjex GmbH"
+road = "Opelstraße 20"
+city = "64546 Mörfelden-Walldorf"
+tel = "+49 6105 724 0006"
+mail = "info@dataprojex.de"
+
 # Meta data
 description = "Responsive Multipurpose Parallax Hugo Template"
 author = "Themefisher"
