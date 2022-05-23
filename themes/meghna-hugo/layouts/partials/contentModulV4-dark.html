@@ -1,0 +1,18 @@
+<section class="pb-5" id="{{ .id }}">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-lg-7 pl-5 pt-5 pr-5 dark">
+                <h2 class="mb-4" style="color:#e7e7e7"> {{ .headline }}</h2>
+                <p class="pb-4" style="color:#e7e7e7"> {{ .content | markdownify }}</p>
+                {{ if .buttons.enable }}
+                {{ range .buttons.button }}
+                <a class="btn-dpx mr-3 mt-5" href="{{ .link | relLangURL }}"> {{ .label }} </a>
+                {{ end }}
+                {{ end }}
+            </div>
+            <div class="col-lg-5 pl-5 pt-5 pr-5">
+                <img class="d-block" style="width: 100%;" src="{{ .img | absURL }}">
+            </div>
+        </div>
+    </div>
+</section>

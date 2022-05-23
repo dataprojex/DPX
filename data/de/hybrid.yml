@@ -1,15 +1,15 @@
 id: hybrid
 headline: Hybrid
 content: "Die Expertise unserer Consultants konzentriert sich auf die Produkte von Microsoft, Linux und UNIX. Der Einsatz von Microsoft-Betriebssystemen empfiehlt sich neben der Anwendung an Client-Arbeitsplätzen für Serveraufgaben und kommt bei unseren Kunden in nahezu jeder Installation vor. Unsere Spezialisten greifen auf Erfahrungen aus zahlreichen Projekten mit Server- und Client-Produkten von Microsoft, u. a. Microsoft Exchange-Servern, Microsoft SQL-Servern sowie komplexen AD-Umgebungen zurück."
-img: images/uploads/godyo_betriebssysteme_portfolio.png
+img: images/uploads/optimal-server.png
 button:
   enable: true
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/windows.png
-  - logo: images/uploads/linux.png
-  - logo: images/uploads/apple_2.png
+  - logo: images/uploads/windows-light.png
+  - logo: images/uploads/linux-light.png
+  - logo: images/uploads/apple_2-light.png
 boxes:
   - headline: Basiskonfigurationen
     content: Entsprechend der Anforderungen Ihrer Mitarbeiter erstellen wir Basiskonfigurationen, bei denen Treiber, Tools u.v.m. betriebsbereit sind.
