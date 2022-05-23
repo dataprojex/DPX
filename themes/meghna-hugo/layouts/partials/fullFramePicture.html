@@ -1,7 +1,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ with $data.maps }}
 <section class="section section-bg">
-    <div class="" style="height: 50vh; background-image: url('{{ .img | absURL }}')">
+    <div class="" style="height: 50vh; background-image: url('{{ .img | absURL }}'); background-size: cover">
     </div>
 </section>
 {{ end }}
