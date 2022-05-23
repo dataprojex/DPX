@@ -265,7 +265,7 @@ weight = 8
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo.png"
-logoSquare = "images/logoSquare.png"
+logoSquare = "images/logo_quad.png"
 
 productLogo = "images/megamenu/DPX-01.png"
 company = "DataProjex GmbH"
@@ -275,8 +275,8 @@ tel = "+49 6105 724 0006"
 mail = "info@dataprojex.de"
 
 # Meta data
-description = "Responsive Multipurpose Parallax Hugo Template"
-author = "Themefisher"
+description = "Responsive Parallax Hugo Template"
+author = "Alistair Duncan"
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
@@ -338,7 +338,7 @@ languageCode = "de-de"
 contentDir = "content/deutsch"
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2022 Designed & Developed by [Mountain Monkey](https://mountain-monkey.org)"
 
 ################################ English Language ########################
 [Languages.en]
@@ -347,5 +347,5 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 2
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2022 Designed & Developed by [Mountain Monkey](https://mountain-monkey.org)"
 

@@ -533,6 +533,14 @@ a:hover {
   transform-origin: bottom left;
 }
 
+.nav-link-footer{
+  color: #e7e7e7;
+}
+
+.nav-link-footer:hover{
+  color: #e7e7e7;
+}
+
 .navbar-toggler:focus {
   outline: 0;
 }
@@ -1636,7 +1644,7 @@ input#e-mail,
   Footer section
 ==================================================================*/
 .social-icon {
-  padding: 60px 0 35px;
+  padding: 20px 0 20px;
 }
 
 .social-icon ul {
@@ -1651,8 +1659,8 @@ input#e-mail,
   background-color: #26292e;
   border: 1px solid transparent;
   display: block;
-  height: 70px;
-  width: 70px;
+  height: 30px;
+  width: 30px;
   transition: all 400ms ease-out 0s;
 }
 
@@ -1668,8 +1676,8 @@ input#e-mail,
 .social-icon ul li a i {
   color: #55606a;
   display: inline-block;
-  font-size: 32px;
-  line-height: 70px;
+  font-size: 15px;
+  line-height: 30px;
   margin: 0;
   opacity: 0.3;
   transition: all 400ms ease-out 0s;
@@ -1685,7 +1693,7 @@ input#e-mail,
 }
 
 .copyright p {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 #scrollUp {

@@ -1,17 +1,69 @@
 {{"<!-- end Contact Area -->" | safeHTML}}
-<footer id="footer" class="section-bg">
-	<div class="container">
+<footer id="footer" class="section-bg" >
+	<div class="container" style="padding-top:70px;padding-bottom:70px;">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
-			<div class="col-xl-12">
+			<div class="col-lg-6 my-auto">
+				<p style="margin-bottom:6px"> {{ site.Params.company }} <strong style="color:#f3073c; margin-right: 10px; margin-left: 10px"> | </strong> {{ site.Params.road }} <strong style="color:#f3073c; margin-right: 10px; margin-left: 10px"> | </strong> {{ site.Params.city }}</p>
+				<p style="margin-bottom:6px"> {{ site.Params.tel }} <strong style="color:#f3073c; margin-right: 10px; margin-left: 10px"> | </strong> {{ site.Params.mail }}</p>
 
-				{{"<!-- copyright -->" | safeHTML}}
-				<div class="copyright text-center">
-					<a href="{{ site.Home.Permalink }}">
-						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="42" />
-					</a>
-					<br>
-					<p>{{ site.Params.copyright | markdownify }}</p>
+				<nav class="navbar-expand-lg navbar-dark">
+
+					<div class="collapse navbar-collapse" id="navigation2">
+						<ul class="navbar-nav">
+							<!-- menu active -->
+							{{ $currentPage := . }}
+							{{ range $index, $element := site.Menus.footer }}
+							{{ $menuURL := .URL | absLangURL }}
+							{{ $pageURL:= $currentPage.Permalink | absLangURL }}
+							{{ $active := eq $menuURL $pageURL }}
+							{{ $len := (len site.Menus.footer) }}
+
+							<li class="">
+								<a style=";font-size: 1rem;font-weight: 400; margin-right:10px" class="nav-link-footer"
+								   href="{{if findRE `^#` $element.URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{$element.URL}}{{else}}{{$element.URL | relLangURL}}{{end}}">
+									{{.Name}}
+								</a>
+							</li>
+
+							{{ if ne (add $index 1) $len }}
+							<strong style="color:#f3073c; margin-right: 10px"> | </strong>
+							{{ end }}
+
+							{{ end }}
+						</ul>
+					</div>
+				</nav>
+
+			</div>
+			<div class="col-lg-4"></div>
+
+			<div class="col-lg-2">
+				<a href="{{ site.Home.Permalink }}">
+					<img src="{{ site.Params.logoSquare | absURL }}" alt="{{ site.Title }}" height="130" />
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div style="background-color: #0b0b0b">
+		<div class="container">
+			<div class="row wow fadeInUp" data-wow-duration="500ms">
+				<div class="col-lg-3">
+					<div class="social-icon">
+						<ul class="list-inline m-0">
+							{{ range site.Params.social }}
+							<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+							{{ end }}
+						</ul>
+					</div>
 				</div>
+				<div class="col-lg-6">
+					{{"<!-- copyright -->" | safeHTML}}
+					<div class="copyright text-center">
+						<p class="m-0">{{ site.Params.copyright | markdownify }}</p>
+					</div>
+				</div>
+				<div class="col-lg-3"></div>
 			</div>
 		</div>
 	</div>
