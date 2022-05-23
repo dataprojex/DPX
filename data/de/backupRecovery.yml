@@ -1,7 +1,7 @@
 id: backup_recovery
 headline: Sicherheit mit Backup und Recovery
 content: "Die Bedeutung des Einsatzes einer optimalen Backup-Umgebung zeigt sich erst im Störungsfall in Ihrem Unternehmen. Mit unseren Lösungen kann die Datensicherung von relevanten Daten auf Festplatten (Backup-to-disk) oder auf Tapes erfolgen. Die eingesetzten Softwarelösungen orientieren sich an den Anforderungen Ihres Unternehmens. Gemeinsam mit Ihnen erarbeiten unsere Consultants Szenarien und Lösungsstrategien, um Ihre unternehmenskritischen Daten zu schützen."
-img: images/uploads/backup_portfolio.png
+img: images/uploads/optimal-server.png
 button:
   enable: true
   label: jetzt anfragen
