@@ -33,8 +33,8 @@
             {{ end }} p-5">
                 <div class="p-4
                 {{ $color := mod $index 2 }}
-                {{ if eq $color 0 }} spct-box-red {{ end }}
-                {{ if eq $color 1 }} spct-box-blue {{ end }}">
+                {{ if eq $color 1 }} spct-box-red {{ end }}
+                {{ if eq $color 0 }} spct-box-blue {{ end }}">
                     <h4 class="mb-4" style="font-size: 16px; font-weight: 600; color:#e7e7e7">{{ $element.headline }}</h4>
                     <p style="font-size: 12px; margin: 0; color:#e7e7e7">{{ $element.content }}</p>
                 </div>
