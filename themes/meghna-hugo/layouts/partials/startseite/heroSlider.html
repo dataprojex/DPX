@@ -6,8 +6,8 @@
     <div class="hero-slider no-nav position-relative">
         {{ "<!-- slider item -->" | safeHTML }}
         {{ range $slides.slider_Item }}
-        <div class="hero-slider-item overlay-light" style=" height:55vh; position: relative" >
-            <div class="hero-slider-item overlay-light {{ if .overlay }} darkner {{ end }}" style="background-position: 0px -{{ .offset }}px; height:100%; width:100%; position:absolute; background-image: url('{{ .bg_image | absURL }}')" title="{{ .title }}">
+        <div class="hero-slider-item overlay-light slider-container">
+            <div class="hero-slider-item overlay-light {{ if .overlay }} darkner {{ end }} slider-background" style="background-position: 0px -{{ .offset }}px; background-image: url('{{ .bg_image | absURL }}')" title="{{ .title }}">
             </div>
             <div class="container m-0 h-100" style="width:100%; max-width: 3840px">
                 <div class="row justify-content-center pt-5 h-100">
