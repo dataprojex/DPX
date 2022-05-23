@@ -1,14 +1,14 @@
 id: storage
 headline: Zuverlässige intelligente Storages
 content: "Speicherlösungen für Ihr IT-Umfeld bieten eine Vielzahl an Optionen und Anpassungsmöglichkeiten, um Ihren Anforderungen gerecht zu werden. Beginnend bei softwarebasierten Lösungen, die den integrierten Speicher des Servers nutzen, über Einstiegssysteme bis hin zu hoch performanten Systemen bieten wir Ihnen ein breites Portfolio an Storages."
-img: images/uploads/server_portfolio.png
+img: images/uploads/optimal-server-dark.png
 button:
   enable: true
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/dell-technologies-e1563281351293.png
-  - logo: images/uploads/datacore-1-e1553157883598.png
+  - logo: images/uploads/dell-technologies-e1563281351293-dark.png
+  - logo: images/uploads/datacore-1-e1553157883598-dark.png
 boxes:
   - headline: Konzept
     content: Unsere zertifizierten Consultants entwickeln für Sie eine individuell zugeschnittene und optimale Storage-Lösung.

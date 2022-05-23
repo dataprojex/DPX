@@ -263,12 +263,41 @@ a:hover {
   color: #fff;
 }
 
+.btn-dpx{
+  background-image: linear-gradient(to right, #a20225 0%, #f3073c  100%);
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+
+.btn-dpx:hover{
+  background-image: linear-gradient(to right, #f3073c 0%, #a20225  100%);
+  color: #fff;
+}
+
+.spct-box-red{
+  background-image: linear-gradient(150deg, #a60226 0%, #ef073b  100%);
+  height: 100%
+}
+
+.spct-box-blue{
+  background-image: linear-gradient(150deg, #165597 0%, #287cd8  100%);
+  height: 100%
+}
+
 .mt-20 {
   margin-top: 20px;
 }
 
 .section {
   padding: 100px 0;
+}
+
+.section-ligth{
+  background-color: #e7e7e7;
 }
 
 @media (max-width: 480px) {

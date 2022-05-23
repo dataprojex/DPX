@@ -1,0 +1,48 @@
+<section class="pb-5" id="{{ .id }}">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-lg-6 pl-5 pt-5 pr-5">
+                <h2 class="mb-4" style="color:#e7e7e7"> {{ .headline }}</h2>
+                <p style="color:#e7e7e7"> {{ .content | markdownify }}</p>
+                {{ if .button.enable }}
+                <a class="btn-dpx mt-3" href="{{ .button.link | relLangURL }}"> {{ .button.label }} </a>
+                {{ end }}
+                <div class="mt-5" style="width:100%; height: 1px; background-color: #e7e7e7"></div>
+                <div class="row mb-5 pt-4 pl-3">
+                    {{ range .logos }}
+                    <img class="mr-4" style="height:25px" src="{{ .logo | absURL }}">
+                    {{ end }}
+                </div>
+            </div>
+            <div class="col-lg-6 pl-5 pt-5 pr-5">
+                <img style="width: 100%;" src="{{ .img | absURL }}">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            {{ if .boxes }}
+            {{ $boxlen := len .boxes}}
+            {{ range $index, $element := .boxes }}
+            <div class="
+            {{ if eq $boxlen 3 }}
+            col-lg-4
+            {{ end }}
+            {{ if eq $boxlen 2 }}
+            col-lg-6
+            {{ end }}
+            {{ if eq $boxlen 1 }}
+            col-lg-12
+            {{ end }} p-5">
+                <div class="p-4
+                {{ $color := mod $index 2 }}
+                {{ if eq $color 0 }} spct-box-red {{ end }}
+                {{ if eq $color 1 }} spct-box-blue {{ end }}">
+                    <h4 class="mb-4" style="font-size: 16px; font-weight: 600; color:#e7e7e7">{{ $element.headline }}</h4>
+                    <p style="font-size: 12px; margin: 0; color:#e7e7e7">{{ $element.content }}</p>
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+
+        </div>
+    </div>
+</section>
