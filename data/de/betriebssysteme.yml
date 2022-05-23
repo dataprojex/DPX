@@ -7,9 +7,9 @@ button:
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/windows.png
-  - logo: images/uploads/linux.png
-  - logo: images/uploads/apple_2.png
+  - logo: images/uploads/windows-light.png
+  - logo: images/uploads/linux-light.png
+  - logo: images/uploads/apple_2-light.png
 boxes:
   - headline: Basiskonfigurationen
     content: Entsprechend der Anforderungen Ihrer Mitarbeiter erstellen wir Basiskonfigurationen, bei denen Treiber, Tools u.v.m. betriebsbereit sind.

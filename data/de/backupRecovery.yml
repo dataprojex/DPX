@@ -7,8 +7,8 @@ button:
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/data_protector.png
-  - logo: images/uploads/commvault.png
+  - logo: images/uploads/data_protector-light.png
+  - logo: images/uploads/commvault-light.png
 boxes:
   - headline: Strategie
     content: Anhand Ihrer Anforderungen erstellen wir Ihnen ein optimales und effizientes Backup-Konzept.

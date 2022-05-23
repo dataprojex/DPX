@@ -7,9 +7,9 @@ button:
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/vmware_1.png
-  - logo: images/uploads/hyper-v.png
-  - logo: images/uploads/datacore-1-e1553157883598.png
+  - logo: images/uploads/vmware_1-dark.png
+  - logo: images/uploads/hyper-v-dark.png
+  - logo: images/uploads/datacore-1-e1553157883598-dark.png
 boxes:
   - headline: Kostensparpotenzial
     content: Mithilfe von Virtualisierung nutzen Sie bereits vorhandene Ressourcen und Leistung optimal aus.

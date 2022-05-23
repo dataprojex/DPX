@@ -7,8 +7,8 @@ button:
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/oracle-1-e1553157790193.png
-  - logo: images/uploads/microsoft-1-e1553157799965.png
+  - logo: images/uploads/oracle-1-e1553157790193-dark.png
+  - logo: images/uploads/microsoft-1-e1553157799965-dark.png
 boxes:
   - headline: Schnellere und reibungslose Zusammenarbeit
     content: Arbeiten Sie gemeinsam an Projekten, unabhängig von Ort, Zeit und Technik. Vereinfachen Sie die unternehmensinterne Kommunikation.
