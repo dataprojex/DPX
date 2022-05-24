@@ -1,7 +1,7 @@
 ---
-title: Monitoring
+title: Managed Services
 banner:
-  title: Monitoring
+  title: Managed Services
   content: Gerne beantworten wir Ihre Fragen oder senden Ihnen weitere
     Informationen zu. Rufen Sie uns an, senden Sie uns eine E-Mail oder nutzen
     Sie das Kontaktformular.

@@ -653,10 +653,10 @@ collections:
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
-  - name: "monitoring"
-    label: "Monitoring"
+  - name: "Managed Services"
+    label: "managed-services"
     files:
-      - file: "content/deutsch/monitoring/_index.md"
+      - file: "content/deutsch/managed-services/_index.md"
         name: "banner"
         label: "Banner"
         fields:

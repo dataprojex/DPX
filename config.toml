@@ -122,9 +122,9 @@ url = "/netzwerk-security"
 weight = 1
 
 [[Languages.de.menu.main]]
-name = "Monitoring"
+name = "Managed Services"
 parent = "protection"
-url = "/monitoring"
+url = "/managed-services"
 weight = 2
 
 [[Languages.de.menu.main]]
