@@ -19,7 +19,7 @@ submenu:
     content: Komplettlösung für den modernen Arbeitsplatz.
     img: images/megamenu/icons/workplace.png
     imgSelector: images/megamenu/icons/selector.png
-  - name: Puplic & Private Cloud Hosting
+  - name: Cloud Services
     content: Erfolgreich digitalisieren im Cloud-Zeitalter
     img: images/megamenu/icons/managedCloud.png
     imgSelector: images/megamenu/icons/selector.png
