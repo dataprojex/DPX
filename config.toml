@@ -103,9 +103,9 @@ url = "/modern-workplace"
 weight = 2
 
 [[Languages.de.menu.main]]
-name = "Puplic & Private Cloud Hosting"
+name = "Cloud Services"
 parent = "performance"
-url = "/managed-private-cloude-services"
+url = "/cloud-services"
 weight = 3
 
 [[Languages.de.menu.main]]

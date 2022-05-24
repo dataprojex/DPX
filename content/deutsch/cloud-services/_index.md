@@ -1,7 +1,7 @@
 ---
-title: Managed private cloude services
+title: Cloud Services
 banner:
-  title: Managed private cloude services
+  title: Cloud Services
   content: Gerne beantworten wir Ihre Fragen oder senden Ihnen weitere
     Informationen zu. Rufen Sie uns an, senden Sie uns eine E-Mail oder nutzen
     Sie das Kontaktformular.

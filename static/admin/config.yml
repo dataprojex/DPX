@@ -417,10 +417,10 @@ collections:
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
-  - name: "cloudServices"
+  - name: "cloud-services"
     label: "Cloud Services"
     files:
-      - file: "content/deutsch/managed-private-cloude-services/_index.md"
+      - file: "content/deutsch/cloud-services/_index.md"
         name: "banner"
         label: "Banner"
         fields:
