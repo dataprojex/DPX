@@ -7,7 +7,7 @@
             </div>
             {{ range $index, $element := .boxes }}
             <div class="col-lg-3 p-2">
-                <div class="p-5 h-100
+                <div class="p-5 h-100 dark
                 {{ $color := mod $index 2 }}
                 {{ if eq $color 1 }} spct-box-red {{ end }}
                 {{ if eq $color 0 }} spct-box-blue {{ end }}" style="position: relative; background-color: #1b1e21">
