@@ -10,7 +10,7 @@
                 <p class="pb-3" style="color:#353b43"> {{ .content | markdownify }}</p>
                 {{ if .buttons.enable }}
                 {{ range .buttons.button }}
-                <a class="btn-dpx mr-3 mt-4" href="{{ .link | relLangURL }}"> {{ .label }} </a>
+                <a class="btn-dpx-dark mr-3 mt-4" href="{{ .link | relLangURL }}"> {{ .label }} </a>
                 {{ end }}
                 {{ end }}
             </div>
