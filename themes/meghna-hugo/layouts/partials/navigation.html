@@ -65,35 +65,35 @@
                               {{ range $element.Children }}
                               {{ $varName := .Name }}
                               <a id="hoverIcon" class="" href="{{ .URL | relLangURL}}">
-                              <div class="col-lg-12 mb-4" style="height: 17%; margin-left:5px">
-                                  <div class="row">
-                                      <div id="iconBox" class="d-flex text-center align-items-center" style="position: relative">
-                                          {{ range $data.megamenu.submenu }}
-                                          {{ if eq .name $varName}}
-                                          <span style="position: absolute; left:0px;"  >
-                                                <img class="dpxPoductIcons" src="{{ .img | absURL }}">
-                                          </span>
-                                          <span>
-                                                <img class="dpxPoductIcons" src="{{ .imgSelector | absURL }}" style="width: 20px">
-                                          </span>
-                                          {{ end }}
-                                          {{ end }}
-                                      </div>
-                                      <div class="col-lg-8 col-md-8 col-sm-8 pl-2 pr-0 my-auto">
-                                          <div class="col-lg-12">
-                                          <h6 class="m-0">{{ .Name }}</h6>
-                                          </div>
-                                          <div class="col-lg-12">
+                                  <div class="col-lg-12 mb-4" style="height: 17%; margin-left:5px">
+                                      <div class="row">
+                                          <div id="iconBox" class="d-flex text-center align-items-center" style="position: relative">
                                               {{ range $data.megamenu.submenu }}
                                               {{ if eq .name $varName}}
-                                              <p style="color: #828487; font-size: 9pt; line-height: 10pt; margin: 0px">{{ .content }}</p>
+                                              <span style="position: absolute; left:0px;"  >
+                                                    <img class="dpxPoductIcons" src="{{ .img | absURL }}">
+                                              </span>
+                                              <span>
+                                                    <img class="dpxPoductIcons" src="{{ .imgSelector | absURL }}" style="width: 20px">
+                                              </span>
                                               {{ end }}
                                               {{ end }}
+                                          </div>
+                                          <div class="col-lg-8 col-md-8 col-sm-8 pl-2 pr-0 my-auto">
+                                              <div class="col-lg-12">
+                                                <h6 class="m-0">{{ .Name }}</h6>
+                                              </div>
+                                              <div class="col-lg-12">
+                                                  {{ range $data.megamenu.submenu }}
+                                                  {{ if eq .name $varName}}
+                                                  <p style="color: #828487; font-size: 9pt; line-height: 10pt; margin: 0px">{{ .content }}</p>
+                                                  {{ end }}
+                                                  {{ end }}
+                                              </div>
                                           </div>
                                       </div>
                                   </div>
-                                </a>
-                              </div>
+                              </a>
                               {{ end }}
                               {{ end }}
                           </div>
@@ -108,7 +108,7 @@
               <script>
                   const over = document.getElementById("overlay-megamenu")
                   const button = document.getElementById("megamenubutton")
-                  const megamenu = document.getElementById("megamenu")
+                  const overlay = document.getElementById("overlay-megamenu")
 
                   over.onclick = function() {
                      $("#megamenu").css({"display":"none"});
@@ -125,7 +125,7 @@
                       $("#overlay-megamenu").css({"display":"none"});
                   }
 
-                  megamenu.onmouseleave = function() {
+                  overlay.onmouseenter = function() {
                       $("#megamenu").css({"display":"none"});
                       $("#overlay-megamenu").css({"display":"none"});
                   }
