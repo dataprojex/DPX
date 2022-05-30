@@ -18,8 +18,8 @@
 							{{ $active := eq $menuURL $pageURL }}
 							{{ $len := (len site.Menus.footer) }}
 
-							<li class="">
-								<a style=";font-size: 1rem; margin-right:10px; font-family: quattrocento sans,sans-serif" class="nav-link-footer"
+							<li class="nav-item">
+								<a style="font-size: 1rem; margin-right:10px; display:block" class="nav-link-footer"
 								   href="{{if findRE `^#` $element.URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{$element.URL}}{{else}}{{$element.URL | relLangURL}}{{end}}">
 									<strong>{{.Name}}</strong>
 								</a>
