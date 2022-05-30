@@ -4,7 +4,7 @@
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
 			<div class="col-lg-6 my-auto dark">
 				<p style="margin-bottom:6px"> {{ site.Params.company }} <strong style="color:#f3073c; margin-right: 10px; margin-left: 10px"> | </strong> {{ site.Params.road }} <strong style="color:#f3073c; margin-right: 10px; margin-left: 10px"> | </strong> {{ site.Params.city }}</p>
-				<p style="margin-bottom:6px"> {{ site.Params.tel }} <strong style="color:#f3073c; margin-right: 10px; margin-left: 10px"> | </strong> {{ site.Params.mail }}</p>
+				<p style="margin-bottom:2px"> {{ site.Params.tel }} <strong style="color:#f3073c; margin-right: 10px; margin-left: 10px"> | </strong> <strong> {{ site.Params.mail }} </strong></p>
 
 				<nav class="navbar-expand-lg navbar-dark">
 
@@ -19,9 +19,9 @@
 							{{ $len := (len site.Menus.footer) }}
 
 							<li class="">
-								<a style=";font-size: 1rem;font-weight: 400; margin-right:10px" class="nav-link-footer"
+								<a style=";font-size: 1rem; margin-right:10px; font-family: quattrocento sans,sans-serif" class="nav-link-footer"
 								   href="{{if findRE `^#` $element.URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{$element.URL}}{{else}}{{$element.URL | relLangURL}}{{end}}">
-									{{.Name}}
+									<strong>{{.Name}}</strong>
 								</a>
 							</li>
 
@@ -48,6 +48,9 @@
 	<div style="background-color: #0b0b0b">
 		<div class="container">
 			<div class="row wow fadeInUp" data-wow-duration="500ms">
+				<div class="p-4">
+					<p class="m-0">Folgen Sie uns:</p>
+				</div>
 				<div class="col-lg-3">
 					<div class="social-icon">
 						<ul class="list-inline m-0">
@@ -57,13 +60,6 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-6">
-					{{"<!-- copyright -->" | safeHTML}}
-					<div class="copyright text-center">
-						<p class="m-0">{{ site.Params.copyright | markdownify }}</p>
-					</div>
-				</div>
-				<div class="col-lg-3"></div>
 			</div>
 		</div>
 	</div>

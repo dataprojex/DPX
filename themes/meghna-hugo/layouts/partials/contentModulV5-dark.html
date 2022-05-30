@@ -34,6 +34,7 @@
                 {{ if eq $color 1 }} spct-box-red {{ end }}
                 {{ if eq $color 0 }} spct-box-blue {{ end }}
                 " style=" height: 100%">
+                    {{ if $element.icon }}
                     <div class="row">
                         <div class="col-lg-4 text-center pt-3">
                             <i class="{{  $element.icon }}" style="font-size: 30px; color:#e7e7e7"></i>
@@ -42,6 +43,13 @@
                             <p style="font-size: 12px; margin: 0; color:#e7e7e7">{{  $element.content }}</p>
                         </div>
                     </div>
+                        {{ end }}
+
+                        {{ if ne $element.icon}}
+                        <h4 class="" style="font-size: 16px; font-weight: 600; color:#e7e7e7">
+                            {{  $element.content }}
+                        </h4>
+                        {{ end }}
 
                 </div>
             </div>

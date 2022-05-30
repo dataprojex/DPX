@@ -14,7 +14,7 @@ html {
 
 body {
   background-color: #353b43;
-  font-family: "Anaheim", sans-serif;
+  font-family: "quattrocento sans", sans-serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
 }
@@ -271,7 +271,7 @@ a:hover {
   background-image: linear-gradient(to right, #a20225 0%, #f3073c  100%);
   color: #fff;
   display: inline-block;
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 1px;
   padding: 15px 25px;
   text-transform: uppercase;

@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             {{ range $index, $element := .boxes }}
-            <div class="col-lg-4 p-1">
-                <div class="p-5 h-100 dark
+            <div class="col-lg-4 p-5">
+                <div class="p-4 pt-5 h-100 dark
                 {{ $color := mod $index 2 }}
                 {{ if eq $color 1 }} spct-box-red {{ end }}
                 {{ if eq $color 0 }} spct-box-blue {{ end }}
@@ -14,10 +14,10 @@
                 ">
                     <i class="{{ $element.icon }}" style="color:#e7e7e7; font-size: 20pt"></i>
                 </div>
-                <h4 class="mb-4" style="color:#e7e7e7;"> {{ $element.headline }} </h4>
+                <h4 class="mb-4" style="font-size: 16px; font-weight: 600; color:#e7e7e7"> {{ $element.headline }} </h4>
                     <ul style="padding-left: 20px">
                     {{ range $element.liste }}
-                        <li>{{ .item }}</li>
+                        <li style="font-size: 12px; margin: 0; color:#e7e7e7">{{ .item }}</li>
                     {{ end }}
                     </ul>
                 </div>
