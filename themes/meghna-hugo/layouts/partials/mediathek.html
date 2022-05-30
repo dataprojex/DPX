@@ -2,7 +2,7 @@
 
 {{ with $data.mediathek.mediathekFull }}
 {{"<!-- Video Section -->" | safeHTML}}
-<section id="blog" class="section" style="padding-bottom:300px">
+<section id="blog" class="section" style="padding-bottom:300px; color: #e7e7e7">
     <div class="container w-100" style="max-width: 90%">
         <div class="row">
             <div class="col-12">
@@ -71,7 +71,7 @@
                         <h4 style="font-size: 1.2rem"><a href="{{ .Permalink }}">{{ .title }}</a></h4>
                         </div>
                         <div class="col-12">
-                        <p>{{ .summary }}</p>
+                        <p style="font-size: 10pt">{{ .summary }}</p>
                         </div>
                         <!-- <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a> -->
                     </div>
