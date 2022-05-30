@@ -283,7 +283,7 @@ a:hover {
 
 .btn-dpx:hover{
   box-shadow: inset 400px 0 0 0 #e7e7e7;
-  color: #a20225;
+  color: #363b44;
 }
 
 .btn-dpx-dark{
@@ -294,16 +294,15 @@ a:hover {
   letter-spacing: 1px;
   padding: 15px 25px;
   text-transform: uppercase;
-  box-shadow: inset 0 0 0 0 #a20225;
+  box-shadow: inset 0 0 0 0 #363b44;
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
 }
 
 .btn-dpx-dark:hover{
-  box-shadow: inset 400px 0 0 0 #a20225;
-  font-weight: 600;
-  color: #fff;
+  box-shadow: inset 400px 0 0 0 #363b44;
+  color: #e7e7e7;
 }
 
 

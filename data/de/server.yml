@@ -10,7 +10,7 @@ content: "Unser Portfolio umfasst eine Bandbreite an Servern, die sich optimal
 img: images/uploads/optimal-server.png
 button:
   enable: true
-  label: jetzt anfragen
+  label: Jetzt anfragen
   link: kontakt
 logos:
   - logo: images/uploads/737-7376493_lenovo-logo-white-hd-png-download.png
