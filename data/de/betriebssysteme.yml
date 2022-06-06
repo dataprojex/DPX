@@ -14,8 +14,8 @@ button:
   link: kontakt
 logos:
   - logo: images/uploads/windows-light.png
-  - logo: images/uploads/linux-light.png
   - logo: images/uploads/apple-light.png
+  - logo: images/uploads/linux-light.png
 boxes:
   - headline: Basiskonfigurationen
     content: Entsprechend der Anforderungen Ihrer Mitarbeiter erstellen wir
