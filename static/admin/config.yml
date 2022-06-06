@@ -960,3 +960,16 @@ collections:
               { label: "Link", name: "link", widget: "hidden", default: "https://www.youtube.com/embed/"},
               { label: "controllsSmall", name: "controllsSmall", widget: "hidden", default: "?theme=dark&mute=1&controls=0&rel=0&cc_load_policy=0&origin"},
               { label: "controllsLarge", name: "controllsLarge", widget: "hidden", default: "?theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0"}]}
+  - name: "impressum"
+    label: "Impressum"
+    files:
+      - file: "content/deutsch/impressum/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
+          - { label: "Firma", name: "data", widget: "markdown" }
+          - { label: "Content", name: "text", widget: "markdown" }
