@@ -11,8 +11,8 @@ button:
   label: Jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/ibm-light.png
-  - logo: images/uploads/Lenovo-light.png
+  - logo: images/uploads/ibm-dark.png
+  - logo: images/uploads/Dell-dark.png
 boxes:
   - headline: Konzept
     content: Unsere zertifizierten Consultants entwickeln für Sie eine individuell
