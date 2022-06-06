@@ -960,6 +960,16 @@ collections:
               { label: "Link", name: "link", widget: "hidden", default: "https://www.youtube.com/embed/"},
               { label: "controllsSmall", name: "controllsSmall", widget: "hidden", default: "?theme=dark&mute=1&controls=0&rel=0&cc_load_policy=0&origin"},
               { label: "controllsLarge", name: "controllsLarge", widget: "hidden", default: "?theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0"}]}
+  - name: "socialMedia"
+    label: "Social Media Footer"
+    files:
+      - file: "data/de/socialmedia.yml"
+        name: "links"
+        label: "Links"
+        fields:
+          - { label: "Social Media", name: "socialMedia", widget: "list", fields: [
+            { label: "Icon", name: "icon", widget: "string" },
+            { label: "Link", name: "link", widget: "string" }] }
   - name: "impressum"
     label: "Impressum"
     files:
