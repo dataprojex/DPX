@@ -1,18 +1,30 @@
 id: clients
 headline: Modernes Clientmanagement
-content: "Wir stellen für Sie alle geforderten Geräte nach Ihren Anforderungen und Wünschen bereit. Gern liefern wir Ihnen die benötigten Peripheriegeräte wie Monitore, Tastaturen, Mäuse oder separat erforderliche Hardwarekomponenten. Um Ihren Mitarbeitern ein flexibles und mobiles Arbeiten zu ermöglichen, stellen wir Ihnen auch die notwendigen mobilen Endgeräte zur Verfügung. Arbeiten Sie mobil – arbeiten Sie flexibel. Wir binden Ihre Geräte in vorhandene E-Mail- und Kalendersysteme wie z. B. Microsoft Exchange ein. Unsere Consultants beraten Sie gern hinsichtlich unternehmensspezifischer Applikationen und relevanter Sicherheitslösungen für Ihre Endgeräte."
+content: Wir stellen für Sie alle geforderten Geräte nach Ihren Anforderungen
+  und Wünschen bereit. Gern liefern wir Ihnen die benötigten Peripheriegeräte
+  wie Monitore, Tastaturen, Mäuse oder separat erforderliche
+  Hardwarekomponenten. Um Ihren Mitarbeitern ein flexibles und mobiles Arbeiten
+  zu ermöglichen, stellen wir Ihnen auch die notwendigen mobilen Endgeräte zur
+  Verfügung. Arbeiten Sie mobil – arbeiten Sie flexibel. Wir binden Ihre Geräte
+  in vorhandene E-Mail- und Kalendersysteme wie z. B. Microsoft Exchange ein.
+  Unsere Consultants beraten Sie gern hinsichtlich unternehmensspezifischer
+  Applikationen und relevanter Sicherheitslösungen für Ihre Endgeräte.
 img: images/uploads/optimal-server.png
 button:
   enable: true
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/dell-1-e1553157873733-light.png
-  - logo: images/uploads/hp-1-e1553157834517-light.png
-  - logo: images/uploads/bluechip-1-e1553157916181-light.png
-  - logo: images/uploads/igel-1-e1553157821853-light.png
+  - logo: images/uploads/Lenovo-light.png
+  - logo: images/uploads/Dell-light.png
+  - logo: images/uploads/Quest-light.png
+  - logo: images/uploads/barracuda-light.png
 boxes:
   - headline: Managed Workplace Services
-    content: Mit unseren Managed Workplace Services bieten wir Ihnen von stationären und mobilen Lösungen, über virtuelle Clients, Drucker-Lösungen bis hin zur Bereitstellung von Software ein breites Portfolio.
+    content: Mit unseren Managed Workplace Services bieten wir Ihnen von stationären
+      und mobilen Lösungen, über virtuelle Clients, Drucker-Lösungen bis hin zur
+      Bereitstellung von Software ein breites Portfolio.
   - headline: Zufriedenheit Ihrer Mitarbeiter
-    content: "Optimierte Workflows, steigende Effizienz und die Zufriedenheit Ihrer Mitarbeiter sind das Ergebnis Ihrer Zusammenarbeit mit GODYO: We make IT work."
+    content: "Optimierte Workflows, steigende Effizienz und die Zufriedenheit Ihrer
+      Mitarbeiter sind das Ergebnis Ihrer Zusammenarbeit mit GODYO: We make IT
+      work."
