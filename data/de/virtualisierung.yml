@@ -13,9 +13,9 @@ button:
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/vmware-light.png
-  - logo: images/uploads/Microsoft_Hyper_v-light.png
-  - logo: images/uploads/datacore-1-e1553157883598-dark.png
+  - logo: images/uploads/Microsoft_Hyper_V-dark.png
+  - logo: images/uploads/vmware-dark.png
+  - logo: images/uploads/Exoscale-dark.png
 boxes:
   - headline: Kostensparpotenzial
     content: Mithilfe von Virtualisierung nutzen Sie bereits vorhandene Ressourcen
