@@ -13,8 +13,8 @@ button:
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/veeam-dark.png
-  - logo: images/uploads/barracuda-dark.png
+  - logo: images/uploads/veeam-light.png
+  - logo: images/uploads/barracuda-light.png
 boxes:
   - headline: Strategie
     content: Anhand Ihrer Anforderungen erstellen wir Ihnen ein optimales und
