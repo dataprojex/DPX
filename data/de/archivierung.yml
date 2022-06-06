@@ -1,17 +1,25 @@
 id: archivierung
 headline: Strukturierte Archivierung
-content: "Häufig belegen unstrukturierte und unveränderte Daten teure Speicherkapazitäten unserer Kunden. Um die Effektivität zu erhöhen und hohe Investitionen in Storage und Backup zu vermeiden, arbeiten Sie mit uns zusammen und nutzen Sie unsere Erfahrungen und Lösungen. Auf dem Gebiet der E-Mail-Archivierung empfehlen wir den Einsatz der Produkte unseres Herstellers Mailstore. Im Umfeld von Microsoft Exchange werden Ihre E-Mails mit einer zertifizierten und rechtssicheren Lösung archiviert."
+content: Häufig belegen unstrukturierte und unveränderte Daten teure
+  Speicherkapazitäten unserer Kunden. Um die Effektivität zu erhöhen und hohe
+  Investitionen in Storage und Backup zu vermeiden, arbeiten Sie mit uns
+  zusammen und nutzen Sie unsere Erfahrungen und Lösungen. Auf dem Gebiet der
+  E-Mail-Archivierung empfehlen wir den Einsatz der Produkte unseres Herstellers
+  Mailstore. Im Umfeld von Microsoft Exchange werden Ihre E-Mails mit einer
+  zertifizierten und rechtssicheren Lösung archiviert.
 img: images/uploads/optimal-server.png
 button:
   enable: true
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/mailstore-1-e1553157807513-light.png
-  - logo: images/uploads/agorum-1-e1553157945656-light.png
+  - logo: images/uploads/barracuda-light.png
+  - logo: images/uploads/Office-365-light.png
 boxes:
   - headline: Revisionssichere E-Mail-Archivierung
-    content: Einfacher Zugriff auf geschäftsrelevante E-Mails und gleichzeitig alle gesetzlichen Anforderungen erfüllen.
+    content: Einfacher Zugriff auf geschäftsrelevante E-Mails und gleichzeitig alle
+      gesetzlichen Anforderungen erfüllen.
   - headline: Entlasten Sie Ihre E-Mail-Systeme
-    content: Organisieren Sie schriftliche Geschäftsvorgänge, wie Aufträge, Rechnungen, Reklamationen, Zahlungsbelege, Verträge und steuerliche Unterlagen.
-
+    content: Organisieren Sie schriftliche Geschäftsvorgänge, wie Aufträge,
+      Rechnungen, Reklamationen, Zahlungsbelege, Verträge und steuerliche
+      Unterlagen.
