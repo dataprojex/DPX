@@ -1,15 +1,19 @@
 id: collaboration
 headline: Zukunftssichere Collaboration-Lösungen
-content: "Mobiler Datenzugriff, Unterstützung der Unternehmenskommunikation und Zusammenarbeit unabhängig von Ort und Zeit. Eine zukunftssichere Collaboration-Lösung steigert nicht nur die Produktivität, sondern auch die Mitarbeiterzufriedenheit. Anhand Ihrer Anforderungen wählen wir die für Sie passende Collaboration-Lösung. Unsere Experten beraten Sie gern."
+content: Mobiler Datenzugriff, Unterstützung der Unternehmenskommunikation und
+  Zusammenarbeit unabhängig von Ort und Zeit. Eine zukunftssichere
+  Collaboration-Lösung steigert nicht nur die Produktivität, sondern auch die
+  Mitarbeiterzufriedenheit. Anhand Ihrer Anforderungen wählen wir die für Sie
+  passende Collaboration-Lösung. Unsere Experten beraten Sie gern.
 img: images/uploads/optimal-server.png
 button:
   enable: true
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/sophos-1-e1553157765571-light.png
-  - logo: images/uploads/cisco-1-e1553157903536-light.png
-  - logo: images/uploads/swyx_-e1553157756787-light.png
+  - logo: images/uploads/Office-365-light.png
+  - logo: images/uploads/starface-light.png
+  - logo: images/uploads/3CX-light.png
 boxes:
   - headline: Erhöhen der Produktivität
     content: Austausch mit Entscheidern und schnellere Entscheidungsfindung
