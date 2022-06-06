@@ -12,8 +12,8 @@ button:
   link: kontakt
 logos:
   - logo: images/uploads/Office-365-light.png
-  - logo: images/uploads/starface-light.png
   - logo: images/uploads/3CX-light.png
+  - logo: images/uploads/starface-light.png
 boxes:
   - headline: Erhöhen der Produktivität
     content: Austausch mit Entscheidern und schnellere Entscheidungsfindung
