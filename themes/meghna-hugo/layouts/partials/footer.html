@@ -1,3 +1,5 @@
+{{ $data := index site.Data site.Language.Lang }}
+
 {{"<!-- end Contact Area -->" | safeHTML}}
 <footer id="footer" class="section-bg" >
 	<div class="container" style="padding-top:70px;padding-bottom:70px;">
@@ -54,9 +56,12 @@
 				<div class="col-lg-3">
 					<div class="social-icon">
 						<ul class="list-inline m-0">
-							{{ range site.Params.social }}
-							<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+							{{ with $data.socialmedia }}
+								{{ range .socialMedia }}
+									<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+								{{ end }}
 							{{ end }}
+
 						</ul>
 					</div>
 				</div>

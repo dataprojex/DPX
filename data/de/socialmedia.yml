@@ -1,0 +1,11 @@
+socialMedia:
+  - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+    link : "#"
+  - icon: "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+    link: "#"
+  - icon: "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+    link: "#"
+  - icon: "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
+    link: "#"
+  - icon: "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
+    link: "#"
