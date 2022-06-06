@@ -346,7 +346,35 @@
     color:#e7e7e7
 }
 
-.dark > h1, h2, h3, h4, h5, h6, p, ul{
+.dark > h1 {
+    color:#e7e7e7
+}
+
+.dark >  h2{
+    color:#e7e7e7
+}
+
+.dark > h3{
+    color:#e7e7e7
+}
+
+.dark > h4{
+    color:#e7e7e7
+}
+
+.dark > h5{
+    color:#e7e7e7
+}
+
+.dark > h6{
+    color:#e7e7e7
+}
+
+.dark > p{
+    color:#e7e7e7
+}
+
+.dark > ul{
     color:#e7e7e7
 }
 
@@ -597,7 +625,7 @@
     background-image: linear-gradient(150deg, #a60226 0%, #ef073b  100%);
     box-shadow: 5px 5px 5px rgba(0 0 0 0.2);
     top:-30px;
-    left: 43%
+    left: 39%
 }
 
 .iconBoxes-blue {
@@ -607,7 +635,7 @@
     background-image: linear-gradient(150deg, #165597 0%, #287cd8  100%);
     box-shadow: 5px 5px 5px rgba(0 0 0 0.2);
     top:-30px;
-    left: 43%
+    left: 39%
 }
 
 .mySlides {display: none}

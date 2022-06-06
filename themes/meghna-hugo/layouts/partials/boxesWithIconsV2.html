@@ -6,8 +6,8 @@
                 <p> {{ .content | markdownify }} </p>
             </div>
             {{ range $index, $element := .boxes }}
-            <div class="col-lg-3 p-2">
-                <div class="p-5 h-100
+            <div class="col-lg-3 p-5">
+                <div class="p-4 pt-5 h-100 dark
                 {{ $color := mod $index 2 }}
                 {{ if eq $color 1 }} spct-box-red {{ end }}
                 {{ if eq $color 0 }} spct-box-blue {{ end }}" style="position: relative; background-color: #1b1e21">
@@ -16,8 +16,8 @@
                         {{ if eq $color 0 }} iconBoxes-blue {{ end }}">
                         <i class="{{ $element.icon }}" style="color:#ffffff; font-size: 20pt"></i>
                     </div>
-                    <h4 class="mb-4"> {{ $element.headline }} </h4>
-                    <p> {{ $element.content | markdownify }} </p>
+                    <h4 class="mb-4" style="font-size: 16px; font-weight: 600; color:#e7e7e7"> {{ $element.headline }} </h4>
+                    <p style="font-size: 12px; margin: 0; color:#e7e7e7"> {{ $element.content | markdownify }} </p>
                 </div>
             </div>
             {{ end }}
