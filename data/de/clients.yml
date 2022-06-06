@@ -17,8 +17,8 @@ button:
 logos:
   - logo: images/uploads/Lenovo-light.png
   - logo: images/uploads/Dell-light.png
-  - logo: images/uploads/Quest-light.png
   - logo: images/uploads/barracuda-light.png
+  - logo: images/uploads/Dell-light.png
 boxes:
   - headline: Managed Workplace Services
     content: Mit unseren Managed Workplace Services bieten wir Ihnen von stationären
