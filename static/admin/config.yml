@@ -964,12 +964,36 @@ collections:
     label: "Impressum"
     files:
       - file: "content/deutsch/impressum/_index.md"
-        name: "banner"
-        label: "Banner"
+        name: "content"
+        label: "Content"
         fields:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "string" } ] }
           - { label: "Firma", name: "data", widget: "markdown" }
+          - { label: "Content", name: "text", widget: "markdown" }
+  - name: "datenschutz"
+    label: "Datenschutz"
+    files:
+      - file: "content/deutsch/datenschutz/_index.md"
+        name: "content"
+        label: "Content"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
+          - { label: "Content", name: "text", widget: "markdown" }
+  - name: "agb"
+    label: "AGB"
+    files:
+      - file: "content/deutsch/agb/_index.md"
+        name: "content"
+        label: "Content"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" } ] }
           - { label: "Content", name: "text", widget: "markdown" }
