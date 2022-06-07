@@ -145,7 +145,7 @@ url = "/unternehmen/#about"
 weight = 1
 
 [[Languages.de.menu.main]]
-name = "Jobs"
+name = "Karriere"
 parent = "Unternehmen"
 url = "/karriere/#jobs"
 weight = 2
