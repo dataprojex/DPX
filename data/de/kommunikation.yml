@@ -1,17 +1,34 @@
 id: kommunikation
 headline: Zuverlässige Kommunikation
-content: "Die Ablösung analoger zu Gunsten digitaler Telefontechnologie ist mittlerweile in vielen Unternehmen eine ideale Lösung zur internen und externen Kommunikation. Für die Abwicklung Ihrer Gespräche werden Computernetze verwendet. Wir bieten Ihnen die Konzeption und Integration in Ihre bestehende Netzwerk-Struktur. Der Trend zu Cloud-Lösungen wird für viele Unternehmen zum IT-Standard, der mit Flexibilität und Effizienz einhergeht. Cloud-Lösungen lassen sich auch für die Telefonie in Ihrem Unternehmen einsetzen. Die Vorteile liegen auf der Hand: wegfallende Hardware-Investitionen sowie die jeweilige Skalierbarkeit. Sie ermöglichen einen großen Spielraum an Flexibilität bei kürzeren Reaktionszeiten. Eine einfache und unkomplizierte Installation geht einher mit einer hohen Ausfallsicherheit Ihrer Telefonanlage. Cloud-Lösungen steigern die Effizienz moderner Unternehmen und heben Kostensenkungspotentiale. Unsere Consultants beraten Sie gern."
+content: "Die Ablösung analoger zu Gunsten digitaler Telefontechnologie ist
+  mittlerweile in vielen Unternehmen eine ideale Lösung zur internen und
+  externen Kommunikation. Für die Abwicklung Ihrer Gespräche werden
+  Computernetze verwendet. Wir bieten Ihnen die Konzeption und Integration in
+  Ihre bestehende Netzwerk-Struktur. Der Trend zu Cloud-Lösungen wird für viele
+  Unternehmen zum IT-Standard, der mit Flexibilität und Effizienz einhergeht.
+  Cloud-Lösungen lassen sich auch für die Telefonie in Ihrem Unternehmen
+  einsetzen. Die Vorteile liegen auf der Hand: wegfallende
+  Hardware-Investitionen sowie die jeweilige Skalierbarkeit. Sie ermöglichen
+  einen großen Spielraum an Flexibilität bei kürzeren Reaktionszeiten. Eine
+  einfache und unkomplizierte Installation geht einher mit einer hohen
+  Ausfallsicherheit Ihrer Telefonanlage. Cloud-Lösungen steigern die Effizienz
+  moderner Unternehmen und heben Kostensenkungspotentiale. Unsere Consultants
+  beraten Sie gern."
 img: images/uploads/optimal-server-dark.png
 button:
   enable: true
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/sophos-1-e1553157765571-dark.png
-  - logo: images/uploads/cisco-1-e1553157903536-dark.png
-  - logo: images/uploads/swyx_-e1553157756787-dark.png
+  - logo: images/uploads/3CX-dark.png
+  - logo: images/uploads/starface-dark.png
+  - logo: images/uploads/Microsoft-dark.png
 boxes:
   - headline: Unser Service
-    content: Wir kümmern uns um die Neueinrichtung und Erweiterung Ihrer Telefonanlage, implementieren weitere Nebenstellen und sorgen für eine optimale Funktionalität Ihrer Telekommunikationsanlage.
+    content: Wir kümmern uns um die Neueinrichtung und Erweiterung Ihrer
+      Telefonanlage, implementieren weitere Nebenstellen und sorgen für eine
+      optimale Funktionalität Ihrer Telekommunikationsanlage.
   - headline: Ihre Vorteile
-    content: Profitieren Sie von einer hervorragenden Sprachqualität, keinerlei geografischen Restriktionen und eine perfekt auf Ihr Unternehmen abgestimmte Konfiguration.
+    content: Profitieren Sie von einer hervorragenden Sprachqualität, keinerlei
+      geografischen Restriktionen und eine perfekt auf Ihr Unternehmen
+      abgestimmte Konfiguration.

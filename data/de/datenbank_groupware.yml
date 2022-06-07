@@ -1,17 +1,27 @@
 id: datenbanke_groupware
 headline: Effiziente Datenbank- und Groupware-Lösungen
-content: "Der Einsatz von Groupware-Lösungen ermöglicht eine effiziente und optimale Bewältigung sämtlicher anfallender Aufgaben im Unternehmen. GODYO implementiert die Software führender Hersteller in die Strukturen Ihres Unternehmens. Unter Einsatz der Produkte Exchange und SharePoint unseres Partners Microsoft ermöglichen wir Ihnen ein effizientes Arbeiten und Kommunizieren. Eine weitere leistungsstarke Datenbanktechnologie unseres Portfolios ist die Hardware-Implementierung von SAP HANA als Appliance. Durch deren Einsatz ist Ihr Unternehmen in der Lage, eine Echtzeit-Analyse von Daten durchzuführen. Die Nutzung der Appliance unterstützt Sie bei der Optimierung der zukünftigen Wettbewerbsfähigkeit Ihres Unternehmens, indem relevante Datenmengen optimal aufbereitet werden."
+content: Der Einsatz von Groupware-Lösungen ermöglicht eine effiziente und
+  optimale Bewältigung sämtlicher anfallender Aufgaben im Unternehmen. GODYO
+  implementiert die Software führender Hersteller in die Strukturen Ihres
+  Unternehmens. Unter Einsatz der Produkte Exchange und SharePoint unseres
+  Partners Microsoft ermöglichen wir Ihnen ein effizientes Arbeiten und
+  Kommunizieren. Eine weitere leistungsstarke Datenbanktechnologie unseres
+  Portfolios ist die Hardware-Implementierung von SAP HANA als Appliance. Durch
+  deren Einsatz ist Ihr Unternehmen in der Lage, eine Echtzeit-Analyse von Daten
+  durchzuführen. Die Nutzung der Appliance unterstützt Sie bei der Optimierung
+  der zukünftigen Wettbewerbsfähigkeit Ihres Unternehmens, indem relevante
+  Datenmengen optimal aufbereitet werden.
 img: images/uploads/optimal-server-dark.png
 button:
   enable: true
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/oracle-1-e1553157790193-dark.png
-  - logo: images/uploads/microsoft-1-e1553157799965-dark.png
+  - logo: images/uploads/Microsoft-dark.png
+  - logo: images/uploads/oracle-dark.png
 boxes:
   - headline: Schnellere und reibungslose Zusammenarbeit
-    content: Arbeiten Sie gemeinsam an Projekten, unabhängig von Ort, Zeit und Technik. Vereinfachen Sie die unternehmensinterne Kommunikation.
+    content: Arbeiten Sie gemeinsam an Projekten, unabhängig von Ort, Zeit und
+      Technik. Vereinfachen Sie die unternehmensinterne Kommunikation.
   - headline: Wir finden die optimale Lösung
     content: Unsere Experten beraten Sie gern zu den Themen Groupware und Datenbanken.
-
