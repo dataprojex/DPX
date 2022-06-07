@@ -1,18 +1,30 @@
 id: wlan
 headline: Performantes WLAN
-content: "Die Integration und Optimierung des WLAN-Netzes in Ihrem Unternehmen ist ein entscheidender Faktor für den mobilen Netzwerkzugriff Ihrer Mitarbeiter. Um ein flächendeckendes und leistungsfähiges Netz zu konzipieren, beginnen wir immer mit der Ausleuchtung des zukünftigen bzw. vorhandenen WLAN-Netzes in Ihrem Haus, einem sogenannten „Site Survey“. Das Ergebnis dieser Analyse liefert Erkenntnisse über Anzahl und Positionen der benötigten Access Points. Nach deren Installation wird erneut die Leistungsfähigkeit des neuen WLAN-Netzes überprüft. So stellen unsere Mitarbeiter sicher, dass die Nutzung von Drahtlosnetzwerken effizientes Arbeiten ermöglicht und somit zu Ihrem Unternehmenserfolg beiträgt."
+content: Die Integration und Optimierung des WLAN-Netzes in Ihrem Unternehmen
+  ist ein entscheidender Faktor für den mobilen Netzwerkzugriff Ihrer
+  Mitarbeiter. Um ein flächendeckendes und leistungsfähiges Netz zu konzipieren,
+  beginnen wir immer mit der Ausleuchtung des zukünftigen bzw. vorhandenen
+  WLAN-Netzes in Ihrem Haus, einem sogenannten „Site Survey“. Das Ergebnis
+  dieser Analyse liefert Erkenntnisse über Anzahl und Positionen der benötigten
+  Access Points. Nach deren Installation wird erneut die Leistungsfähigkeit des
+  neuen WLAN-Netzes überprüft. So stellen unsere Mitarbeiter sicher, dass die
+  Nutzung von Drahtlosnetzwerken effizientes Arbeiten ermöglicht und somit zu
+  Ihrem Unternehmenserfolg beiträgt.
 img: images/uploads/optimal-server-dark.png
 button:
   enable: true
   label: jetzt anfragen
   link: kontakt
 logos:
-  - logo: images/uploads/aruba-1-e1553157934952-dark.png
-  - logo: images/uploads/cisco-1-e1553157903536-dark.png
-  - logo: images/uploads/fortinet-1-e1553157846999-dark.png
+  - logo: images/uploads/aruba-dark.png
+  - logo: images/uploads/veeam-dark.png
+  - logo: images/uploads/3CX-dark.png
 boxes:
   - headline: individuelle Sicherheitslösungen
-    content: Nutzen Sie individuelle Sicherheitslösungen und Zugangskontrollen, Hot-Spot-Lösungen und Richtfunklösungen zur Überbrückung von Freiflächen.
+    content: Nutzen Sie individuelle Sicherheitslösungen und Zugangskontrollen,
+      Hot-Spot-Lösungen und Richtfunklösungen zur Überbrückung von Freiflächen.
   - headline: individuelle WLAN-Lösungen
-    content: Wir bieten Ihnen eine professionelle WLAN-Ausleuchtung und WLAN-Planung. Profitieren Sie von einer hohen Datenübertragung nach neuesten Standards, die perfekt für Echtzeitanwendungen oder VoIP geeignet ist.
-
+    content: Wir bieten Ihnen eine professionelle WLAN-Ausleuchtung und
+      WLAN-Planung. Profitieren Sie von einer hohen Datenübertragung nach
+      neuesten Standards, die perfekt für Echtzeitanwendungen oder VoIP geeignet
+      ist.
