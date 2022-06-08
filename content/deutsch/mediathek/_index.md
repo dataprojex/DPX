@@ -5,5 +5,5 @@ banner:
   content: Gerne beantworten wir Ihre Fragen oder senden Ihnen weitere
     Informationen zu. Rufen Sie uns an, senden Sie uns eine E-Mail oder nutzen
     Sie das Kontaktformular.
-  bg_image: images/uploads/istockphoto-1397859617-2048x2048.jpg
+  bg_image: images/uploads/istock-1397859617.jpg
 ---
