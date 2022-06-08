@@ -17,8 +17,8 @@ button:
   link: kontakt
 logos:
   - logo: images/uploads/aruba-dark.png
-  - logo: images/uploads/veeam-dark.png
-  - logo: images/uploads/3CX-dark.png
+  - logo: images/uploads/Sophos-dark.png
+  - logo: images/uploads/ubiquiti-dark.png
 boxes:
   - headline: individuelle Sicherheitslösungen
     content: Nutzen Sie individuelle Sicherheitslösungen und Zugangskontrollen,
