@@ -10,15 +10,3 @@ HpePrimera:
     enable: true
     label: Mehr zu HPE Primera
     link: kontakt
-HpeGreenlake:
-  enable: true
-  bg_image: images/backgrounds/bg-white-wall.jpg
-  content: >-
-    ### HPE Greenlake Flex Capacity
-
-
-    *HPE Greenlake bedeutet: * optimale Budget-Effizienz, Bereitstellung einer vollständigen IT-Lösung, vereinfachter IT-Service, ausrichtung der IT-Ökonomie an Geschäftsprioritäten u.v.m. <br/>
-  button:
-    enable: true
-    label: Mehr zu HPE Greenlake
-    link: kontakt

@@ -233,6 +233,18 @@ collections:
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/ctaZentraleIt2.yml"
+        label: "CTA Greenlake"
+        name: "calltoactionGreenlake"
+        fields:
+          - { label: "Call to action", name: "HpeGreenlake", widget: "object", fields: [
+            { label: "Active", name: "enable", widget: "boolean", default: true },
+            { label: "Hintergrund", name: "bg_image", widget: "image" },
+            { label: "Content", name: "content", widget: "markdown" },
+            { label: "Button", name: "button", widget: "object", fields: [
+              { label: "Active", name: "enable", widget: "boolean", default: true },
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
       - file: "data/de/backupRecovery.yml"
         label: "Backup / Recovery"
         name: "backupRecovery"
