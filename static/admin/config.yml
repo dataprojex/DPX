@@ -456,7 +456,7 @@ collections:
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
-      - file: "data/de/ctaCloud1.yml"
+      - file: "data/de/ctaCloudService.yml"
         label: "CTA 1"
         name: "calltoactionOne"
         fields:
@@ -484,6 +484,18 @@ collections:
           - { label: "Boxes", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "text" } ] }
+      - file: "data/de/ctaCloudService2.yml"
+        label: "CTA 2"
+        name: "calltoactionOne"
+        fields:
+          - { label: "Call to action", name: "HpeGreenlake", widget: "object", fields: [
+            { label: "Active", name: "enable", widget: "boolean", default: true },
+            { label: "Hintergrund", name: "bg_image", widget: "image" },
+            { label: "Content", name: "content", widget: "markdown" },
+            { label: "Button", name: "button", widget: "object", fields: [
+              { label: "Active", name: "enable", widget: "boolean", default: true },
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
       - file: "data/de/hosting.yml"
         label: "Hosting"
         name: "hosting"
@@ -918,6 +930,18 @@ collections:
           { label: "Buttons", name: "buttons", widget: "list", fields: [
             { label: "Text Button", name: "name", widget: "string" },
             { label: "Link", name: "link", widget: "string" } ] } ] }
+      - file: "data/de/ctaSupport.yml"
+        label: "CTA"
+        name: "calltoactionContact"
+        fields:
+          - { label: "Call to action", name: "cta_contact", widget: "object", fields: [
+            { label: "Active", name: "enable", widget: "boolean", default: true },
+            { label: "Hintergrund", name: "bg_image", widget: "image" },
+            { label: "Content", name: "content", widget: "markdown" },
+            { label: "Button", name: "button", widget: "object", fields: [
+              { label: "Active", name: "enable", widget: "boolean", default: true },
+              { label: "Label", name: "label", widget: "string" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
   - name: "terminbuchen"
     label: "Termin buchen"
     files:
