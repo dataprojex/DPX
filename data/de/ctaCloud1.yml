@@ -1,20 +1,21 @@
 HpePrimera:
   enable: true
-  bg_image: images/backgrounds/bg-white-wall.jpg
-  content: |-
+  bg_image: images/uploads/istockphoto-1148196195-2048x2048.jpg
+  content: >-
     ### HPE Primera
+
 
     HPE Primera setzt neue Maßstäbe bei geschäftskritischen Anwendungen. Profitieren Sie von einem der intelligentesten Datenspeicher und 100 % garantierter Verfügbarkeit. <br/>
   button:
     enable: true
     label: Mehr zu HPE Primera
     link: kontakt
-
 HpeGreenlake:
   enable: true
   bg_image: images/backgrounds/bg-white-wall.jpg
-  content: |-
+  content: >-
     ### HPE Greenlake Flex Capacity
+
 
     *HPE Greenlake bedeutet: * optimale Budget-Effizienz, Bereitstellung einer vollständigen IT-Lösung, vereinfachter IT-Service, ausrichtung der IT-Ökonomie an Geschäftsprioritäten u.v.m. <br/>
   button:
