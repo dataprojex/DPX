@@ -13,7 +13,7 @@ button:
   link: kontakt
 logos:
   - logo: images/uploads/Sophos-dark.png
-  - logo: images/uploads/barracuda-light.png
+  - logo: images/uploads/barracuda-dark.png
   - logo: images/uploads/ubiquiti-dark.png
 boxes:
   - headline: Kommunikation und Konnektivität
