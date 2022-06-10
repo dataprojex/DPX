@@ -11,9 +11,9 @@ data: |-
 
   ### Angaben gemäß § 5 TMG
 
-  **Dataprojex UG** 
-  (Haftungsbeschränkt)
-  Rosengartenstraße 3
+  **Dataprojex UG**\
+  (Haftungsbeschränkt)\
+  Rosengartenstraße 3\
   64546 Mörfelden-Walldorf
 
   **Vertreten durch:**\
@@ -21,8 +21,8 @@ data: |-
 
   ### Kontakt
 
-  Telefon: +49695308439020
-  Fax: +49695308439021
+  Telefon: +49695308439020\
+  Fax: +49695308439021\
   E-Mail: info@dataprojex.de
 
   ### Umsatzsteuer-ID
