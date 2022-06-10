@@ -21,7 +21,7 @@ data: |-
 
 
   Handelsregister: HRB105365
-  Registergericht: Groß Gerau
+  Registergericht: Groß-Gerau
 
   **Vertreten durch:**\
   Davide Ludewig
