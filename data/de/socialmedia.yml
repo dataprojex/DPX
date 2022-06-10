@@ -1,5 +1,5 @@
 socialMedia:
-  - icon: ti-facebook
+  - icon: <i class="ti ti-brand-telegram"></i>
     link: "#"
   - icon: <i class="ti ti-brand-telegram"></i>
     link: "#"
