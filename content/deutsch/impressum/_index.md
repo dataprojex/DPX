@@ -21,7 +21,7 @@ data: |-
 
 
   Handelsregister: HRB105365
-  Registergericht: Frankfurt am Main
+  Registergericht: Groß Gerau
 
   **Vertreten durch:**\
   Davide Ludewig
