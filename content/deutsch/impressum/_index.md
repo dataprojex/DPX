@@ -12,16 +12,9 @@ data: |-
   ### Angaben gemäß § 5 TMG
 
   **Dataprojex UG** 
-
   (Haftungsbeschränkt)
-
   Rosengartenstraße 3
-
   64546 Mörfelden-Walldorf
-
-
-  Handelsregister: HRB105365
-  Registergericht: Groß-Gerau
 
   **Vertreten durch:**\
   Davide Ludewig
