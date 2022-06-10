@@ -151,16 +151,10 @@ url = "/karriere/#jobs"
 weight = 2
 
 [[Languages.de.menu.main]]
-name = "Team"
+name = "Partner"
 parent = "Unternehmen"
-url = "/unternehmen/#timeline"
+url = "/unternehmen/#partner"
 weight = 3
-
-[[Languages.de.menu.main]]
-name = "Partnerschaften"
-parent = "Unternehmen"
-url = "/unternehmen/#timeline"
-weight = 4
 
 
 [[Languages.de.menu.main]]
