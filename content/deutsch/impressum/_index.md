@@ -21,8 +21,8 @@ data: |-
 
   ### Kontakt
 
-  Telefon: +49 69 5308 4390 20
-  Fax:        +49 69 – 5308 4390 21
+  Telefon: +49695308439020
+  Fax: +49695308439021
   E-Mail: info@dataprojex.de
 
   ### Umsatzsteuer-ID
