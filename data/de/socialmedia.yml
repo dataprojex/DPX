@@ -1,9 +1,9 @@
 socialMedia:
-  - icon: <i class="ti ti-brand-telegram"></i>
+  - icon: ti-dribbble
     link: "#"
   - icon: <i class="ti ti-brand-telegram"></i>
     link: "#"
-  - icon: $ti-icon-brand-telegram
+  - icon: ti-dribbble
     link: "#"
   - icon: ti-dribbble
     link: "#"
