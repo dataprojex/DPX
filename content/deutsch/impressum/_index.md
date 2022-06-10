@@ -6,40 +6,35 @@ banner:
     Informationen zu. Rufen Sie uns an, senden Sie uns eine E-Mail oder nutzen
     Sie das Kontaktformular.
   bg_image: images/uploads/annie-spratt-goholCAVTRs-unsplash.jpg
-data: >-
+data: |-
   ## Impressum
-
 
   ### Angaben gemäß § 5 TMG
 
+  **Dataprojex UG** 
 
-  Dataprojex UG (Haftungsbeschränkt), Rosengartenstraße 3, 64546 Mörfelden-Walldorf
+  (Haftungsbeschränkt)
+
+  Rosengartenstraße 3
+
+  64546 Mörfelden-Walldorf
+
 
   Handelsregister: HRB105365
-
   Registergericht: Frankfurt am Main
 
-
   **Vertreten durch:**\
-
   Davide Ludewig
-
 
   ### Kontakt
 
-
   Telefon: 069 – 5308 4390 20
-
   Fax: 069 – 5308 4390 21
-
   E-Mail: info@dataprojex.de
-
 
   ### Umsatzsteuer-ID
 
-
   Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:
-
   DE 306567013
 text: >-
   ### Streitschlichtung
