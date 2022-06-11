@@ -122,3 +122,25 @@ videos:
       Möglichkeit, flexibler und produktiver zu sein. Willkommen auf Ihrem
       Windows 365 Cloud PC.
     code: qKG8r1NERl4
+  - teaser: false
+    categories:
+      - Office365
+    link: https://www.youtube.com/embed/
+    controllsSmall: ?theme=dark&mute=1&controls=0&rel=0&cc_load_policy=0&origin
+    controllsLarge: ?theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    title: Microsoft Teams
+    code: xVrh4rfHAsY
+    summary: Nutzen Sie jeden Raum optimal mit einer großen Auswahl an Microsoft
+      Teams Rooms-Geräten.
+  - teaser: false
+    categories:
+      - Office365
+    link: https://www.youtube.com/embed/
+    controllsSmall: ?theme=dark&mute=1&controls=0&rel=0&cc_load_policy=0&origin
+    controllsLarge: ?theme=dark&keyboard=1&showinfo=0&disablekb=1&modestbranding=1&mute=0
+    title: Windows 365 - Hybrid Windows for a hybrid world
+    summary: Windows 365 überträgt Ihren Desktop, Ihre Anwendungen, Einstellungen
+      und Inhalte sicher aus der Microsoft Cloud auf Ihre Geräte, um ein
+      personalisiertes Windows-Erlebnis zu bieten. Hybrides Windows für eine
+      hybride Welt. Willkommen auf Ihrem Windows 365 Cloud PC.
+    code: GjRtu7jeHQ
