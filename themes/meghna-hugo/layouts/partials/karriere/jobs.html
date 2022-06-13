@@ -5,13 +5,13 @@
         <div class="row">
             {{ with $data.karriere_left}}
             <div class="col-lg-6 p-5">
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5 text-white">
                     <h2 class="mb-4"> {{ .unternehmen.headline }}</h2>
                     <p> {{ .unternehmen.content | markdownify }}</p>
                 </div>
                 <div class="col-12 mb-5">
                     <h2 class="mb-3"> {{ .benefits.headline }}</h2>
-                    <ul class="p-3">
+                    <ul class="p-3 text-white">
                     {{ range .benefits.items }}
                         <li style="list-style-type: square;">{{ .title }}</li>
                     {{ end }}
@@ -26,15 +26,14 @@
                     {{ range $index, $element := .items }}
                     <div class="card border-0">
                         <div class="card-header bg-gray border">
-                            <a class="card-link h5 d-block tex-dark mb-0 px-4" data-toggle="collapse"
-                               href="#collapse{{ add $index 1 }}" style="font-size: 1.15rem">
+                            <a class="card-link h5 d-block tex-dark mb-0 px-4" data-toggle="collapse" href="#collapse{{ add $index 1 }}" style="font-size: 1.15rem">
                                 <strong>{{ .title }}</strong> <i class="ti-plus text-primary mr-2 float-right mt-3"></i>
                                 <p class="mb-0">{{ .ort }} </p>
                             </a>
                         </div>
                         <!--data-parent="#accordion" schließt alle außer das aktuelle item-->
                         <div id="collapse{{ add $index 1 }}" class="collapse"
-                             data-parent="">
+                             data-parent="#accordion">
                             <div class="card-body text-color pl-0 pb-0  px-5 py-3">
                                 <p>{{ .description | markdownify }}</p>
                             </div>
@@ -44,11 +43,13 @@
                     {{ end }}
                 </div>
                 {{ "<!-- /accordion -->" | safeHTML }}
+
                 {{ with $data.karriere_left}}
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5 text-white">
                     <p> {{ .subcontent.content | markdownify}}</p>
                 </div>
                 {{ end }}
+
             </div>
 
         </div>
