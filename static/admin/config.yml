@@ -68,7 +68,8 @@ collections:
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Active", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
-              { label: "Link", name: "link", widget: "string" } ] } ] }
+              { label: "Link", name: "link", widget: "string" } ] },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true } ] }
       - file: "data/de/kundenstimme.yml"
         label: "Kundenstimme"
         name: "kundenstimme"
@@ -941,7 +942,8 @@ collections:
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Active", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
-              { label: "Link", name: "link", widget: "string" } ] } ] }
+              { label: "Link", name: "link", widget: "string" } ] },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
   - name: "terminbuchen"
     label: "Termin buchen"
     files:
