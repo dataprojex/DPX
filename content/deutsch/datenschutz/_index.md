@@ -6,6 +6,7 @@ banner:
     Informationen zu. Rufen Sie uns an, senden Sie uns eine E-Mail oder nutzen
     Sie das Kontaktformular.
   bg_image: images/uploads/annie-spratt-goholCAVTRs-unsplash.jpg
+  overlay: true
 text: >-
   ## 1. Datenschutz auf einen Blick
 
