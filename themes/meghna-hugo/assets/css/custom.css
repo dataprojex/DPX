@@ -116,7 +116,7 @@
 .client-logo-slider .prevArrow,
 .client-logo-slider .nextArrow {
     position: absolute;
-    top: 43%;
+    top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 9;
