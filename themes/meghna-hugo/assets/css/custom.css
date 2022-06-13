@@ -112,6 +112,55 @@
     background-color: rgba(227,2,50,0.2);
 }
 
+
+.client-logo-slider .prevArrow,
+.client-logo-slider .nextArrow {
+    position: absolute;
+    top: 43%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 9;
+    height: 2em;
+    width: 2em;
+    background: rgba(48, 48, 50, 0.5);
+    color: #fff;
+    border: 0;
+    font-size: 25px;
+    line-height: 70px;
+    opacity: 1;
+    transition: all linear .2s;
+}
+
+
+@media (max-width: 575px) {
+    .client-logo-slider .prevArrow,
+    .client-logo-slider .nextArrow {
+        display: none;
+    }
+}
+
+.client-logo-slider .prevArrow:focus,
+.client-logo-slider .nextArrow:focus {
+    outline: 0;
+}
+
+.client-logo-slider .prevArrow:hover,
+.client-logo-slider .nextArrow:hover {
+    background: rgba(232, 68, 68, 0.5);
+}
+
+.client-logo-slider .prevArrow {
+    left: -100px;
+}
+
+.client-logo-slider .nextArrow {
+    right: -100px;
+}
+
+.hoverLogo:hover{
+    opacity: 0;
+}
+
 .hero-content h4 {
     letter-spacing: 2px;
 }

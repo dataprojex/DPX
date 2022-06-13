@@ -136,6 +136,65 @@ jQuery(function ($) {
 		]
 	});
 
+
+	// clients logo slider
+	$('.client-logo-slider').slick({
+		infinite: true,
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		arrows: true,
+		prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-angle-double-left iconSlider\'></i></button>',
+		nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-angle-double-right iconSlider\'></i></button>',
+		responsive: [{
+			breakpoint: 1920,
+			settings: {
+				slidesToShow: 5,
+				slidesToScroll: 1
+			}
+		},
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 750,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 486,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 400,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+	$('.client-logo-slider').slickAnimation();
+
+
 	/* ========================================================================= */
 	/*	animation scroll js
 	/* ========================================================================= */

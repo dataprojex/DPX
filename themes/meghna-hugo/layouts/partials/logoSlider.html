@@ -1,10 +1,32 @@
-<section class="section" style="background-color: #242930; height: 300px">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-4 text-white text-center">
-                <h1> Logo Slider </h1>
-            </div>
+{{ "<!-- client logo slider -->" | safeHTML}}
 
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.clientSlider.Client }}
+
+<section class="section" style="background-color: #242930;">
+    <div class="container">
+
+        <div class="client-logo-slider align-self-center px-0">
+            {{ range .clients }}
+            {{ if and ( ne .link "" ) ( ne .link "#" ) }}
+            <div class="hero-slider-item overlay-light slick-slide">
+                <a href="{{ .link | safeURL }}" target="_blank" class="text-center d-block outline-0 py-3 px-2 position-relative" style="height: 100px">
+                    <img class="d-unset position-absolute" style="max-width: 90%;"  src="{{ .logoHover | absURL }}" alt="{{ .link }}" >
+                    <img class="d-unset position-absolute hoverLogo" style="max-width: 90%;"  src="{{ .logo | absURL }}" alt="{{ .link }}" >
+                </a>
+            </div>
+            {{ else }}
+            <div class="hero-slider-item overlay-light slick-slide">
+                <div class="text-center d-block outline-0 py-3 px-2 position-relative" style="height: 100px">
+                    <img class="d-unset position-absolute" style="max-width: 90%;"  src="{{ .logoHover | absURL }}" alt="{{ .link }}" >
+                    <img class="d-unset position-absolute hoverLogo" style="max-width: 90%;"  src="{{ .logo | absURL }}" alt="{{ .link }}" >
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
         </div>
+
     </div>
 </section>
+{{ end }}
+{{ "<!-- /client logo slider -->" | safeHTML}}
