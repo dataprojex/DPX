@@ -837,7 +837,7 @@ collections:
         name: "ueberUns"
         label: "Über uns"
         fields:
-          - { label: "Titel", name: "title", widget: "string" },
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
   - name: "karriere"
     label: "Karriereseite"
