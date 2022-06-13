@@ -849,6 +849,13 @@ collections:
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "markdown" }
           ]}
+      - file: "data/de/geschaeftsleitung.yml"
+        name: "geschaeftsleitung"
+        label: "Geschäftsleitung"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Bild", name: "bg_image", widget: "image" }
   - name: "karriere"
     label: "Karriereseite"
     files:
