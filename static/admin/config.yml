@@ -880,7 +880,8 @@ collections:
           - { label: "Hintergrund", name: "bg_image", widget: "image" }
           - { label: "Button", name: "button", widget: "object", fields: [
             { label: "Aktive", name: "enable", widget: "boolean", default: true },
-            { label: "Label", name: "label", widget: "string" }] }
+            { label: "Label", name: "label", widget: "string" },
+            { label: "PDF", name: "link", widget: "file" }] }
           - { label: "Overlay", name: "overlay", widget: "boolean", default: true }
   - name: "karriere"
     label: "Karriereseite"
