@@ -856,6 +856,21 @@ collections:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
           - { label: "Bild", name: "bg_image", widget: "image" }
+      - file: "data/de/contactFormSmal.yml"
+        label: "Kontakt Formular Small"
+        name: "kontaktformularsmall"
+        fields:
+          - { label: "Kontakt", name: "contact", widget: "object", fields: [
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Content", name: "content", widget: "text" },
+            { label: "Niederlassung Zwei", name: "niederlassung_2", widget: "object", fields: [
+              { label: "Aktiv", name: "enable", widget: "boolean" },
+              { label: "Headline Kontakt Adresse", name: "headline_contact_list", widget: "string" },
+              { label: "Strasse", name: "strasse", widget: "string" },
+              { label: "Ort", name: "ort", widget: "string" },
+              { label: "Kontakt List", name: "contact_list", widget: "list", fields: [
+                { label: "Info", name: "info", widget: "string" } ] } ] },
+            ] }
   - name: "karriere"
     label: "Karriereseite"
     files:
