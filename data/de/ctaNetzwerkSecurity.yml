@@ -10,3 +10,4 @@ Sophos:
     enable: true
     label: Sophos IT-Security Lösungen
     link: kontakt
+  overlay: true

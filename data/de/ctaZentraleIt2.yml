@@ -10,3 +10,4 @@ HpeGreenlake:
     enable: true
     label: Mehr zu HPE Greenlake
     link: kontakt
+  overlay: true

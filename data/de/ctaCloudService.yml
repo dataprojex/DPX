@@ -10,3 +10,4 @@ HpePrimera:
     enable: true
     label: Mehr zu HPE Primera
     link: kontakt
+  overlay: true

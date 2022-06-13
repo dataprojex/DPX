@@ -218,7 +218,8 @@ collections:
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Active", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
-              { label: "Link", name: "link", widget: "string" } ] } ] }
+              { label: "Link", name: "link", widget: "string" } ] },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/storage.yml"
         label: "Storage"
         name: "storage"
@@ -246,7 +247,8 @@ collections:
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Active", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
-              { label: "Link", name: "link", widget: "string" } ] } ] }
+              { label: "Link", name: "link", widget: "string" } ] },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/backupRecovery.yml"
         label: "Backup / Recovery"
         name: "backupRecovery"
@@ -469,7 +471,8 @@ collections:
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Active", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
-              { label: "Link", name: "link", widget: "string" } ] } ] }
+              { label: "Link", name: "link", widget: "string" } ] },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/colocation.yml"
         label: "Colocation"
         name: "colocation"
@@ -497,7 +500,8 @@ collections:
             { label: "Button", name: "button", widget: "object", fields: [
               { label: "Active", name: "enable", widget: "boolean", default: true },
               { label: "Label", name: "label", widget: "string" },
-              { label: "Link", name: "link", widget: "string" } ] } ] }
+              { label: "Link", name: "link", widget: "string" } ] },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/hosting.yml"
         label: "Hosting"
         name: "hosting"
@@ -662,7 +666,8 @@ collections:
               { label: "Aktive", name: "enable", widget: "boolean" },
               { label: "Label", name: "label", widget: "string" },
               { label: "Link", name: "link", widget: "string" }
-            ]}]}
+            ]},
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }]}
       - file: "data/de/endpointSecurity.yml"
         label: "Endpoint Security"
         name: "endpointSecurity"
