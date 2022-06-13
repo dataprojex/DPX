@@ -881,7 +881,7 @@ collections:
           - { label: "Button", name: "button", widget: "list", fields: [
             { label: "Aktive", name: "enable", widget: "boolean", default: true },
             { label: "Label", name: "label", widget: "string" },
-            { label: "PDF", name: "link", widget: "file", default: "/uploads/general-manual.pdf" } ] }
+             ] }
           - { label: "Overlay", name: "overlay", widget: "boolean", default: true }
   - name: "karriere"
     label: "Karriereseite"
