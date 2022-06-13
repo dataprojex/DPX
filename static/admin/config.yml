@@ -872,8 +872,8 @@ collections:
                 { label: "Info", name: "info", widget: "string" } ] } ] },
             ] }
       - file: "data/de/cta_download_Firmenbroschuere.yml"
-        name: "CTA Firmenbroschüre"
-        label: "ctafirmenbroschuere"
+        name: "ctafirmenbroschuere"
+        label: "CTA Firmenbroschüre"
         fields:
           - { label: "Aktive", name: "enable", widget: "boolean", default: true }
           - { label: "Content", name: "content", widget: "markdown" }
