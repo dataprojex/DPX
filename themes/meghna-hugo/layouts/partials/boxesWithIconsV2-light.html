@@ -1,9 +1,9 @@
-<section class="mb-5">
+<section class="mb-5 section-ligth">
     <div class="container p-5" style="max-width: 1920px;">
         <div class="row">
-            <div class="col-lg-12 text-center mb-5 text-white">
-                <h2> {{ .headline }}</h2>
-                <p> {{ .content | markdownify }} </p>
+            <div class="col-lg-12 text-center mb-5">
+                <h2 style="color:#353b43"> {{ .headline }}</h2>
+                <p style="color:#353b43"> {{ .content | markdownify }} </p>
             </div>
             {{ range $index, $element := .boxes }}
             <div class="col-lg-3 p-5">
