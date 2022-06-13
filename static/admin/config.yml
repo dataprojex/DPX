@@ -845,7 +845,7 @@ collections:
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
-          - { label: "Items", name: "items", widget: "list", fields: [
+          - { label: "Columns", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "markdown" }
           ]}
