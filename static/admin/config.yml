@@ -113,7 +113,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/consulting.yml"
         label: "Consulting"
         name: "consulting"
@@ -144,7 +145,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/design.yml"
         label: "Design"
         name: "design"
@@ -167,7 +169,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/digitalisierung.yml"
         label: "Digitalisierung"
         name: "digitalisierung"
@@ -190,7 +193,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/server.yml"
         label: "Server"
         name: "server"
@@ -339,7 +343,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/microsoftOffice.yml"
         label: "M365"
         name: "m365"
@@ -443,7 +448,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/traditionellOnPremises.yml"
         label: "Traditionell On-Premises"
         name: "traditionellOnpremises"
@@ -592,7 +598,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/wlanVermessung.yml"
         label: "WLAN-Vermessung"
         name: "wlan-vermessung"
@@ -694,7 +701,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/grundpfeilerMonitoring.yml"
         label: "Grundpfeiler Monitoring"
         name: "grundpfeilerMonitoring"
@@ -749,7 +757,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/supportService.yml"
         label: "Support und Service"
         name: "supportService"
@@ -824,7 +833,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
   - name: "karriere"
     label: "Karriereseite"
     files:
@@ -835,7 +845,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/karriere_left.yml"
         name: "textLinks"
         label: "Unternehmen"
@@ -867,7 +878,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/contactForm.yml"
         label: "Kontakt Formular"
         name: "kontaktformular"
@@ -905,7 +917,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/linkerKasten.yml"
         name: "linkerkasten"
         label: "Linker Kasten"
@@ -960,7 +973,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
   - name: "extras"
     label: "Extras"
     files:
@@ -983,7 +997,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
       - file: "data/de/mediathek.yml"
         label: "Mediathek Info"
         name: "mediathekInfo"
@@ -1024,7 +1039,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
           - { label: "Firma", name: "data", widget: "markdown" }
           - { label: "Content", name: "text", widget: "markdown" }
   - name: "datenschutz"
@@ -1037,7 +1053,8 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
           - { label: "Content", name: "text", widget: "markdown" }
   - name: "agb"
     label: "AGB"
@@ -1049,5 +1066,6 @@ collections:
           - { label: "Banner", name: "banner", widget: "object", fields: [
             { label: "Hintergrundbild", name: "bg_image", widget: "image" },
             { label: "Titel", name: "title", widget: "string" },
-            { label: "Subline", name: "content", widget: "string" } ] }
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
           - { label: "Content", name: "text", widget: "markdown" }

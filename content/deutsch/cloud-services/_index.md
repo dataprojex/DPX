@@ -6,4 +6,5 @@ banner:
     Informationen zu. Rufen Sie uns an, senden Sie uns eine E-Mail oder nutzen
     Sie das Kontaktformular.
   bg_image: images/uploads/istock-1131198144.jpg
+  overlay: true
 ---
