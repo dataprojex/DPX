@@ -1,19 +1,33 @@
 
-{{ $data := index .Site.Data .Site.Language.Lang }}
-{{ with $data.ueberUns }}
-
 <section class="section">
-    <div class="container">
+    <div class="container h-100">
         <div class="row">
-            <div class="col-lg-8 text-white">
-                <h1>{{ .titel }}</h1>
-                <p> {{ .copy }}</p>
+            <div class="col-12 text-white">
+                <div class="title text-center wow fadeInDown">
+                    {{ $titleFirst := (split .title " ") }}
+                    {{ $lenTotal := (len $titleFirst) }}
+                    {{ $len := sub $lenTotal 2 }}
+                    <h2>
+                        {{ range $index, $element := $titleFirst }}
+                        {{ if le $index $len }}
+                        {{ $element }}
+                        {{ else }}
+                        <span class="color"> {{ $element }} </span>
+                        {{ end }}
+                        {{ end }}
+                    </h2><div class="border-meghna"></div>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <!-- image from dude -->
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-lg-8 text-white" style="column-count: 2; column-gap: 40px">
+                        <p> {{ .content }}</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div style=" height:100%; width: 100%; background-image: url('{{ .bg_image | absURL }}'); background-size: cover; background-position: center"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-
-{{ end }}

@@ -1,0 +1,36 @@
+contact:
+  enable: true
+  title: Schreiben Sie uns
+  content: "Wir sind Ihr starker Partner für die Planung und Realisierung komplexer IT-Projekte. Für weitere Informationen und zur persönlichen Beratung kontaktieren Sie uns gerne."
+  niederlassung_2:
+    enable: true
+    headline_contact_list: Büro
+    icon: ti-location-pin
+    strasse: Opelstraße 20
+    ort: 64546 Mörfelden-Walldorf
+    contact_list:
+      - icon: ti-mobile
+        info: +49 6105 724 0006
+      - icon: ti-printer
+        info: +49 6105 724 0000
+      - icon: ti-email
+        info: info@dataprojex.de
+  conctact_support:
+    headline: Support und Service
+    content: Sollte bei Ihnen einmal unerwartet ein IT-Problem auftreten, unser
+      ServiceDesk-Team aus ausgebildeten und zertifizierten Consultants wird
+      sich mit Ihnen in Verbindung setzen.
+    button:
+      enable: true
+      lable: Kundensupport
+      link: support
+  contact_form:
+    enable: true
+    firma: Firma
+    nachname: Nachname
+    vorname: Vorname
+    message: Nachricht
+    subject: Betreff
+    form_action: "#"
+    submit: Senden
+    email: Email

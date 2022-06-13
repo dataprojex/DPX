@@ -1,0 +1,18 @@
+enable: true
+bg_image: images/uploads/istock-862003330_kauf.jpg
+content: |-
+  # Wir sind DPX!
+
+  Unser Kundenkreis umfasst mittelständische und gehobene mittelständische Unternehmen,
+  Konzerne und öffentliche Auftraggeber.
+  <br/>
+  Für unser Produkt- und Lösungsportfolio unterhalten und pflegen wir Beziehungen mit zahlreichen
+
+  <br/>
+
+  Erfahren Sie mehr über uns:
+button:
+  enable: true
+  label: Download Firmenbroschüre
+  link: "#"
+overlay: true
