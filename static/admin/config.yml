@@ -71,17 +71,15 @@ collections:
               { label: "Label", name: "label", widget: "string" },
               { label: "Link", name: "link", widget: "string" } ] },
             { label: "Overlay", name: "overlay", widget: "boolean", default: true } ] }
-      - file: "data/de/kundenstimme.yml"
-        label: "Kundenstimme"
-        name: "kundenstimme"
+      - file: "data/de/clientSlider.yml"
+        label: "Logo Slider "
+        name: "logoslider"
         fields:
-          - { label: "Kundenstimme", name: "kundenstimme", widget: "object", fields: [
-            { label: "Active", name: "enable", widget: "boolean", default: true },
-            { label: "Hintergrund", name: "bg_image", widget: "image" },
-            { label: "Kunden", name: "testimonial_item", widget: "list", fields: [
-              { label: "Name", name: "name", widget: "string"},
-              { label: "Bild", name: "image", widget: "image" },
-              { label: "Content", name: "content", widget: "text" } ] } ] }
+          - { label: "Partner", name: "Client", widget: "object", fields: [
+            { label: "Partner", name: "clients", widget: "list", fields: [
+              { label: "Logo weiß", name: "logo", widget: "image"},
+              { label: "Logo Bunt", name: "logoHover", widget: "image" },
+              { label: "Link", name: "link", widget: "string" } ] } ] }
       - file: "data/de/mediathek.yml"
         label: "Mediathek Teaser"
         name: "mediathekTeaser"
