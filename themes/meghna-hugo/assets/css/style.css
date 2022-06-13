@@ -155,6 +155,25 @@ p>a {
   width: 50px;
 }
 
+.border-meghna-dark {
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+  height: 1px;
+  margin: 15px auto 0;
+  position: relative;
+  width: 30%;
+}
+
+.border-meghna-dark:before {
+  background-color: #b10232;
+  content: '';
+  height: 6px;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+  top: -4px;
+  width: 50px;
+}
+
 .color {
   color: #b10232;
 }

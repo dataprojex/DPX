@@ -839,6 +839,16 @@ collections:
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
+      - file: "data/de/philosophie.yml"
+        name: "philosophie"
+        label: "Philosophie"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Items", name: "items", widget: "list", fields: [
+            { label: "Headline", name: "headline", widget: "string" },
+            { label: "Content", name: "content", widget: "markdown" }
+          ]}
   - name: "karriere"
     label: "Karriereseite"
     files:

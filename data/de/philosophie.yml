@@ -1,15 +1,12 @@
-headline: Unsere Philosophie & Werte
-content: Unser IT-ServiceDesk betreut Ihre On-Premise-Umgebung bei Ihnen vor Ort, in unserem Rechenzentrum oder als Hybrid-Lösung. </br> Profitieren Sie von einer größtmöglichen Flexibilität und Skalierbarkeit sowie einer hochverfügbaren IT-Infrastruktur.
+title: Unsere Philosophie & Werte
+content: So arbeiten wir
 boxes:
   - icon: ti-world
-    headline: Wir begeistern unsere Kunden
+    headline: Wir verstehen das Problem
     content: Wir sind hier, um außergewöhnliche Erfahrungen zu kreieren. Wir bringen Dinge zum Laufen. Vor allem aber haben wir Leidenschaft für das, was wir tun und streben täglich danach, unsere Kunden zu begeistern – und das ohne Kompromisse.
   - icon: ti-bolt
-    headline: Das Team steht an erster Stelle
+    headline: Wir sind Teil der Lösung
     content: Menschen sind wichtiger als alles andere. Wir kümmern uns um diejenigen, mit denen wir arbeiten, egal ob innerhalb von byrd, im Austausch mit Partnern oder im Umgang mit Kunden. Unser Ziel ist es, vertrauensvolle Beziehungen aufzubauen und Win-Win-Partnerschaften zu etablieren. Wir legen Wert auf Ergebnisse, diese dürfen aber nicht auf Kosten der Menschen erreicht werden. Das Team steht an erster Stelle, alles andere an zweiter Stelle.
   - icon: ti-lock
-    headline: Wir kommunizieren Lösungen
+    headline: Wir machen es richtig
     content: Unsere Neugierde entfacht einen endlosen Hunger Neues zu lernen. Wir können immer besser sein und uns stets optimieren. Aufgrund dieser Denkweise konzentrieren wir uns auf die Vermittlung von Lösungen, nicht auf Probleme, und wir akzeptieren Fehler, aber wir wiederholen sie nicht.
-  - icon: ti-headphone-alt
-    headline: Wir bauen auf Vertrauen
-    content: Vertrauen ist unser Fundament, deshalb sollte alles, was wir tun, Vertrauen schaffen. Wir übernehmen Verantwortung und zeigen Rechenschaft auf allen Ebenen und an allen Fronten.
