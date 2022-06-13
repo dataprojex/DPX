@@ -833,6 +833,12 @@ collections:
             { label: "Titel", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "string" },
             { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
+      - file: "data/de/ueberUns.yml"
+        name: "ueberUns"
+        label: "Über uns"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" },
+          - { label: "Content", name: "content", widget: "markdown" }
   - name: "karriere"
     label: "Karriereseite"
     files:
