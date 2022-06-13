@@ -1,0 +1,19 @@
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.ueberUns }}
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 text-white">
+                <h1>{{ .titel }}</h1>
+                <p> {{ .copy }}</p>
+            </div>
+            <div class="col-lg-4">
+                <!-- image from dude -->
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}
