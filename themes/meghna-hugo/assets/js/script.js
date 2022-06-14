@@ -341,3 +341,12 @@ $('.collapse').on('shown.bs.collapse', function () {
 	$(this).parent().find('.ti-minus').removeClass('ti-minus').addClass('ti-plus');
 });
 
+// automatic scroll to top of accordion and selected card at /karriere
+$('.collapse').on('shown.bs.collapse', function(e) {
+	var $card = $(this).closest('.card');
+	$('html,body').animate({
+		scrollTop: $card.offset().top - 100
+	}, 500);
+
+});
+
