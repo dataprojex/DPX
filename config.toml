@@ -141,19 +141,19 @@ hasChildren = true
 [[Languages.de.menu.main]]
 name = "Über uns"
 parent = "Unternehmen"
-url = "/unternehmen/#about"
+url = "/unternehmen"
 weight = 1
 
 [[Languages.de.menu.main]]
 name = "Karriere"
 parent = "Unternehmen"
-url = "/karriere/#jobs"
+url = "/karriere"
 weight = 2
 
 [[Languages.de.menu.main]]
 name = "Partner"
 parent = "Unternehmen"
-url = "/unternehmen/#partner"
+url = "/partner"
 weight = 3
 
 
