@@ -1,0 +1,17 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.clientSlider.Client }}
+
+<section class="section" style="background-color: #242930;">
+    <div class="container">
+        <div class="row justify-content-center">
+            {{ range .clients }}
+            <div class="col-lg-2 m-2 p-0 d-flex align-items-center justify-content-center partnerLogo" style="height:80px; background-color: #afbac4">
+                <img class="" style="max-height: 80%; max-width: 80%;"  src="{{ .logo | absURL }}" alt="{{ .link }}" >
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+
+{{ end }}

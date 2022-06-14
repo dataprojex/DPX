@@ -17,9 +17,8 @@
             </div>
             {{ else }}
             <div class="hero-slider-item overlay-light slick-slide p-2">
-                <div class="text-center d-block outline-0 py-3 px-2 position-relative" style="height: 80px; background-color: #afbac4">
-                    <img class="d-unset position-absolute" style="max-height: 90%; max-width: 90%;"  src="{{ .logoHover | absURL }}" alt="{{ .link }}" >
-                    <img class="d-unset position-absolute hoverLogo" style="max-height: 90%; max-width: 90%;"  src="{{ .logo | absURL }}" alt="{{ .link }}" >
+                <div class="m-2 p-0 d-flex align-items-center justify-content-center partnerLogo" style="height:80px; background-color: #afbac4">
+                    <img class="" style="max-height: 80%; max-width: 80%;"  src="{{ .logo | absURL }}" alt="{{ .link }}" >
                 </div>
             </div>
             {{ end }}
