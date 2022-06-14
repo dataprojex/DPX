@@ -916,6 +916,18 @@ collections:
             { label: "Items", name: "items", widget: "list", fields: [
               { label: "Job Titel", name: "title", widget: "string" },
               { label: "Beschreibung", name: "description", widget: "markdown" }] } ] }
+  - name: "partner"
+    label: "Partnerseite"
+    files:
+      - file: "content/deutsch/partner/_index.md"
+        name: "banner"
+        label: "Banner"
+        fields:
+          - { label: "Banner", name: "banner", widget: "object", fields: [
+            { label: "Hintergrundbild", name: "bg_image", widget: "image" },
+            { label: "Titel", name: "title", widget: "string" },
+            { label: "Subline", name: "content", widget: "string" },
+            { label: "Overlay", name: "overlay", widget: "boolean", default: true } ] }
   - name: "kontaktseite"
     label: "Kontaktseite"
     files:
