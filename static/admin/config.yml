@@ -928,6 +928,12 @@ collections:
             { label: "Titel", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "string" },
             { label: "Overlay", name: "overlay", widget: "boolean", default: true } ] }
+      - file: "data/de/partner.yml"
+        name: "content"
+        label: "Content"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
   - name: "kontaktseite"
     label: "Kontaktseite"
     files:
