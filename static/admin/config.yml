@@ -77,7 +77,6 @@ collections:
         fields:
           - { label: "Partner", name: "Client", widget: "object", fields: [
             { label: "Partner", name: "clients", widget: "list", fields: [
-              { label: "Logo weiß", name: "logo", widget: "image"},
               { label: "Logo Bunt", name: "logoHover", widget: "image" },
               { label: "Link", name: "link", widget: "string" } ] } ] }
       - file: "data/de/mediathek.yml"
