@@ -932,6 +932,14 @@ collections:
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
+      - file: "data/de/clientSlider.yml"
+        label: "Logo Partner "
+        name: "logopartner"
+        fields:
+          - { label: "Partner", name: "Client", widget: "object", fields: [
+            { label: "Partner", name: "clients", widget: "list", fields: [
+              { label: "Logo Bunt", name: "logo", widget: "image" }
+            ] } ] }
   - name: "kontaktseite"
     label: "Kontaktseite"
     files:

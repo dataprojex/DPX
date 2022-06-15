@@ -1,18 +1,10 @@
 Client:
   clients:
     - logo: images/uploads/schuch.png
-      link: "#"
     - logo: images/uploads/from-to.png
-      link: "#"
     - logo: images/uploads/menian.png
-      link: "#"
     - logo: images/uploads/throm.png
-      link: "#"
     - logo: images/uploads/geasus.png
-      link: "#"
     - logo: images/uploads/translin.png
-      link: "#"
     - logo: images/uploads/afk.png
-      link: "#"
     - logo: images/uploads/protos.png
-      link: "#"

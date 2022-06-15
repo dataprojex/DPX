@@ -3,11 +3,11 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ with $data.customerSlider }}
 
-<section class="section" style="background-color: #242930;">
+<section class="" style="background-color: #242930; padding-top: 30px; padding-bottom: 30px">
     <div class="container">
         <div class="row">
             <div class="col-12 text-white">
-                <div class="title text-center wow fadeInDown">
+                <div class="title text-center wow fadeInDown p-4">
                     <h2>
                      {{ .title }}
                     </h2><div class="border-meghna"></div>
@@ -24,7 +24,7 @@
             </div>
             {{ end }}
         </div>
-        <div class="row justify-content-center mt-5">
+        <div class="row justify-content-center m-3">
             {{ if .button.enable }}
             <a class="btn-dpx mt-3" href="{{ .button.link | relLangURL }}"> {{ .button.label }} </a>
             {{ end }}
