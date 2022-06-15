@@ -71,14 +71,14 @@ collections:
               { label: "Label", name: "label", widget: "string" },
               { label: "Link", name: "link", widget: "string" } ] },
             { label: "Overlay", name: "overlay", widget: "boolean", default: true } ] }
-      - file: "data/de/clientSlider.yml"
-        label: "Logo Slider "
+      - file: "data/de/customerSlider.yml"
+        label: "Logo Slider Kunden "
         name: "logoslider"
         fields:
-          - { label: "Partner", name: "Client", widget: "object", fields: [
-            { label: "Partner", name: "clients", widget: "list", fields: [
-              { label: "Logo Bunt", name: "logo", widget: "image" },
-              { label: "Link", name: "link", widget: "string" } ] } ] }
+          - { label: "Partner", name: "Customer", widget: "object", fields: [
+            { label: "Partner", name: "customers", widget: "list", fields: [
+              { label: "Logo Bunt", name: "logo", widget: "image" }
+            ] } ] }
       - file: "data/de/mediathek.yml"
         label: "Mediathek Teaser"
         name: "mediathekTeaser"
@@ -832,9 +832,9 @@ collections:
             { label: "Titel", name: "title", widget: "string" },
             { label: "Subline", name: "content", widget: "string" },
             { label: "Overlay", name: "overlay", widget: "boolean", default: true }] }
-      - file: "data/de/ueberUns.yml"
-        name: "ueberUns"
-        label: "Über uns"
+      - file: "data/de/philosophie.yml"
+        name: "philosophie"
+        label: "Philosophie"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
