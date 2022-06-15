@@ -838,16 +838,14 @@ collections:
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
-      - file: "data/de/philosophie.yml"
-        name: "philosophie"
-        label: "Philosophie"
-        fields:
-          - { label: "Titel", name: "title", widget: "string" }
-          - { label: "Content", name: "content", widget: "markdown" }
           - { label: "Columns", name: "boxes", widget: "list", fields: [
             { label: "Headline", name: "headline", widget: "string" },
             { label: "Content", name: "content", widget: "markdown" }
           ]}
+          - { label: "Button", name: "button", widget: "object", fields: [
+            { label: "Aktive", name: "enable", widget: "boolean", default: true },
+            { label: "Label", name: "label", widget: "string" },
+            { label: "PDF", name: "link", widget: "file" } ] }
       - file: "data/de/geschaeftsleitung.yml"
         name: "geschaeftsleitung"
         label: "Geschäftsleitung"
