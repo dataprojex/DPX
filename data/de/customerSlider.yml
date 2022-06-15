@@ -1,3 +1,4 @@
+title: Kunden
 Customer:
   customers:
     - logo: images/uploads/schuch.png
@@ -8,3 +9,7 @@ Customer:
     - logo: images/uploads/translin.png
     - logo: images/uploads/afk.png
     - logo: images/uploads/protos.png
+button:
+  enable: true
+  label: Kontakt
+  link: kontakt

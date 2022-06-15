@@ -75,6 +75,7 @@ collections:
         label: "Logo Slider Kunden "
         name: "logoslider"
         fields:
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: "Partner", name: "Customer", widget: "object", fields: [
             { label: "Partner", name: "customers", widget: "list", fields: [
               { label: "Logo Bunt", name: "logo", widget: "image" }
