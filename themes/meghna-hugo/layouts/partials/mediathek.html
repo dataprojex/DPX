@@ -57,7 +57,7 @@
         <div class="row shuffle-wrapper justify-content-center">
             {{"<!-- Videos -->" | safeHTML}}
             {{ range .videos }}
-            <article class="col-lg-3 col-md-4 col-12 clearfix wow fadeInUp mb-4 shuffle-item" data-wow-duration="500ms" style="padding-left: 5px;padding-right: 5px;" data-groups="[{{range $index, $element:= .categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+            <article class="col-lg-3 col-md-4 col-12 clearfix wow fadeInUp mb-4 shuffle-item p-4" data-wow-duration="500ms" style="padding-left: 5px;padding-right: 5px;" data-groups="[{{range $index, $element:= .categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
                 <div class="post-video video_large">
                     <div class="video-wrapper" id="ytPlayer2">
                         <iframe width='500' height='294' src="{{ .link }}{{ .code }}{{ .controllsSmall }}" allowfullscreen allow="fullscreen; autoplay;"></iframe>
