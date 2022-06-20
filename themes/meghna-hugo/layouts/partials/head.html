@@ -26,6 +26,33 @@
 	<link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 	<link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 
+	<!-- Cookie  css-->
+	{{ $cookiecss := resources.Get "css/cookieconsent.css" }}
+	<link rel="stylesheet" type="text/css" href="{{ $cookiecss.Permalink | absURL}}" />
+
+	<!-- script fuer cookiebanner -->
+	{{ $cookiebanner := resources.Get "js/cookieconsent.js" }}
+	<script src="{{ $cookiebanner.Permalink }}"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-3CTVSHDHBM"></script> -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		var cookie = document.cookie;
+
+		if(cookie.includes('cookieconsent_status=deny')){
+			gtag('consent','default', {
+				'ad_storage': 'denied',
+				'analytics_storage': 'denied'})
+		} else if(cookie.includes('cookieconsent_status=allow')) {
+			// gtag('js', new Date());
+
+			// gtag('config', 'G-3CTVSHDHBM');
+		}
+
+	</script>
+
 	{{ with site.Params.google_analytics_id }}
 	{{ "<!-- Global Site Tag (gtag.js) - Google Analytics -->" | safeHTML }}
 	<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>

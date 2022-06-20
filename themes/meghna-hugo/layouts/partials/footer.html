@@ -70,6 +70,29 @@
 			</div>
 		</div>
 	</div>
+
+	<script>
+		window.cookieconsent.initialise({
+			"palette": {
+				"popup": {
+					"background": "#e7e7e7"
+				},
+				"button": {
+					"background": "#be1823"
+				}
+			},
+			"position": "bottom-left",
+			"type": "opt-out",
+			"content": {
+				"message": "Unsere Internetseite verwendet Cookies und Google Analytics. Wir verwenden Cookies ausschließlich dazu eigene Statistiken zu führen und um die Webseite für unsere Besucher zu verbessern. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung zu.",
+				"deny": "Alle blockieren",
+				"allow": "Alle erlauben",
+				"link": "Datenschutz",
+				"href": "https://dpx.netlify.app/datenschutz/"
+			}
+		});
+	</script>
+
 </footer>
 {{"<!-- /footer -->" | safeHTML}}
 
@@ -89,7 +112,7 @@
 
 <!-- cookie -->
 {{ if site.Params.cookies.enable }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 <div id="js-cookie-box" class="cookie-box cookie-box-hide">
 	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-transparent">I Accept</span>
 </div>
@@ -108,6 +131,7 @@
 		}
 	})(jQuery);
 </script>
+-->
 
 <script>
 	if (window.netlifyIdentity) {
@@ -120,5 +144,6 @@
 		});
 	}
 </script>
+
 
 {{ end }}

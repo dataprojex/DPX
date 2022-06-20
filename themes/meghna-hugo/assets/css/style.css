@@ -324,6 +324,26 @@ a:hover {
   color: #e7e7e7;
 }
 
+.btn-transparent-dark{
+  border: 2px solid #000000;
+  color: #fff;
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 0 0 #363b44;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.btn-transparent-dark:hover{
+  box-shadow: inset 400px 0 0 0 #363b44;
+  color: #e7e7e7 !important;
+  text-decoration: none !important;
+}
+
 
 .spct-box-red{
   background-image: linear-gradient(150deg, #a60226 0%, #ef073b  100%);
