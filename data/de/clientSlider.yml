@@ -2,8 +2,8 @@ Client:
   clients:
     - logo: images/uploads/ibm.png
     - logo: images/uploads/sophos.png
-    - logo: images/uploads/menian.png
-    - logo: images/uploads/throm.png
+    - logo: images/uploads/barracuda.png
+    - logo: images/uploads/quest.png
     - logo: images/uploads/geasus.png
     - logo: images/uploads/translin.png
     - logo: images/uploads/afk.png
