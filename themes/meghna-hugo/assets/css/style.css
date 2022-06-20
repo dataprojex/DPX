@@ -1666,28 +1666,19 @@ input#e-mail,
   Footer section
 ==================================================================*/
 .social-icon {
-  padding: 20px 0 20px;
+  padding: 10px 0 10px;
 }
 
 .social-icon ul {
   text-align: center;
 }
 
-.social-icon ul li {
-  margin-bottom: 4px;
-}
-
 .social-icon ul li a {
-  background-color: #26292e;
-  border: 1px solid transparent;
+  border: 1px solid #ffffff;
   display: block;
   height: 30px;
   width: 30px;
   transition: all 400ms ease-out 0s;
-}
-
-.social-icon ul li a:hover {
-  background: #b10232;
 }
 
 .social-icon ul li a:hover i {

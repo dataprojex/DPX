@@ -50,7 +50,7 @@
 	<div style="background-color: #0b0b0b">
 		<div class="container">
 			<div class="row wow fadeInUp" data-wow-duration="500ms">
-				<div class="p-4">
+				<div class="pt-3">
 					<p class="m-0 text-white">Folgen Sie uns:</p>
 				</div>
 				<div class="col-lg-3">
@@ -58,7 +58,9 @@
 						<ul class="list-inline m-0">
 							{{ with $data.socialmedia }}
 								{{ range .socialMedia }}
-									<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+									<li class="list-inline-item"><a href="{{ .link | safeURL }}">
+										<img src="{{ .icon }}" height="15px" style="padding-top:2px">
+									</a></li>
 								{{ end }}
 							{{ end }}
 

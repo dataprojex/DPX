@@ -1,11 +1,11 @@
 socialMedia:
-  - icon: ti-dribbble
+  - icon: "images/sozialmedialogos/linkedin.png"
     link: "#"
-  - icon: ti-dribbble
+  - icon: "images/sozialmedialogos/odysee.png"
     link: "#"
-  - icon: ti-dribbble
+  - icon: "images/sozialmedialogos/telegram.png"
     link: "#"
-  - icon: ti-dribbble
+  - icon: "images/sozialmedialogos/tiktok.png"
     link: "#"
-  - icon: ti-pinterest
+  - icon: "images/sozialmedialogos/xing.png"
     link: "#"
