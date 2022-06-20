@@ -1103,7 +1103,7 @@ collections:
         label: "Links"
         fields:
           - { label: "Social Media", name: "socialMedia", widget: "list", fields: [
-            { label: "Icon", name: "icon", widget: "image" },
+            { label: "Icon", name: "icon", widget: "hidden" },
             { label: "Link", name: "link", widget: "string" }] }
   - name: "impressum"
     label: "Impressum"
