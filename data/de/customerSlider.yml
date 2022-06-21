@@ -9,6 +9,7 @@ Customer:
     - logo: images/uploads/translin.png
     - logo: images/uploads/afk.png
     - logo: images/uploads/protos.png
+    - logo: images/uploads/scherer.png
 button:
   enable: true
   label: Kontakt
