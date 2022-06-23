@@ -10,6 +10,7 @@ Customer:
     - logo: images/uploads/afk.png
     - logo: images/uploads/protos.png
     - logo: images/uploads/scherer.png
+    - logo: images/uploads/brandmark-design.png
 button:
   enable: true
   label: Kontakt
