@@ -12,6 +12,7 @@ Customer:
     - logo: images/uploads/scherer.png
     - logo: images/uploads/brandmark-design.png
     - logo: images/uploads/intellisoftware_logo_color_positive_horizontal.png
+    - logo: images/uploads/brandmark-design-1-.png
 button:
   enable: true
   label: Kontakt
